@@ -1,0 +1,45 @@
+sudo -u minecraft tee /home/minecraft/docker-compose.yml <<'EOF'
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    container_name: minecraft
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    ports:
+      - "25565:25565/tcp"
+      - "19132:19132/udp"
+    environment:
+      EULA: "TRUE"
+      TYPE: FABRIC
+      VERSION: "1.21.11"
+      MEMORY: "4G"
+      USE_AIKAR_FLAGS: "true"
+      UID: 999
+      GID: 982
+      TZ: Pacific/Honolulu
+      MOTD: "MyngaCraft"
+      MODRINTH_LOADER: fabric
+      MODRINTH_PROJECTS: |
+        fabric-api
+        lithium
+        krypton
+        ferrite-core
+        noisium
+        chunky
+        spark
+      ENABLE_RCON: "true"
+      RCON_PORT: 25575
+      RCON_PASSWORD: "mc-rcon-changeme"
+      ENABLE_WHITELIST: "true"
+      ONLINE_MODE: "true"
+      DIFFICULTY: hard
+      SPAWN_PROTECTION: 0
+      VIEW_DISTANCE: 10
+      SIMULATION_DISTANCE: 8
+      MAX_PLAYERS: 20
+      # SEED: "7414878756768619920"
+    volumes:
+      - /home/minecraft/data:/data
+    mem_limit: 5g
+EOF

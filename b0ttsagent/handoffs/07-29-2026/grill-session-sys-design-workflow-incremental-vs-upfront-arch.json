@@ -1,0 +1,8 @@
+{
+  "topic": "System design doc workflow: incremental vs. upfront architecture doc creation",
+  "initialPrompt": "Checkout sys design docs, and sys arc design doc skills.\n\nOrganization of sub systems, and visibility root system indexed sub systems in main architecture doc\n    - [ ] Functionality for system doc creator skill for creating planning docs before having main root arc doc.\n        - [ ] It might actually be more expensive, and useless to create an initial root architecture doc, rather than creating the base planning doc for every doc 1 by 1, and updating the root arc doc as you add more. And who knows how many more docs you will do. Price and speed adds up quickly after about 50 docs. Might aswell make the root arc doc once you feel everything is finished\n\nHeres where the design docs are located: C:\\Development\\GameProjects\\Whack Grass\\Whack Grass\\Game Design Docs\\Main",
+  "startedAt": "2026-07-29T00:00:00Z",
+  "qAndA": [],
+  "status": "active",
+  "summary": null
+}

@@ -1,0 +1,4 @@
+sudo wget -O /home/minecraft/data/mods/geyser-fabric-Geyser-Fabric-2.9.5-b1103.jar "https://cdn.modrinth.com/data/wKkoqHrH/versions/D3WN7yr6/geyser-fabric-Geyser-Fabric-2.9.5-b1103.jar" && \
+sudo wget -O /home/minecraft/data/mods/Floodgate-Fabric-2.2.6-b54.jar "https://cdn.modrinth.com/data/bWrNNfkb/versions/wzwExuYr/Floodgate-Fabric-2.2.6-b54.jar" && \
+sudo chown -R minecraft:minecraft /home/minecraft/data/mods/ && \
+ls -la /home/minecraft/data/mods/

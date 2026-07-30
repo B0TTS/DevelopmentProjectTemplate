@@ -1,0 +1,13 @@
+CFG=/home/minecraft/data/config/Geyser-Fabric/config.yml
+echo "=== current key settings (BEFORE) ==="
+grep -nE 'auth-type|clone-remote-port|  port:|address:' "$CFG" | grep -v '^[0-9]*: *#'
+echo ""
+echo "=== setting auth-type: floodgate ==="
+sudo sed -i 's/^\([[:space:]]*\)auth-type:.*/\1auth-type: floodgate/' "$CFG"
+grep -n 'auth-type' "$CFG" | grep -v '^[0-9]*: *#'
+echo ""
+echo "=== restarting container so Geyser reloads ==="
+cd /home/minecraft && sudo docker compose restart
+sleep 8
+echo "=== logs after restart ==="
+sudo docker logs minecraft --tail 15

@@ -1,0 +1,7 @@
+sudo sed -i 's/noisium$/noisiumforked/' /home/minecraft/docker-compose.yml
+echo "--- MODRINTH_PROJECTS now: ---"
+grep -A8 'MODRINTH_PROJECTS' /home/minecraft/docker-compose.yml
+echo "--- recreating container ---"
+cd /home/minecraft && sudo docker compose up -d --force-recreate
+echo "--- logs (Ctrl+C when you see Done) ---"
+sudo docker logs minecraft -f

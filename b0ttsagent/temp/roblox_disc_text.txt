@@ -1,0 +1,215 @@
+Changes to this article require additional review
+Explains how players discover games on the Roblox platform.
+Roblox's 
+ for discovery is to connect every player with the best games and communities that meet their interests. This guide outlines how discovery works and how you can help your games get discovered.
+How recommendation works
+Roblox has millions of games and needs a way to figure out which ones to show to a particular user that are personalized to them. On 
+, the 
+Recommended for You
+ sort personalizes content and connects users with games that foster deep engagement, social interaction, and repeat play.
+The Recommended for You algorithm decides what games to show each user in two stages:
+Diagram of how all games are sorted, ranked, and finally displayed on home page.
+Stage 1: Retrieval
+Stage 2: Ranking
+In the Retrieval stage, the algorithm selects a subset of games that each user might enjoy playing based on key signals like engagement, retention, and monetization.
+In the Ranking stage, the algorithm takes the input from the Retrieval stage and selects the most relevant games to be ranked in a personalized way and shown to each user.
+Signals from sponsored ads, curation, search, charts, friends, teleport, notifications, curated games, and other social media sharing can accelerate your consideration for organic discovery from Recommended for You. Games that have even a small number of people playing can signal to the system that the game is worth considering for distribution to more users who might find the game enjoyable through Recommended for You.
+How far your game goes and how much organic distribution it gets from Recommended For You depends entirely on the engagement and retention of users who come to your game through Recommended for You. Roblox doesn't count the engagement, monetization, or retention of users first acquired from ads, curation, friends, search, social media, or any other source in the ranking stage of Recommended for You.
+There are 4 factors that impact how many home recommendation impressions each game gets:
+What you do, such as updates to your game or changes to gameplay, influences signals of home recommendations.
+What Roblox does or how the Discovery algorithm changes.
+Total users or people visiting the Home page. There are many forms of seasonality, such as:
+Weekly seasonality which usually peaks on a Saturday and lowers during weekdays
+Summer/back to school seasonality
+Holiday seasonality
+If other games are significantly more successful at engaging players, your game's distribution may decrease, even if your own engagement signals remain steady.
+Key signals
+Roblox ranks games in the Recommended for You sort using many signals that work together, each carrying a different amount of influence on where your game ranks. Every signal reflects user behavior after they discover your game.
+As the recommendation system evolves, Roblox will continue to add and remove signals while also adjusting their influence. These changes work toward a consistent goal: a recommendation system that promotes games with strong long term retention.
+Time segments
+Most important
+Play through rate
+The rate at which users play your game after seeing it in the Recommended for You sort.
+First play bounce rate
+The rate at which users leave your game after a short play session. 
+This is a negative signal
+, high bounce rates suggest players aren't finding enough to stay engaged early in their session. 
+< 60 seconds average rate
+61-180 seconds average rate
+Play days per user
+The average number of unique days users engage with your game.
+Day 8-28 average
+Day 2-7 average
+Day 1 average
+Playtime per user
+The average amount of time users spend in your game. There is a maximum of 60 minutes per user, per game, per day.
+Intentional co-play days per user
+The average number of unique days that users come back to play your game with friends, including co-play days through join, invites, or private servers.
+Qualified play sessions per user
+The average number of qualified play sessions per user who clicked and played your game through recommendations on the 
+qualified play
+s meaningful play session with your game, and it filters out accidental clicks or quick bounces.`]})}),(0,n.jsx)(e.tr,{children:(0,n.jsxs)(e.td,{children:[(0,n.jsx)(e.strong,{children:"Spend days per user"}),(0,n.jsx)(e.br,{}),"The average number of unique days users spend Robux in your game."]})}),(0,n.jsx)(e.tr,{children:(0,n.jsxs)(e.td,{children:[(0,n.jsx)(e.strong,{children:"Robux spent per user"}),(0,n.jsx)(e.br,{}),"The average amount of Robux users spend in your game."]})})]})]}),`
+`,(0,n.jsx)(e.p,{children:(0,n.jsxs)(e.em,{children:["Each signal is based on users who ",(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.u,{children:(0,n.jsx)(e.em,{children:"organically"})})})," joined from the Recommended for You sort on Home. Here is a 2 min ",(0,n.jsx)(e.a,{href:"https://www.youtube.com/watch?v=K7jsk3bzmvE",children:"overview video"})," of the overall algorithm."]})}),`
+`,(0,n.jsxs)(e.p,{children:["Improving your ",(0,n.jsx)(e.a,{href:"/production/analytics/retention",children:"retention"}),", ",(0,n.jsx)(e.a,{href:"/production/analytics/engagement",children:"engagement"}),", and ",(0,n.jsx)(e.a,{href:"/production/analytics/monetization",children:"monetization"})," directly enhances Roblox
+]}),`
+`,(0,n.jsxs)(e.p,{children:[
+s recommendation system uses ",(0,n.jsx)(e.strong,{children:"explore and expand"})," phases to understand the key signals. For example, you might see a spike in new users from recommendations (explore) after a content update. If that new user cohort has good engagement and monetization, Roblox is more likely to continue to recommend your game to more such user cohorts (expand)."]}),`
+`,(0,n.jsx)(e.h2,{id:"understand-your-metrics-in-creator-analytics",children:"Understand your metrics in Creator Analytics"}),`
+`,(0,n.jsx)(e.p,{children:"When distribution increases, you settle into a new baseline. As a result of recommendations on the Home page surfacing your game to a wider set of users, some of those users might like your game a lot, but not all of them will be super fans from day one."}),`
+`,(0,n.jsxs)(e.p,{children:["You can expect an increase in impressions and plays in the ",(0,n.jsx)(e.strong,{children:"Home Recommendation"})," tab of the Creator Analytics dashboard. As the Recommended for You algorithm explores which users might be best suited for your game, you might see some fluctuations in the signals of users acquired from Recommended for You before you settle into a new baseline. This is a result of engagement from users who discover you in the Recommended for You sort only."]}),`
+`,(0,n.jsx)(e.img,{src:"./assets/analytics/discovery/Home-Recommendations-Tab.png",alt:"",width:"40%"}),`
+`,(0,n.jsx)(e.p,{children:"The behavior of users you get from ads, recommendations on the Home page, and other sources can vary. It
+}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsx)(e.li,{children:
+}),`
+`,(0,n.jsx)(e.li,{children:
+}),`
+`,(0,n.jsx)(e.li,{children:
+}),`
+`,(0,n.jsx)(e.li,{children:
+}),`
+`]}),`
+`,(0,n.jsx)(e.h2,{id:
+}),`
+`,(0,n.jsxs)(e.p,{children:[
+]}),`
+`,(0,n.jsx)(e.img,{src:
+}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.strong,{children:
+})}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsx)(e.img,{src:
+}),`
+`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.strong,{children:
+})}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsx)(e.img,{src:
+}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsx)(e.img,{src:
+}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.strong,{children:
+})}),`
+`,(0,n.jsx)(e.p,{children:
+s also important to identify recommendation signals that are below benchmark as areas of opportunity."}),`
+`,(0,n.jsx)(e.p,{children:"Benchmark metrics are based on a set of similar games shown at the bottom of your analytics page. If you believe these games might not be the right benchmark for your game, use the information only as a rough guideline and focus on improving your game
+}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsx)(e.img,{src:
+}),`
+`,(0,n.jsxs)(t,{children:[(0,n.jsx)(i,{children:(0,n.jsx)(a,{variant:
+s most effective to focus on creating a high-quality, engaging game. Prioritize core gameplay, user retention, and accurate metadata to improve overall user experience."}),(0,n.jsx)(e.p,{children:"It
+})]})]}),`
+`,(0,n.jsxs)(t,{children:[(0,n.jsx)(i,{children:(0,n.jsx)(a,{variant:
+ll create games that resonate with your audience and foster long-term engagement."})})]}),`
+`,(0,n.jsxs)(t,{children:[(0,n.jsx)(i,{children:(0,n.jsx)(a,{variant:"buttonLarge",children:"Why did my daily active users increase or decline?"})}),(0,n.jsx)(r,{children:(0,n.jsxs)(e.p,{children:["If your daily active users increase or decline substantially, consider investigating your ",(0,n.jsx)(e.a,{href:"/production/analytics/acquisition",children:"acquisition analytics"})," to understand where new and returning users are coming from by source, such as recommendations, search, sponsored ads, or others. If plays from recommendations contributed the most to your user change, look at your Home recommendation signal charts to identify major movements."]})})]}),`
+`,(0,n.jsxs)(t,{children:[(0,n.jsx)(i,{children:(0,n.jsx)(a,{variant:"buttonLarge",children:"How do benchmark games impact discovery algorithms and home recommendations?"})}),(0,n.jsx)(r,{children:(0,n.jsx)(e.p,{children:"Benchmarks and benchmark games do not impact the Recommended for You algorithm in any way. They are meant to provide you with a point of comparison and help you identify signals that are low as areas of opportunity on the Home Recommendations dashboard."})})]}),`
+`,(0,n.jsx)(e.h2,{id:"best-practices-for-discovery",children:"Best practices for discovery"}),`
+`,(0,n.jsxs)(e.p,{children:["Your content must always adhere to Roblox
+]}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`]}),`
+`,(0,n.jsx)(e.h3,{id:
+}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:[`
+`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsx)(e.p,{children:'Example: A game titled 
+ receives less exposure because the title leads with monetary implications instead of in-game content.'}),`
+`]}),`
+`,(0,n.jsxs)(e.li,{children:[`
+`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsx)(e.p,{children:'Example: A game titled 
+ that has a thumbnail showing dinosaurs but where the actual gameplay is a generic obstacle course with no dinosaurs or adventure elements.'}),`
+`]}),`
+`,(0,n.jsxs)(e.li,{children:[`
+`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`]}),`
+`]}),`
+`,(0,n.jsx)(e.h3,{id:
+}),`
+`,(0,n.jsxs)(e.p,{children:[
+]}),`
+`,(0,n.jsxs)(e.p,{children:[
+]}),`
+`,(0,n.jsxs)(e.p,{children:[
+]}),`
+`,(0,n.jsx)(e.h2,{id:
+}),`
+`,(0,n.jsxs)(e.p,{children:[
+s ",(0,n.jsx)(e.strong,{children:"Recommended For You"})," is not the only discovery surface that Roblox offers. Below is a primer on our other surfaces:"]}),`
+`,(0,n.jsx)(e.h2,{id:"other-home-sorts",children:"Other Home sorts"}),`
+`,(0,n.jsxs)(e.p,{children:["Home is a user
+]}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`]}),`
+`,(0,n.jsx)(e.h3,{id:
+}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`]}),`
+`,(0,n.jsx)(e.p,{children:
+}),`
+`,(0,n.jsx)(e.h4,{id:
+}),`
+`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsx)(e.h3,{id:
+}),`
+`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:
+t quite what the user is looking for)."]}),`
+`,(0,n.jsx)(e.p,{children:
+food games
+avatar editors
+}),`
+`,(0,n.jsx)(e.h3,{id:"discover-top-charts-and-trending-sorts",children:"Discover (top charts and trending sorts)"}),`
+`,(0,n.jsxs)(e.p,{children:["The ",(0,n.jsx)(e.a,{href:"https://www.roblox.com/discover#/",children:"Discover"})," page is designed to reflect the many constantly changing high-quality games available on the platform and showcasing the best-performing content on Roblox."]}),`
+`,(0,n.jsxs)(e.p,{children:["Roblox is ",(0,n.jsx)(e.a,{href:"https://devforum.roblox.com/t/discovery-on-roblox-past-present-and-future-vision/2859111",children:"committed"})," to enhance the Discover page to better serve Roblox
+]}),`
+`,(0,n.jsx)(e.h3,{id:
+}),`
+`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:
+]}),`
+`,(0,n.jsxs)(e.p,{children:[
+]})]})}function u(o={}){let{wrapper:e}=o.components||{};return e?(0,n.jsx)(e,{...o,children:(0,n.jsx)(m,{...o})}):m(o)}function d(o,e){throw new Error(
+)}return R(T);})();
+;return Component;

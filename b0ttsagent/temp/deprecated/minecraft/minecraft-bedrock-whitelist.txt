@@ -1,0 +1,14 @@
+# === STEP 1: turn OFF whitelist so the Bedrock player can actually join ===
+sudo docker exec minecraft rcon-cli "whitelist off"
+
+# === STEP 2: HAVE THE BEDROCK PLAYER CONNECT NOW (myngacraft.b0tts.me:19132) ===
+#    Wait until they're actually IN the server. Don't run the next lines until they're in.
+
+# === STEP 3: add them with the . prefix INSIDE double quotes ===
+sudo docker exec minecraft rcon-cli 'whitelist add ".Gimymycookie"'
+
+# === STEP 4: turn whitelist back ON ===
+sudo docker exec minecraft rcon-cli "whitelist on"
+
+# === STEP 5: verify ===
+sudo docker exec minecraft rcon-cli "whitelist list"

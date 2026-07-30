@@ -1,0 +1,5 @@
+sudo docker exec minecraft rcon-cli "whitelist add gimymycookie1"
+sudo docker exec minecraft rcon-cli "whitelist add Gimymycookie"
+sudo docker exec minecraft rcon-cli "whitelist add mrgoat0112"
+sudo docker exec minecraft rcon-cli "whitelist list"    
+mymango112  

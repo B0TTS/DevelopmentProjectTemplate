@@ -1,0 +1,6 @@
+[submodule ".pi"]
+	path = .pi
+	url = https://github.com/B0TTS/PI-Agent.git
+[submodule ".opencode"]
+	path = .opencode
+	url = https://github.com/B0TTS/OPENCODE-Agent.git

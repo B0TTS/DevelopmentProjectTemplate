@@ -1,0 +1,4 @@
+sudo docker exec minecraft rcon-cli "fwhitelist add gimymycookie1"
+sudo docker exec minecraft rcon-cli "fwhitelist add Mrgoat0112"
+echo "--- full whitelist ---"
+sudo docker exec minecraft rcon-cli "whitelist list"

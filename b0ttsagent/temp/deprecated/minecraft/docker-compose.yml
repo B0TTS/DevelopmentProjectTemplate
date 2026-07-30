@@ -1,0 +1,30 @@
+sudo tee /home/minecraft-hc-solo/docker-compose.yml << 'EOF'
+services:
+  minecraft-hc-solo:
+    image: itzg/minecraft-server
+    container_name: minecraft-hc-solo
+    restart: unless-stopped
+    mem_limit: 2.5g
+    ports:
+      - "25566:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: FABRIC
+      VERSION: "1.21.11"
+      SEED: "5277846394751328433"
+      HARDCORE: "true"
+      DIFFICULTY: hard
+      MODE: survival
+      ONLINE_MODE: "true"
+      VIEW_DISTANCE: "10"
+      SIMULATION_DISTANCE: "8"
+      SPAWN_PROTECTION: "0"
+      MEMORY: 2G
+      USE_AIKAR_FLAGS: "true"
+      UID: "995"
+      GID: "981"
+      OPS: GEGEgaymers
+      MODRINTH_PROJECTS: fabric-api,lithium,krypton,ferrite-core,noisiumforked,chunky,spark
+    volumes:
+      - ./data:/data
+EOF

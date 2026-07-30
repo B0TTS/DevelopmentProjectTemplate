@@ -1,0 +1,24 @@
+{
+  "name": "@b0tts/template-dev-installer",
+  "version": "1.4.0",
+  "type": "module",
+  "description": "Interactive installer for the DevelopmentTemplate — pick Skills, OpenCode, Pi, or install everything at once.",
+  "bin": {
+    "template-dev-installer": "bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "files/"
+  ],
+  "dependencies": {
+    "@inquirer/prompts": "^5.0.0",
+    "adm-zip": "^0.5.17"
+  },
+  "keywords": [
+    "template",
+    "installer",
+    "dev-setup",
+    "scaffold"
+  ],
+  "license": "MIT"
+}

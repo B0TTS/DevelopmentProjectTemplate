@@ -1,0 +1,1 @@
+cd /home/minecraft && sudo docker compose up -d && sudo docker logs minecraft -f
