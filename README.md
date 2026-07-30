@@ -8,6 +8,11 @@
 npx @b0tts/template-dev-installer@latest
 ```
 
+**2. Add submodules:**
+```bash
+git submodule update --init
+```
+
 ### Docker
 
 **1. Create and start the Docker workspace:**
