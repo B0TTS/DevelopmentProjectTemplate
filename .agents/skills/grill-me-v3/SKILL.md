@@ -1,12 +1,12 @@
 ---
-name: grill-me-v2
-description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree, while logging every question and answer to a structured JSON artifact for session handoff. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me", and wants the grilling Q&A captured as JSON for the next agent.
+name: grill-me-v3
+description: Interview the user about a plan or design until reaching shared understanding — building the full decision tree internally before grilling, so only branches that genuinely need the user's input become questions. Logs every question and answer to a structured JSON artifact for session handoff. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me", and wants the grilling Q&A captured as JSON for the next agent without endless questioning.
 disable-model-invocation: true
 ---
 
-# Grill Me v2
+# Grill Me v3
 
-Grill the user exactly like grill-me v1, but capture the entire session as a structured JSON artifact so the next agent can pick up with full context. Nothing is being built — the goal is shared understanding, then handoff.
+Grill the user exactly like grill-me v2, but build the decision tree internally before grilling so only branches that genuinely need the user become questions. The session is still captured as a structured JSON artifact so the next agent can pick up with full context. Nothing is being built — the goal is shared understanding, then handoff.
 
 ## JSON Schema
 
@@ -15,9 +15,9 @@ Grill the user exactly like grill-me v1, but capture the entire session as a str
 | `topic` | string | Short description of what the user is trying to do, from the initial prompt |
 | `initialPrompt` | string | The user's initial prompt, verbatim — preserves intent in the user's own words |
 | `startedAt` | string (ISO 8601) | When the log was created |
-| `qAndA` | array | Raw transcript, one entry per exchange, appended immediately after each answer |
-| `qAndA[].question` | string | Agent's question, verbatim |
-| `qAndA[].answer` | string | User's answer, verbatim |
+| `qAndA` | array | Raw transcript — one entry per exchange or self-resolved decision — appended immediately |
+| `qAndA[].question` | string | Agent's question, verbatim — or the stated decision for self-resolved entries |
+| `qAndA[].answer` | string | User's answer, verbatim — or `(self-resolved — user may veto)` for self-resolved entries |
 | `qAndA[].timestamp` | string (ISO 8601) | When the exchange was logged |
 | `status` | `"active"` \| `"complete"` | `active` while grilling or paused; `complete` once closed |
 | `summary` | string \| `null` | Agent-drafted, user-approved closing summary; `null` until written |
@@ -71,18 +71,29 @@ Initial file shape:
 }
 ```
 
-### 2. Grill
+### 2. Build the decision tree internally
 
-Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
+Before asking anything, map the decision tree for the topic yourself:
+
+- Explore the codebase and any referenced docs first — resolve every branch answerable from the materials.
+- For each remaining branch, draft your recommended answer, then decide whether the user's input would actually change the outcome.
+- Mark a branch as **needs-user** only when its answer is a genuine preference fork, a requirement only the user knows, or a tradeoff you cannot settle from the materials. Every other branch is **self-resolved** — state your decision during the session instead of asking; the user can veto anything. Log each self-resolved decision via the append script the moment you state it — the decision as `GRILL_QUESTION`, `(self-resolved — user may veto)` as `GRILL_ANSWER` — so the handoff artifact keeps the full decision trail, not just the asked questions.
+- Order the needs-user branches by dependency, so earlier answers settle later branches.
+
+### 3. Grill
+
+Interview the user about each **needs-user** branch until we reach a shared understanding. Walk down those branches of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
 
 
 Ask the questions one at a time.
 
 If a question can be answered by exploring the codebase, explore the codebase instead.
 
+If a user's answer contradicts an earlier self-resolved decision, flag the conflict and revise the decision explicitly; log the revision as a new self-resolved entry. Never let a stated decision silently stand after an answer invalidates it.
+
 Immediately after each answer is given, append the exchange to `qAndA` by running the append helper script. Do NOT `read` the session file and rewrite it yourself — reading the growing transcript back into context every turn is pure bloat, since the chat already holds every exchange. The script's read-modify-write stays out of your context; only its one-line confirmation enters it. The exchange is stored verbatim — no consolidation, no summarizing.
 
-### 3. Detect the end
+### 4. Detect the end
 
 When the decision tree is exhausted (the natural conclusion of a grill-me session), ask: "Ready to handoff?"
 

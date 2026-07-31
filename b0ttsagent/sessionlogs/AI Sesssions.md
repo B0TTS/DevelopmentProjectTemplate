@@ -102,3 +102,13 @@ Session log for resuming past conversations.
 - Web research into Billboard-charting artists who have published repeatable hit-making methodologies, frameworks, and workflows. Compiled findings across three tiers, from Max Martin's Melodic Math system and Charlie Puth's production class to philosophical approaches like Rick Rubin's The Creative Act.
 
 ---
+
+## Fixed pi-subagents `agentContract` schema causing Gemini INVALID_ARGUMENT 400
+#### Date: 2026-07-31
+#### Resume Command: `pi --session 019fb8b3-6cee-73e2-904e-3ad1bbe5574d`
+#### Agent Harness: Pi
+#### Device: b0tts-laptop
+#### Description:
+- Diagnosed a Gemini 400 INVALID_ARGUMENT error caused by pi-subagents' AgentContractOverride.version using an integer-typed enum (unsupported by Gemini's function-declaration validator). Applied a local patch to schemas.ts replacing enum:[1] with minimum:1/maximum:1, preserving runtime validation while restoring Gemini compatibility.
+
+---

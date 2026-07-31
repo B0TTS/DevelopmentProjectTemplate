@@ -32,7 +32,7 @@ Handoff documents are saved to `b0ttsagent/handoffs/<MM-DD-YYYY>/` (date-based f
 `b0ttsagent/sessionlogs/` serves a dual purpose:
 
 - **Per-session report files** — `/closev2` (Branch 5) writes one full record per session to `<MM-DD-YYYY>/<HHMM>_<session-name>.md` under a date folder.
-- **Resume index** — the `log-session` skill appends one brief entry per about a session (resume command, harness, device, short description) to the single hardcoded file `AI Sesssions.md`. (beware it has a lot of information)
+- **Resume index** — the `log-session` skill appends one brief entry per session (resume command, harness, device, short description) to `b0ttsagent/sessionlogs/sessions.jsonl` (append-only JSONL; one object per line). The skill ships scripts to append (`add-session.js`) and query (`query-sessions.js`) the index so it stays out of the agent's context window. The legacy `AI Sesssions.md` is kept frozen as the pre-JSONL history.
 
 ### Scratchpads
 
