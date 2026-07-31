@@ -1,0 +1,159 @@
+{
+  "topic": "Create a daily AI and development trends research-report skill",
+  "initialPrompt": "Basically im thinking of making a skill for generating research reports every day about ai and development trends. also activate the\nwrite a skill v3 skill aswell as the karpthy guidelines skills for this session. Dont really worry about any other documents/files in the codebase. This is all you really need for this session avoid bloating your context.",
+  "startedAt": "2026-07-31T19:37:49Z",
+  "qAndA": [
+    {
+      "question": "I’ll use the available write-a-skill-v2 as the authoring skill for this session because no write-a-skill-v3 exists in the project; you can veto that fallback.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T19:38:20.811Z"
+    },
+    {
+      "question": "I’ll treat “every day” as a report-generation workflow invoked once per day, with scheduling and delivery left to an external scheduler or host rather than embedding scheduler behavior in the skill.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T19:38:20.941Z"
+    },
+    {
+      "question": "I’ll keep this session focused on design discovery, avoid unrelated project files as requested, and not build the skill until you explicitly ask after the grill.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T19:38:21.072Z"
+    },
+    {
+      "question": "My default recommendation is fresh web research with inline source links or citations, a clear as-of date, and an explicit separation between reported facts and analysis.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T19:38:21.189Z"
+    },
+    {
+      "question": "First design fork: What should the report primarily help you do? My recommendation is a personal developer decision-support brief, not just a news digest: each item would explain why it matters to your work and suggest a practical action, experiment, or follow-up. Should that be the primary goal, or should it instead focus on broad awareness, deep technical research, or another outcome?",
+      "answer": "Yeah we can deff include practical action/experiment, however that shouldnt be the primary goal, however this can be a piece of the main goal. Also one thing I just thought about I wanna mention is that we should inlcude in the skill to check previous day reports up to 3 days, and refrain from mentioning/reporting things that have shown up over 2 times in a row within the last 3 days.",
+      "timestamp": "2026-07-31T19:41:07.713Z"
+    },
+    {
+      "question": "Revision: Practical actions and experiments are secondary supporting content; the report’s primary job remains surfacing meaningful AI and development trends, with the three-day repetition check treated as a core requirement.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T19:41:21.726Z"
+    },
+    {
+      "question": "For the repetition rule, my recommendation is: treat a topic/story as repeat-suppressed only when it appears in all 3 of the previous 3 daily reports (three consecutive appearances); allow it after one or two appearances, and reset when absent. Is that what you mean by “over 2 times in a row,” or should suppression start after two consecutive appearances?",
+      "answer": "yes. but it should read the last 3 days reports before starting research. but yeah basically what you said. I dont like redundant. But basically by 2 times in a row, i mean the same like thing shows up 2 consecutive days, dont talk about it in todays report its not new.",
+      "timestamp": "2026-07-31T19:44:40.975Z"
+    },
+    {
+      "question": "Revision: Before researching, the skill will read the previous three daily reports. A topic or story will be suppressed from today’s report when it appeared on two consecutive days within that three-report history; the threshold is two consecutive appearances, not three.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T19:44:41.105Z"
+    },
+    {
+      "question": "Understood. What should count as “the same thing” for deduplication? My recommendation is semantic identity, not exact headlines or URLs: the same underlying event, release, product change, paper, or development should count as a repeat even when different sources phrase it differently. A materially new update to the same broader topic can still be reported, but the report should explain what is new. Does that match your intent?",
+      "answer": "semantic identity yeah",
+      "timestamp": "2026-07-31T19:46:13.120Z"
+    },
+    {
+      "question": "Next scope question: Which categories should the daily research cover? My recommendation is to include: (1) AI model, research, and product releases; (2) AI coding tools, agents, and developer workflows; (3) programming languages, frameworks, platforms, and infrastructure; (4) developer-relevant security, reliability, and supply-chain changes; and (5) broader ecosystem shifts only when they materially affect developers. I’d exclude generic AI news, funding announcements, executive drama, and broad policy news unless they change how developers build or use software. Should we use that broad developer-focused scope?",
+      "answer": "Yes these are good. one thing i wanna make sure to flag for the future/next session, is during implementation I wanna brainstorm/double check if there are any more categories we should cover for the daily research.",
+      "timestamp": "2026-07-31T19:55:29.793Z"
+    },
+    {
+      "question": "I’ll keep the approved five-category scope for this design session and carry a category-expansion brainstorm as an explicit implementation-time checklist item rather than expanding scope speculatively now.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T19:55:29.891Z"
+    },
+    {
+      "question": "Next question: How deep should each daily report be? My recommendation is a medium-length Markdown briefing with roughly 5–8 meaningful items. Each item would include: what changed; why it matters to developers; source links and publication dates; why it is still new or relevant after the three-day history check; and an optional practical action or experiment. Should the report be a concise scan, this medium briefing, or a deeper research report?",
+      "answer": "a medium breefing. But i definetly want deep research going into it.",
+      "timestamp": "2026-07-31T20:03:29.141Z"
+    },
+    {
+      "question": "Decision: The report output will be a medium-length briefing, while the research process behind it will be deep and evidence-driven; depth belongs in source investigation and synthesis rather than making the final report unnecessarily long.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T20:03:29.260Z"
+    },
+    {
+      "question": "Next question: How strict should the evidence and source policy be? My recommendation: prefer primary sources such as official announcements, papers, documentation, release notes, repositories, and technical posts; use secondary sources for discovery and context; cross-check important claims with an independent reliable source when possible; link sources and publication dates for every reported item; clearly label uncertainty, emerging claims, and analysis; and exclude rumor-driven items unless they are clearly marked as unverified and materially important. Should the skill follow that evidence standard?",
+      "answer": "yep, and try to find information that happened within 7 days max of the date of the research, and reccomended 24 hours of the day of the research",
+      "timestamp": "2026-07-31T20:05:07.426Z"
+    },
+    {
+      "question": "Freshness policy: prioritize information from the rolling 24 hours before the research run, permit information up to 7 days old when it remains materially relevant, and use publication or update timestamps to enforce those limits.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T20:05:07.562Z"
+    },
+    {
+      "question": "Clarifying question: Should the 24-hour preference mean a rolling 24 hours before the research run, or the current calendar day? I recommend a rolling 24-hour window because it avoids timezone gaps and works consistently regardless of when the report runs.",
+      "answer": "yes 24h before research run",
+      "timestamp": "2026-07-31T20:05:44.529Z"
+    },
+    {
+      "question": "Next question: How should reports be persisted so the skill can inspect the previous three days? My recommendation is: write one Markdown report per day; store them in a dedicated research-report directory; use date-based filenames such as YYYY-MM-DD.md; include the research-run timestamp and source dates in the report; and have the skill read the three most recent reports from that directory before researching and write today’s report there afterward. Is that the intended persistence model, or should reports be delivered somewhere else, such as chat only, a database, or another system?",
+      "answer": "one markdown report per day. and date baesd filenames. checkout C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\reports\n\ndaily reports for this skill will go under C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\reports\\daily-reports\\AI-Development Trends",
+      "timestamp": "2026-07-31T20:07:02.483Z"
+    },
+    {
+      "question": "Should I log the decision as:\n\n> The scheduler supplies an IANA timezone. The skill uses it for the `YYYY-MM-DD.md` filename and daily boundary, records the timezone with the run timestamp, and keeps freshness based on a rolling 24-hour window independent of the filename date.",
+      "answer": "okay remove the previous log. and okay everything looks correct we will use what you reccomended. You can continue logging now.",
+      "timestamp": "2026-07-31T20:11:24.572Z"
+    },
+    {
+      "question": "Next trigger-boundary question: Should the skill activate only for explicit daily-report requests or scheduled runs, or should it also activate for ordinary questions about AI and development news? My recommendation is explicit activation only, with triggers such as: “Generate today’s AI and development trends report”; “Run the daily AI research”; and “Create today’s developer trends briefing.” It should not activate for ordinary one-off questions like “What is new in AI agents?” unless the user explicitly requests the daily-report workflow. Is that boundary right?",
+      "answer": "explicit activation, lets also disblae automatic model invocation in front matter field for this skill.",
+      "timestamp": "2026-07-31T20:12:25.720Z"
+    },
+    {
+      "question": "Next question: How should the report prioritize the 5–8 items that make the final briefing? My recommendation is to rank by: (1) developer impact; (2) novelty; (3) evidence strength; (4) relevance to the approved AI/development categories; and (5) freshness, with rolling 24-hour items preferred. This would allow a highly consequential item from several days ago to outrank a minor update from today. Should developer impact take priority over pure recency?",
+      "answer": "oyour recc",
+      "timestamp": "2026-07-31T20:14:39.203Z"
+    },
+    {
+      "question": "Next deduplication edge case: If a previously suppressed topic has a materially new update, should it be allowed back into the report? My recommendation is yes, but only for a concrete new development—such as a new release, version, capability, benchmark, incident, or official update. The report should explicitly state what changed. A second article or additional commentary about the same unchanged event should remain suppressed. Is that the right rule?",
+      "answer": "yeah small typo with the o there. yes it should your recc.",
+      "timestamp": "2026-07-31T20:15:26.951Z"
+    },
+    {
+      "question": "Next evidence-depth question: Should every reported item require multiple sources, or only important claims? My recommendation is: at least one authoritative primary source per item; add an independent source for high-impact, disputed, or technically complex claims; and never pad an item with sources that add no new evidence. Is that source-depth rule acceptable?",
+      "answer": "your recc",
+      "timestamp": "2026-07-31T20:16:12.634Z"
+    },
+    {
+      "question": "Next output-structure question: Does this report skeleton fit? 1. Metadata — research timestamp, timezone, freshness window, and report date. 2. Key takeaways — a short executive summary. 3. Ranked developments — roughly 5–8 items, each covering: what changed; why it matters to developers; publication/update date; sources; why it is new after the three-day history check; and an optional action or experiment. 4. Follow-ups — practical actions or experiments, kept secondary. 5. No exhaustive search log or list of suppressed items unless needed for transparency. Would you use that structure?",
+      "answer": "yes that works",
+      "timestamp": "2026-07-31T20:16:48.032Z"
+    },
+    {
+      "question": "Next selection question: What should happen when fewer than 5 items survive the freshness, evidence, relevance, and repetition filters? My recommendation is quality over quota: publish fewer items rather than adding weak, old, or redundant material; include a brief “quiet day” note when appropriate; and never lower the evidence or freshness standards just to reach 5–8 items. Should the skill follow that rule?",
+      "answer": "your recc.",
+      "timestamp": "2026-07-31T20:19:28.720Z"
+    },
+    {
+      "question": "Self-resolved edge case: On the first run, or whenever fewer than three prior reports are available, use the history that exists, state the available history coverage, and apply repetition filtering only where the reports provide evidence; never invent missing history.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T20:19:36.596Z"
+    },
+    {
+      "question": "Next tone question: Should the report assume a technically literate developer as its reader? My recommendation is to write for an experienced developer, briefly explain highly specialized terms, clearly separate facts from analysis, and avoid turning the report into a beginner tutorial. Is that the right tone?",
+      "answer": "yes",
+      "timestamp": "2026-07-31T20:23:03.796Z"
+    },
+    {
+      "question": "Next freshness edge case: If an old article is republished or marked “updated” within the 24-hour window, should it count as fresh? My recommendation is to use the underlying event or development date, not merely the page’s update timestamp. An old item should qualify only if the update contains substantive new information, such as a new release, capability, result, incident, or official clarification. Is that the right rule?",
+      "answer": "your recc",
+      "timestamp": "2026-07-31T20:23:45.888Z"
+    },
+    {
+      "question": "Next question: How should ongoing trends be handled? My recommendation is to report an ongoing trend only when there is new evidence or a meaningful change within the freshness window. The same trend should not be repeated daily without new evidence, but it may return when new data, releases, benchmarks, incidents, or developments materially change the picture. Is that the right rule?",
+      "answer": "your recc",
+      "timestamp": "2026-07-31T20:24:12.191Z"
+    },
+    {
+      "question": "Next evidence question: What should happen when credible sources disagree? My recommendation is to surface the disagreement rather than forcing a false consensus: identify the competing claims; prefer stronger primary evidence where available; explain what is established, disputed, or still uncertain; and keep analysis clearly separate from sourced facts. Should the report follow that approach?",
+      "answer": "your recc",
+      "timestamp": "2026-07-31T20:24:45.908Z"
+    },
+    {
+      "question": "Next operational question: What should happen if the daily workflow runs more than once on the same date? My recommendation is to keep the one-report-per-day rule strict: regenerate or overwrite the same YYYY-MM-DD.md; update the research-run timestamp; never create duplicate same-day files; and read only the previous days’ reports before researching, not the partial current report. Should that be the behavior?",
+      "answer": "your recc",
+      "timestamp": "2026-07-31T21:12:27.895Z"
+    }
+  ],
+  "status": "active",
+  "summary": null
+}

@@ -6,7 +6,13 @@ disable-model-invocation: true
 
 # Grill Me v3
 
-Grill the user exactly like grill-me v2, but build the decision tree internally before grilling so only branches that genuinely need the user become questions. The session is still captured as a structured JSON artifact so the next agent can pick up with full context. Nothing is being built — the goal is shared understanding, then handoff.
+Grill the user exactly like grill-me, but build the decision tree internally before grilling so only branches that genuinely need the user become questions. The session is still captured as a structured JSON artifact so the next agent can pick up with full context. Nothing is being built — the goal is shared understanding, then handoff.
+
+**Two artifacts, two owners — never confuse them:**
+- **Session log** — the JSON this skill creates and closes (steps 1–5). Owned by this skill.
+- **Handoff document** — the markdown written only by the `handoff` skill. Never written from memory, never written without explicit user confirmation (step 6).
+
+Closing the session log ends this skill's job. It is not authorization to build, plan, or implement anything discussed — that always requires a separate, explicit user instruction.
 
 ## JSON Schema
 
@@ -39,6 +45,8 @@ Invocation shape:
 GRILL_QUESTION="<full question>" GRILL_ANSWER="<full answer>" \
   node <skill-dir>/scripts/append.js append "<session-path>"
 ```
+
+**Set `GRILL_ANSWER` to the user's exact words — word-for-word, never summarized.** Copy the answer character-for-character: every word, every typo, and the full multi-paragraph answer — nothing trimmed, cleaned, or rephrased. Quote the value so line breaks and special characters survive the shell intact. The only acceptable non-verbatim value is a **self-resolved** decision, where there is no user answer to record and you pass the literal placeholder `(self-resolved — user may veto)` — being self-resolved means *you* resolved the branch yourself, never a license to paraphrase a real user answer.
 
 ```bash
 # Preview only (no --yes): prints the entry, does not delete
@@ -77,7 +85,7 @@ Before asking anything, map the decision tree for the topic yourself:
 
 - Explore the codebase and any referenced docs first — resolve every branch answerable from the materials.
 - For each remaining branch, draft your recommended answer, then decide whether the user's input would actually change the outcome.
-- Mark a branch as **needs-user** only when its answer is a genuine preference fork, a requirement only the user knows, or a tradeoff you cannot settle from the materials. Every other branch is **self-resolved** — state your decision during the session instead of asking; the user can veto anything. Log each self-resolved decision via the append script the moment you state it — the decision as `GRILL_QUESTION`, `(self-resolved — user may veto)` as `GRILL_ANSWER` — so the handoff artifact keeps the full decision trail, not just the asked questions.
+- Mark a branch as **needs-user** only when its answer is a genuine preference fork, a requirement only the user knows, or a tradeoff you cannot settle from the materials. Every other branch is **self-resolved** — state your decision during the session instead of asking; the user can veto anything. Log each self-resolved decision via the append script the moment you state it — the decision as `GRILL_QUESTION`, `(self-resolved — user may veto)` as `GRILL_ANSWER` — so the session log keeps the full decision trail, not just the asked questions.
 - Order the needs-user branches by dependency, so earlier answers settle later branches.
 
 ### 3. Grill
@@ -91,28 +99,41 @@ If a question can be answered by exploring the codebase, explore the codebase in
 
 If a user's answer contradicts an earlier self-resolved decision, flag the conflict and revise the decision explicitly; log the revision as a new self-resolved entry. Never let a stated decision silently stand after an answer invalidates it.
 
-Immediately after each answer is given, append the exchange to `qAndA` by running the append helper script. Do NOT `read` the session file and rewrite it yourself — reading the growing transcript back into context every turn is pure bloat, since the chat already holds every exchange. The script's read-modify-write stays out of your context; only its one-line confirmation enters it. The exchange is stored verbatim — no consolidation, no summarizing.
+Immediately after each answer is given, append the exchange to `qAndA` by running the append helper script. Do NOT `read` the session file and rewrite it yourself — reading the growing transcript back into context every turn is pure bloat, since the chat already holds every exchange. The script's read-modify-write stays out of your context; only its one-line confirmation enters it. Pass the user's answer into `GRILL_ANSWER` word-for-word per the **Append helper** verbatim rule — never summarize it, and reserve the self-resolved placeholder for branches you resolved yourself.
 
 ### 4. Detect the end
 
-When the decision tree is exhausted (the natural conclusion of a grill-me session), ask: "Ready to handoff?"
+When the decision tree is exhausted (the natural conclusion of a grill-me session), say so and ask how to close. This is the only closing question — there is no second handoff question later:
+
+"Decision tree exhausted. How do you want to close?
+- **(a) Close and hand off** — close the session log, then (with your go-ahead) the handoff document gets written via the `handoff` skill.
+- **(b) Close without handoff** — close the session log; no handoff document.
+- **(c) Leave it active** — keep the session log open to resume later."
 
 ### 5. Close the session
 
-Draft the `summary`, show it to the user, and get approval before writing. (This approval flow applies whether the user said yes to handoff or chose "close without handoff" below.) On approval, run the helper's close subcommand — never hand-edit `status` or `summary` into the file:
+Draft the `summary`, show it to the user, and get approval before writing. (This approval flow applies to both (a) and (b) — every close gets an approved summary.) On approval, run the helper's close subcommand — never hand-edit `status` or `summary` into the file:
 
 ```bash
 node <skill-dir>/scripts/append.js close "<session-path>" --summary "<approved summary>"
 ```
 
-- **User says yes (to "Ready to handoff?")** → session closes via the script; proceed to step 6.
-- **User says no** → clarify intent:
-  - Resume later → leave `status: "active"`, no summary, no close call.
-  - Close without handoff → same summary-approval flow, then the close subcommand above.
+- **(a) Close and hand off** → session closes via the script; proceed to step 6.
+- **(b) Close without handoff** → session closes via the script; step 6's hard-stop rules still apply.
+- **(c) Leave it active** → leave `status: "active"`, no summary, no close call.
 
-### 6. Bridge to handoff
+### 6. Terminal state — handoff consent, then stop
 
-End with: "Ready to activate handoff? Say yes." When the user invokes the `handoff` skill (same session), make sure the handoff document references the JSON artifact by full path. The chat context carries the path — no marker file or other bridging mechanism.
+After the close subcommand runs, state the session log's full path, then stop. What happens next requires explicit user instruction — never proceed on your own.
+
+**Hard-stop rules (apply after every close, whichever exit the user took):**
+- Never start building, planning, or implementing anything from the grilling. Closing the session log is not authorization to build.
+- Never write the handoff document without an explicit user yes to the question below.
+- Never write the handoff document from memory — it is governed by the `handoff` skill.
+
+**If the user chose (a) close and hand off**, ask once: "Session log closed. Want me to write the handoff document now?"
+- **Yes** → load the `handoff` skill (read its SKILL.md) and follow it exactly — including its filename-confirmation step — and make sure the handoff document references the session log by full path. The chat context carries the path — no marker file or other bridging mechanism.
+- **No / anything else** → do nothing further. The user can also invoke the `handoff` skill directly later (`/skill:handoff`); either way, that skill governs the document, not this one.
 
 ## Removing an entry logged in error
 
@@ -134,7 +155,7 @@ Removal is allowed on both `active` and `complete` sessions — correcting the h
 ## Edge cases
 
 - **Filename collision** → suffix `-2`, `-3`, etc. Never overwrite, never rename.
-- **"No" to handoff** → clarify: resume later (`active`, no summary) vs. close (`complete` + approved summary).
+- **Closing preference** → the three exits live in step 4 and are asked once. Never re-ask "ready to handoff?" at any later point — step 4 is the only closing question.
 - **Session abandoned mid-grill** → file stays `active`; the partial transcript is the resume point.
 - **Resuming a session** → if the user points at an existing `active` grill-session file, `read` it in full once to rebuild your footing (you have no chat history of the prior exchanges), then continue append-only via the helper script. Do not re-read it on every later turn — after that first footing read, only append.
 - **Deleting renumbers later entries** → after `remove --entry N --yes`, every entry after `#N` shifts down by one. The next removal's `#N` may differ — always preview by content, not by number.
