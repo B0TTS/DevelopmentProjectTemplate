@@ -112,8 +112,68 @@
       "question": "Decision point: Use sessions.b0tts.dev as a DNS-only record pointing to the VPS Tailscale IP, with Caddy handling HTTPS and Tailscale ACLs restricting access.",
       "answer": "Okay continue q/a and logging. Lets do sessions.b0tts.dev as a DNS-only record pointing to the VPS Tailscale IP, with Caddy handling HTTPS and Tailscale ACLs restricting\n │ access.",
       "timestamp": "2026-07-31T21:19:23.797Z"
+    },
+    {
+      "question": "Question 8 — How should we isolate the session database? The existing VPS already has a PostgreSQL 17 container, postgrest-db, with daily backups. My recommendation: reuse that PostgreSQL instance, but create a separate sessionlog database, a dedicated sessionlog_app database role, separate tables/schema from the Roblox data, and make the Node session backend the only application client. This uses existing backups without running a second PostgreSQL container and keeps private session data out of the public PostgREST api surface. The alternative is a completely separate PostgreSQL container. Do you want the recommended same PostgreSQL instance, separate database and role setup?",
+      "answer": "your recc.",
+      "timestamp": "2026-07-31T21:54:29.775Z"
+    },
+    {
+      "question": "Question 9 — What happens if log-session runs twice for the same Pi session? My recommendation is to make ingestion idempotent: use PI_SESSION_ID as the stable session identity; a second run updates the existing record; the transcript is refreshed rather than duplicated; and retrying after a network failure is safe. The alternative is to create a separate database record every time the skill runs, even for the same Pi session. Should repeated runs update the existing session, or create a new snapshot each time?",
+      "answer": "your recc",
+      "timestamp": "2026-07-31T22:28:04.943Z"
+    },
+    {
+      "question": "Question 10 — What should search cover? Possible scopes: (1) metadata only — title, description, date, harness, device; (2) metadata plus human conversation — also search user and assistant messages; (3) everything — include tool calls, tool results, and raw event payloads. My recommendation: search metadata plus user/assistant message text, while keeping tool calls and raw payloads out of default search. Which search scope do you want?",
+      "answer": "1",
+      "timestamp": "2026-07-31T22:29:47.265Z"
+    },
+    {
+      "question": "Question 11 — Should the web app allow editing or deleting sessions? My recommendation: keep the viewer read-only in v1; re-run log-session to update a session’s metadata or transcript; do not add delete controls yet; and add an admin cleanup/retention workflow later if needed. This keeps the app aligned with the rule that sessions enter the system only through the skill and avoids accidental transcript deletion. Should v1 be read-only, or do you want metadata editing/deletion in the web UI?",
+      "answer": "Add only deletion for now.",
+      "timestamp": "2026-07-31T22:30:20.023Z"
+    },
+    {
+      "question": "Question 12 — What kind of deletion? (1) Hard delete — remove the session, metadata, and transcript from the live database; (2) Soft delete — mark it deleted and hide it from the viewer while retaining it for recovery. My recommendation: hard delete from the live database with an explicit confirmation step. Existing VPS backups may still contain deleted data for their retention period, so this means remove from the active app, not guaranteed immediate erasure from backups. Which deletion model do you want?",
+      "answer": "hard delete",
+      "timestamp": "2026-07-31T22:30:57.915Z"
+    },
+    {
+      "question": "Question 13 — Should we backfill existing sessions? Options: (1) start fresh — only future log-session runs create Postgres records; (2) one-time migration — import sessions that were already logged, then stop using the old files; (3) import only selected historical sessions. My recommendation is option 2: perform a one-time migration of existing logged sessions and any matching transcripts, then make future ingestion exclusively skill-triggered. The JSONL would not remain part of the running system. Do you want to start fresh, migrate all existing logged sessions once, or migrate only selected history?",
+      "answer": "2. However I should mention, lets only import sessions that were logged on b0tts-laptop device, everything else, we can forget about it.",
+      "timestamp": "2026-07-31T22:32:16.073Z"
+    },
+    {
+      "question": "Question 14 — Is the b0tts-laptop restriction permanent? There are two interpretations: (1) migration-only filter — only historical imports are restricted to b0tts-laptop; future explicit skill runs can come from other devices; (2) permanent allowlist — the app rejects all future ingestion unless the reported device is b0tts-laptop. My recommendation: use it as a migration-only filter so we do not hard-code a future device restriction. Should b0tts-laptop be a migration-only filter or a permanent ingestion allowlist?",
+      "answer": "migration only filter",
+      "timestamp": "2026-07-31T22:33:20.920Z"
+    },
+    {
+      "question": "Question 15 — What should happen if the VPS or Tailnet is unavailable? Because Postgres is canonical and JSONL is no longer a fallback, the skill needs a clear failure policy. My recommendation for v1: attempt the authenticated upload; if it fails, report a clear error; do not claim the session was saved; allow you to rerun the skill later; and do not add a local queue yet. A local outbox/queue could be added in v2, but it would introduce another persistence path and more recovery logic. Should v1 fail clearly and require a retry, or should it queue sessions locally when the VPS is unavailable?",
+      "answer": "your recc.",
+      "timestamp": "2026-07-31T22:33:59.141Z"
+    },
+    {
+      "question": "Decision: Use Node/TypeScript for the session app as one deployable full-stack service containing the web UI and private API. Keep the exact UI framework as an implementation detail for the later build plan rather than adding a second frontend service.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T22:34:19.358Z"
+    },
+    {
+      "question": "Decision: Model the database with one sessions row per PI_SESSION_ID and ordered session_events rows for the full Pi event stream. Preserve each original event payload as JSONB for faithful rendering, and use cascading deletion so hard-deleting a session removes its events.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T22:34:19.454Z"
+    },
+    {
+      "question": "Decision: The skill ingestion endpoint performs an idempotent metadata-and-transcript upsert in one database transaction, while the viewer exposes a separately confirmed hard-delete action. The web UI does not create or edit sessions.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T22:34:19.535Z"
+    },
+    {
+      "question": "The decision tree is exhausted. How do you want to close? (a) Close and hand off — close the session log, then with your go-ahead write the handoff document through the handoff skill; (b) Close without handoff — close the session log with no handoff document; (c) Leave it active — keep the session log open to resume later.",
+      "answer": "a",
+      "timestamp": "2026-07-31T22:34:46.542Z"
     }
   ],
-  "status": "active",
-  "summary": null
+  "status": "complete",
+  "summary": "Design a VPS-first, private web app for viewing explicitly logged Pi sessions. The app will run as a single Node/TypeScript full-stack service behind Caddy on the VPS, reachable at `sessions.b0tts.dev` through a DNS-only record pointing to the VPS Tailscale IP. Tailscale ACLs will restrict access, and the `log-session` skill will use a separate ingestion token.\n\nPostgres will be the sole canonical store, using the existing PostgreSQL 17 infrastructure with an isolated `sessionlog` database and role. The existing JSONL files will be used only for a one-time migration of the three `b0tts-laptop` sessions and their matching transcripts; they will not remain part of the running system. Future sessions will be ingested only when `log-session` is explicitly run, with idempotency based on `PI_SESSION_ID`. Failed uploads will report an error and require retry.\n\nThe v1 UI will provide a searchable metadata-based session library and transcript detail view, with tool calls/results collapsed. It will support confirmed hard deletion but not editing or manual session creation. Analytics, MCP support, automatic background capture, local queues, and public Cloudflare proxying are deferred. Closing this grill does not authorize implementation."
 }
