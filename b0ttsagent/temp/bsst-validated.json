@@ -1,0 +1,1120 @@
+{
+  "ok": true,
+  "blockers": [],
+  "warnings": [
+    {
+      "code": "subtask_variance_skipped",
+      "message": "task \"morning-ritual\" has per-day subtask variance; parent/subtask duration-conflict check skipped (subtask durations are advisory)."
+    },
+    {
+      "code": "conditional_present",
+      "message": "1 conditional task(s) present: visible but not counted by default. Approval required to finalize."
+    },
+    {
+      "code": "nr_present",
+      "message": "1 NR task(s) present: 0 scheduled minutes; excluded from totals, ranking, flex, and percentages."
+    }
+  ],
+  "free_day_accounting": "excluded",
+  "summed_days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat"
+  ],
+  "excluded_days": [
+    "sun"
+  ],
+  "source": {
+    "filename": "Schedule Spec V6.md",
+    "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\Notes\\Schedule Spec V6.md",
+    "dir": "C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\Notes",
+    "content_version": "6",
+    "filename_version": "6"
+  },
+  "format_version": 1,
+  "content_version": "6",
+  "calendar": {
+    "days": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+    ],
+    "free_day": "sun"
+  },
+  "budgets": {
+    "work_day": {
+      "POW": 480,
+      "POF": 480,
+      "Sleep": 480
+    },
+    "free_day": {
+      "POW": 0,
+      "POF": 960,
+      "Sleep": 480
+    }
+  },
+  "computed": {
+    "free_day": "sun",
+    "non_free_days": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat"
+    ],
+    "all_days": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+    ],
+    "per_day": {
+      "mon": {
+        "_day_type": "work_day",
+        "POW": {
+          "fixed": 180,
+          "flex": 300,
+          "total": 480,
+          "budget": 480
+        },
+        "POF": {
+          "fixed": 280,
+          "flex": 200,
+          "total": 480,
+          "budget": 480
+        },
+        "Sleep": {
+          "fixed": 480,
+          "flex": 0,
+          "total": 480,
+          "budget": 480
+        },
+        "total": 1440
+      },
+      "tue": {
+        "_day_type": "work_day",
+        "POW": {
+          "fixed": 270,
+          "flex": 210,
+          "total": 480,
+          "budget": 480
+        },
+        "POF": {
+          "fixed": 280,
+          "flex": 200,
+          "total": 480,
+          "budget": 480
+        },
+        "Sleep": {
+          "fixed": 480,
+          "flex": 0,
+          "total": 480,
+          "budget": 480
+        },
+        "total": 1440
+      },
+      "wed": {
+        "_day_type": "work_day",
+        "POW": {
+          "fixed": 180,
+          "flex": 300,
+          "total": 480,
+          "budget": 480
+        },
+        "POF": {
+          "fixed": 280,
+          "flex": 200,
+          "total": 480,
+          "budget": 480
+        },
+        "Sleep": {
+          "fixed": 480,
+          "flex": 0,
+          "total": 480,
+          "budget": 480
+        },
+        "total": 1440
+      },
+      "thu": {
+        "_day_type": "work_day",
+        "POW": {
+          "fixed": 270,
+          "flex": 210,
+          "total": 480,
+          "budget": 480
+        },
+        "POF": {
+          "fixed": 280,
+          "flex": 200,
+          "total": 480,
+          "budget": 480
+        },
+        "Sleep": {
+          "fixed": 480,
+          "flex": 0,
+          "total": 480,
+          "budget": 480
+        },
+        "total": 1440
+      },
+      "fri": {
+        "_day_type": "work_day",
+        "POW": {
+          "fixed": 270,
+          "flex": 210,
+          "total": 480,
+          "budget": 480
+        },
+        "POF": {
+          "fixed": 280,
+          "flex": 200,
+          "total": 480,
+          "budget": 480
+        },
+        "Sleep": {
+          "fixed": 480,
+          "flex": 0,
+          "total": 480,
+          "budget": 480
+        },
+        "total": 1440
+      },
+      "sat": {
+        "_day_type": "work_day",
+        "POW": {
+          "fixed": 240,
+          "flex": 240,
+          "total": 480,
+          "budget": 480
+        },
+        "POF": {
+          "fixed": 290,
+          "flex": 190,
+          "total": 480,
+          "budget": 480
+        },
+        "Sleep": {
+          "fixed": 480,
+          "flex": 0,
+          "total": 480,
+          "budget": 480
+        },
+        "total": 1440
+      },
+      "sun": {
+        "_day_type": "free_day",
+        "POW": {
+          "fixed": 0,
+          "flex": 0,
+          "total": 0,
+          "budget": 0
+        },
+        "POF": {
+          "fixed": 225,
+          "flex": 735,
+          "total": 960,
+          "budget": 960
+        },
+        "Sleep": {
+          "fixed": 480,
+          "flex": 0,
+          "total": 480,
+          "budget": 480
+        },
+        "total": 1440
+      }
+    },
+    "weekly": {
+      "POW": {
+        "fixed": 1410,
+        "flex": 1470,
+        "total": 2880
+      },
+      "POF": {
+        "fixed": 1690,
+        "flex": 1190,
+        "total": 2880
+      },
+      "Sleep": {
+        "fixed": 2880,
+        "flex": 0,
+        "total": 2880
+      },
+      "total": 8640
+    },
+    "avg_per_day": {
+      "POW": 480,
+      "POF": 480,
+      "Sleep": 480,
+      "total": 1440
+    },
+    "ranking": [
+      {
+        "id": "sleep",
+        "name": "Sleep",
+        "category": "Sleep",
+        "order": 20,
+        "weekly_minutes": 2880,
+        "rank": 1,
+        "percent": 33.33333333333333
+      },
+      {
+        "id": "work",
+        "name": "Work",
+        "category": "POW",
+        "order": 13,
+        "weekly_minutes": 1470,
+        "rank": 2,
+        "percent": 17.01388888888889
+      },
+      {
+        "id": "extra-personal-freetime",
+        "name": "Extra Personal Freetime",
+        "category": "POF",
+        "order": 19,
+        "weekly_minutes": 1190,
+        "rank": 3,
+        "percent": 13.773148148148149
+      },
+      {
+        "id": "morning-ritual",
+        "name": "Morning Ritual",
+        "category": "POF",
+        "order": 1,
+        "weekly_minutes": 540,
+        "rank": 4,
+        "percent": 6.25
+      },
+      {
+        "id": "breakfast",
+        "name": "Make and Eat Breakfast",
+        "category": "POF",
+        "order": 4,
+        "weekly_minutes": 360,
+        "rank": 5,
+        "percent": 4.166666666666666
+      },
+      {
+        "id": "go-gym",
+        "name": "Go Gym",
+        "category": "POF",
+        "order": 10,
+        "weekly_minutes": 360,
+        "rank": 5,
+        "percent": 4.166666666666666
+      },
+      {
+        "id": "end-of-day-ritual",
+        "name": "End of Day Ritual",
+        "category": "POW",
+        "order": 14,
+        "weekly_minutes": 360,
+        "rank": 5,
+        "percent": 4.166666666666666
+      },
+      {
+        "id": "streaming-normal",
+        "name": "Streaming Normal (not fried)",
+        "category": "POF",
+        "order": 17,
+        "weekly_minutes": 360,
+        "rank": 5,
+        "percent": 4.166666666666666
+      },
+      {
+        "id": "skill-study",
+        "name": "Skill Study",
+        "category": "POW",
+        "order": 12,
+        "weekly_minutes": 270,
+        "rank": 9,
+        "percent": 3.125
+      },
+      {
+        "id": "planning",
+        "name": "Planning",
+        "category": "POW",
+        "order": 6,
+        "weekly_minutes": 180,
+        "rank": 10,
+        "percent": 2.083333333333333
+      },
+      {
+        "id": "game-ideation",
+        "name": "Game Ideation",
+        "category": "POW",
+        "order": 7,
+        "weekly_minutes": 180,
+        "rank": 10,
+        "percent": 2.083333333333333
+      },
+      {
+        "id": "mobile-gaming",
+        "name": "Mobile Gaming",
+        "category": "POW",
+        "order": 15,
+        "weekly_minutes": 180,
+        "rank": 10,
+        "percent": 2.083333333333333
+      },
+      {
+        "id": "pc-gaming",
+        "name": "PC Gaming",
+        "category": "POW",
+        "order": 16,
+        "weekly_minutes": 180,
+        "rank": 10,
+        "percent": 2.083333333333333
+      },
+      {
+        "id": "weekly-review-goals",
+        "name": "Weekly Review + Goals",
+        "category": "POW",
+        "order": 5,
+        "weekly_minutes": 60,
+        "rank": 14,
+        "percent": 0.6944444444444444
+      },
+      {
+        "id": "cleaning",
+        "name": "Cleaning",
+        "category": "POF",
+        "order": 8,
+        "weekly_minutes": 60,
+        "rank": 14,
+        "percent": 0.6944444444444444
+      },
+      {
+        "id": "clean-dehumidifier",
+        "name": "Clean Dehumidifier",
+        "category": "POF",
+        "order": 9,
+        "weekly_minutes": 10,
+        "rank": 16,
+        "percent": 0.11574074074074073
+      }
+    ],
+    "tasks": [
+      {
+        "id": "morning-ritual",
+        "name": "Morning Ritual",
+        "order": 1,
+        "category": "POF",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 90,
+        "per_day": {
+          "mon": 90,
+          "tue": 90,
+          "wed": 90,
+          "thu": 90,
+          "fri": 90,
+          "sat": 90,
+          "sun": 90
+        },
+        "weekly_minutes": 540,
+        "counted": true,
+        "notes": "Morning ritual be op. Wake up 8-9am. 1.5h capped container; per-day variance in subtasks — uniform subtask-sum check is intentionally skipped.",
+        "subtasks": [
+          {
+            "name": "Meditation",
+            "duration_minutes": 30,
+            "days": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri",
+              "sat"
+            ],
+            "notes": "Sit idle, no distractions daily. Keeps mind clear, better meditation. Since it's at 8am, you can get your sunlight in easy pz."
+          },
+          {
+            "name": "Manifestations / Affirmations",
+            "duration_minutes": 30,
+            "days": [
+              "mon",
+              "wed",
+              "sat"
+            ]
+          },
+          {
+            "name": "Clear out air per the guide",
+            "duration_minutes": 15
+          },
+          {
+            "name": "Rest of hour: brush teeth, clean room, etc.",
+            "days": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri",
+              "sat"
+            ],
+            "notes": "Flex remainder — fills whatever time is left in the 1.5h container after the other subtasks. Varies by day: ~15m on Mon/Wed/Sat, ~45m on Tue/Thu/Fri.",
+            "subtasks": [
+              {
+                "name": "Clean Room"
+              },
+              {
+                "name": "Brush Teeth"
+              },
+              {
+                "name": "Do hair"
+              },
+              {
+                "name": "Get oiled up"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sunlight",
+        "name": "Sunlight",
+        "order": 2,
+        "category": "POF",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "shape": "conditional",
+        "is_flex": false,
+        "is_conditional": true,
+        "is_nr": false,
+        "conditional_max": 60,
+        "duration_minutes": null,
+        "per_day": {
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "weekly_minutes": 0,
+        "counted": false,
+        "notes": "0–1h. Try to get 30m of sunlight (travel times so 1 hour max). Skip if enough sunlight was gotten during the 8am Morning Ritual. Conditional; not counted toward the 8h POF total by default; draws down Extra Personal Freetime when taken."
+      },
+      {
+        "id": "moral-code-review",
+        "name": "Moral Code Review",
+        "order": 3,
+        "category": "POF",
+        "days": [
+          "sun"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 15,
+        "per_day": {
+          "sun": 15
+        },
+        "weekly_minutes": 0,
+        "counted": true,
+        "notes": "Motivation and remembrance. 1–3x per week recommended but currently scheduled once on the free day."
+      },
+      {
+        "id": "breakfast",
+        "name": "Make and Eat Breakfast",
+        "order": 4,
+        "category": "POF",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 60,
+        "per_day": {
+          "mon": 60,
+          "tue": 60,
+          "wed": 60,
+          "thu": 60,
+          "fri": 60,
+          "sat": 60,
+          "sun": 60
+        },
+        "weekly_minutes": 360,
+        "counted": true,
+        "notes": "New schedule; not sure if hungry immediately after meditation/morning ritual. Feel free to move this around as you get used to it."
+      },
+      {
+        "id": "weekly-review-goals",
+        "name": "Weekly Review + Goals",
+        "order": 5,
+        "category": "POW",
+        "days": [
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 60,
+        "per_day": {
+          "sat": 60
+        },
+        "weekly_minutes": 60,
+        "counted": true,
+        "subtasks": [
+          {
+            "name": "Weekly Review",
+            "duration_minutes": 30,
+            "notes": "Ask yourself what worked, what didn't, and what needs to change for the past week. Journal or capture lessons and set priorities for the coming week. Why: reduced unfinished tasks, lowered after-work rumination, and improved cognitive flexibility."
+          },
+          {
+            "name": "Week Goals / Plans",
+            "duration_minutes": 30,
+            "notes": "Plan out when you're going to do what throughout the week — skill studies, streams, etc. In case you miss adding a task in subtasks, this will help. Be sure to add missing subtasks!",
+            "subtasks": [
+              {
+                "name": "Plan out skill study days"
+              },
+              {
+                "name": "Plan out what days you will do streams, and what you will do for the streams"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "planning",
+        "name": "Planning",
+        "order": 6,
+        "category": "POW",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 30,
+        "per_day": {
+          "mon": 30,
+          "tue": 30,
+          "wed": 30,
+          "thu": 30,
+          "fri": 30,
+          "sat": 30
+        },
+        "weekly_minutes": 180,
+        "counted": true,
+        "subtasks": [
+          {
+            "name": "Create entire day schedule blocks"
+          },
+          {
+            "name": "Read / look into during thinking time (paper)"
+          },
+          {
+            "name": "Read / look into during thinking time (digital)"
+          }
+        ]
+      },
+      {
+        "id": "game-ideation",
+        "name": "Game Ideation",
+        "order": 7,
+        "category": "POW",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 30,
+        "per_day": {
+          "mon": 30,
+          "tue": 30,
+          "wed": 30,
+          "thu": 30,
+          "fri": 30,
+          "sat": 30
+        },
+        "weekly_minutes": 180,
+        "counted": true,
+        "notes": "Think of good Roblox game ideas. Why: good!"
+      },
+      {
+        "id": "cleaning",
+        "name": "Cleaning",
+        "order": 8,
+        "category": "POF",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 10,
+        "per_day": {
+          "mon": 10,
+          "tue": 10,
+          "wed": 10,
+          "thu": 10,
+          "fri": 10,
+          "sat": 10
+        },
+        "weekly_minutes": 60,
+        "counted": true,
+        "notes": "Make sure room's not too dirty. Wash a dish or two. Why: who wants a dirty workplace."
+      },
+      {
+        "id": "clean-dehumidifier",
+        "name": "Clean Dehumidifier",
+        "order": 9,
+        "category": "POF",
+        "days": [
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 10,
+        "per_day": {
+          "sat": 10
+        },
+        "weekly_minutes": 10,
+        "counted": true,
+        "subtasks": [
+          {
+            "name": "Spray down with spray bottle",
+            "notes": "Options: isopropyl alcohol (70-90%), hydrogen peroxide, or white vinegar (recommended)."
+          },
+          {
+            "name": "Let sit",
+            "notes": "10–15m."
+          },
+          {
+            "name": "Wash off with water"
+          },
+          {
+            "name": "Let dry off"
+          }
+        ]
+      },
+      {
+        "id": "go-gym",
+        "name": "Go Gym",
+        "order": 10,
+        "category": "POF",
+        "days": [
+          "tue",
+          "thu",
+          "fri"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 120,
+        "per_day": {
+          "tue": 120,
+          "thu": 120,
+          "fri": 120
+        },
+        "weekly_minutes": 360,
+        "counted": true,
+        "notes": "Good for mental health. 3-day workout cycle."
+      },
+      {
+        "id": "skate",
+        "name": "Skate",
+        "order": 11,
+        "category": "POF",
+        "days": [
+          "sun"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 60,
+        "per_day": {
+          "sun": 60
+        },
+        "weekly_minutes": 0,
+        "counted": true,
+        "notes": "1h of skating; travel time not included. Just show up kid. Start off once a week for now. Recommended on Sunday / free day."
+      },
+      {
+        "id": "skill-study",
+        "name": "Skill Study",
+        "order": 12,
+        "category": "POW",
+        "days": [
+          "tue",
+          "thu",
+          "fri"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 90,
+        "per_day": {
+          "tue": 90,
+          "thu": 90,
+          "fri": 90
+        },
+        "weekly_minutes": 270,
+        "counted": true,
+        "notes": "Being the best is a long-term effort investment.",
+        "subtasks": [
+          {
+            "name": "Roblox Trend Study"
+          },
+          {
+            "name": "Roblox Niche Study",
+            "notes": "Whatever genre/game niche you are currently deving for / working on."
+          },
+          {
+            "name": "Development (Coding) Trend Study",
+            "notes": "Basically just watch any AI dev videos / interviews / podcasts you been feeling like watching lately."
+          }
+        ]
+      },
+      {
+        "id": "work",
+        "name": "Work",
+        "order": 13,
+        "category": "POW",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "shape": "flex",
+        "is_flex": true,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": null,
+        "per_day": {
+          "mon": 300,
+          "tue": 210,
+          "wed": 300,
+          "thu": 210,
+          "fri": 210,
+          "sat": 240
+        },
+        "weekly_minutes": 1470,
+        "counted": true,
+        "notes": "Flex block: expands so daily POW hits the 8h target. Work schedule may differ depending on the day."
+      },
+      {
+        "id": "end-of-day-ritual",
+        "name": "End of Day Ritual",
+        "order": 14,
+        "category": "POW",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 60,
+        "per_day": {
+          "mon": 60,
+          "tue": 60,
+          "wed": 60,
+          "thu": 60,
+          "fri": 60,
+          "sat": 60
+        },
+        "weekly_minutes": 360,
+        "counted": true,
+        "subtasks": [
+          {
+            "name": "Dev forum checkup",
+            "duration_minutes": 15,
+            "notes": "Specifically the public resources. Why: they got some pretty powerful open-source / free stuff."
+          },
+          {
+            "name": "Read the daily AI reports",
+            "duration_minutes": 15,
+            "notes": "Underground, up-and-coming, AI trends, etc."
+          },
+          {
+            "name": "Work Review",
+            "duration_minutes": 30,
+            "notes": "Log wins (note, habit tracker, etc.); review tasks (finished, unfinished, delegated, backlogged); find bottlenecks (what slowed me down); extract lessons; clean up workspace/tabs, organize notes/files, write down loose thoughts for tomorrow. Why: better data for weekly synthesis."
+          }
+        ]
+      },
+      {
+        "id": "mobile-gaming",
+        "name": "Mobile Gaming",
+        "order": 15,
+        "category": "POW",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 30,
+        "per_day": {
+          "mon": 30,
+          "tue": 30,
+          "wed": 30,
+          "thu": 30,
+          "fri": 30,
+          "sat": 30
+        },
+        "weekly_minutes": 180,
+        "counted": true,
+        "notes": "Improve your understanding of the biggest user market slice. Keep up to date and gain inspiration with trending Roblox games.",
+        "subtasks": [
+          {
+            "name": "Play at least 1 new game every week"
+          }
+        ]
+      },
+      {
+        "id": "pc-gaming",
+        "name": "PC Gaming",
+        "order": 16,
+        "category": "POW",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 30,
+        "per_day": {
+          "mon": 30,
+          "tue": 30,
+          "wed": 30,
+          "thu": 30,
+          "fri": 30,
+          "sat": 30
+        },
+        "weekly_minutes": 180,
+        "counted": true,
+        "notes": "Keep up to date and gain inspiration with trending Roblox games.",
+        "subtasks": [
+          {
+            "name": "Play at least 1 new game every week"
+          }
+        ]
+      },
+      {
+        "id": "streaming-normal",
+        "name": "Streaming Normal (not fried)",
+        "order": 17,
+        "category": "POF",
+        "days": [
+          "mon",
+          "wed",
+          "sat"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 120,
+        "per_day": {
+          "mon": 120,
+          "wed": 120,
+          "sat": 120
+        },
+        "weekly_minutes": 360,
+        "counted": true,
+        "notes": "Don't start streaming until you have a monetized MVP for Whack Grass. It doesn't have to be a bunch of content, just a bare minimum template. This will generate some income which is what you need ASAP. Don't worry about it growing or dying as you work on development. Just create something and push for the long term — you know it will work out.",
+        "subtasks": [
+          {
+            "name": "Plan / prep / study",
+            "duration_minutes": 30,
+            "notes": "Spend 30m planning out, and/or studying, and getting ready for anything stream related."
+          },
+          {
+            "name": "Stream",
+            "duration_minutes": 90,
+            "notes": "Mask stream: make content, be engaging, conversate with people, practice conversational skills. Why: helps keep your conversational skills good, gives practice with being engaging, being an active listener, and a fun person to talk to."
+          }
+        ]
+      },
+      {
+        "id": "clip-farm",
+        "name": "Clip Farm",
+        "order": 18,
+        "category": "POF",
+        "days": [
+          "sun"
+        ],
+        "shape": "nr",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": true,
+        "conditional_max": null,
+        "duration_minutes": null,
+        "per_day": {
+          "sun": null
+        },
+        "weekly_minutes": 0,
+        "counted": false,
+        "notes": "NR. You don't gotta do this. Just lock in and make clips, and/or study content creation if you feel like it. Spend 2–3h max; however you can spend as much time as you feel. Recommended: split time into thirds — 1/3 studying content creation, 1/3 content creation for chill streams, 1/3 content creation for main streams. But honestly don't take it too seriously; if you wanna just only make content for a specific channel, do that. 0 scheduled minutes; comes out of Extra Personal Freetime if done."
+      },
+      {
+        "id": "extra-personal-freetime",
+        "name": "Extra Personal Freetime",
+        "order": 19,
+        "category": "POF",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ],
+        "shape": "flex",
+        "is_flex": true,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": null,
+        "per_day": {
+          "mon": 200,
+          "tue": 200,
+          "wed": 200,
+          "thu": 200,
+          "fri": 200,
+          "sat": 190,
+          "sun": 735
+        },
+        "weekly_minutes": 1190,
+        "counted": true,
+        "notes": "Flex block: expands so daily POF hits the 8h target (16h on the free day). Try to strive for 8h total POF per day, but at least 3–4h to yourself per day. 4.5h POF spent on schedule integrations; rest of 3.5h is your choosing."
+      },
+      {
+        "id": "sleep",
+        "name": "Sleep",
+        "order": 20,
+        "category": "Sleep",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ],
+        "shape": "plain",
+        "is_flex": false,
+        "is_conditional": false,
+        "is_nr": false,
+        "conditional_max": null,
+        "duration_minutes": 480,
+        "per_day": {
+          "mon": 480,
+          "tue": 480,
+          "wed": 480,
+          "thu": 480,
+          "fri": 480,
+          "sat": 480,
+          "sun": 480
+        },
+        "weekly_minutes": 2880,
+        "counted": true,
+        "notes": "Sleep 8 hours or so everyday. This may be reduced because I don't think I actually personally need 8 hours everyday, but this is a good baseline target for now."
+      }
+    ]
+  }
+}

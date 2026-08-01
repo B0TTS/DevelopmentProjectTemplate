@@ -1,0 +1,44 @@
+{
+  "topic": "Skill for creating and updating weekly schedule guides from schedule architecture docs",
+  "initialPrompt": "Basically what I want to create is a skill for creating and updating weekly schedule guides (like:\n  C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\Notes\\weekly-scheduleV5.md) using md documents like\n  C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\Notes\\Schedule Architecture V4.1.md\n\n  This is because over time I will make/edit schedule architecture docs, and I wanna make the process for creating the schedule guides\n  more seamless. One thing I wanna work on is what to call the actual guides. Idk if guide is the rigth word for the documents, but yeah.\n  (Activate your karpathy and write a skill skills)",
+  "startedAt": "2026-07-31T17:57:08.331Z",
+  "qAndA": [
+    {
+      "question": "Self-Resolved Decision 1: Skill Structure & Frontmatter — The skill will be named `create-weekly-schedule`, authored per the `agentskills.io` standard with progressive disclosure and Karpathy guidelines.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T17:57:34.405Z"
+    },
+    {
+      "question": "Self-Resolved Decision 2: 13-Table Format Standard — The skill will enforce the exact 13-table canonical breakdown established in `weekly-scheduleV5.md` (Master Summary, 7 Per-Day tables, POW/POF/Sleep breakdowns, Task Matrix, Ranked hours, Insights).",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T17:57:34.580Z"
+    },
+    {
+      "question": "Self-Resolved Decision 3: Math & Re-balancing Engine — The skill will implement explicit mathematical rules for Mon–Sat (8h POW + 8h POF + 8h Sleep = 24h) and Sunday Freeday handling, automatically calculating Work (flex) and Extra Personal Freetime (flex) blocks to guarantee exact 24h daily balance.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T17:57:34.716Z"
+    },
+    {
+      "question": "Self-Resolved Decision 4: Math Verification Loop — Per Karpathy & write-a-skill-v2 guidelines, the skill will enforce a strict internal verification pass checking table totals against raw input before outputting the final file.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-07-31T17:57:34.828Z"
+    },
+    {
+      "question": "Question 1: What terminology should be used for the input architecture documents and output schedule guide documents?",
+      "answer": "lets call the architecture docs/input: specs, and the output: sheets.",
+      "timestamp": "2026-07-31T17:59:24.033Z"
+    },
+    {
+      "question": "Question 2: How should output Schedule Sheets be named and saved relative to input Schedule Specs?",
+      "answer": "sheets should match spec version yeah.",
+      "timestamp": "2026-07-31T18:00:23.753Z"
+    },
+    {
+      "question": "Question 3: How should the skill handle ambiguities or math discrepancies in a Schedule Spec during generation?",
+      "answer": "b (Interactive Clarification First — Pause execution and ask targeted clarifying questions before writing the Sheet)",
+      "timestamp": "2026-07-31T18:04:10.099Z"
+    }
+  ],
+  "status": "complete",
+  "summary": "Designed a new Agent Skill (`build-schedule-sheet`) for seamlessly generating and updating 13-table Weekly Schedule Sheets from Schedule Specs (architecture documents). Key Decisions: 1. Terminology: Input files are Specs; output files are Sheets. 2. Versioning: Sheet filenames match their source Spec version (e.g., weekly-schedule-sheet-V4.1.md). 3. Output Structure: Enforces the canonical 13-table breakdown proven in V5. 4. Workflow: Interactive clarification loop first, followed by math verification and file creation."
+}
