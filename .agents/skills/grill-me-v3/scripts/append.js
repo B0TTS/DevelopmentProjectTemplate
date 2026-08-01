@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 "use strict";
-// grill-me-v2 transcript helper.
+// grill-me-v3 transcript helper.
 //
 // Keeps the read-modify-write of the growing qAndA array OUT of the agent's
-// context. The agent never re-reads the transcript to append; it just runs
-// this script and sees a one-line confirmation. Node-only, no jq required.
+// context. User questions are logged before they are displayed, so the agent
+// never has to reconstruct a question after receiving the answer. Node-only,
+// no jq required.
 //
-//   GRILL_QUESTION="..." GRILL_ANSWER="..." node append.js append <session.json>
+//   GRILL_QUESTION="..." node append.js ask <session.json>
+//   GRILL_ANSWER="..." node append.js answer <session.json>
+//   GRILL_QUESTION="..." node append.js decision <session.json>
 //   node append.js close  <session.json> --summary "approved summary text"
 //   node append.js remove <session.json> --entry N [--yes]
 //   node append.js state  <session.json>
@@ -17,9 +20,11 @@ const [action, targetPath] = process.argv.slice(2);
 
 function usage() {
   process.stderr.write(
-    `grill-me-v2 transcript helper
+    `grill-me-v3 transcript helper
 usage:
-  GRILL_QUESTION="..." GRILL_ANSWER="..." node append.js append <session.json>
+  GRILL_QUESTION="..." node append.js ask <session.json>
+  GRILL_ANSWER="..." node append.js answer <session.json>
+  GRILL_QUESTION="..." node append.js decision <session.json>
   node append.js close  <session.json> --summary "approved summary text"
   node append.js remove <session.json> --entry N [--yes]
   node append.js state  <session.json>
@@ -55,26 +60,82 @@ async function save(p, data) {
 
 if (!action || !targetPath) usage();
 
+function requireActive(data, operation) {
+  if (data.status !== "active") {
+    die(
+      `Refusing to ${operation}: session status is "${data.status}", not "active". ` +
+        `Reopen or start a new session.`
+    );
+  }
+}
+
+function ensureEntries(data) {
+  if (!Array.isArray(data.qAndA)) data.qAndA = [];
+  return data.qAndA;
+}
+
 (async () => {
-  if (action === "append") {
+  if (action === "ask") {
     const question = process.env.GRILL_QUESTION;
-    const answer = process.env.GRILL_ANSWER;
-    if (question == null || answer == null) {
-      die("Set GRILL_QUESTION and GRILL_ANSWER env vars before running append.");
+    if (question == null || question.length === 0) {
+      die("Set GRILL_QUESTION to the complete question before running ask.");
     }
     const data = await load(targetPath);
-    if (data.status !== "active") {
-      die(
-        `Refusing to append: session status is "${data.status}", not "active". ` +
-          `Reopen or start a new session.`
-      );
+    requireActive(data, "log a question");
+    const entries = ensureEntries(data);
+    const pending = entries.findIndex((entry) => entry.answer === null);
+    if (pending !== -1) {
+      die(`Refusing to log a question: entry #${pending + 1} is still awaiting an answer.`);
     }
-    if (!Array.isArray(data.qAndA)) data.qAndA = [];
-    data.qAndA.push({ question, answer, timestamp: nowIso() });
+    entries.push({ question, answer: null, timestamp: nowIso() });
     await save(targetPath, data);
     process.stdout.write(
-      `Appended entry #${data.qAndA.length} to ${targetPath}\n`
+      `Logged question #${entries.length} to ${targetPath}. Ask the user using the exact GRILL_QUESTION text; do not paraphrase it.\n`
     );
+  } else if (action === "answer") {
+    const answer = process.env.GRILL_ANSWER;
+    if (answer == null) {
+      die("Set GRILL_ANSWER to the user's complete, verbatim response before running answer.");
+    }
+    const data = await load(targetPath);
+    requireActive(data, "record an answer");
+    const entries = ensureEntries(data);
+    const pending = entries
+      .map((entry, index) => (entry.answer === null ? index : -1))
+      .filter((index) => index !== -1);
+    if (pending.length === 0) {
+      die("Refusing to record an answer: no question is awaiting an answer.");
+    }
+    if (pending.length > 1) {
+      die(`Refusing to record an answer: ${pending.length} questions are awaiting answers.`);
+    }
+    const index = pending[0];
+    entries[index].answer = answer;
+    entries[index].answeredAt = nowIso();
+    await save(targetPath, data);
+    process.stdout.write(`Recorded answer for question #${index + 1} in ${targetPath}.\n`);
+  } else if (action === "decision" || action === "append") {
+    const question = process.env.GRILL_QUESTION;
+    const answer =
+      action === "decision"
+        ? "(self-resolved — user may veto)"
+        : process.env.GRILL_ANSWER;
+    if (question == null || answer !== "(self-resolved — user may veto)") {
+      die(
+        `${action} is only for self-resolved decisions. ` +
+          `Use ask before a user question, then answer after the user responds.`
+      );
+    }
+    const data = await load(targetPath);
+    requireActive(data, "record a decision");
+    const entries = ensureEntries(data);
+    const pending = entries.findIndex((entry) => entry.answer === null);
+    if (pending !== -1) {
+      die(`Refusing to record a decision: entry #${pending + 1} is still awaiting an answer.`);
+    }
+    entries.push({ question, answer, timestamp: nowIso() });
+    await save(targetPath, data);
+    process.stdout.write(`Recorded self-resolved decision #${entries.length} in ${targetPath}.\n`);
   } else if (action === "close") {
     const i = process.argv.indexOf("--summary");
     if (i === -1 || !process.argv[i + 1]) {
@@ -83,6 +144,10 @@ if (!action || !targetPath) usage();
     const summary = process.argv[i + 1];
     const data = await load(targetPath);
     if (data.status === "complete") die("Session is already complete.");
+    const pending = ensureEntries(data).findIndex((entry) => entry.answer === null);
+    if (pending !== -1) {
+      die(`Refusing to close: entry #${pending + 1} is still awaiting an answer.`);
+    }
     data.status = "complete";
     data.summary = summary;
     await save(targetPath, data);
