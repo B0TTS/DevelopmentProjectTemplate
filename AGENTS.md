@@ -25,7 +25,7 @@ Reference documents for configured services and systems (VPS, Docker, Minecraft,
 
 ### Handoffs
 
-Handoff documents are saved to `b0ttsagent/handoffs/<MM-DD-YYYY>/` (date-based folders).
+Handoff documents are saved to `b0ttsagent/handoffs/<MM-DD-YYYY>/` (date-based folders). Handoff documents are just md documents made from previous sessions via the /handoff skill. Nothing too important here unless explicitly said/referenced by the user.
 
 ### Session Logs
 
@@ -37,6 +37,11 @@ Handoff documents are saved to `b0ttsagent/handoffs/<MM-DD-YYYY>/` (date-based f
 ### Scratchpads
 
 `/closev2` (Branches 1–4) writes one scratchpad per branch per session to `b0ttsagent/scratchpads/<MM-DD-YYYY>/<HHMM>_<session-name>_scratchpad-<branch>.md` — `<branch>` is `memory`, `skills`, `improvements`, or `tips`. Each holds that branch's extraction plus a `## Gleaning Pass` section, feeding the branch's proposal loop. (working files for the close flow, not reference docs)
+
+### Depricated
+
+`b0ttsagent/depricated`
+This is mainly useless stuff that I store for tracking adjustments/evolution of things tied to the codebase. Nothing in here will ever really be useful unless stated expclicitly by the user. This is where most phased out useless stuff goes. nav guides, skills, notes, etc. Things tied to the project infrastructure.
 
 ### Planning
 
