@@ -23,8 +23,9 @@ Closing the session log ends this skill's job. It is not authorization to build,
 | `startedAt` | string (ISO 8601) | When the log was created |
 | `qAndA` | array | Raw transcript — one entry per exchange or self-resolved decision — appended immediately |
 | `qAndA[].question` | string | Agent's question, verbatim — or the stated decision for self-resolved entries |
-| `qAndA[].answer` | string | User's answer, verbatim — or `(self-resolved — user may veto)` for self-resolved entries |
-| `qAndA[].timestamp` | string (ISO 8601) | When the exchange was logged |
+| `qAndA[].answer` | string \| `null` | User's answer, verbatim; `null` while a logged question is awaiting its answer; or `(self-resolved — user may veto)` for self-resolved entries |
+| `qAndA[].timestamp` | string (ISO 8601) | When the question or self-resolved decision was logged |
+| `qAndA[].answeredAt` | string (ISO 8601), optional | When a logged question received its answer |
 | `status` | `"active"` \| `"complete"` | `active` while grilling or paused; `complete` once closed |
 | `summary` | string \| `null` | Agent-drafted, user-approved closing summary; `null` until written |
 
@@ -34,7 +35,10 @@ All transcript writes go through the script at `scripts/append.js` (resolve it t
 
 | Subcommand | Purpose |
 |---|---|
-| `append` | Reads `GRILL_QUESTION` + `GRILL_ANSWER` env vars, timestamps the exchange, pushes one verbatim entry into `qAndA[]`, rewrites the file. Refuses if `status` is not `"active"`. |
+| `ask` | Reads `GRILL_QUESTION`, timestamps the question, and pushes `{ question, answer: null }` into `qAndA[]` before the question is shown to the user. Refuses if another question is awaiting an answer. |
+| `answer` | Reads `GRILL_ANSWER`, fills the one pending entry's `answer`, and records `answeredAt`. Refuses if no question is awaiting an answer. |
+| `decision` | Reads `GRILL_QUESTION` and appends a completed self-resolved entry using the standard placeholder answer. |
+| `append` | Backward-compatible alias for `decision`; it only accepts self-resolved decisions. |
 | `remove` | Deletes one `qAndA` entry by 1-based `#N` (the same `#N` the `append` confirmation prints). Without `--yes`, prints the entry as a preview and exits without deleting — the agent must show this preview to the user, get confirmation, then re-run with `--yes`. Works on `active` and `complete` sessions. |
 | `close` | Sets `status: "complete"` and `summary` from `--summary "<approved text>"`. |
 | `state` | Prints meta only: `topic`, `startedAt`, `status`, entry count, `summary`. Use for a quick look without loading the transcript. |
@@ -42,11 +46,29 @@ All transcript writes go through the script at `scripts/append.js` (resolve it t
 Invocation shape:
 
 ```bash
-GRILL_QUESTION="<full question>" GRILL_ANSWER="<full answer>" \
-  node <skill-dir>/scripts/append.js append "<session-path>"
+GRILL_QUESTION="<full question>" \
+  node <skill-dir>/scripts/append.js ask "<session-path>"
 ```
 
-**Set `GRILL_ANSWER` to the user's exact words — word-for-word, never summarized.** Copy the answer character-for-character: every word, every typo, and the full multi-paragraph answer — nothing trimmed, cleaned, or rephrased. Quote the value so line breaks and special characters survive the shell intact. The only acceptable non-verbatim value is a **self-resolved** decision, where there is no user answer to record and you pass the literal placeholder `(self-resolved — user may veto)` — being self-resolved means *you* resolved the branch yourself, never a license to paraphrase a real user answer.
+Before asking a user question, log it with `ask`. The question written by `ask` is the canonical question: display that exact text to the user without shortening or paraphrasing. Never ask a question first and log it afterward. Make your questions look nice to read before showing them to the user though, add formatting, make your user facing questions look nice.
+
+After the user answers, record the answer with:
+
+```bash
+GRILL_ANSWER="<full answer>" \
+  node <skill-dir>/scripts/append.js answer "<session-path>"
+```
+
+**Set `GRILL_ANSWER` to the user's exact words — word-for-word, never summarized.** Copy the answer character-for-character: every word, every typo, and the full multi-paragraph answer — nothing trimmed, cleaned, or rephrased. Quote the value so line breaks and special characters survive the shell intact.
+
+For a self-resolved decision, state the decision first, then record it with:
+
+```bash
+GRILL_QUESTION="<stated decision>" \
+  node <skill-dir>/scripts/append.js decision "<session-path>"
+```
+
+The `decision` command supplies the literal answer `(self-resolved — user may veto)` automatically.
 
 ```bash
 # Preview only (no --yes): prints the entry, does not delete
@@ -99,7 +121,9 @@ If a question can be answered by exploring the codebase, explore the codebase in
 
 If a user's answer contradicts an earlier self-resolved decision, flag the conflict and revise the decision explicitly; log the revision as a new self-resolved entry. Never let a stated decision silently stand after an answer invalidates it.
 
-Immediately after each answer is given, append the exchange to `qAndA` by running the append helper script. Do NOT `read` the session file and rewrite it yourself — reading the growing transcript back into context every turn is pure bloat, since the chat already holds every exchange. The script's read-modify-write stays out of your context; only its one-line confirmation enters it. Pass the user's answer into `GRILL_ANSWER` word-for-word per the **Append helper** verbatim rule — never summarize it, and reserve the self-resolved placeholder for branches you resolved yourself.
+Before each user question, run the helper's `ask` command with the complete question, then display that exact question to the user. Do not ask first and log later. The write-ahead question entry prevents the agent from reconstructing or summarizing the question after the answer arrives.
+
+Immediately after each user answer is given, run the helper's `answer` command. Do NOT `read` the session file and rewrite it yourself — reading the growing transcript back into context every turn is pure bloat, since the chat already holds every exchange. The script's read-modify-write stays out of your context; only its one-line confirmation enters it. Pass the user's answer into `GRILL_ANSWER` word-for-word per the verbatim rule — never summarize it. The pending entry already contains the exact question, so never provide a replacement question when recording the answer.
 
 ### 4. Detect the end
 
@@ -157,5 +181,5 @@ Removal is allowed on both `active` and `complete` sessions — correcting the h
 - **Filename collision** → suffix `-2`, `-3`, etc. Never overwrite, never rename.
 - **Closing preference** → the three exits live in step 4 and are asked once. Never re-ask "ready to handoff?" at any later point — step 4 is the only closing question.
 - **Session abandoned mid-grill** → file stays `active`; the partial transcript is the resume point.
-- **Resuming a session** → if the user points at an existing `active` grill-session file, `read` it in full once to rebuild your footing (you have no chat history of the prior exchanges), then continue append-only via the helper script. Do not re-read it on every later turn — after that first footing read, only append.
+- **Resuming a session** → if the user points at an existing `active` grill-session file, `read` it in full once to rebuild your footing (you have no chat history of the prior exchanges), then continue through the helper script. If the final entry has `answer: null`, that question is still awaiting the user's answer; do not ask another question. After that first footing read, do not re-read the transcript on every later turn.
 - **Deleting renumbers later entries** → after `remove --entry N --yes`, every entry after `#N` shifts down by one. The next removal's `#N` may differ — always preview by content, not by number.

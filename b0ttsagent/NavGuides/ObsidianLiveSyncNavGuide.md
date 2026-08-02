@@ -4,7 +4,7 @@ topics: [obsidian, livesync, couchdb, sync, vault, tailscale-serve, e2e-encrypti
 description: "Reference for the Obsidian Self-hosted LiveSync deployment — CouchDB on the VPS with E2E-encrypted sync across devices"
 ---
 
-# Obsidian LiveSync Navigation Guide V1.0
+# Obsidian LiveSync Navigation Guide V1.1
 
 ## Overview
 
@@ -16,14 +16,30 @@ description: "Reference for the Obsidian Self-hosted LiveSync deployment — Cou
 | Public exposure | None — Tailscale Serve HTTPS only |
 | Sync endpoint | `https://vmi3326176.tailf94009.ts.net:3001` |
 | Tailscale Serve port | `3001` |
-| Database | `obsidian-vault` |
+| Databases | `obsidian-vault` (Game Design Docs), `obsidian-main-personal` (Main Personal) |
 | Encryption | E2E ON (256-bit AES-GCM) + path obfuscation |
 | Sync mode | LiveSync (real-time bidirectional) |
-| Devices configured | Laptop (first/push), Phone (pull) |
-| Devices pending | PC (backlogged) |
-| Docs on CouchDB | 110 (encrypted) |
+| Devices configured | b0tts-laptop, b0tts-pc, Phone |
 
 > VPS access, Docker conventions, Tailscale Serve basics, and tailnet ACLs are documented in `VpsNavGuide.md`. This guide covers only the Obsidian LiveSync specifics.
+
+## Databases
+
+Each Obsidian vault maps to its own CouchDB database. Do NOT point two vaults at the same database — their contents would merge and conflict.
+
+| Database | Vault | First device | Doc count |
+|---|---|---|---|
+| `obsidian-vault` | Game Design Docs | b0tts-laptop | ~110 |
+| `obsidian-main-personal` | Main Personal | b0tts-pc | — |
+
+### Creating additional databases
+
+```bash
+source <(sudo cat /home/couchdb/.env) && curl -s -X PUT -u "${COUCHDB_USER}:${COUCHDB_PASSWORD}" http://localhost:5984/<database-name>
+# Expected: {"ok":true}
+```
+
+> The LiveSync Minimal Setup wizard also creates the database automatically on the first device. Creating it manually beforehand is optional but gives you control over the name.
 
 ## CouchDB
 
@@ -62,11 +78,12 @@ sudo docker logs couchdb -f
 cd /home/couchdb && sudo docker compose pull && sudo docker compose up -d
 ```
 
-### Checking the database
+### Checking the databases
 
 ```bash
 # DB metadata (doc_count, sizes) — does NOT show note contents (E2E encrypted)
 source <(sudo cat /home/couchdb/.env) && curl -s -u "${COUCHDB_USER}:${COUCHDB_PASSWORD}" http://localhost:5984/obsidian-vault | python3 -m json.tool | head -15
+source <(sudo cat /home/couchdb/.env) && curl -s -u "${COUCHDB_USER}:${COUCHDB_PASSWORD}" http://localhost:5984/obsidian-main-personal | python3 -m json.tool | head -15
 
 # List all databases
 source <(sudo cat /home/couchdb/.env) && curl -s -u "${COUCHDB_USER}:${COUCHDB_PASSWORD}" http://localhost:5984/_all_dbs
@@ -92,7 +109,7 @@ curl http://localhost:5984
 
 > `cors/origins` must include `app://obsidian.md` (desktop), `capacitor://localhost` (mobile), and `http://localhost` (dev). Obsidian's web requests get blocked without CORS configured for these exact origins. CouchDB handles CORS itself — do NOT process CORS on any reverse proxy in front of it.
 
-> `couchdb-init.sh` does NOT create the database — the LiveSync plugin creates `obsidian-vault` during the Minimal Setup wizard on the first device.
+> `couchdb-init.sh` does NOT create any databases — the LiveSync plugin creates each database during the Minimal Setup wizard on the first device of each vault.
 
 ## Tailscale Serve
 
@@ -123,7 +140,7 @@ The Self-hosted LiveSync community plugin (by **vrtmrz**) runs inside each Obsid
 |---|---|---|
 | Remote type | CouchDB | — |
 | URI | `https://vmi3326176.tailf94009.ts.net:3001` | Tailscale Serve endpoint |
-| Database name | `obsidian-vault` | — |
+| Database name | vault-specific (`obsidian-vault` or `obsidian-main-personal`) | One database per vault |
 | Username | `admin` | From `/home/couchdb/.env` |
 | End-to-End Encryption | ON (256-bit AES-GCM) | Vault is sensitive |
 | Path Obfuscation | ON | Encrypts filenames on server |
@@ -155,15 +172,18 @@ The Minimal Setup wizard runs 3 checks. Fix each:
 
 ## Devices
 
-| Device | Role | Vault path | Status |
-|---|---|---|---|
-| Laptop (Windows) | First device (push) | `C:\Development\GameProjects\Whack Grass\Game Design Docs` | ✅ Configured, 110 docs pushed |
-| Phone | Subsequent (pull) | (local container) | ✅ Self-configured via setup URI, two-way verified |
-| PC (Windows) | Subsequent (pull) | (TBD) | ⏳ Backlogged — same flow as phone |
+| Device | Vault | Role | Path | Status |
+|---|---|---|---|---|
+| b0tts-laptop (Windows) | Game Design Docs | First device | `C:\Development\GameProjects\Whack Grass\Game Design Docs` | ✅ Configured |
+| Phone | Game Design Docs | Subsequent | (local container) | ✅ Via setup URI |
+| b0tts-pc (Windows) | Game Design Docs | Subsequent | (TBD) | ✅ Via setup URI |
+| b0tts-pc (Windows) | Main Personal | First device | `C:\Obsidian\Main Personal\Personal` | ✅ Configured |
 
-> Vault path changed during setup: was `...\Planning Docs`, now `...\Game Design Docs`. Subfolder renamed from `Whack Grass` to `Main`.
+> Each device can sync multiple vaults — each vault appears as a separate plugin instance with its own database. A single CouchDB server hosts all databases.
 
-> The vault is NOT in git and is sensitive. Do not read vault contents; only check existence / `.obsidian` presence.
+> Vault path for Game Design Docs changed during original setup: was `...\Planning Docs`, now `...\Game Design Docs`. Subfolder renamed from `Whack Grass` to `Main`.
+
+> Vaults are NOT in git and are sensitive. Do not read vault contents; only check existence / `.obsidian` presence.
 
 ## Setup URI (adding subsequent devices)
 
@@ -183,6 +203,15 @@ Save the URI + its passphrase OUTSIDE Obsidian (e.g., password manager secure no
 2. Command palette → **"Use the copied setup URI"** → paste URI → enter setup URI passphrase.
 3. Answer **"Set it up as secondary or subsequent device"**.
 4. Fast Setup runs → initial pull → sync begins.
+
+## Vaults
+
+| Vault | Database | Path (b0tts-laptop) | Path (b0tts-pc) |
+|---|---|---|---|
+| Game Design Docs | `obsidian-vault` | `C:\Development\GameProjects\Whack Grass\Game Design Docs` | (TBD) |
+| Main Personal | `obsidian-main-personal` | (not configured) | `C:\Obsidian\Main Personal\Personal` |
+
+> Each vault has its own setup URI and E2E passphrase. They are independent — one vault's sync has no effect on the other.
 
 ## Credentials
 
