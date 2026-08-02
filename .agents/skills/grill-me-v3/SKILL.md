@@ -50,7 +50,7 @@ GRILL_QUESTION="<full question>" \
   node <skill-dir>/scripts/append.js ask "<session-path>"
 ```
 
-Before asking a user question, log it with `ask`. The question written by `ask` is the canonical question: display that exact text to the user without shortening, paraphrasing, or reconstructing it later. Never ask a question first and log it afterward.
+Before asking a user question, log it with `ask`. The question written by `ask` is the canonical question: display that exact text to the user without shortening or paraphrasing. Never ask a question first and log it afterward. Make your questions look nice to read before showing them to the user though, add formatting, make your user facing questions look nice.
 
 After the user answers, record the answer with:
 
