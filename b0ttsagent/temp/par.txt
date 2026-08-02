@@ -1,0 +1,2128 @@
+                             Selective Service System
+
+                                                          Acting Director
+                                                          Ernest E. Garcia
+
+                                                     Financial Management
+                                                            Carlo Verdino
+                                                             Comptroller
+
+November 2009
+
+This report is in the public domain. Authorization to reproduce it in whole or in part is granted.
+While permission to reprint this publication is not necessary, the citation should be: National
+Headquarters, Selective Service System FY 2009 Performance and Accountability Report,
+Arlington, Virginia 22209-2425.
+
+To obtain copies of this report:
+
+Write to:
+    Selective Service System
+    National Headquarters
+    Arlington, VA 22209-2425
+
+Telephone:
+    703-605-4020
+
+Fax:
+    703-605-4030
+
+Email:
+    fm-budget@sss.gov
+
+Web:
+    http://www.sss.gov/public.htm
+Message from the Acting Director
+
+The Selective Service System (SSS) recognizes the
+importance of public disclosure and accountability.
+This report is a demonstration of our commitment to
+fulfill our statutory and fiduciary responsibilities to the
+American taxpayer.
+
+SSS seeks to document staff responsibility and ac-
+countability through implementation of its family
+of plans: the FY 2009 Performance Budget, the FY
+2006-2011 Strategic Plan, and this Performance and
+Accountability Report (PAR). The Agency systemati-
+cally reviewed and assessed program performance
+and together with financial management systems, to
+guarantee that organizational stewardship is in ac-
+cordance with the Government Performance and Ac-
+countability Act, the Government Management and
+Reform Act, and the Federal Managers' Financial In-
+tegrity Act.
+
+Again in 2009, I am pleased to report a second un-           number of federal websites came under heavy attack
+qualified financial audit opinion. The independent au-       and were taken down. While these attacks resulted
+dit disclosed no material weaknesses during the FY           in a multiple interruptions of service for those sites,
+2009 audit, any non-material weaknesses were cor-            the SSS sites weathered the storm well and remained
+rected as discovered.                                        fully operational. FY 2010 will see additional improve-
+                                                             ments to Agency's IT systems and the security sys-
+A 2009 independent audit determined that SSS' IT             tems that are planned to be implemented.
+security program made numerous improvements from
+the previous year in the sections that they audited.         The financial statements contained herein fairly pres-
+There is additional work that remains before SSS is in       ent the Agency's financial position and were prepared
+full compliance with the Federal Information Security        in accordance with generally accepted accounting
+Management Act (FISMA). Of major importance is the           principles and in accordance with Office of Manage-
+Registrant Compliance and Verification (RCV) project         ment and Budget (OMB) Circular A-136, Financial
+which will replace the outdated and non compliant            Reporting Requirements, Revised June 10, 2009.
+mainframe system in use since the 1980's. One of the
+key facets of this project is that the vendor will bring     
+our primary registration system into full compliance         Ernest E. Garcia
+with all federally mandated security requirements and        Executive Director
+once completed the Agency will have a service orient-
+ed and modernized system that brings its registrant
+management system into the 21st century.
+
+The Agency continues to intercept hundreds of thou-
+sands of Internet-based attacks against our network
+on a monthly basis. This past July 4th holiday, a large
+Table of Contents
+
+Management's Discussion and Analysis
+Agency at a Glance................................................................................................................................ 1
+Mission................................................................................................................................................... 1
+History.................................................................................................................................................... 1
+Organization........................................................................................................................................... 2
+Performance Highlights.......................................................................................................................... 3
+Goals Overview...................................................................................................................................... 3
+Strategic Planning and Reporting........................................................................................................... 4
+Planning and Funding Challenges.......................................................................................................... 5
+Financial Highlights................................................................................................................................ 6
+Financial Position................................................................................................................................... 6
+Balance Sheet........................................................................................................................................ 6
+Statement of Net Cost............................................................................................................................ 7
+Statement of Budgetary Resources....................................................................................................... 7
+Financial Management........................................................................................................................... 7
+Director's Integrity Act Assurance Statement for Fiscal Year 2009......................................................... 8
+Management Controls............................................................................................................................ 9
+Federal Managers' Financial Integrity Act Report on Management Control........................................... 9
+President's Management Agenda........................................................................................................ 13
+
+Performance Details
+Program Evaluation.............................................................................................................................. 14
+Evaluations Conducted During FY 2009.............................................................................................. 14
+FY 2009 Performance........................................................................................................................... 15
+Strategic Goal 1 Ensure preparedness and the capacity to provide timely manpower
+to the DoD during a national emergency.............................................................................................. 15
+Strategic Goal 2 Ensure management excellence............................................................................. 18
+
+Financial Details
+Message from the Comptroller............................................................................................................. 23
+
+Financial Statements
+Report of Independent Auditors........................................................................................................... 40
+
+Appendix
+FY 2009 Performance Chart................................................................................................................. 49
+
+Glossary
+Glossary of Abbreviations and Acronyms............................................................................................. 51
+HOW TO USE THIS REPORT
+
+This PAR contains the SSS's performance goals, measures, results, and accounting activities for FY
+2009. The SSS's assessment of performance is a comparison of actual performance to the annual goals
+contained in the Agency's FY 2009 Performance Budget.
+
+The report has five parts:
+
+Management's Discussion and Analysis
+         This section contains our Agency's Mission, History, Organizational Structure, Performance
+         Highlights, Financial Highlights, Management Control, and the President's Management Agenda.
+
+Performance Details
+         This section contains detailed performance information for FY 2009. It contains our annual 
+         performance goal, actual performance, discussion, impacts, planned action/schedule, and
+         verifica tions and validations.
+
+Financial Details
+         This section contains details about our financial performance for FY 2009. It includes our
+         audited financial statements, notes, and reports from the independent auditing firm of Leon
+         Snead & Company, P. C.
+
+Appendix
+         This section contains a chart presenting five years of Agency performance results data for FY
+         2005 thru FY 2009 and the Performance Targets for FY 2010.
+
+Glossary
+   Agency at a Glance
+
+   Mission                                                      employers and tracks their fulfillment of a two-year
+                                                                service requirement.
+   The SSS's missions, defined in the Military Selective
+   Service Act (MSSA) (50 U.S.C., app 451 et seq)               As the Agency embraces its traditional missions, it
+   are to remain prepared to provide personnel to the           focuses on the future. The SSS leadership understands
+   Department of Defense (DoD) in the event of a national       that events both national and international will require
+   emergency, and to provide an Alternative Service             fresh perspectives and a clear recognition of changing
+   Program for those from the manpower pool who seek            realities in this new century. Therefore, it stands ready
+   and are granted conscientious objector status.               to respond to future events with a level of readiness
+                                                                determined by limited resources.
+   Although only the registration function is publicly
+   visible in peacetime, components of our mission              History
+   greatly increase timeliness, fairness, and equity in
+   the event of an actual mobilization. The higher the          For more than 60 years, the SSS and the registration
+   registration rate, the more fair and equitable any future    requirement for America's young men have served
+   draft will be for each registrant. The Agency works          as a backup system to provide manpower to the U.S.
+   through its registration and compliance programs to          Armed Forces during times of national crisis.
+   (1) register all eligible men; (2) identify non-registrants
+   and remind them of their obligation to register; and, (3)    President Franklin Roosevelt signed into law the
+   inform young men that they need to register to remain        Selective Training and Service Act of 1940 that
+   eligible for numerous Federal and state benefits which       created the country's first peacetime draft and
+   include student financial aid, job training, government      formally established the SSS as an independent
+   employment, and U.S. citizenship for male immigrants.        Federal agency. From 1948 until 1973, during both
+                                                                peacetime and periods of conflict, men were drafted
+   Many states and U.S. territories reinforce the               to fill vacancies in the Armed Forces that could not be
+   registration requirement by implementing laws that           filled through voluntary means.
+   require or allow men to register with the Selective
+   Service for job training, employment and/or student          In 1973, the draft ended and the U.S. converted to
+   financial aid, as well as when they apply for a state        an all-volunteer military. The registration requirement
+   driver's license or identification card. Increasing          was suspended in April 1975; then resumed in 1980
+   the percentage of electronic registrations (through          by President Carter in response to both the Soviet
+   sources such as driver's license legislation, Internet       Union's invasion of Afghanistan and the results of
+   and telephone) reduces the cost per registration and         various DoD readiness exercises. The exercises
+   advances the efficiency of the overall registration          indicated that, without a peacetime registration
+   process. Although no requirement currently exists            program, it would take too long to provide personnel
+   to register anyone other than 18- through 25-year-           for an expanded military. Registration has continued
+   old men, our systems are designed to accommodate             uninterrupted since that time.
+   potential future registration requirements.
+                                                                Our Nation's all-volunteer military forces have
+   Another aspect of the SSS's mission is to mobilize,          worldwide commitments. Maintaining the SSS and
+   if authorized by the Congress and directed by the            draft registration provides a hedge against unforeseen
+   President. In the event of a mobilization, SSS will          threats and a relatively low cost "insurance policy"
+   hold a national draft lottery, contact those registrants     against underestimating the maximum level of threat
+   selected via the lottery, and arrange for their              we expect the U.S. Armed Forces to face. As fewer
+   transportation to a Military Entrance Processing             and fewer members of society have direct military
+   Station (MEPS). This procedure would be followed             experience, it is increasingly important to maintain the
+   for a mobilization of untrained personnel.                   link between the All-Volunteer Force and our society-
+                                                                at-large. The Armed Forces also must know that the
+   Once notified of the results of their evaluation at the      general population stands behind them, committed to
+   MEPS, a registrant may choose to file a claim for            serve, should the preservation of our national security
+   exemption, postponement, or deferment. If a claimant         so require.
+   is re-classified as a conscientious objector (CO), he
+   has a requirement to serve in a non-military capacity        The SSS faces the same challenge confronting
+   for two years. The SSS places these workers into the         numerous defense and quasi-defense agencies ­
+   SSS's Alternative Service Program with non-military          that of striking a balance between current budgetary
+
+1
+constraints and being adequately prepared for future      The largest component of the Agency's workforce is
+contingencies. To accommodate the uncertainty of          the 9300 uncompensated civilian men and women
+the future, we must build flexibility into our programs,  who serve as volunteer Local, District, and National
+systems, and mobilization scenarios. To satisfy           Appeal Board Members. In a mobilization, these
+budgetary constraints, the Agency has utilized its        citizen volunteers will decide the classification status
+resources as efficiently and effectively as possible.     of men seeking exception or deferments, based on
+                                                          conscientious objection, hardship to dependents, or
+Organization                                              their status as ministers or ministerial students.
+
+The SSS is comprised of a diverse composition             In addition to those private citizens who support
+of career employees, part-time military personnel,        our peacetime mobilization programs, currently
+and private citizen volunteers dedicated to satisfy       87%, or 18,001, of the Nation's 20,737 high schools
+its statutory goals of peacetime registration and         each has an uncompensated volunteer acting as a
+mobilization readiness. The SSS is currently              Selective Service high school registrar authorized
+authorized 130 full-time equivalent civilian positions    to administer and receive registrations from young
+going into FY 2010. The Agency also is authorized         men. Their public service is an invaluable asset and
+750 part-time Reserve Force Officers (RFOs) and           is important to the success of the Agency's peacetime
+is currently funded for 150 positions comprised of        registration efforts. They remind America's young
+military personnel representing all of the U.S. Armed     men of their registration obligation and help ensure
+Services. The SSS's RFOs are assigned throughout          that the men remain eligible to take advantage of the
+the U.S. and its territories where they perform monthly   numerous Federal and state benefits that are tied to
+training, executing a variety of critical peacetime and   the registration requirement.
+mobilization tasks. They are grassroot SSS contacts
+for state and local agencies and the public.
+
+Selective Service System Organizational Chart
+
+                                             Office of the Director
+
+                                                        Director
+                                                 Executive Director
+
+                            General Counsel               IG Liaison/EEO Director
+
+    Regional Offices        Public & Intergovernmental    Support Services            Operations
+                                         Affairs
+   Region I - Chicago, IL                                    Human Resorces          Registration/Call & Deliver
+       State Directors                                       Logistics Division     Planning/Reclassify/Training
+                                                           Financial Management
+    Reserve Force Officers                                                             Alternative Service
+                                                                                       Information Technology
+Region II - Smyrna, GA                                                             Data Management Center
+       State Directors
+                                                                                                         2
+    Reserve Force Officers
+
+Region III - Denver, CO
+       State Directors
+
+    Reserve Force Officers
+   Performance Highlights
+
+   Goals Overview                                            Processing System (RIPS) Manual was revised to
+                                                             help ensure the Agency is better prepared if ever
+   The SSS's goals are to: (1) ensure preparedness           called upon to initiate conscription. The plans and
+   and the capacity to provide timely manpower to the        procedures relating to mobilization functions will mesh
+   DoD during a national emergency; and (2) ensure           with Information Technology related support and the
+   management excellence.                                    Agency's Enterprise Architecture.
+
+   Goal 1: Ensure preparedness and the capacity              The SSS continues to provide training to Board
+   to provide timely manpower to the DoD during              Members, State Directors, and Reserve Force
+   a national emergency.                                     Officers to ensure the retention and enhancement of
+                                                             operational knowledge in the event the Nation returns
+   In the event of a mobilization, the SSS will hold a       to conscription. In FY 2009, additional Web-based
+   national draft lottery, contact those registrants who     training was developed and deployed to supplement
+   have been selected via the lottery, and arrange their     and act as an alternative to the more expensive means
+   transportation to a Military Entrance Processing          of group and self-study training. It is scheduled to
+   Station (MEPS). This procedure would be followed for      become the primary means of preparedness training
+   a mobilization of trained health care specialists and/or  in FY 2010.
+   untrained personnel.
+                                                             Objective 2: Ensure acceptable registration
+   Once notified of the results of their evaluation at the   compliance rates
+   MEPS, any registrant who has been found qualified
+   for military service may choose to file a claim for       The higher the registration rate, the more fair and
+   exemption, postponement, or deferment. If a claimant      equitable any future draft will be for each registered
+   is re-classified as a CO, he has a requirement to serve   individual. The Agency works through its registration
+   for 24 months in a non-military capacity contributing to  and compliance programs to: (1) register all eligible
+   the health, welfare, and safety of the U.S. The SSS       men; (2) identify non-registrants and remind them
+   will place these workers with non-military employers      of their obligation to register; and, (3) inform young
+   and track the progress of their service.                  men that they need to register to remain eligible for
+                                                             numerous federal and state benefits, such as student
+   Objective 1: Be prepared to call, classify,               financial aid, job training, government employment,
+   and deliver personnel                                     and U. S. citizenship for male immigrants.
+
+   When activated, the SSS will hold a national draft        Goal 2: Ensure management excellence
+   lottery, mobilize Agency components, contact those
+   registrants who have been selected via the lottery,       In concert with the President's Management
+   and arrange for their transportation to the MEPS          Agenda (PMA), the SSS continues the
+   for physical, mental, and moral evaluation, and as        implementation of a multi-year technology upgrade
+   required send induction orders. Once that occurs,         of the Agency's hardware, software, and systems
+   registrants who chose to do so can begin the process      development. An overall plan and strategy to ensure
+   of filing claims for reclassification if                  alignment and integration among its human capital
+                                                             management process and the financial, operational,
+   they are found to be acceptable for induction into the    information technology, and logistical processes, are
+   Armed Forces. During FY 2009, the SSS completed           underway. Included in that plan is an expansion of
+   a systematized project management effort to update        the Agency's e-government, budget and performance
+   the Agency's Preparedness Plans for use upon              integration, and improvements in financial performance
+   mobilization at the national, regional, state and         initiatives. The Agency's full implementation of
+   local levels. In addition, the Registrant Integrated      an Integrated Financial Management System will
+
+3
+enhance its ability to align its budgetary resource      Objective 4: Effective and efficient
+expenditures with Agency's goal performance.             management of public and intergovernmental
+                                                         affairs
+Objective 1: Effective and efficient resource
+and procurement management                               The public and intergovernmental affairs activity
+                                                         faces the ongoing paradoxical challenge of public
+An increased focus on improving policies, procedures,    concern: a) the more communications made, the
+and standards is necessary to better align Agency        greater the public concern about an imminent draft;
+operations with the PMA. Over the next five years,       and, b) the less SSS says, the greater the amount
+the Agency projects a larger than average rate of        of misinformation available. With over 6,000 young
+retirement, increased hiring competition from the        men turning 18 every day, our outreach to community
+public and private sectors, and continued fiscal         leaders, other governmental and corporate entities,
+pressures. The Agency's Human Capital Management         public and private influencers, and media is a major
+Plan (HCMP) is crucial as it will provides a tool to     strategy for increasing registration awareness and
+better manage the Agency's most valuable resource        fostering public understanding of the Agency mission.
+­ its personnel.
+                                                         Strategic Planning and Reporting
+Objective 2: Effective and efficient financial
+management                                               This Report is aligned with the SSS's Strategic
+                                                         Plan (FY 2006 - 2011) and is an outgrowth of
+Financial management activity continues to focus on      extensive internal evaluations of Agency statutory
+enhancing and improving operational practices in an      responsibilities viewed in light of new challenges,
+effort to achieve success in support of the PMA. The     fiscal issues, and the needs of Agency customers.
+basic goal remains to achieve a "clean audit" opinion    Measurement of the Agency's institutional progress
+in adherence with the Accountability of Tax Dollars Act  toward improved programmatic activities, service to
+of 2002. The 2006 implementation of an integrated        customers, and the prudent management of fiscal
+financial management system, Oracle Federal              resources is the basis for the development of this
+Financials (OFF), has produced improvements in the       plan. Performance measurement provides the path
+financial performance arena and an overall upgrade in    for assessing accountability between the Agency's
+the areas of budget, human capital, and performance      long-term strategic vision and the day-to-day activities
+integration.                                             of its employees.
+
+Objective 3: Effective and efficient information         Planning and Funding Challenges
+technology management
+                                                         The challenges of integrating budget and performance
+The Agency continues its multi-year efforts to           are somewhat clouded in that all funds for the SSS are
+modernize the technical supporting environment           allocated in one appropriation. This one appropriation
+of the Agency in accordance with the President's         (Salaries and Expenses) is allocated throughout the
+Management Agenda, Government Performance                Agency to support salaries and expenses, as well
+Results Act, Information Technology Management           as programs. Thus, it has been somewhat difficult
+Results Act, Federal Information Security                to link the amount of appropriated funds with the
+Management Act, and other statutory or regulatory        level of program results for any particular fiscal year
+documents. It has made great progress in creating a      since the salaries and expenses are consolidated
+secure, technically advanced information environment     with programmatic costs. The integrated financial
+to facilitate numerous business enhancements and         management system has helped to alleviate some of
+increase SSS's capabilities to effectively satisfy       the complexity associated with this effort. In addition,
+mission requirements with continually reducing           management has taken a new approach toward
+resources.
+
+                                                                                                                   4
+                   identifying individual programmatic costs at the
+                   directorate level to assist with the effort to integrate
+                   budget with performance at the program level.
+                   The primary operational focus of the Agency in
+                   peacetime is to register men, and all performance
+                   results continue to be accumulated toward that goal.
+                   This report endeavors to show how the FY 2009
+                   budget allocation was expended in support of the
+                   Agency's Strategic Goals and Objectives.
+
+5
+Financial Highlights
+
+Financial Position                                         Discussion and Analysis of Financial
+                                                           Statements
+FY 2009 is the sixth full year of operation where the
+SSS's audited financial statements are being submitted     SSS FY 2009 and 2008 financial statements
+to OMB in compliance with the Accountability Act           report the Agency's financial position and results
+of Tax Dollars of 2002. The preparation of these           of operations on an accrual basis. These annual
+statements is a part of the Agency's objective to          financial statements are comprised of a Balance
+improve financial management and provide accurate          Sheet, Statement of Net Cost, Statement of Changes
+and reliable information that is useful for assessing      in Net Position, Statement of Budgetary Resources,
+performance and allocating resources.                      and related notes that provide a clear description of
+                                                           the Agency and its mission as well as the significant
+The SSS's financial management team, together with         accounting policies used to develop the statements.
+the Agency's leadership, is responsible for the integrity
+and objectivity of the financial information presented     Consolidated Balance Sheet
+in the financial statements. They utilized all available
+resources to satisfy the stated strategic goals and        The major components of the Consolidated Balance
+objectives of the Agency. The financial statements         Sheet are assets, liabilities, and net position.
+and financial data reflected in this report have been
+prepared from the accounting records of the SSS            ASSETS. Assets represent Agency resources that
+in conformity with Generally Accepted Accounting           have future economic benefits. SSS's assets totaled
+Principles (GAAP) in the United States of America.         $13.993 million in FY 2009. Fund balances with
+GAAP for federal entities are the standards prescribed     Treasury --mostly undisbursed cash balances from
+by the Federal Accounting Standards Advisory Board         appropriated funds--comprised about 75% percent
+(FASAB).                                                   of the total assets.
+
+Limitations of the Financial Statements                    SSS does not maintain any cash balances outside of
+                                                           the U.S. Treasury and does not have any revolving or
+Responsibility for the integrity and objectivity of        trust funds. About 25 percent of SSS's assets were
+the financial information presented in the financial       comprised of accounts receivable, which reflects
+statements lies with SSS management. The                   funds owed to SSS by other Federal agencies and
+accompanying financial statements are prepared             the public and general property, plant and equipment.
+to report the financial policies and results of the
+operations of SSS. While these statements have been        LIABILITIES. Liabilities are recognized when they are
+prepared from the books and records of SSS, these          incurred regardless of whether or not they are covered
+financial statements are in addition to the financial      by budgetary resources. In FY 2009, SSS had total
+reports used to monitor and control budgetary              liabilities of $6.806 million. The largest components of
+resources which are prepared from the same books           SSS's liabilities were accounts payable and Federal
+and records. The financial statements should be            Employee Compensation Act (FECA) actuarial
+read with the realization that SSS is an agency of the     totaling $2.179 million and $2.605 million respectively.
+Executive Branch of the United States Government,          Accounts payable reflect funds owed primarily for
+a sovereign entity. Accordingly, unfunded liabilities      contracts and other services.
+reported in the statements cannot be liquidated
+without the enactment of an appropriation, and             NET POSITION. SSS's net position, which reflects
+ongoing operations are subjected to enactment of           the difference between assets and liabilities and
+appropriations.                                            represents the Agency's financial condition, totals
+                                                           $7.188 million. This amount is broken into two
+                                                           categories: unexpended appropriations (amounts
+
+                                                                                                                     6
+related to undelivered orders and unobligated                             complete implementation at the regional level in FY
+balances) at $7.684 million and cumulative results                        2010. The E2 travel system provides an automated
+of operations (net results of operations since                            ticketing, reservation, and claims processing tool
+inception plus the cumulative amount of prior period                      whereby employees are relieved of the requirement
+adjustments) at ($.497) million.                                          of submitting paper vouchers for reimbursement, Use
+                                                                          of the E2 travel system has many benefits including
+Consolidated Statement of Net Cost                                        reduction of costs and increased compliance with the
+                                                                          Federal Travel Regulations through electronic edits
+The Consolidated Statement of Net Cost represents                         that were previously performed manually.
+the net cost to operate the Agency. Net costs are
+comprised of gross costs less earned revenues. SSS's                      Utilizing the Oracle OFF System, the SSS has
+FY 2009 net cost of operations was $22.092 million:                       enhanced its capability to develop methodologies
+$22.443 million in gross costs less $.351 million in                      that will help to ensure that the Agency is able to
+earned revenues.                                                          integrate its budget and performance data as part of
+                                                                          its budgetary processes.
+Consolidated Statement of Changes in
+Net Position
+
+The Consolidated Statement of Changes in Net
+Position reports the changes in net position during
+the reporting period. SSS ended FY 2009 with a net
+position total of $7.188 million. The negative change in
+net position was primarily the result of the liabilities not
+covered by budgetary resources and other liabilities.
+
+Combined Statement of Budgetary
+Resources
+
+The Combined Statement of Budgetary Resources
+focuses on how budgetary resources (appropriations
+and reimbursables) were made available, the status of
+those resources (obligated or unobligated) at the end
+of the reporting period, and the relationship between
+the budgetary resources, and outlays (collections and
+disbursements). SSS' FY 2008 budgetary resources
+totaled $28.342 million and were primarily made up
+of budget authority funds $22 million and unobligated
+balance $ 7.444 million.
+
+Financial Management
+
+                   During FY 2009, the Agency purchased additional
+                   Oracle Federal Financial System (OFF) reporting
+                   tools to enhance accurate, timely financial reporting
+                   to management. The Agency implemented the
+                   eTravel program in FY 2007 to transfer travel-related
+                   activities to the automated E2 travel system and will
+
+7
+Director's Integrity Act Statement for                   I will continue my efforts to upgrade the Agency's
+Fiscal Year 2009                                         processes and talent pool. My focus is to achieve
+                                                         unblemished audits that indicate we are ready in all
+The Selective Service System management is               aspects to answer that call.
+responsible for establishing and maintaining effective
+management control, financial management systems         Ernest E. Garcia
+and internal control over financial reporting that meet  Acting Director
+the objectives of the Federal Managers' Financial        Selective Service System
+Integrity Act (FMFIA). SSS provides an unqualified       November 17, 2009
+statement of assurance that management control,
+financial management systems and internal controls
+over financial reporting meet the objectives of FMFIA.
+
+SSS conducted its assessment of the financial
+management systems and internal control over (1)
+the effectiveness and efficiency of operations and
+compliance with applicable laws and regulations as
+of September 30, 2009, and (2) financial reporting as
+of September 30, 2009, which includes safeguarding
+of assets and compliance with applicable laws and
+regulations, in accordance with the requirements of
+the Office of Management and Budget Circular A-123,
+"Management's Responsibility for Internal Control."
+
+I am pleased to report that for the second year in a
+row the financial management systems conform with
+the objectives of FMFIA and the internal controls
+were operating effectively and no other material
+weaknesses were found in the design or operation
+of the internal control over (1) the effectiveness
+and efficiency of operations and compliance with
+applicable laws and regulations as of September 30,
+2009, and (2) financial reporting as of September 30,
+2009.
+
+The FY 2009 FISMA audit noted several improvements
+over previous reports. Additional security policies and
+plans were implemented and updated successfully.
+Work remains to be done before the Agency will be
+fully compliant with all FISMA requirements. The RCV
+project will replace two old registrant management
+and personnel management systems deemed too
+expensive to accredit.
+
+Finally, I remain committed to providing the best
+service possible to the Nation. SSS stands ready to
+play its part if called upon during a national emergency.
+
+                                                                                                        8
+Management Controls
+
+Federal Managers' Financial Integrity Act                            operate efficiently and effectively and comply with
+Report on Management Control                                         relevant laws. They must also ensure that financial
+                                                                     management systems conform to applicable laws,
+Background                                                           standards, principles and related requirements. In
+                                                                     conjunction with an independent accounting firm
+The Federal Managers' Financial Integrity Act of                     and GAO, SSS management has been working
+1982 (FMFIA) requires ongoing evaluations of                         responsibly to determine the root causes of its material
+internal control and financial management systems                    weaknesses to efficiently correct them.
+culminating in an annual statement of assurance by
+the agency head that:                                                SSS remains committed to reducing and eliminating
+                                                                     the risks associated with its deficiencies and efficiently
+· Obligations and costs comply with applicable laws                  and effectively operating its programs in compliance
+ and regulations                                                     with FMFIA.
+
+· Federal assets are safeguarded against fraud, waste
+ and mismanagement
+
+· Transactions are accounted for and properly
+ recorded
+
+· Financial management systems conform to
+ standards, principles and other requirements to
+ ensure that Federal managers have timely, relevant
+ and consistent financial information for decision-
+ making purposes.
+
+Furthermore, FMFIA provides the authority for
+the Office of Management and Budget (OMB), in
+consultation with the Government Accountability
+Office (GAO), to periodically establish and revise the
+guidance to be used by Federal agencies in executing
+the law.
+
+In addition to FMFIA, the Federal Information Security
+Management Act (FISMA) requires agencies to report
+any significant deficiency in information security policy,
+procedure or practice identified (in agency reporting)
+as a material weakness under FMFIA.
+
+SSS conducts its annual evaluation of internal
+controls over financial reporting in accordance with
+OMB Circular A-123, "Management's Responsibility
+for Internal Control." Assessment results are reviewed
+and analyzed by the SSS Senior Staff.
+
+                   SSS operates a broad internal control program to
+                   ensure compliance with FMFIA requirements and
+                   other laws, and OMB Circulars A­123 and A­127,
+                   "Financial Management Systems." All SSS managers
+                   are responsible for ensuring that their programs
+
+9
+FY 2009 Results
+
+In the beginning of FY 2009 SSS had no material weaknesses. Unfortunately, during the FY 2009 audit two IT
+additional material weaknesses were identified and will continue to not fully pass all FISMA requirements until
+the full migration off of the main frame occurs. The FISMA audit report provides a qualified assurance that SSS's
+system of internal control complies with FMFIA's objectives. The following Exhibit provides a summary of the
+material weaknesses and all items corrected.
+
+Exhibit 1: Summary of Material Weaknesses
+
+                                                Internal Controls (FMFIA Section 2)
+
+Statement Of AssuranceQualified Statements of Assurance
+Material Weakness Beginning Balance New Resolved Consolidated Reassessed Ending Balance
+
+Controls Over Financial  0  0              0             0              0          0
+
+Management
+
+IT Security              0  2              0             0              0          2
+
+Total Material Weakness  0  2              0             0              0          2
+
+                         Financial Management System (FMFIA Section 4)
+
+Statement Of AssuranceQualified Statements of Assurance
+
+Non-Conformance          Beginning Balance New Resolved  Consolidated  Reassessed  Ending Balance
+                                                                                            0
+                         0  0              0             0              0                   0
+                                                                                            0
+                         0  0              0             0              0
+
+Total Non-conformances   0  0              0             0              0
+
+                                                                                                                   10
+    Required Reporting
+
+    Exhibit Number 2 is provided to meet the reporting requirements of OMB Circular A-136, "Financial Reporting
+    Requirements" and includes a breakdown by various categories related to the Financial Statement Audit and
+    Management's Statement of Assurance for FMFIA.
+
+    Exhibit 2: Summary of Management Assurances
+
+                             Effectiveness of Internal Control Over Financial Reporting (FMFIA 2)
+
+    Statement Of Assurance        Unqualified
+
+    Material Weakness Beginning Balance New Resolved Consolidated Reassessed Ending Balance
+
+    Controls Over Financial    0  0            0               0               0                   0
+
+    Management
+
+    Total Material Weakness    0  0            0               0               0                   0
+
+                                    Effectiveness of Internal Control Over IT Security (FMFIA 2)
+
+    Statement Of AssuranceQualified Statements of Assurance
+
+    Material Weakness          Beginning Balance New Resolved  Consolidated  Reassessed            Ending Balance
+                                                                       0            0                       2
+    IT Security                0  2            0                       0            0                       2
+
+    Total Material Weaknesses  0  2            0
+
+                       Conformance with Financial Maqnagement System Requirements (FMFIA 4)
+
+    Statement Of Assurance                                        Unqualified
+
+    Material Weakness          Beginning Balance New Resolved  Consolidated  Reassessed            Ending Balance
+
+                               0  0            0               0               0                   0
+
+    Total Non-conformances     0  0            0               0               0                   0
+
+    Outstanding Material Weakness
+    There were no material weaknesses.
+    New Material Weakness
+    The independent audit identified two new material weaknesses within the IT Security Program.
+
+11
+IT Security Program
+
+During the 2009 FISMA audit several issues were identified that represent material internal control weaknesses
+in the Agency's IT security program and personal identifiable information (PII). We identified weaknesses,
+developed a corrective action plans with measurable milestones to address and resolve these problems while
+simultaneously managing Agency-wide upgrades and improvements. Most recommendations offered by the
+audit have been adopted by SSS and we have incorporated necessary FY 2009 and FY 2010 corrective actions
+into the ongoing plan. Approximately one-third of the tasks have been completed and significant progress has
+been made with the remaining actions. We anticipate completing at least half of the tasks by the end of calendar
+year 2009 and most remaining tasks during the first half of 2010.
+
+Summary of Outstanding Material Weaknesses
+
+Material Weakness Existing  SSS IT Security Program
+                            Overall Estimated Completion Date: FY 2010
+
+                            SSS IT security program was not in substantial compliance with
+                            FISMA requirements.
+
+FY 2009 Accomplishments     Planned Actions
+NA (None)                   NA (Incorporated in FY 2010)
+
+Material Weakness New       1. IT Security Program - Overall Estimated Completion Date: CY 2009
+
+                            2. Personally Identifiable Information (PII) - Overall Estimated Completion
+                               Dated: FY 2010
+
+Planned Actions
+
+· IT security program
+· Secure personal sensitive information data where possible
+· Complete COOP related registration
+· Update IT security policies
+· Implement controls over remote access
+
+                                                                                                                  12
+    President's Management Agenda                               etc.), increase the Agency's technical capabilities and
+                                                                allow seamless integration with external State and
+    The SSS seeks continuous operational improvements           Federal systems as well as other systems throughout
+    through an array of programs and policy changes based       the Agency's Enterprise Architecture.
+    on the PMA. The SSS' strategy is to utilize e-commerce
+    initiatives to improve the Agency's procurement             Utilizing the OFF System, the SSS continues to
+    and financial processes through implementation of           enhance its capability to develop methodologies that
+    an integrated financial management system. The              will help to ensure that the Agency is able to fully
+    e-Quip and e-travel processes sponsored by OPM,             integrate its budget and performance data.
+    continue to function properly. The SSS completed the
+    implementation to meet the personnel identification
+    and verification requirements of Homeland Security
+    Presidential Directive-12 (HSPD-12).
+
+    The Agency will continue to expand upon workforce
+    development strategies and the Human Capital
+    Management Plan (HCMP) to close mission-critical
+    skills, knowledge, and competency gaps. The analysis
+    of SSS mission, goals, and organizational objectives
+    resulted in an action plan and an accountability system
+    for achieving activities, measures, and expected
+    outcomes in the areas of: strategic alignment,
+    leadership and knowledge management, performance
+    culture, talent management, and accountability.
+    Based on the results of employee satisfaction
+    surveys, the SSS held focus group meetings to guide
+    the development of an action plan to better address
+    employee concerns. Also, in concert with OPM, the
+    SSS has analyzed its hiring process to streamline
+    and simplify the process. The Agency continues to
+    use the online learning portal, GoLearn, to provide its
+    employees and managers with support tools to help
+    assist in meeting the training needs of the Agency's
+    workforce. The Agency improved the work-life aspects
+    of the job by increasing the capabilities to support
+    telework and expanding participation in the program
+    to cover over 75 percent of the workforce. Additional
+    flexibilities have been added to work schedules to
+    heighten morale and enhance job performance, as
+    well as to improve recruitment and retention efforts.
+
+    During 2009, the SSS completed Phase 1, the analysis,
+    planning and functional requirements component,
+    on the modernization effort to migrate all of its
+    Registration, Compliance and Verification information
+    systems from a legacy mainframe platform to a server-
+    based environment. It is anticipated that this effort will
+    greatly decrease operating and maintenance costs,
+    ensure system compliance with all Federal security
+    and information technology requirements (FISMA,
+    NIST, Clinger Cohen Act, Paperwork Reduction Act,
+
+13
+Performance Details
+
+Program Evaluation
+The program evaluations for this report were
+independent systematic reviews conducted to assess
+how well programs were working and if they should
+be continued or modified. A variety of program
+evaluations and methodologies were used including:
+process evaluation, outcome evaluation, impact
+evaluation, cost-benefit/cost-effectiveness, and varied
+combinations of the above.
+Evaluations conducted during FY 2009
+Management reviews for the Agency computer
+systems, listed below, were conducted by SSS
+personnel and validated/certified as mission capable.
+Federal Payroll Personnel System (FPPS)
+Administrative Support Systems Applications
+Selective Service Local/Wide Area Network and
+Communications
+Integrated Mobilization Information System
+Program evaluations were scheduled and conducted
+for the following areas:
+
+          · Registration and Registration Compliance
+              Programs
+
+          · Registrar Program
+          · Federal Information Security
+
+              Management Act
+          · Financial Management
+          · Administrative Support Services
+          · Alternative Service Program
+
+                                                                                                        14
+    FY2009 Performance                                         project management effort to update the Agency's
+                                                               Preparedness Plans for use upon mobilization at the
+    This FY 2009 PAR identifies the activities, strategies,    national, regional, state and local levels. In addition,
+    and results that took place during the fiscal year to      the RIPS Manual was revised to help ensure the
+    achieve Agency goals and objectives. It also identifies    Agency is better prepared if ever called upon to initiate
+    relevant performance measurement target goals to be        conscription.
+    achieved.
+                                                               Discussion:
+    Goal 1: Ensure preparedness and the capacity               The plans and procedures relating to mobilization
+    to provide timely manpower to DoD during a                 functions are aligned with the Agency's Enterprise
+    national emergency.                                        Architecture.
+
+    Objective 1: Be prepared to call, classify, and            Impact:
+    deliver personnel                                          This updated approach to preparedness ensures the
+                                                               Agency is able to initiate actions during a return to
+    Significant Activity:                                      conscription.
+    During FY 2009, the SSS completed a systematized
+    project management effort to update the Agency's           Planned Actions/Schedule:
+    Preparedness ("Readiness") Plans -- for use upon           The Family of Readiness Plans is a living document
+    mobilization at the national, regional, state and local    that will be maintained and updated as necessary.
+    levels ­ as well as revised the Registrant Integrated      The completion of the Agency's target Enterprise
+    Processing System (RIPS) Manual to help ensure             Architecture in future years will enable implementation
+    the Agency is better prepared if ever called upon          of these plans.
+    to initiate conscription. The plans and procedures
+    relating to mobilization functions are in alignment        Verification and Validation:
+    with Information Technology related support and the        Verification and validation of the plans are completed
+    Agency's Enterprise Architecture.                          by managerial and staff review.
+
+    In FY 2009, Web-based training was developed,              Strategic Objective 1.1.2. Be prepared to
+    tested, and deployed to provide self-study training and    ensure timely and consistent handling of
+    a cost-effective alternative to costly "classroom-type"    claims
+    training. This provided the Agency greater flexibility in
+    delivering training, and reduced paperwork and costs       FY 2009 Annual Performance Goal: Be prepared
+    associated with reproducing and shipping hard copy         to activate State Headquarters, Area Offices, and SSS
+    training materials.                                        Board Members to timely, fairly and equitably process
+                                                               reclassification claims.
+    For FY 2009, the SSS set three performance goals for
+    Objective 1.                                               Was the goal achieved? Yes
+
+    Strategic Objective 1.1.1 Be prepared to                   Results:
+    deliver personnel when needed                              The RIPS manual was updated to address the claims
+                                                               process and training provided to part-time military
+    FY 2009 Annual Performance Goal: Maintain                  personnel and volunteer local board members.
+    the Agency's Readiness Plans which include the Call
+    and Deliver, Reclassify, Alternative Service, and the      Discussion:
+    Lottery Standard Operating Procedures.                     Training annually of Reserve Force Officers and
+                                                               local board members is fundamental to the ability to
+    Was the goal achieved? Yes                                 process any claim.
+
+    Results:                                                   Impact:
+    During FY 2009, the SSS completed a systematized           Uniform handling of claims by local boards across
+
+15
+the nation helps ensure a fair and equitable return to  Outreach of this sort remains politically sensitive.
+conscription.                                           However, the trust built up over the past four years of
+                                                        interaction has begun to pay off. Religious and other
+Planned Actions/Schedule:                               groups have begun to reach out to Selective Service.
+Periodic updating training plans as necessary.          Myths and programmatic misconceptions have been
+                                                        aired and resolved. Discussions and negotiations on
+Verification and Validation:                            issues of importance to this community are at the root
+Routine training evaluations are utilized to improve    of improved public relations and ASP operational and
+content delivery.                                       readiness planning.
+
+Strategic Objective 1.1.3. Be prepared to               Few of the more conservative Anabaptist religious
+implement an Alternative Service Program                communities ­ the Amish, conservative Mennonite, for
+(ASP)                                                   example - make wide use of technology. Outreach to
+                                                        these groups will always require a different approach.
+FY 2009 Annual Performance Goal: Increase               Nevertheless, a blend of newer and older technologies
+membership in the Alternative Service Employer          has yielded an outreach program that is balanced and
+Network through initiatives undertaken by its State     serves the need.
+Directors and RFOs at the local level.
+                                                        Impact:
+Was the goal achieved? No                               The current relationship of Selective Service to its
+                                                        constituency of historic peace churches and secular
+Results:                                                conscientious objector advocacy groups is better than
+There was no movement on the issue of increasing        it has ever been. They have appreciated the respectful
+membership in the Alternative Service Employer          and open relationship with the Agency. Operating
+Network.                                                transparently has allowed the Agency to gain trust and
+                                                        credibility, while not requiring it to move one step away
+However, outreach to the CO community continues.        from its commitment to operate within the law. The
+Two pilot electronic outreach sessions, held in June    Agency's reputation for honesty and fairness will work
+and July of 2009, brought together Selective Service    to its advantage in any return to conscription. These
+leadership and several dozen representatives of the     efforts have identified additional potential employers.
+CO community. The Agency's formal presentation
+included the results of a series of policy reviews on   Planned Actions/Schedule:
+issues of concern to the audience. The sessions were    The electronic outreach will become a semi-annual
+well received and plans have been made to make the      opportunity to confer with groups unable to travel to
+electronic outreach sessions a regular event.           National Headquarters to discuss their issues. We will
+                                                        focus on building employer recruitment competencies
+In addition, in September 2009 the Agency hosted        in our State Director, Reserve Force Officer, and
+representatives of various historic peace churches at   Region personnel. Completion of MOUs is expected
+National Headquarters and also traveled to Missouri     in FY 2010.
+for meetings with well over 400 people. This also
+provided an opportunity for SSS State Directors to      Verification and Validation:
+begin a dialog with people they would need to work      Management reports/program evaluations.
+closely with in any return to conscription.
+                                                        Objective 2: Ensure acceptable registration
+Discussion:                                             compliance rates
+Internal and external impediments exist in getting
+negotiations with the Public Health Service and The     Maintaining an ongoing Registration Program of
+Corporation for Community and National Service          men age 18 through 25 is fundamental to mission
+started again. Memoranda of Understanding (MOUs)        success. To implement a fair and equitable draft, a
+are pending with seven other potential employers.       90% compliance rate for 18- through 25-year-old men
+                                                        is required.
+
+                                                                                                                   16
+    Note: Registration rates are for Calendar Year (CY) not   state identification card; (2) continued use of on-line
+    Fiscal Year (FY) since registration is based on Year of   registration via the SSS Web site (www.sss.gov), (3)
+    Birth (YOB) Groups. For example, the 20 YOB Group         emphasis on soliciting volunteer SSS High School
+    covers the period of January 1 through December 31        Registrars; (4) mailings to states having the lowest
+    since all registrants born in that year are the same      compliance rates, along with 19 year-olds nationwide
+    age required for any induction requirement.               who had not registered; (5) targeted cost effective
+                                                              registration awareness initiatives, including public
+    Significant Activity:                                     service broadcast messages (in English and Spanish);
+    By the end of FY 2009, 37 states (Alabama, Arizona,       and (6) outreach efforts to the educational and
+    Arkansas, Colorado, Delaware, Florida, Georgia,           community leaders and influencer groups. However,
+    Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas,           some of these important registration awareness
+    Kentucky, Louisiana, Maryland, Michigan, Minnesota,       initiatives/efforts had to be limited during FY-09.
+    Mississippi, Missouri, Montana, Nevada, New
+    Hampshire, New Mexico, New York, North Carolina,          Impact:
+    Ohio, Oklahoma, Rhode Island, South Carolina,             For CY 2008, the Selective Service national overall
+    South Dakota, Tennessee, Texas, Utah, Virginia, West      registration compliance rate was 91 percent for
+    Virginia, and Wisconsin), three territories (Guam,        men ages 18 through 25 who were required to be
+    Northern Mariana Islands, and Virgin Islands),            registered. This figure remained the same as the
+    plus the District of Columbia, had enacted Driver's       CY 2007 percentage. For the 18 year-of-birth (YOB)
+    License Legislation (DLL) linked to the registration      group, the compliance rate was 67 percent, down
+    requirement. As a result, over 819,000 men were           one percent from CY 2007; the 19 YOB group was 87
+    registered under DLL in CY 2008.                          percent, down four percent from CY 2007; and the 20
+                                                              to 25 YOB group, the draft-eligible groups, were 96
+    For FY 2009, the SSS set two performance goals for        percent, up one percent from CY 2007.
+    Objective 2.
+                                                              Efforts to increase registration compliance will help
+    Strategic Objective 1.2.1. Maintain registration          ensure fairness and equity in any future draft.
+    rate of at least 90% or above for eligible males
+    18-25                                                     Planned Actions/Schedule:
+                                                              For FY 2010, primary registration improvement
+    FY 2009 Annual Performance Goal: Attain                   emphasis will continue to be to assist states and
+    registration rate above 90 percent for eligible males     territories in their efforts to enact legislation requiring
+    18-25.                                                    SSS registration in order to obtain a driver's license
+                                                              or identification card. Our goal is 100% coverage of
+    Was the goal achieved: Yes                                the Nation's potential registrant population. Thus,
+                                                              as states enact and implement Driver's License
+    Results:                                                  Legislation, in support of the registration requirement,
+    Projected: 91 percent (18-25 YOB Groups). Results         the percentage of electronic registrations will increase,
+    for this goal will not be available until the end of the  resulting in lower costs expended by the Agency for
+    Calendar Year. The latest information available is for    registration compliance.
+    calendar year (CY) 2008, the year group registration
+    rate was 91 percent. (See note below)                     Verification and Validation:
+                                                              The estimated rates of registration compliance with
+    Discussion:                                               the MSSA are an essential component in evaluating
+    Registration is a crucial component of any future         the Agency's registration program. As a result, the
+    induction or draft to furnish personnel to the            Agency compiles Registration Compliance Statistical
+    Department of Defense. The primary factors that           Information (RCSI), which is used to provide the
+    foster registration compliance include: (1) enactment     Agency with statistical information for the evaluation of
+    and implementation in states and territories of           the registration and registration compliance programs.
+    driver's license legislation requiring registration with  RCSI allows management to target low/moderate
+    the SSS to obtain a motor vehicle driver's license or     registration compliance states/territories and evaluate
+                                                              the registration compliance program.
+
+17
+Strategic Objective 1.2.2. Maximize the use of           Strategic Objective 2.1.1 Improve the
+electronic registration methods                          effectiveness and efficiency of human capital
+                                                         management
+FY 2009 Annual Performance Goal: Obtain 83
+percent of registrations electronically.                 For FY 2009, the SSS set two annual performance
+                                                         goals for Strategic Objective 2.1.1.
+Was the goal achieved? Yes
+                                                         · Complete implementation of the Strategic Human
+Results:                                                   Capital Management plan.
+Projected: 83 percent - Actual: 86 percent of total.
+                                                         · Complete implementation of the Homeland Security
+Discussion:                                                Presidential Directive (HSPD-12) initiative.
+As of September 19, 2009, eighty-six percent of all
+registrations for FY 2009 were electronic, up two        FY 2009 Annual Performance Goal: Complete
+percent from FY 2008. DLL, Internet registration         implementation of the Strategic Human Capital
+at www.sss.gov, and data exchanges with various          Management plan.
+Federal agencies make up a significant portion of
+electronic registrations.                                Was the goal achieved? No
+
+Impact:                                                  Results:
+Electronic registrations improve customer service        Although the HCMP has been published, full
+by providing a streamlined and timely method of          implementation remains. Results of the annual
+registering at a reduced cost.                           Federal Human Capital Survey necessitated a shift to
+                                                         address employee satisfaction issues.
+
+Planned Actions/Schedule:                                Discussion:
+Continue to maintain automated registration programs.    Full implementation of the HCMP requires resolution
+Continue to provide technical assistance, as possible,   of recent issues including the end-to-end hiring model
+to requesting states that are in the process of          and employee satisfaction concerns.
+implementing driver's license legislation in support of
+the SSS registration requirement.                        Impact:
+                                                         Provides the long-term strategies of enhancing the
+Verification and Validation:                             Agency's most valuable resource: its people.
+Statistical reports that measure processing timelines
+and evaluates program results periodically.              Planned Actions/Schedule:
+                                                         Complete the Agency's activities required in the new
+Goal 2: Ensure Management Excellence                     federal government's end-to-end hiring model and
+                                                         address employee satisfaction concerns.
+In concert with the PMA, SSS implemented technology
+upgrades of the Agency's hardware, software, and         Create and implement supporting programs such as
+systems development processes. An overall plan           Individual Development Plans.
+and strategy to ensure alignment and integration
+among its human capital management process and           Verification and Validation:
+the financial, operational, information technology,      OPM was provided a copy of the Agency's HCMP for
+and logistical processes, is underway. Included are      comment in 2007; approval pending.
+an expansion of the Agency's e-government, budget
+and performance integration, and improvements in         FY 2009 Annual Performance Goal: Complete
+financial performance initiatives.                       implementation of the Homeland Security Presidential
+                                                         Directive (HSPD-12) initiative.
+Objective 1: Efficient and effective resource
+and procurement management                               Was the goal achieved? Yes
+
+                                                                                                                 18
+    Results:                                                  current FM that has been supplemented with several
+    The HSPD-12 identification card program was               operational directives and procedures. However, most
+    implemented Agency-wide in FY09.                          of these procedures have not undergone the complete
+                                                              review process nor been formally incorporated into the
+    Discussion:                                               Fiscal Manual. An updated FM remains necessary as
+    N/A ­ project complete.                                   the overarching document that establishes guidelines
+                                                              and procedures for the day-to-day operations.
+    Impact:
+    All Agency personnel were issued the new HSPD-            Planned Actions/Schedule:
+    12 identification cards and have government-wide          The Fiscal Manual will be staffed and comments to
+    access.                                                   be incorporated in the revised/updated version during
+                                                              FY 2010.
+    Planned Actions/Schedule:
+    Expand the use of these ID cards to include computer      Verification and Validation:
+    log-on security and building access.                      Once the Fiscal Manual has been completely updated
+                                                              a periodic (at least annual) review and update will
+    Verification and Validation:                              be performed by the financial management staff to
+    Employee feedback.                                        ensure that the Fiscal Manual is up-to-date.
+
+    Objective 2: Efficient and effective financial Strategic Objective 2.2.2. Align budgeted
+
+    management                                                funds with performance expectations
+
+    Strategic Objective 2.2.1. Improve the                    FY 2009 Annual Performance Goal: Continue
+    effectiveness and efficiency of financial                 Performance and Budget integration.
+    activities
+                                                              Was the goal achieved? Yes
+    FY 2009 Annual Performance Goal: Continue
+    updating the Fiscal Manual.                               Results:
+                                                              The OFF provides an integrated financial system that
+    Was the goal achieved? No                                 ties to the budget development/execution process, the
+                                                              acquisition system, and the property management
+    Results:                                                  processes.
+    Projected completion of updated Fiscal Manual: 75%;
+    Actual: 60%. The new Comptroller focused efforts on       Discussion:
+    updating the most critical functions and processes        The Agency's budget and strategic planning
+    within the Fiscal Manual as identified by finance staff,  documents were aligned for implementation and
+    the external financial auditors and contracted financial  execution as outlined in the Strategic Plan. Additional
+    support. Updated the critical policies and procedures     plans were established whereby all personnel costs
+    necessary to ensure management controls are in            (pay, benefits, etc.) are accounted in accordance with
+    place.                                                    the Strategic Plan. A further refinement was planned
+                                                              but not funded - a revised Time and Attendance
+    Discussion:                                               Reporting system will enable better activity-based-
+    Build the required structure to develop and execute       accounting. Restructured accounting codes were
+    a sound financial management plan that will serve         implemented, enabling better accountability of
+    as the basic cornerstone by which the Financial           operations in support of Strategic goals and initiatives.
+    Management Division will perform its mission and
+    functions for the foreseeable future.                     Impact:
+                                                              The Agency's ability to apply activity-based-costing
+    Impact:                                                   principles has not yet been fully achieved. Proposed
+    The Agency continues to operate and function              changes to the Agency's Strategic Plan along with the
+    based on the guidelines and rules established in the      lack of a new Time and Attendance process caused
+
+19
+a revision of the methodology to align the budgetary      better utilize hardware resources and to facilitate cloud
+resources to the Strategic Plan.                          computing ­ the Agency plans to test workstation
+                                                          virtualization with the goal of increasing network
+Planned Actions/Schedule:                                 efficiency and management.
+The revised accounting structure will be reviewed
+and aligned with the new Strategic Plan to ensure         Strategic Objective 2.3.1: Improve the
+that the established Goals and Objectives are aligned     Effectiveness and efficiency of technical
+with the requested funding in the Agency's annual         operations
+budget request. An updated Time and Attendance
+Reporting system will be procured, if affordable, and     For FY 2009, the SSS set two performance goals for
+integrated with the OFF System and implemented so         Strategic Objective 2.3.1.
+that all Agency personnel costs can be recorded in
+accordance with the budget and Strategic Plan.            · Continue the development and implementation of
+                                                            the registration modernization efforts underway.
+Verification and Validation:
+Financial reporting requirements and the annual           · Ensure compliance with FISMA requirements
+financial audit                                            and reporting tasks as well as protecting personal
+                                                           identification information entrusted to SSS.
+
+Objective 3: Effective and efficient                      FY 2009 Annual Performance Goal: Continue the
+information technology management                         development and implementation of the registration
+                                                          modernization.
+The SSS continued to update its technical environment
+to facilitate meeting the President's e-Government        Was the goal achieved? Yes
+initiative. The Agency's main web site provides
+several services to the general public such as online     Results:
+registration through which a man can register with        The Agency completed the analysis and
+Selective Service in real-time. The site also features    documentation of the current legacy registration
+registration verification allowing an individual to       mainframe system. This was the first time this effort
+check an existing registration. SSS implemented           has been accomplished in the Agency's history. All of
+a new interactive voice response (IVR) system to          the functional requirements for the new RCV system
+automate calls to its Data Management Center.             were also completed. The detailed project plans and
+This system allows a man to register or to check an       projected earned value management of the project for
+existing registration via phone along with the option of  the next three fiscal years were also documented as
+speaking with an operator who can assist with various     well.
+registration-related issues such as requests for status
+of information letters.                                   Discussion:
+                                                          The Agency continued work on a major modernization
+Information security continued to be a major focus        effort to migrate all of its Registration, Compliance, and
+during this fiscal year, and the Agency remains           Verification (RCV) information systems from the U.S.
+committed to securing and protecting personally           Military Entrance Processing Command mainframe
+identifiable information (PII) it receives from men       platform to a modern server-based environment. This
+complying with the registration requirement. No           effort will increase the Agency's technical capabilities
+security breaches occurred at SSS. Also, the Agency's     and allow seamless integration with the other systems
+firewalls and intrusion detection systems intercepted     throughout the Agency's Enterprise Architecture,
+hundreds of thousands of web based attacks against        ensuring system compliance with all Federal Security
+the SSS's network. The Agency installed additional        and Information Technology Requirements.
+intrusion detection and prevention devices to augment
+current security technologies it has in place.            Impact:
+                                                          The Agency now has all of the requirements
+SSS has implemented virtualization technologies for       documented for the new RCV system as well as the
+most of our network servers. This is being done to        detailed project plans to procurement the completion
+
+                                                                                                                      20
+    and implementation of the new system over the next       Verification and Validation:
+    three fiscal years.                                      N/A
+
+    Planned Actions/Schedule:                                Objective 4: Effective and efficient
+    The project will continue its design and development     management of communications with the
+    phases in FY 2010 and FY 2011. At the end of FY          public
+    2011, the Agency will be able to migrate off of the
+    mainframe environment.                                   Strategic Objective 2.4.1: Provide accurate
+                                                             communications with diverse customers in a
+    Verification and Validation:                             timely manner
+    Unit Testing, Acceptance Testing as well as Parallel
+    Testing task are planned for FY 2010-FY 2012.            Significant Activity:
+                                                             In FY 2009, the Agency responded to an unexpected
+    FY 2009 Annual Performance Goal: Ensure                  influx of inquiries, correspondence, and phone calls
+    compliance with FISMA requirements and reporting         expressing concern about reinstatement of a military
+    tasks as well as protecting personal identification      draft and especially questions relating to one's
+    information entrusted to SSS.                            registration status to qualify for assorted government
+                                                             benefits and programs. Numerous news outlets, both
+    Was the goal achieved? No                                print and broadcast, contacted the SSS for general
+                                                             interviews or specific information.
+    Results:
+    The FY 2009 FISMA audit resulted in a higher             The SSS completed its fourth year of employing
+    conformity rating than the previous year's audit.        the air show platform to convey the Agency's
+    Although an unqualified audit opinion was obtained on    messages to the general public. The SSS Air Show
+    the sections reviewed, additional work will be required  Program utilized the Navy's "Blue Angels" and Air
+    to obtain full compliance with FISMA.                    Force's "Thunderbirds," as well as public address
+                                                             announcements, to publicize the Agency's messages
+    Discussion:                                              at seven air shows located in high priority markets with
+    FISMA audits occur each year, and SSS makes every        lower registration compliance rates across the U.S.
+    effort to correct deficiencies noted in the audit.
+                                                             Further, SSS distributed its new radio package,
+    Impact:                                                  "Important Information for Young Men," with a
+    N/A                                                      compilation of 19 radio public service announcements
+                                                             in English and Spanish and announcer-read scripts
+    Planned Actions/Schedule:                                for live radio public service announcements to all
+    Every effort is taken to correct deficiencies noted in   major media markets. However, no television public
+    the FISMA audit. Due to funding and staff limitations,   service announcements were produced or distributed
+    corrections take longer to achieve than others. The      again this year.
+    RCV project will also eliminate two of three systems
+    audited by the external auditors. These two systems      Finally, SSS High School Publicity Kit materials were
+    will be replaced by a FISMA compliant system thus        distributed in November 2008 to more than 37,000 high
+    eliminating a significant number of FISMA-related        school principals and SSS high school registrars who
+    deficiencies. Phase two of the RCV project is            are members of the staff or faculty. The kit featured
+    scheduled for completion by the end of FY 2010.          posters and other communication materials with an
+                                                             important registration message for high school men.
+    The Agency is currently finalizing the FY 2009
+    FISMA audit report and will create a plan of action      FY 2009 Annual Performance Goal: Improve
+    and milestones to mitigate the issues report by the      response times, in accordance with provisions of
+    auditors. It anticipates submitting the final report to  the Agency's Administrative Services Manual, for
+    OMB by November 18, 2009; if OMB concurs with the        all types of responses: White House, congressional,
+    report, it will authorize SSS to submit the report to    media, Freedom of Information Act and Privacy Act
+    Congress in January or February 2010.                    customers, registrants, and the general public.
+
+21
+Was the goal achieved? No                                   Impact:
+                                                            Unacceptable customer service levels. Wait times for
+Results:                                                    callers have exponentially expanded from previous
+Data Management Center                                      levels of approximately 2 ­ 5 minutes to over 15 to 20
+Registration Processing:                                    minutes due to not having the proper level of trained
+Target: 18 days                                             operators capable of servicing the public.
+Actual: 18 days
+                                                            Planned Actions/Schedule:
+Status Information Letters for Registrants:                 Increase staffing at DMC. Reduce SSS workload
+Target: 10 days                                             through better inter-agency education of federal law
+Actual: 80 days                                             and their actual regulations. Perform as best as
+                                                            possible until programmatic remedies are in place.
+Compliance Mailings: Target 10 days; Actual: 22
+days Assorted Center Mailings: Target 10 days;              Verification and Validation:
+Actual 9 days                                               Statistical reports that measure processing timelines,
+                                                            program evaluations and public feedback.
+Public & Intergovernmental Affairs
+(PIA) Directorate
+Assorted Inquiries:
+Target: 10 days
+Actual: 3 days
+
+White House Correspondence:
+Target: 5 days
+Actual: 1 day
+
+Congressional Inquiries:
+Target: 10 days
+Actual: 2 days or less
+
+Freedom of Information Requests/Privacy
+Act Correspondence:
+Target 20 days
+Actual: 5 days or less
+
+Discussion:
+Response times at the Data Management Center
+have increased because of expanding workload;
+fewer dedicated servicing staff, and a national
+environment of greater personal verification. As the
+economy contracts, more men seek government job
+training; as baby boomers retire, greater numbers of
+men seek government employment with concomitant
+security clearances; as jobs become more complex,
+further education is necessary; and the number of
+men seeking U.S. naturalization continues to grow. All
+these factors have caused an explosion in registration
+verification workload with no increase in servicing staff.
+Thus, a rise in turnaround times can be expected.
+
+                                                                                                                    22
+     Financial Details
+
+                   Message from the Comptroller
+
+                     The SSS recognizes the importance of strong
+                     financial systems and internal controls to ensure
+                     accountability, integrity, and reliability. The Agency
+                     is committed to fulfilling the requirements of the
+                     Government Performance and Accountability Act, the
+                     Government Management and Reform Act, and the
+                     Federal Managers' Integrity Act.
+
+                     SSS daily programs and activities affect America's
+                     young men. To facilitate these programs, the
+                     Comptroller is entrusted with a modest amount of
+                     taxpayer's resources. A strong financial system
+                     and internal controls to ensure accountability,
+                     integrity, and reliability remain an Agency priority.
+                     Because I am keenly aware of the importance of
+                     this fiduciary responsibility I remain committed to
+                     the performance and accountability mandates put
+                     forward by the President and Congress. However,
+                     since implementation of the new accounting system,
+                     we have struggled to satisfy the mandates in financial
+                     management which I have adopted. Nevertheless,
+                     together with hard working, innovative, dedicated
+                     and skilled career employees we have been able to
+                     resolve and overcome all difficulties and deficiencies.
+
+                     As a relatively new Comptroller, appointed on October
+                     15, 2007, I have been dedicated to providing sound
+                     management of the resources under my stewardship,
+                     and communicating the performance of my programs
+                     through this report. After two years as Comptroller I
+                     can continue to guarantee an unqualified assurance
+                     of compliance with the Federal Managers' Financial
+                     Integrity Act, and the financial systems requirements
+                     of the Federal Financial Management Improvement
+                     Act.
+
+                     Carlo Verdino
+                     Comptroller
+
+23
+Overview of Financial Statements
+
+Purpose of the financial statements
+
+· The Balance sheet shows asset vs. liabilities
+· Statement of Net Cost shows the cost of operations
+· Statement of Change in Net Position identifies the accounting actions which caused the change in Net Position
+· Statement of Budgetary Resources shows how resources were made available during the budget year and the
+
+ year end status of those resources
+
+Financial Statements
+
+                             Selective Service System
+                          Consolidated Balance Sheets
+                      As of September 30, 2009 and 2008
+
+Assets                                                           2009         2008
+
+Intergovernmental Assets:                                        $10,487,378  $12,139,493
+           Fund Balance with Treasury Note 2                     -            -
+           Accounts and Interest Receivable                      $10,487,378  $12,139,493
+                                                                 $22,371      $10,162
+Total Intragovernmental Assets                                   $3,483,548   $1,936,674
+           Accounts and Interest Receivable Note 3               $13,993,297  $14,089,329
+           General Property, Plant, and Equipment Note 4
+
+Total Assets
+
+Liabilities                                                      $891,398     $757,963
+
+Intragovernmental Liabilities                                    $102,196     $104,083
+           Accounts Payable Notes 7, 8                           $528,653     $548,596
+                                                                 $1,522,247   $1,410,642
+Other                                                            $1,287,594   $536,329
+           Accrued Payroll and Benefits Note 8                   $2,605,032   $2,982,055
+           Federal Employee Compensation Benefits Note 6, 8, 10
+                                                                 $868,892     $823,121
+Total Intragovernmental Liabilities                              $521,738     $433,250
+           Accounts Payable Note 8                               $6,805,503   $6,185,397
+           FECA Actuarial Liability Note 6, 8, 10
+
+Other
+           Unfunded Annual Leave Note 10
+           Accrued Payroll and Benefits
+
+Total Liabilities
+
+Net Position                                                     $7,684,452   $10,229,988
+           Unexpanded Appropriations                             ($496,658)   ($2,329,056)
+           Cumulative Results of Operations
+                                                                 $7,187,794   $7,900,932
+Total Net Position
+Total Liabilities and Net Position                               $13,993,297  $14,086,329
+
+                                                                                                                 24
+                                 Statements of Net Cost of Operations
+                           For Years Ended September 30, 2009 and 2008
+
+Total Cost Note 9                                                   2009         2008
+Less: Total Earned Revenue Note 9                                   $22,443,303  $22,672,316
+Net Cost of Operations                                              ($351,317)   ($354,719)
+                                                                    $22,091,986  $22,317,597
+
+                               Statements of Budgetary Resources
+                     For the Years Ended September 30, 2009 and 2008
+
+Budgetary Resources                                                 2009          2008
+                                                                                  $6,787,686
+Unobligated Balance, beginning of fiscal year                       $7,444,431    $2,429,945
+
+Recoveries of prior year unpaid obligations                         $571,238      $22,000,000
+
+Budget Authority                                                                  $696,162
+                                                                                  ($341,115)
+Appropriation                                                       $22,000,000
+                                                                                  ($16,027)
+Spending Authority from Offsetting Collections                                    $31,556,651
+                                                                                  $1,852,908
+Earned                                                                            $29,703,743
+
+Collected                                                           $431,849
+
+                  Change in Receivables from Federal
+
+Sources
+
+  Change in Unfilled Customer Orders
+
+                  Without Advance from Federal Sources $0
+
+Total Budget Authority                                              $30,447,519
+
+Permanently Not Available                                           ($2,105,697)
+
+Total Budgetary Resources                                           $28,341,822
+
+                     Status of Budgetary Resources                  2009          2008
+
+                     Obligations Incurred                           $22,568,943   $22,063,851
+                               Direct                               $426,426      $195,460
+                               Reimbursable                         $22,995,369   $22,259,311
+                               Total Obligations Incurred
+                                                                    $5,114        $17,416
+                     Unobligated Balance Available                  $5,114        $17,416
+                               Apportioned                          $5,341,339    $7,427,015
+                               Total Unobligated Balance Available  $28,341,822   $29,703,742
+
+                     Unobligated Balance Not Available
+                     Total Status of Budgetary Resources
+
+25
+Obligated Balance                                             2009           2008
+
+Obligated Balance, Net                                        $4,695,059     $7,255,342
+
+         Unpaid Obligrations, brought forward, beginning      $0             ($357,142)
+         of fiscal year
+                                                              $4,695,059     $6,898,200
+         Less: Uncollected customer payments from
+         Federal Sources                                      $22,995,369    $22,259,311
+                                                              ($21,978,266)  ($22,389,649)
+         Total Unpaid Obligated Balances, Net beginning       ($571,238)     ($2,429,945)
+         of fiscal year                                       $0             $357,142
+
+Obligations Incurred, Net                                     $5,140,924     $4,695,059
+
+Less: Gross Outlays
+
+Less: Recoveries of prior year unpaid obligations, actual
+
+Change in uncollected customer payments from Federal
+Sources
+
+         Total Unpaid Obligated Balances, Net, end of period
+
+Obligated Balance, net, end of period - by component          2009           2008
+
+Unpaid Obligations Note 11                                    $5,140,924     $4,695,060
+Less: Uncollected customer payments from Federal Sources      $0             $0
+Total, unpaid obligated balance, net, end of period           $5,140,924     $4,695,060
+
+Net Outlays                                                   2009           2008
+
+Net Outlays                                                   $21,978,266    $22,389,649
+         Gross Outlays                                        ($431,849)     ($696,162)
+         Less: Offsetting Collections                         $21,546,416    $21,693,487
+         Net Outlays
+
+                                                                                            26
+            Statements of Changes in Net Position
+    For the Years Ended September 30, 2009 and 2008
+
+    Cumulative Results of Operations                          2009           2008
+                                                              ($2,329,056)   ($1,108,929)
+    Beginning Balance                                         ($71,455)      ($1,513,046)
+             Adjustments                                      ($2,400,512)   ($2,621,975)
+
+    Beginning Balance, as adjusted                            $22,511,295    $21,630,829
+    Budgetary Financing Sources
+                                                              $1,484,546     $979,685
+             Appropriations Used                              $23,995,841    $22,610,514
+    Other Financing Sources                                   ($22,091,986)  ($22,317,597)
+                                                              $1,903,855     $292,917
+             Inputed Financing from Costs Absorbed by Others  ($496,657)     ($2,329,058)
+    Total Financing Sources                                                  2008
+    Net Cost of Operations                                                   $10,098,391
+    Net Change                                                               $1,615,333
+    Ending Balance - Cumulative Results of Operations                        $11,713,724
+
+    Unexpended Appropriations                                 2009           $22,000,000
+                                                              $10,229,987    ($21,630,829)
+    Beginning Balance                                         $71,455        ($1,852,908)
+             Adjustments                                      $10,301,442    ($1,483,737)
+                                                                             $10,229,987
+    Beginning Balance, as Adjusted                            $22,000,000    $7,900,929
+    Budgetary Financing Sources                               ($22,511,295)
+                                                              ($2,105,697)
+             Appropriation Recieved                           ($2,616,991)
+             Appropriations Used                              $7,684,451
+             Other Adjustments                                $7,187,794
+    Net Change
+    Ending Balance - Unexpended Appropriations
+    Total Net Position
+
+27
+Notes to Financial Statements
+
+Note 1: Summary of significant accounting                   and expenses are recognized when a liability is
+policies                                                    incurred without regard to receipt or payment of cash.
+                                                            Budgetary accounting facilitates compliance with legal
+A. Reporting Entity                                         constraints and controls over the use of federal funds.
+The SSS is an independent Federal agency,                   The accompanying financial statements are prepared
+operating with permanent authorization under the            on the accrual basis of accounting.
+Military Selective Service Act. SSS is not part of the
+Defense Department; however, SSS exists to serve            C. Budget Authority
+the emergency manpower needs of the Defense                 The Congress passes appropriations annually that
+Department, if a draft is necessary.                        provide SSS with authority to obligate funds for
+                                                            necessary expenses to carry out mandated program
+The Agency's mission is twofold: (1) provide manpower       activities. SSS performs reimbursable services for
+to the armed forces in an emergency; and (2) run            another Federal entity which reimburses SSS for the
+an Alternative Service Program for conscientious            full costs of performing this service.
+objectors during a draft. The Alternative Service
+Program would provide public work assignments in            Annual appropriations are used, within statutory
+America's communities in lieu of military service.          limits, for operating and capital expenditures for
+                                                            essential personal property. Also, SSS places
+SSS's structure consists of the National Headquarters,      internal restrictions on fund expenditures to ensure
+Data Management Center, and three Regional                  the efficient and proper use of all funds.
+Headquarters. The SSS workforce includes full-
+time permanent employees, part-time employees               D. Fund Balance with Treasury
+(state directors), volunteers (local board members),        Fund balances with Treasury primarily represent
+and military reservists. State Directors, Local Board       appropriated funds that are available to pay
+Members and Military Reservists are the Agency's            current liabilities and finance authorized purchase
+standby components. They serve part-time for the            commitments. See Note 2 for additional information.
+Agency, remaining trained and ready to be called into
+service in the event of a draft.                            E. Accounts Receivable
+                                                            Accounts Receivable consists of amounts due from
+The Agency remains ready to implement a draft of            other federal entities, current and former employees,
+untrained manpower, or personnel with professional          and vendors. Gross receivables are reduced to Net
+health care or special skills, if directed by the Congress  Realizable value by an allowance for uncollectible
+and the President to do so in a national crisis.            accounts.
+
+B. Basis of Accounting and Presentation                     F. Property, Plant, and Equipment; Net
+The financial statements present the financial position,    The basis for recording purchased general Property,
+net cost of operations, changes in net position,            Plant, and Equipment (PPE) is full costs, including
+and budgetary resources in accordance with U.S.             all costs incurred to bring the PP&E to and from a
+Generally Accepted Accounting Principles (GAAP)             location suitable for its intended use. The SSS
+and Financial Reporting Requirements of the Office of       PP&E consists of equipments, software, assets
+Management and Budget (OMB) prescribed in OMB               under capitalized lease, and internal use software in
+Circular A-136, Financial Reporting Requirements (as        development. SSS's policy is to capitalize individual
+revised June 2009).                                         purchases of property and equipment with a cost
+                                                            of $10,000 or more and a useful life of at least 3
+They have been prepared from the books and                  years. The dollar threshold for capitalization of bulk
+records of the SSS and include accounts of all funds        purchases is $50,000. Assets are depreciated using
+under the control of the SSS. Accounting principles         straight-line method of depreciation with useful lives
+generally accepted in the United States encompass           ranging from three to seven years. See Note 4 for
+both accrual and budgetary transactions. Under the          additional information.
+accrual method, revenue is recognized when earned
+
+                                                                                                                     28
+    G. Accrued Liabilities and Accounts Payable                Public Law 99-335. Employees hired after December
+    Accrued Liabilities and Accounts Payable represent a       31, 1983, are automatically covered by FERS and
+    probable future outflow or other sacrifices of resources   Social Security. A primary feature of FERS is that
+    as a result of past transactions or events. Liabilities    it offers a savings plan to which SSS automatically
+    are recognized when incurred, regardless of whether        contributes 1% of base pay and matches any
+    they are covered by budgetary resources. Liabilities       employee contributions up to an additional 4% of base
+    cannot be liquidated without legislation that provides     pay. For most employees hired after December 31,
+    resources to do so. Also, the government, acting in its    1983, SSS also contributes the employer's matching
+    sovereign capacity, can abrogate SSS liabilities. See      share for Social Security.
+    Note 10 for information on "Liabilities Not Covered
+    by Budgetary Resources", Note 8 for information            Similar to federal retirement plans, OPM rather than
+    on "Other Liabilities", and Note 7 for information on      the SSS, reports the liability for future payments to
+    Accounts Payable.                                          retired employees who participate in the Federal
+                                                               Employees Health Benefit Program (FEHBP) and the
+    H. Accrued Workers Compensation and Other                  Federal Group Life Insurance Program (FEGLIP).
+    Actuarial Liabilities
+    Federal Employees' Compensation Act (FECA)                 SSS reports to the full cost of providing other retirement
+    provides income and medical cost protection to             benefits (ORB). The SSS also recognizes an expense
+    cover federal civilian employees injured on the job,       and liability for other post employment benefits
+    employees who have incurred a work-related injury          (OPEB), which includes all types of benefits provided
+    or occupational disease, and to pay beneficiaries          to former or inactive (but not retired) employees,
+    of employees whose deaths are attributable to job-         their beneficiaries, and covered dependents. During
+    related injuries or occupational disease. The FECA         fiscal years 2009 and 2008, the cost factors relating
+    program is administered by the United States               to FEHBP were $5,756 and $5,220 respectively, per
+    Department of Labor (DOL), which pays valid claims         employee enrolled. During fiscal years 2009 and
+    and subsequently seeks reimbursement from the              2008, the cost factor relating to FEGLIP was .02
+    Selective Service System for these paid claims.            percent of basic pay per employee enrolled.
+
+    The FECA liability is based on two components.             J. Annual, Sick, and Other Leave
+    The first component is based on actual claims paid         Annual leave is accrued when earned and reduced
+    by DOL but not yet reimbursed by the SSS. There is         as leave is taken. The balance in the accrued leave
+    generally a two-to-three-year time period between          account is calculated using current pay rates. Sick
+    payment by DOL and reimbursement to DOL by the             leave and other types of non-vested leave are charged
+    Selective Service System. The second component             to operating costs as they are used.
+    is the actuarial liability, which estimates the liability
+    for future payments as a result of past events. The        K. Imputed Costs/Financing Sources
+    actuarial liability includes the expected liability for    Federal Government entities often receive goods
+    death, disability, medical, and miscellaneous cost for     and services from other Federal Government entities
+    approved compensation cases.                               without reimbursing the providing entity for all the
+                                                               related costs. These constitute subsidized costs
+    I. Pension Costs, Other Retirement Benefits,               which are recognized by the receiving entity. SSS
+    and Other Post Employment Benefits                         recognized imputed costs and financing sources
+    SSS recognizes the full costs of its employees'            in fiscal years 2009 and 2008 to the extent directed
+    pension benefits. However, the liabilities associated      by the OMB, such as: employees' pension, post-
+    with these costs are recognized by the Office of           retirement health and life insurance benefits; other
+    Personnel Management (OPM) rather than SSS.                post-employment benefits for retired, terminated, and
+                                                               inactive employees, which include unemployment and
+    Most employees hired prior to January 1, 1984;             workers compensation under the Federal Employees
+    participate in the Civil Service Retirement System         Compensation Act (FECA) and losses in litigation
+    (CSRS) to which SSS contributes 7% of salaries for         proceedings. In addition, SSS recognized imputed
+    regular CSRS employees.                                    cost for services received from other Federal agencies
+                                                               without reimbursement; these services included office
+    On January 1, 1987, the Federal Employees                  space for DMC and Region I and RFO services from
+    Retirement System (FERS) went into effect pursuant to      the Coast Guard.
+
+29
+L. Revenues and Other Financing Sources                   otherwise specified by law, expires for incurring new
+SSS's activities are financed either through exchange     obligations at the end of the fiscal year that the funds
+revenue it derives from other Federal government          were appropriated. For the subsequent five fiscal
+entities or through appropriations. A reimbursable        years, the expired funds are available to liquidate
+agreement with the Department of Defense                  valid obligations incurred during the unexpired period.
+provides the exchange revenue which is recognized         Obligations incurred during the unexpired period but
+when earned; i.e. services have been rendered.            not previously reported may be adjusted upwards or
+Appropriations used are recognized as financing           downwards. At the end of the fifth expired year, the
+sources when related expenses are incurred or             expired account is canceled and any remaining funds
+assets purchased. SSS also incurs certain costs that      are returned to Treasury.
+are paid in total or in part by other Federal entities,
+such as pension costs. These subsidized costs
+are recognized on the Statement of Net Costs and
+imputed financing for these costs is recognized in the
+Statement of Changes of Net Position. As a result,
+there is no effect on Net Position.
+
+M. Use of Estimates
+The preparation of financial statements in conformity
+with generally accepted accounting principles
+(GAAP) requires management to make estimates and
+assumptions that affect reported amounts of assets
+and liabilities at the date of the financial statements
+and the reported amounts of revenue and expenses
+during the reporting period. Actual results could differ
+from those estimates.
+
+N. Expired Accounts and Canceled Authority
+SSS receives an annual appropriation, which unless
+
+Note 2: Fund Balance with the U.S. Treasury
+Fund balances with Treasury consisted of the following at June 30, 2009 and 2008:
+
+Fund Balances                                             2009                     2008
+                                                          $10,487,378              $12,139,493
+Appropriated Funds
+
+Status of Fund Balance with Treasury
+
+Unobligated Balance
+
+Available                                                 $5,114                   $17,416
+                                                          $5,341,339               $7,427,015
+Unavailable                                               $5,140,925               $4,695,060
+                                                          $10,487,378              $12,139,493
+  Obligated Balance Not Yet Disbursed
+
+Total
+
+                                                                                                                    30
+    Note 3: Accounts Receivable, Net
+
+    The chart below shows the accounts receivable as of September 30, 2009 and September 30, 2008, respec-
+    tively. The FY 2009 receivables are from current employees and deemed to be fully collectible. The FY 2008
+    receivables have been collected.
+
+    Accounts Receivable, Net                          2009               2008
+    Intergovernmental                                 -                  -
+    Public                                            $22,371            $10,162
+    Total                                             $22,371            $10,162
+
+    Note 4: Property, Plant, and Equipment; Net
+
+    SSS policy is to capitalize individual purchases of property and equipment with a cost of $10,000 or more and
+    a useful life of at least three years. The dollar threshold for capitalization of bulk purchases is $50,000. Assets
+    are depreciated using straight-line method of depreciation with useful lives ranging from three to seven years.
+    Additionally, internal use software development and acquisition costs of $10,000 or greater are capitalized as
+    software development in progress until the development stage has been completed and the software success-
+    fully tested. Upon completion and testing, software development-in-progress costs are reclassified as internal
+    use software costs and amortized using the straight-line method over the estimated useful life of seven years.
+    Purchased commercial software that does not meet the capitalization criteria is expensed. Capitalized property
+    and equipment, net of accumulated depreciation, consisted for the following as of September 30, 2009 and 2008.
+
+                 Asset Class                          Useful Life
+
+                 Equipment                            3 - 7 Years
+                 Assets Under Capitalized Lease           3 Years
+                 Information Technology Software          3 Years
+                 Internal Use Software                    7 Years
+
+    Asset Class                           Acquisition Value Accumulated  2009 Net
+                                                                         Book Value
+    Depreciation                                                         $404,874
+                                                                         $0
+    Equipment                             $483,503    $78,629            $408,457
+                                                                         $2,670,217
+    Assets Under Capitalized Lease        $0          $0                 $3,483,548
+
+    Information Technology Software       $908,083    $499,626
+
+    Internal Use Software in Development  $2,670,217  $0
+
+    Total                                 $4,061,803  $578,255
+
+31
+Asset Class                               Acquisition Value Accumulated  2008 Net
+                                                                         Book Value
+Depreciation                                                             $216,663
+                                                                         $0
+Equipment                                 $1,068,166  $851,503           $422,459
+                                                                         $1,297,553
+Assets Under Capitalized Lease            $153,293    $153,293           $1,936,675
+
+Information Technology Software           $821,310    $398,851
+
+Internal Use Software in Development      $1,297,553  $0
+
+Total                                     $3,340,322  $1,403,647
+
+Depreciation expense was $208,877 and $237,470 for fiscal years ending September 30, 2009 and 2008, re-
+spectively, and is contained in the accumulated depreciation. Assets with an acquisition value of $1,085,651
+were retired at a loss of $54,381 in June 2009.
+
+Note 5: Leases
+
+The Selective Service System leases office and storage space from commercial vendors and the General Ser-
+vice Administration (GSA). In addition, SSS rents copiers and other office equipment from commercial vendors
+and vehicles from GSA and commercial vendors. With the exception of the commercial leases on two office
+buildings (Colorado and Georgia) and the occupancy agreement (OA) with GSA (Virginia), all rentals are one-
+year. Because these rentals are considered cancelable, minimum lease payments due are restricted to the two
+commercial leases and the OA with GSA.
+
+Selective Service System has executed three long-term leases for office space. The three leases are as fol-
+lows: (1) Region II Headquarters in Smyrna, Georgia, (2) Region III Headquarters in Denver, Colorado, and (3)
+National Headquarters in Arlington, Virginia.
+
+The lease for the Region II Headquarters space is a ten-year lease initiated in 2004 and expiring in 2014. The
+annual rent of $69,654 in 2004 escalates between 6% and 4% each year to $105,820 in 2014.
+
+The lease for the Region III Headquarters is a five-year lease initiated in January 2006 and expiring in December
+2011. The annual rent of $94,023 has no escalation charge. However, the lease requires payment of the pro rata
+share of expenses related to operating, maintaining, repairing and managing the property. In 2008, the monthly
+expense was $301. In 2009, the monthly expense was $659.
+
+Office space for National Headquarters is obtained from General Services Administration (GSA) via an Occu-
+pancy Agreement (OA) which expires in October 2013. The base year rent of $525,462 can escalate from 5% to
+10% each year for anticipated increases in operating costs.
+
+Fiscal Year  Office Space             Total FY 2009   Office Space       Total FY 2008
+
+2009                                  $0              $764,558           $764,558
+                                                                         775,132
+2010         $775,132                 $775,132        $775,132           $715,386
+                                                                         $702,854
+2011         $715,386                 $715,386        $715,386           $714,035
+                                                                         $83,958
+2012         $702,854                 $702,854        $702,854           $3,755,922
+
+2013         $714,035                 $714,035        $714,035
+
+2014 and Beyond $83,958               $83,958         $83,958
+
+Total Future Lease Payments           $2,991,365
+
+                                                                                                                   32
+    Note 6: Federal Employees' Compensation Act
+
+    The Federal Employees' Compensation Act (FECA) provides income and medical cost protection to covered
+    Federal civilian employees injured on the job, employees who have incurred a work-related occupational dis-
+    ease, and beneficiaries of employees whose death is attributable to a job-related injury or occupational disease.
+    Claims incurred for benefits for SSS employees under FECA are administered by the Department of Labor (DOL)
+    and are paid, ultimately, by SSS.
+
+    For 2008, and again in 2009, SSS used estimates provided by DOL to report the FECA liability. This practice is
+    consistent with the practices of other federal agencies.
+
+    SSS recorded an estimated actuarial liability for future costs that represent the expected liability for approved com-
+    pensation cases beyond the current fiscal year. This estimated actuarial liability of $2,605,032 and $2,982,055 as
+    of September 30, 2009, and September 30, 2008, respectively, is reported on SSS's Balance Sheet. SSS also
+    recorded a liability for amounts paid to claimants by DOL as of September 30, 2009 and September 30, 2008,
+    of $528,653 and $548,595, respectively, but not yet reimbursed to DOL by SSS. The amount owed to DOL is
+    reported on SSS's Balance Sheet as an intragovernmental liability.
+
+    Note 7: Intragovernmental Liabilities - Accounts Payable
+
+    Intragovernmental Liabilities are the amounts that the SSS owes other federal government agencies.
+
+    Department of Defense               2009      2008
+    U.S. Postal Service
+    U.S. Air Forces Reserves            $538,072  $659,459
+    Department of Justice               $88,500   $22,500
+    Government Services Administration  $235,867  $0
+    Department of Labor                 $0        $0
+    Department of Homeland Security     $21,417   $3,034
+    Office of Personnel Management      $0        $0
+    USDA Graduate School                $7,288    $197
+    Department of Navy                  $0        $20,836
+    Social Security Administration      $0        $2,640
+    Department of Army                  $0        $7,366
+    Total                               $0        4,600
+                                        $255      $37,331
+                                        $891,399  $757,963
+
+33
+Note 8: Other Liabilities
+
+The accrued liabilities for SSS are comprised of program and lease expense accruals, payroll accruals, and un-
+funded annual leave earned by employees. Program expense accruals represent expenses that were incurred
+prior to year-end, but were not paid. Similarly, payroll accruals represent payroll expenses that were incurred
+prior to year-end, but were not paid.
+
+                                                      2009         2008
+
+Interngovernmental Liabilities
+
+FECA                                                  $528,653     $548,595
+                                                      $891,398     $757,963
+Accounts Payable                                      $102,196     $104,083
+                                                      $1,522,247   $1,410,642
+  Accrued Payroll
+
+Subtotal Intragovernmental
+
+Public Liabilities
+
+Accrued Funded Payroll and Leave                      $521,738     $433,250
+                                                      $2,605,032   $2,982,055
+Actuarial FECA                                        $1,287,594   $536,329
+                                                      $868,892     $823,121
+Accounts Payable                                      $5,283,256   $4,774,755
+                                                      $6,805,503   $6,185,397
+Other Liabilities
+
+Subtotal Public
+
+Total Liabilities
+
+Note 9: Intragovernmental Costs and Exchange Revenue
+
+                                                      2009         2008
+
+         Intragovernmental Gross Cost                 $8,218,334   $10,484,762
+         Less: Earned Revenue                         ($351,317)   ($354,719)
+Intragovernmental Net Cost                            $7,867,017   $10,130,043
+         Gross Cost with the Public                   $14,224,969  $12,187,554
+         Less: Earned Revenue                         $0           $0
+Net Costs with the Public                             $14,224,969  $12,187,554
+Net cost of Operations                                $22,091,986  $22,317,597
+
+Intragovernmental costs are those expenses paid by SSS to other federal government entities. They include, but
+are not limited to, the Army National Guard Bureau, Department of the Interior, General Services Administration,
+Government Printing Office and Great Lakes Naval Station Public Works.
+
+Public costs are expenses paid to all other entities, to include state and local governments and the general public.
+
+All earned revenue was with other federal government agencies.
+
+                                                                                                                      34
+    Note 10: Liabilities Not Covered by Budgetary Resources
+
+    Selective Service System's Balance Sheet as of September 30, 2009, include liabilities not covered by budget-
+    ary resources, which are liabilities for which Congressional action is needed before budgetary resources can be
+    provided. Although future appropriations to fund these liabilities are likely and anticipated, it is not certain that
+    appropriations will be enacted to fund these liabilities. The composition of liabilities not covered by budgetary
+    resources as of September 30, 2009, and September 30, 2008 is as follows:
+
+                                                                 2009        2008
+
+    Intragovernmental Liabilities                                $528,653    $548,596
+                                                                 $528,653    $548,596
+           Unfunded FECA
+                                                                 $868,892    $823,121
+           Total Intragovernmental Liabilities                   $2,605,032  $2,982,055
+                                                                 $4,002,577  $4,353,772
+    Other                                                        $2,802,926  $1,831,625
+                                                                 $6,805,503  $6,185,397
+           Unfunded Annual Leave
+
+           Actuarial Liability - FECA
+
+           Total Liabilities Not Covered by Budgetary Resources
+
+           Total Liabilities Covered by Budgetary Resources
+
+    Total Liabilities
+
+    Note 11: Undelivered Orders at the End of the Period
+
+    Undelivered orders are purchase orders issued by SSS during Fiscal Year 2009 or Fiscal Year 2008 that have
+    not had delivery of required product or service as of September 30, 2009 or September 30, 2008, respectively. It
+    is anticipated that these undelivered items will be provided in future periods and will require resources obligated
+    during Fiscal Year 2009 or Fiscal Year 2008.
+
+                                                                 2009        2008
+    Undelivered Orders                                           $5,140,925  $4,695,060
+    Total Undelivered Orders                                     $5,140,925  $4,695,060
+
+    Note 12: President's Budget
+
+    The Budget of the United States (also known as the President's Budget), with the actual numbers for fiscal year
+    2009, was not published at the time that these financial statements were issued. The President's Budget is ex-
+    pected to be published in 2010. It will be available from the United States Government Printing Office. The fol-
+    lowing chart displays the differences between the Consolidated Statement of Budgetary Resources (SBR) in the
+    fiscal year 2008 Performance and Accountability Report (PAR) and the actual fiscal year 2008 balances included
+    in the fiscal year 2009 President's Budget.
+
+35
+Statement of Budgetary  Budgetary        Obligations  Net          Offseting
+Resources Amounts       Resources        Incurred     Outlays      Receipts
+                                                                   $0
+Unobligated Balance     $29,703,743      $22,259,311  $21,693,487
+carried forward,                                                   $0
+recorveries of prior    ($8,015,669)
+year funds and
+expired accounts        ($311,926)       ($259,311)   ($693,487)
+                        $22,000,000      $22,000,000  $22,000,000
+Rounding
+
+President's Budget
+Amounts
+
+Note 13: Status of Budgetary Resources
+
+A. Apportionment Categories of Obligations Incurred
+Obligations incurred reported on the Statement of Budgetary Resources in 2009 and 2008 consisted of the fol-
+lowing
+
+                                                      2009         2008
+
+Direct Oblications Category A                         $22,568,943  $22,063,851
+         Total Direct Obligations                     $22,568,943  $22,063,851
+                                                      $426,426     $195,460
+Reimbursable Obligations Category A                   $426,426     $195,460
+         Total Reimbursable Obligations               $22,995,369  $22,259,311
+
+Total Obligations
+
+Note 14: Reconciliation of Net Operations (Proprietary) to Budget
+
+The Reconciliation of Net Cost of Operations to Budget explains the difference between the budgetary net obliga-
+tions and the proprietary net costs of operations. Net obligations and the net cost of operations differ because (1)
+some costs do not require budgetary resources (e.g. depreciation, increase in unfunded annual leave, etc.); (2)
+some increases to net obligations do not generate immediate cost (e.g. increasing obligations prior to incurring
+and recording expense); and (3) budgetary resources are required for capitalized items which are not expensed.
+
+Beginning in fiscal year 2008, OMB did not prescribe a format for this reconciliation in OMB Circular A-136,
+Financial Reporting Requirements, as amended, so that preparers might develop a more robust presentation
+tailored to their agency. As of September 30, 2009 and September 30, 2008, the Reconciliation of Net Cost of
+Operations to Budget consisted of the following:
+
+                                                                                                                      36
+                          Reconciliation of Net Cost of Operations to Budget
+                          for the Period Ended September 30, 2009 and 2008
+
+                                                (In Whole Dollars)
+
+    Budgetary Resources Obligated                  2009                       2008
+
+    Obligations Incurred                           $22,995,369                $22,259,312
+                                                                              $2,768,964
+    Less: Spending Authority from Offsetting       $1,003,088                 $19,490,348
+    Collections and Recoveries                                                $0
+                                                                              $19,490,348
+    Obligations Net of Offsetting                  $21,992,282                $979,685
+    Collections and Recoveries                                                $0
+                                                                              $979,685
+    Less: Offsetting Receipts                      $0                         $20,470,033
+
+    Net Obligations                                $21,992,282                ($2,189,029)
+
+    Other Recources                                                           $0
+                                                                              $447,161
+    Imputed Financing from Costs                   $1,484,546                 $0
+    Absorbed by Others
+                                                                              ($1,741,868)
+    Other                                          $0                         $22,211,901
+
+    Net Other Recources Used to                    $1,484,546
+    Finance Activities
+
+    Total Resources Used to Finance Activities     $23,476,828
+
+    Resources Used to Finance Items Not Part
+    of the Net Costs of Operations
+
+    Change in Budgetary Resources Obligated        ($525,436)
+    for Goods, Services and Benefits Ordered
+    but not yet Provided
+
+    Resources that Fund Expenses Recognized
+    in Prior Periods
+
+    Budgetary Offsetting Collections and Receipts
+    that do not Affect Net Cost of Operation
+
+    Other                                          $0
+
+    Resources that Finance the Aquisition of       $1,579,901
+    Assets or Liquidation of Liabilities
+
+    Other Resources or Adjustments to Net          $0
+
+    Obligated Resources that do not Affect
+
+    Net Cost of Operations
+
+    Total Resources Used to Finance Items Not      $1,054,466
+    Part of the Net Cost of Operations
+
+    Total Resources Used to Finance Net Cost of Operations $22,422,362
+
+                                                                        Continued on Next Page
+
+37
+                                                         2009         2008
+
+Components not Requiring or Generating                                $16,067
+Resources in Future Periods                                           ($10,162)
+                                                                      ($1,741)
+Increase in Annual Leave Liability                       $45,771      $4,164
+
+Increase in Exchange Revenue Receivable                  ($12,209)    $237,470
+from the Public                                                       ($120,232)
+                                                                      ($15,706)
+Other                                                                 $101,532
+                                                                      $105,696
+Total Components of Net Cost of Operations               $33,562      $22,317,597
+that will Require or Generate Resources in
+Future Periods
+
+Components not Requiring or Generating Resources
+
+Depreciation and Amortization                            $208,877
+
+Revaluation of Assets or Liabilities                     ($175,850)
+
+Other                                                    ($396,966)
+
+Total Components of Net Cost of Operations that will     ($363,938)
+not Require or Generate Resources
+
+Total Components of Net Cost of Operations that will     ($330,376)
+
+not Require or Generate Resources in the Current Period
+
+Net Cost of Operations                                   $22,091,986
+
+                                                                                   38
+39
+Report of Independent Auditors
+
+         Selective Service System
+
+                          Financial Statements
+
+                                        As of and for the Years Ended
+                                        September 30, 2009 and 2008
+
+                                                    Submitted by
+                                         Leon Snead & Company, P.C.
+                    Certified Public Accountants & Management Consultants
+
+                                                                                                        40
+41
+42
+43
+44
+45
+46
+47
+48
+    Appendix
+
+    FY 2009 Performance Chart
+
+                                  Agency-wide Annual Performance Results and Targets
+
+    Performance Goals             Objective Actual Actual Actual Actual Actual Target
+
+                                         2005 2006 2007 2008 2009 2010
+
+    Maintain the Agency's         1.1.1  N/A  N/A  N/A  100% 100% 100%
+    Readiness Plans which
+    include the Call and          1.1.2  N/A  N/A  N/A  N/A                           100% 100%
+    Deliver, Reclassify,
+    Alternative Service, and      1.1.3  N/A  N/A  N/A  N/A                           0%    50%
+    the Lottery Standard
+    Operating Procedures.         1.2.1  N/A  N/A  N/A  N/A                           100%
+
+    Be prepared to activate       1.2.2                                               100%
+    State Headquarters, Area
+    Offices, and SSS Board        2.1.1  N/A  30%  80%  85%                           85%   95%
+    Members to timely, fairly
+    and equaitably process        2.1.1  N/A  N/A  5%   5%                            100% 100%
+    reclassification claims.
+                                  2.2.1  N/A  N/A  10%  20%                           30%   75%
+    Increase membership in        2.2.2
+    the Alternative Service              N/A  50%  60%  70%                           75%   90%
+    Employer Network
+    through initiatives
+    undertaken by its
+    State Directors and
+    RFOs at the local level.
+
+    Attain registration rate
+    above 90 percent for
+    eligible males 18-25
+
+    Obtain 83 percent of
+    registrations electronically
+
+    Complete implementation
+    of the Strategic Human
+    Capital Management Plan.
+
+    Complete Implementation
+    of the Homeland Security
+    Presidental Directive
+    (HSPD-12) initiative.
+
+    Update the Fiscal
+    Manual
+
+    Continue Performance
+    and Budget integration.
+
+                                                             Continued on Next Page
+
+49
+Performance Goals            Objective Actual Actual Actual Actual Actual Target
+
+                                    2005 2006 2007 2008 2009 2010
+
+Continue the development     2.3.1  N/A  5%   7%   10%               25%       50%
+and implementation of the
+registration modernization
+project.
+
+Ensure compliance with       2.3.1  N/A  5%   7%   10%               25%       50%
+FISMA requirements and
+reporting tasks as well as
+protecting personal
+indentification information
+entrusted to the SSS.
+
+Improve response times,      2.4.1  16 days 16 days 16 days 16 days  Average 55 Days
+
+in accordance with                  and  and  and  and               13.2      and
+
+provisions of the Angecy's          16 days 10 days 10 days 8 days   days and Unknown
+
+Administrative Services                                              2.7 Days
+
+Manual, for all types of
+
+responses: White House,
+
+congressional, media,
+
+Freedom of Information
+
+Act, and Privacy Act
+
+customers, registrants,
+
+and the general public.
+
+                                                                                       50
+    Glossary
+
+    Abbreviations and Acronyms
+
+    Terminology                 Acronym
+
+    Alternative Service Office........................................................................... ASO
+    Alternative Service Program....................................................................... ASP
+    Annual Performance Plan........................................................................... APP
+    Conscientious Objector.............................................................................. CO
+    Department of Defense.............................................................................. DoD
+    Government Performance and Results Act................................................ GPRA
+    Interactive Voice Response System........................................................... IVR
+    Local Board................................................................................................ LB
+    Local Board Member.................................................................................. LBM
+    Military Entrance Processing Station.......................................................... MEPS
+    Performance and Accountability Report..................................................... PAR
+    President's Management Agenda.............................................................. PMA
+    Reserve Force Officer................................................................................ RFO
+    Selective Service System........................................................................... SSS
+    State Director.............................................................................................. SD
+    Strategic Plan............................................................................................. SP
+
+51
+52
+

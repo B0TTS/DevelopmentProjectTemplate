@@ -1,0 +1,586 @@
+EXECUTIVE      AGENCY  OPERATIONS        PUBLIC &INTER-  SUPPORT   INFORMATION  HUMAN RESOURCES  STATE DIRECTORS &
+SUMMARY    BACKGROUND              GOVERNMENTAL AFFAIRS  SERVICES  TECHNOLOGY                       REGISTRATION
+
+                                                                                                                    Readiness, Registration, and Management Excellence 1
+   SELECTIVE SERVICE SYSTEM                                                      TABLE OF CONTENTS
+   AGENCY LEADERSHIP
+                                                                                 1 EXECUTIVE SUMMARY
+    JOEL C. SPANGENBERG                                                          3 AGENCY BACKGROUND
+
+      Director (Acting)                                                           3 Benefits to the Nation
+                                                                                  4 Organizational Structure
+    CRAIG T. BROWN
+                                                                                 5 OPERATIONS
+      Deputy Director (Acting)
+                                                                                  5 Readiness
+    SAIF M. KHAN                                                                  6 Registration
+
+      Chief of Staff                                                             8 PUBLIC AND INTERGOVERNMENTAL AFFAIRS
+
+    RUDY G. SANCHEZ                                                               9 External Communications
+                                                                                 12 Outreach
+      General Counsel                                                            12 Intergovernmental Affairs
+
+    CARLOS M. PEREZ                                                              13 SUPPORT SERVICES
+
+      Associate Director for Operations (Acting)                                 13 Accounting
+                                                                                 14 Budget
+    MICHEAL A. MIGLIARA                                                          14 Contracts and Logistics
+
+      Associate Director for Public and Intergovernmental Affairs                15 INFORMATION TECHNOLOGY
+
+    SCOTT W. JONES                                                               16 Technology Infrastructure
+
+      Associate Director for Information Technology / Chief Information Officer  17 HUMAN RESOURCES
+
+    ALEXANDER RUD                                                                17 Investment in Human Capital
+
+      Associate Director for Support Services / Chief Financial Officer          19 STATE DIRECTORS & REGISTRANTS BY STATE AND TERRITORY
+
+    NICOLE F. HARRIS                                                                                                                           Readiness, Registration, and Management Excellence II
+
+      Director, Data Management Center
+
+    THOMAS J. KENNEY
+
+      Director, Region I
+
+    RICHARD J. OGNIEWSKI
+
+      Director, Region II (Acting)
+
+    STEVEN L. KETT
+
+      Director, Region III
+
+I Readiness, Registration, and Management Excellence
+                                                                                                                     EXECUTIVE SUMMARY                                                                                                      EXECUTIVE
+                                                                                                                                                                                                                                         SUMMARY
+                                                                                                                     The Selective Service System (SSS) supports the
+       Dear Members of Congress:                                                                                     defense community, serving a critical role in ensuring  "If the United States were to go to                            AGENCY
+                                                                                                                     that the nation's military personnel needs are met in   a major conflict... We have Reserve                         BACKGROUND
+                 The Selective Service System (SSS) presents its Annual Report to Congress for calendar year 2022.   times of national emergency. As a central part of its   components we would pull in, and
+                                                                                                                     mission, SSS stands ready to support the Department     we also have [the] Selective Service                        OPERATIONS
+                 The readiness and capabilities provided by our nation's exceptional all-volunteer military protect  of Defense's (DoD) efforts to maintain the military     out there. I say that only because
+       our freedoms and way of life. SSS provides an additional tier of support to our military in the event of a    end-strength necessary for "backstopping diplomacy,     I don't want people to think the                               PUBLIC & INTER-
+       national emergency, always remaining ready as an enduring partner to the U.S. Department of Defense.          confronting aggression, deterring conflict, projecting  all-volunteer force is sort of alone                        GOVERNMENTAL AFFAIRS
+                                                                                                                     strength, and protecting the American people," as       when the United States must make
+                 SSS made significant progress in achieving the goals articulated in its Strategic Plan for fiscal   articulated in the National Security Strategy and       major decisions. They do not stand
+       years (FY) 2022 through 2026, and in late 2022 we announced our Strategic Vision focused on                   emphasized by the National Defense Strategy.            alone." ­ Dr. Kathleen Hicks, Deputy
+       readiness, registration, and management excellence. Here are a few areas we would like to highlight.                                                                  Secretary of Defense ­ April 6, 2023
+                                                                                                                     The mission of SSS is to register men and maintain
+               · We performed operational and tabletop exercises to assess the readiness or our people and           a system that, when authorized by the President and
+                 systems. In the event of a national emergency requiring a return to conscription, SSS must          Congress, allows the nation to meet DoD's personnel
+                 be ready to mobilize nationwide on short notice and demonstrate excellence and consistency.         needs in a fair and equitable manner, while managing
+                                                                                                                     an alternative service program for conscientious
+              · We made significant progress in our information technology modernization, delivering                 objectors to fulfill their two-year national service
+                 new tools for both employees and those who are required to register with SSS. This was              obligation in lieu of serving in the U.S. military.
+                 accompanied by enhancements to our cybersecurity capabilities. Additionally, SSS was one
+                 of two small Federal agencies to receive approval to use the Technology Modernization Fund.         SSS continues to modernize its capabilities, prioritizing three elements that advance the execution of its mission
+                                                                                                                     and are at the center of the Agency's Strategic Vision ­ readiness, registration, and management excellence.
+               · Regarding our finances, we are pleased to report that SSS received an unmodified ("clean")
+                 financial audit opinion for FY 2022.                                                                Highlights from the Agency's calendar year (CY) 2022 report include the following:
+
+               · Finally, SSS took care of its employees and was recognized by the Partnership for Public            SUCCESSES                                                                                                              SUPPORT
+                 Service as one of the "Top 10 Best Places to Work in the Federal Government" among small                                                                                                                                SERVICES
+                 Federal agencies. We are committed to developing and empowering employees at all levels             Strengthening Readiness Capabilities.
+                 to help make SSS more efficient and effective. Together, we continually create a positive,          SSS performed multiple operational and tabletop readiness exercises to test and im-                                    INFORMATION
+                 constructive work environment where integrity, respect, teamwork, and excellence thrive.            prove its ability to conduct a national draft lottery and carry out board operations in the event of                TECHNOLOGY
+                                                                                                                     a national emergency.
+                 No one knows what tomorrow will bring or what exactly will test our national resolve. As a                                                                                                                              HUMAN RESOURCES
+       readiness organization, the Selective Service System is committed to building enduring partnerships,          Advancing Technology Modernization.
+       modernizing its capabilities, and continually improving upon its performance so that it can remain            SSS submitted a project proposal to utilize the General Services Administration's (GSA)                                STATE DIRECTORS &
+       prepared to always support the defense of our nation.                                                         Technology Modernization Fund (TMF). This proposal was one of only two by small                                     REGISTRATION
+                                                                                                                     Federal agencies to receive approval. This funding will help accelerate the Agency's IT Mod-
+                                                                                   Sincerely,                        ernization Plan to achieve compliance with Executive Order 13800 and shift SSS's registration
+                                                                                                                     database, one of the largest in the Federal government, to the cloud.
+                                                                                   Joel C. Spangenberg
+                                                                                   Acting Director                   Integrating Operational Efficiencies.
+                                                                                                                     SSS placed the Enterprise Content Management (ECM) system into operation at the Data
+1 Readiness, Registration, and Management Excellence                                                                 Management Center (DMC) in November 2021. This system enhances document security,
+                                                                                                                     reduces paperwork, and improves customer experience by reducing the time necessary to
+                                                                                                                     process requests. For example, the average customer request to process a Status Informa-
+                                                                                                                     tion Letter, which documents an individual's registration history, took as many as ten days in
+                                                                                                                     the past. The average processing time was reduced to less than two days in 2022, and in most
+                                                                                                                     cases happens the same day as the request.
+
+                                                                                                                     Readiness, Registration, and Management Excellence 2
+AGENCY BACKGROUND                                                                                                  ORGANIZATIONAL STRUCTURE                                                                                            EXECUTIVE
+                                                                                                                                                                                                                                    SUMMARY
+The Selective Service System is an independent                                                                     SSS has more than 120 full-time employees who support its National Headquarters, its three regional
+Federal agency that has been a distinguished part        BENEFITS TO THE NATION                                    headquarters, and the DMC. It has up to 56 state directors, who serve as part-time employees, representing          AGENCY
+of America's history, spanning eras of conflict and                                                                each of the 50 states, Guam, the Northern Mariana Islands, Puerto Rico, the U.S. Virgin Islands, the District    BACKGROUND
+peace. It has a longstanding, statutory role to          The Selective Service System represents an                of Columbia, and New York City. In addition, most branches of the U.S. Armed Forces have reserve service
+provide personnel during national emergencies            additional tier of support to the all-volunteer           members (RSMs) serving at SSS. Up to 175 RSMs are authorized at SSS, and they serve at National Headquarters     OPERATIONS
+when conscription is authorized by Congress and the      military in the event of a national emergency.            and in many U.S. states and territories. In addition, approximately 8,500 volunteers across the nation dedicate
+President.                                               The current geopolitical environment and the              their time as state resource volunteers and board members, who decide the reclassification claims of inductees
+                                                         increasingly assertive posture of strategic               seeking deferments, exemptions, or postponements when conscription is authorized by the Congress and the
+SSS has enjoyed the support of Presidential              competitors require SSS to stand ready to                 President.
+administrations since its formal establishment as an     support the military end-strength necessary to
+independent agency in 1940, which built on its initial   defend the nation.                                        The Agency's state directors, most of its RSMs, and volunteers are managed through its three regional
+formation in 1917 during World War I as part of the      · Register young men in support of national               headquarters, which are in North Chicago, IL; Marietta, GA; and Aurora, CO. The regions also spearhead
+Department of War.                                                                                                 readiness efforts within their respective areas.
+                                                              readiness efforts.
+In 1940, the Selective Training and Service Act was                                                                Based in North Chicago, IL, the DMC manages the registration functions, maintains the registration database,
+signed into law by President Franklin Roosevelt. More    · Support the all-volunteer force and the per-            and is home to SSS's national call center.
+than 10 million draftees were inducted into the U.S.          sonnel needs of DoD as required.
+Armed Forces during World War II.                                                                                                                                                                                                      PUBLIC &INTER-
+                                                         · Ensure conscription is fair and equitable                                                                                                                                GOVERNMENTAL AFFAIRS
+Only a few years after World War II, Congress passed          when it is authorized in response to a nation-
+the Military Selective Service Act (MSSA), granting           al emergency.                                                                                                                                                            SUPPORT
+statutory authority for the Federal Government to                                                                                                                                                                                   SERVICES
+maintain SSS as an independent Federal agency            · Execute its alternative service program for
+under the executive branch responsible for delivering         conscientious objectors during a time of
+qualified men for induction into the U.S. Armed Forces.       conscription.
+
+The MSSA requires men, aged 18 to 25, to register with SSS and participate in a national draft lottery should the
+President and Congress reinstate conscription due to a national emergency.
+
+After the end of the Vietnam War in 1975, SSS entered a state of "deep standby" until 1980, when President                                                                                                                             INFORMATION
+Jimmy Carter signed Presidential Proclamation 4771 to reinstate the SSS registration requirement. It remains                                                                                                                        TECHNOLOGY
+in effect today.
+
+                                                                                                                                                                                                                                    HUMAN RESOURCES
+
+                                                                                                                                                                                                                                       STATE DIRECTORS &
+                                                                                                                                                                                                                                    REGISTRATION
+
+3 Readiness, Registration, and Management Excellence                                                               Readiness, Registration, and Management Excellence 4
+   OPERATIONS                                                                                                                       Selection                                                                                                         EXECUTIVE
+                                                                                                                                                                                                                                                   SUMMARY
+       The Operations Directorate ensures that DoD's need for personnel in the event of a national emergency can and                The Selective Service System has a long-established
+       will be fulfilled. Specifically, SSS is required to provide the first inductees to DoD within 193 days of Congress           random national draft lottery framework in place. The                                                             AGENCY
+       authorizing a draft. In addition, SSS administers an alternative service program (ASP) in lieu of military service           selection of potential inductees would be conducted                                                            BACKGROUND
+       for men classified as conscientious objectors. When mobilized, the Agency will initiate conscription and activate            through this framework and its supporting process, which
+       boards to adjudicate claims in every state and territory.                                                                    is a major foundational consideration to help ensure that
+                                                                                                                                    conscription is handled in a fair and equitable manner.
+     SUCCESSES
+                                                                                                                                    As part of its modernization efforts, SSS procured new
+        Emphasizing Readiness Posture.                                                                                              lottery equipment, and a new training schedule was
+        Through an extensive mission analysis assessment, SSS revisited and began to                                                implemented for its employees to execute a national draft
+        emphasize its six mission essential functions that it must be ready to perform in the                                       lottery with the new equipment.
+        event of a national emergency. This provided additional clarity and a greater sense of
+        urgency as the Agency works to implement its Strategic Vision.                                                                                                                           Classification                                    OPERATIONS
+
+        Enhancing Readiness Training.                                                                                                                                                            The Agency recruited and trained volunteers          PUBLIC & INTER-
+        SSS devoted resources to the training of staff in the execution of a national draft                                                                                                      to staff over 1,200 local and district appeal     GOVERNMENTAL AFFAIRS
+        lottery utilizing new lottery equipment and instituted a new training schedule for board                                                                                                 boards across the country. Each new volunteer
+        members, RSMs, and state directors across the nation.                                                                                                                                    board member was recruited and interviewed,          SUPPORT
+                                                                                                                                                                                                 onboarded by full-time staff, and trained either  SERVICES
+        Delivering Superior Customer Experience to the Public.                                                                                                                                   online via the learning management system or
+        In 2022, the DMC processed more than 1.4 million electronic registration records                                                                                                         virtually using teleconference software.
+        and responded to over 382,000 calls received from the public by live call center                                                                                                         Board members and RSMs planned and exe-
+        representatives or its interactive voice response system.                                                                                                                                cuted multiple claims exercises, familiarizing
+                                                                                                                                                                                                 board members with the processes and proce-
+    READINESS                                                                                                                                                                                    dures necessary to ensure fairness. State di-
+                                                                                                                                                                                                 rectors and RSMs also met with peace church
+       The key component of SSS's mission is to manage conscription for DoD when directed by Congress and the                                                                                    communities to build rapport and explain the
+       President. The Agency is currently in an `active standby' status, charged with maintaining a registration and                                                                             process to be classified as a conscientious ob-
+       classification structure capable of mobilizing and returning to immediate operations in the event of a national                                                                           jector (CO).
+       emergency. SSS also maintains personnel to initiate full operational capability, including trained RSMs.
+                                                                                                                                    Alternative Service Program                                                                                       INFORMATION
+       Over the course of 2022, the Selective Service System performed a mission analysis, which examined the                                                                                                                                      TECHNOLOGY
+       baseline requirements outlined in the MSSA as well as those that are required of any Federal agency. The                     To ensure that SSS is fully prepared to execute its mission
+       outcome was a strong articulation of six mission essential functions that SSS must be ready to perform in                    and process CO claims following a national draft lottery,                                                      HUMAN RESOURCES
+       the event of a national emergency. This in turn informed the implementation of two of the three pillars of the               the Agency established an Alternative Service Employment
+       Agency's Strategic Vision: readiness and registration.                                                                       Network as part of its ASP. During a time of conscription,
+                                                                                                                                    this nationwide network supports the workforce needs of
+       During a time of conscription, SSS would focus on all six of the following six mission essential functions: 1)               government organizations primarily by referring personnel
+       registration, 2) selection, 3) notification, 4) delivery, 5) classification, and 6) alternative service. For the first time  classified as COs for alternative service work in lieu of
+       in SSS history, it took the initiative to begin to develop metrics for these mission essential functions as a key            military service.
+       step in measuring its readiness. For example, these metrics will be built on demonstrations of capability, annual
+       exercises, training information, information systems validation, and the development of response plans.                                                                                   Automated Learning                                   STATE DIRECTORS &
+                                                                                                                                                                                                 Management System                                 REGISTRATION
+       SSS uses the test, training, and exercises (TT&E) planning model as a tool for all operations functions at various
+       levels of scope and scale. This model also augments its continuous modernization efforts, coupled with force                                                                              The training provided to the SSS team is
+       structure, and sustainment of its mission essential functions. Planned and executed correctly, TT&E events                                                                                important to its efforts to mobilize nationwide.
+       aim to mitigate force structure constraints and enhance the flexibility and operational reach of SSS. In 2022,                                                                            SSS's Learning Management System (LMS)
+       the Agency conducted large-scale readiness exercises, multiple local board member exercises, and state                                                                                    serves as a virtual training platform for staff,
+       headquarters tabletop exercises to review and analyze execution of mobilization activities.                                                                                               RSMs, and board members. The LMS is
+                                                                                                                                                                                                 accessible on all computer platforms and smart
+5 Readiness, Registration, and Management Excellence                                                                                                                                             devices. During 2022, SSS migrated additional
+                                                                                                                                                                                                 training to LMS, expanding the number of
+                                                                                                                                                                                                 available courses.
+
+                                                                                                                                    Readiness, Registration, and Management Excellence 6
+REGISTRATION                                              SSS PROCESSED                                                  CY 2022 Call Center Metrics
+
+Registration is a critical component of the Selective     MORE THAN                                                      METRIC                   TOTAL*   ENGLISH      SPANISH                                         EXECUTIVE
+Service System's readiness and stands out as              1.4 MILLION                                                    IVR Calls                304,877                                                            SUMMARY
+a mission essential function that occurs during           ELECTRONIC                                                     Answered Calls           77,810   68,740       9,070
+peacetime and in times of national emergency. If                                                                         Call Fulfillment Rate    98%      98%          94%                                             AGENCY
+conscription becomes necessary, the Agency must           REGISTRATION                                                   Avg Talk Time (minutes)  4:18     4:09         5:25                                         BACKGROUND
+have registered as many eligible men as possible to                                                                      Total Talk Time (hours)  5,576    4,755        819
+assure the public of a fair and equitable conscription    RECORDS DURING                                                 Avg Wait Time (seconds)  0:36     0:30         1:24
+process. By registering, men comply with Federal
+law and remain eligible for certain student loans, job    2022                                                           *In some instances, the individual numbers may not sum up to the                            OPERATIONS
+training, and government employment opportunities.                                                                       total number indicated.
+In the case of immigrant men, their eligibility for U.S.
+Citizenship is protected through registration.
+
+The CY 2022 national registration rate for men aged 18 to 25 was 84 percent. This was a five percent decrease            The Agency's mail center at the DMC is responsible for all incoming and                        PUBLIC &INTER-
+from CY 2021, largely driven by the loss of the requirement for a man to register with SSS to receive Federal            outgoing registration correspondence. Annually, the mail center sends                       GOVERNMENTAL AFFAIRS
+student aid and the removal of the option to registration on the Free Application for Federal Student Aid (FAFSA)        out over 2.1 million pieces of mail (i.e., registration acknowledgments,
+form, which are both outcomes of the passage of the FAFSA Simplification Act in 2020. Since this method of               compliance notifications, inquiry responses, and other correspondence),
+registration historically accounted for up to 20 percent of all annual registrations, SSS expects the national           and receives and processes approximately 155,000 pieces of mail.
+registration rate to further decrease.
+
+During most of 2022, the Selective Service System focused its outreach and registration efforts on 17- and               CY 2022 Incoming/Outgoing Mail Processing
+18-year-old populations. Currently, 46 states and territories have enacted driver's license legislation (DLL) or
+other laws supporting SSS registration. In total, more than 830,000 young men registered through DLL in 2022.
+SSS continued to work on getting DLL passed into law in the remaining states that do not yet have it in place.
+
+                                                                                                                                                                                                   Incoming Mail        SUPPORT
+                                                                                                                                                                                                                     SERVICES
+                                                                                                                                                           4,467 Acknowledgement Cards
+                                                          Electronic Registration Sources                                                                  6,167 Change of Information                                  INFORMATION
+                                                                                                                                                                                                                     TECHNOLOGY
+                                                          Note: The percentage totals in this pie chart                                                    20,981 Status of Information
+                                                          may be +/- 1 due to rounding.
+                                                                                                                                                      123,383           Registrations
+                                                                  DLL
+                                                                  Internet                                               Acknowledgement Letters                                                   1,357,343         HUMAN RESOURCES
+                                                                  DoE
+                                                                  DoD Enlistment Process                                                          Compliance Letters            592,485
+                                                                  U.S. Citizenship and Immigration Services
+                                                                  Telephone Services
+                                                                  WIOA Job Applicants
+                                                                  Alaska Permanent
+
+                                                                                                                         Maintenance Acknowledgement 53,262
+
+                                                                                                                                                  Status of Information 25,593                                          STATE DIRECTORS &
+                                                                                                                                                                                                                     REGISTRATION
+       SSS processed more than 1.4 million electronic registration records, accounting for 94.5 percent of all                                             Special 585
+       registrations received, during 2022. In all, the Agency stores approximately 93 million registration records and
+       maintains more than 130 data feeds with external parties.                                                         Outgoing Mail
+       The Agency's call center at the DMC is responsible for updating registrant information, completing registrations
+       over the telephone, addressing general inquiries about registration requirements and benefits eligibility, and                                          Readiness, Registration, and Management Excellence 8
+       handling specific correspondence-related inquiries. The call center offers an interactive voice response system
+       (IVR) to handle routine registration verification inquiries and telephone registrations.
+
+7 Readiness, Registration, and Management Excellence
+   PUBLIC AND INTERGOVERNMENTAL AFFAIRS                                                             EXTERNAL COMMUNICATIONS
+
+       The Public and Intergovernmental Affairs (PIA) Directorate                                   During 2022, Selective Service System continued to enhance its communication efforts to reach the nation's           EXECUTIVE
+       serves as Selective Service System's communications                                          young men and their influencers, informing them about the registration requirement and benefits that are linked   SUMMARY
+       hub, centralized information resource, and coordinator for                                   to it. Registration metrics, which reflect SSS communications efforts, are shared agency-wide to inform outreach
+       national outreach. Through this directorate, SSS maintains                                   and marketing strategies that will help increase registration awareness.
+       and enhances relationships with all levels of government,
+       educational and community-based organizations,                                               Advertising                                      Digital Media Campaigns                                             AGENCY
+       professional associations, the media, and the public.                                                                                                                                                          BACKGROUND
+       PIA uses various methods to disseminate information                                          PIA prioritized advertising in large U.S.        PIA developed 12 new and unique advertising campaigns
+       regarding SSS's mission and the registration requirement                                     cities with low registration rates to increase   during 2022, which were all centered on registration as          OPERATIONS
+       for men. The Agency shares its registration message with                                     registrations. For example, SSS used an          a civic duty and intended to raise registration awareness
+       communities across America, with a particular focus on                                       integrated external communications strategy      among men 18 to 25 years of age. These advertising
+       areas with historically lower registration rates.                                            to target a range of audiences across different  campaigns were featured on the Hulu and Disney+ platforms
+       It also monitors and manages all digital media accounts and                                  digital media platforms, including TV and        and resulted in nearly 2.5 million impressions on CTV.
+       out-of-home advertising (e.g., transit stop advertisements) for                              digital radio.
+       SSS. During each campaign, PIA analyzes metrics to gauge                                                                                      Additionally, SSS launched a LinkedIn campaign for
+       how well the advertisement worked and if any modifications                                                                                    educators, civic organization leaders, and athletic coaches         PUBLIC & INTER-
+       need to be made for future campaigns. This allows PIA to                                                                                      around the country. The purpose of the campaign was to           GOVERNMENTAL AFFAIRS
+       successfully enhance SSS messaging to ensure it resonates                                                                                     share the new Teacher's Guide, Civic Organization Toolkit,
+       with the targeted demographic.                                                                                                                and National Federation of State High School Associations
+                                                                                                                                                     (NFHS) Leader's Toolkit, as well as supplementary tools
+    SUCCESSES                                                                                                                                        and resources for influencers to share information about
+                                                                                                                                                     SSS and the requirement to register. In 2022, more than
+       Strengthening Relationships with Tribal Nations.                                                                                              1.2 million impressions were generated by users who had
+       In support of the January 26, 2021, Presidential Memorandum titled Tribal Consultation                                                        accessibility to and/or viewed SSS content on various pages
+       and Strengthening Nation-to-Nation Relationships, Selective Service System established                                                        they visited through LinkedIn.
+       a program of consultation with sovereign tribal nations. This program included a "Dear
+       Tribal Leader" letter sent via email and U.S. mail to every leader of the 587 Federally                                                                                                                           SUPPORT
+       recognized sovereign tribal nations. The letter reminded them of the registration                                                                                                                              SERVICES
+       requirement and notified them of opportunities to serve on Selective Service System
+       local boards. This outreach resulted in requests for advertising materials and registration                                                                                                                       INFORMATION
+       cards, and several tribal leaders also joined local boards. At the end of 2022, of the over                                                                                                                    TECHNOLOGY
+       8,000 total local board members nationwide, more than 160 identified as Native American.
+                                                                                                                                                                                                                      HUMAN RESOURCES
+       Implementing the U.S. Postal Service (USPS) Informed Delivery Campaign.
+       In coordination with the DMC, the Digital Affairs Team (DAT) launched an Informed                                                                                                                                 STATE DIRECTORS &
+       Delivery Mailer Campaign supported by USPS, which increased the reach of SSS to                                                                                                                                REGISTRATION
+       its targeted demographic by engaging users through digital marketing and generating
+       thousands of consumer impressions, interactions, and visits to the Agency website.                                                            Readiness, Registration, and Management Excellence 10
+
+       Increasing Digital Media Efforts.
+       The DAT led Selective Service System's registration awareness efforts by advertising
+       on social media platforms, which generated over 88 million impressions in CY 2022.
+       These cross-channel campaigns on Twitter, YouTube, Snapchat, LinkedIn, digital radio,
+       and connected TV (CTV), provided a more cohesive user experience for the targeted
+       demographic, and created multiple advertising touch points for users.
+
+9 Readiness, Registration, and Management Excellence
+Out-of-Home Advertising                                                                                  OUTREACH
+
+As people returned to a more normal or hybrid work/                                                      The Selective Service System continues to cultivate and strengthen relationships with educational, sports,         EXECUTIVE
+school environment following the height of the                                                           and community-based groups nationwide. The goal is to network with those who can help communicate with          SUMMARY
+pandemic, Selective Service System's out-of-home                                                         young men and their influencers, particularly those who may not be aware of or understand the registration
+advertising campaigns reinforced and complemented                                                        requirement. With the lifting of COVID-19 travel restrictions, SSS continued to engage in both virtual and in-     AGENCY
+its social media advertising efforts to contact                                                          person outreach efforts by participating in 43 public and virtual meetings, public speaking engagements,        BACKGROUND
+underserved and hard-to-reach markets. These                                                             conferences, and conventions nationally.
+efforts included advertisements in subway and bus
+stations, transit lines, and on billboards in Chicago,                                                   Athletic Directors and Coaches                         American Legion National Convention
+Philadelphia, Los Angeles, and San Francisco. The
+campaign displayed 490 ads that ran from September                                                       PIA outreach personnel partnered with NFHS to          The Selective Service System continued to partner with   OPERATIONS
+12, 2022, through October 3, 2022, and generated 7.2                                                     increase registration awareness by means of video,     its longtime supporter, the American Legion, to provide
+million impressions.                                                                                     digital, and print advertising. During the summer      its members with volunteer opportunities as local board
+                                                                                                         of 2022, Selective Service System personnel            members and state resource volunteers, as well as to
+Media Impressions for 2022                                                                               participated in the 103rd National Athletic Directors  advocate about men's civic duty to register.
+                                                                                                         Conference in San Antonio, TX, and interacted with
+Impressions: number of digital views                                                                     500 attendees throughout the 4-day event.                                                                          PUBLIC &INTER-
+                                                                                                                                                                                                                         GOVERNMENTAL AFFAIRS
+                                                        Freedom of Information
+                                                                                                                                                                                                                            SUPPORT
+                                                        During CY 2022, SSS's Freedom of Information                                                                                                                     SERVICES
+                                                        Act (FOIA) program continued to promote open
+                                                        government and transparency. For example,                                           INTERGOVERNMENTAL AFFAIRS                                                       INFORMATION
+                                                        the Agency increased the number of proactive                                                                                                                     TECHNOLOGY
+                                                        disclosures on social media platforms and                                             PIA serves as Selective Service System's liaison to
+                                                        its website. SSS's average response time                                              Congress and engages with other government entities.
+                                                        to FOIA requests of 4 days was well below                                             It monitors and assists with all MSSA-related legislative
+                                                        the legal requirement of 20 days. FOIA                                                activities at the national, state, and local levels.
+                                                        program personnel reviewed approximately
+                                                        4,400 documents and emails. All reporting                                             During 2022, SSS held a series of successful meetings
+                                                        requirements, including FOIA quarterly reports,                                       with the White House; Office of Management and
+                                                        the FOIA Annual Report, and Chief FOIA Officer                                        Budget; Office of Personnel Management; Department
+                                                        Report, were prepared and posted to the SSS                                           of Education; Department of Justice; House and Senate
+                                                        website, in accordance with Department of                                             Armed Services Committees professional staff; House
+                                                        Justice submission guidelines.                                                        and Senate Appropriations Subcommittees on Financial
+                                                                                                                                              Services and General Government professional staff;
+Metrics and Analytics                                   Snapchat Impressions                                                                  Members of Congress and their staffs; and multiple                         HUMAN RESOURCES
+                                                                                                                                              state governments.
+Agency advertising and social media content is          Grew by 99%
+constantly evolving due to internal and external                                                                                              PIA responded to 27 congressional inquiries requesting
+factors. In support of this, the DAT continuously       In 2022                                                                               support with determining constituent registration status
+monitors Selective Service System website traffic                                                                                             with SSS. It also authored informative position papers
+analytics to determine which advertisements are                                                                                               and educated external stakeholders about SSS and its                          STATE DIRECTORS &
+helping increase website traffic. The Agency found                                                                                            critical mission.                                                          REGISTRATION
+that Snapchat accounted for nearly 14 percent of
+traffic to the Agency website. Moreover, this analysis                                                                                   Readiness, Registration, and Management Excellence 12
+provided insights into the types of advertising that
+resonate with SSS audiences and enabled the Agency
+to continually modify and improve campaign strategies
+and initiatives. This also enabled SSS to develop
+additional methods to better measure the impact of
+advertising on registration.
+
+11 Readiness, Registration, and Management Excellence
+   SUPPORT SERVICES                                                                                                      BUDGET
+
+        Selective Service System's Support Services Directorate supports efficient and effective operations and          FY 2022 Budget                                                                                                 EXECUTIVE
+        program management while carrying out responsibilities in the areas of accounting and budget management,                                                                                                                     SUMMARY
+        contracting, and logistical support.
+                                                                                                                         The FY 2022 SSS enacted budget was $29.2                                                                       AGENCY
+     SUCCESSES                                                                                                           million. SSS met its nondiscretionary salary and                                                            BACKGROUND
+                                                                                                                         expense requirements and continued its investment
+        Achieving a Successful Financial Audit.                                                                          in cybersecurity enhancements and information
+        Due to the outstanding efforts of Agency personnel in addressing the shortfalls uncovered                        technology (IT) infrastructure modernization.
+        in its 2020 audit, SSS received an unmodified ("clean") financial audit opinion for 2022.
+        Supporting a National Headquarters Move.                                                                         FUNCTION                                  AMOUNT                                                            OPERATIONS
+        In partnership with GSA, SSS received outstanding support from the Office of Management                                                                 $15,287,000
+        and Budget (OMB) and Congress to move its National Headquarters to a nearby location                             Civilian Pay & Benefits                                                                                        PUBLIC &INTER-
+        in Arlington at the end of its existing lease, which will occur in FY 2024.                                                                               $1,342,363                                                         GOVERNMENTAL AFFAIRS
+                                                                                                                         Military Reserve Officer
+     ACCOUNTING                                                                                                          Support Services                        $6,025,319                                                             SUPPORT
+                                                                                                                                                                                                                                     SERVICES
+        Support Services implemented new processes that further strengthened internal controls, while also improving     Agency Services                          $1,635,670
+        succession planning and auditing practices. Although the financial management team experienced significant       (Government & Commercial)               $1,566,230                                                             INFORMATION
+        turnover in key leadership positions in 2022, the team was successful in minimizing disruptions to operations,                                                                                                               TECHNOLOGY
+        and seamlessly transitioning to a new SSS Associate Director for Support Services / Chief Financial Officer and  IT Software & Equipment                  $1,300,536
+        Contracting Officer. These new leaders brought deep expertise that has ensured that SSS can further enhance
+        its financial management standards.                                                                              GSA Occupancy Agreement (OA),               $981,917
+                                                                                                                         Other Rent, Lease, Storage, and
+13 Readiness, Registration, and Management Excellence                                                                    Maintenance                               $300,520
+                                                                                                                                                                    $477,366
+                                                                                                                         Postage & Express Courier                 $243,080
+                                                                                                                         Services
+                                                                                                                                                                     $50,000
+                                                                                                                         Communications Services,              $29,200,000
+                                                                                                                         Utilities, and Facilities Operations
+
+                                                                                                                         Printing & Reproduction
+
+                                                                                                                         General Supplies and Furniture
+
+                                                                                                                         Training, Travel, and Transportation
+                                                                                                                         of Personnel
+
+                                                                                                                         Strategic Initiatives
+
+                                                                                                                         TOTAL FOR ALL FY 2022 FUNDS
+
+                                                                                                                                                                               CONTRACTS AND LOGISTICS                               HUMAN RESOURCES
+
+                                                                                                                                                                               During 2022, contracting and logistics personnel         STATE DIRECTORS &
+                                                                                                                                                                               aligned to two separate offices. Logistics personnel  REGISTRATION
+                                                                                                                                                                               reported to the Budget Office within Support
+                                                                                                                                                                               Services and contracting personnel aligned to a
+                                                                                                                                                                               new Contracting Office within the Directorate. Led
+                                                                                                                                                                               by the efforts of these personnel, SSS processed
+                                                                                                                                                                               and executed more than 470 purchase orders
+                                                                                                                                                                               valued at $11.6 million.
+
+                                                                                                                                                                               Logistics personnel delivered the following services
+                                                                                                                                                                               to SSS employees: inventory management, postal
+                                                                                                                                                                               operations, transportation, facilities management,
+                                                                                                                                                                               and physical security, including the management of
+                                                                                                                                                                               personal identity verification cards.
+
+                                                                                                                                                               Readiness, Registration, and Management Excellence 14
+INFORMATION TECHNOLOGY                                                                                                TECHNOLOGY INFRASTRUCTURE                                       EXECUTIVE
+                                                                                                                                                                                   SUMMARY
+The Information Technology Directorate's mission is to deliver modern, secure, and cost-efficient IT services,        IT oversees the following areas of operation: cloud
+solutions, and support to Selective Service System. Accordingly, the Associate Director for Information               migration strategy, adoption of modern technologies, best       AGENCY
+Technology / Chief Information Officer ensures that all internal Agency systems are kept up to date and are           practices in IT security, network resiliency, and service    BACKGROUND
+operationally ready. The IT Directorate provides systems that are appropriately scalable, mission-capable, and        delivery. In CY 2022, IT continued to make significant
+fully optimized to meet national security requirements with maximum efficiency and at minimum cost.                   capital investments in its infrastructure to sustain always  OPERATIONS
+Today's ever-persistent international and domestic threat actors continue to pose cybersecurity risks to national     available operational service delivery while maintaining
+security. The IT Directorate maintains 24/7/365 oversight of the SSS's information security capabilities, enterprise  the highest standards of cybersecurity and providing            PUBLIC &INTER-
+network, critical systems, and sensitive data to protect against these threats.                                       reliable, robust, and redundant connectivity to ensure       GOVERNMENTAL AFFAIRS
+The Selective Service System's robust cybersecurity is built on a foundation of full compliance with the Federal      readiness. IT stands ready to scale IT/cyber operations
+Information Security Management Act (FISMA) and Cybersecurity Infrastructure Security Agency (CISA) and               in support of mobilization planning and exercises, and for      SUPPORT
+OMB directives. The 2022 FISMA audit resulted in only one recommended compliance remediation for the                  overall Agency preparedness.                                 SERVICES
+sustained continuity of operations for the Agency's registration database.
+                                                                                                                      IT continued to migrate to cost effective "cloud smart"         INFORMATION
+SUCCESSES                                                                                                             solutions to support the SSS's digital transformation, and   TECHNOLOGY
+                                                                                                                      to sustain all operational needs for its mission.
+Migrating to the Cloud.
+In 2022, SSS successfully migrated its on-premises applications and systems to secure                                 While SSS continued to execute its IT modernization plan
+FedRAMP cloud operations for Microsoft Exchange, SharePoint, proprietary data/files,                                  over the past year, it also submitted a proposal to the
+and web-based meeting services. The Microsoft 365 project delivered substantial                                       OMB Technology Modernization Fund board. The TMF
+enhancements to security through multifactor authentication services and continuity of                                board approved Selective Service System's proposal for
+operations with redundant cloud data centers.                                                                         the Registration and Verification Modernization initiative
+                                                                                                                      in February 2022. This four-year project is accelerating
+Leveraging Federated Shared Services.                                                                                 the speed at which the Agency can meet its "cloud smart"
+The continued partnership of IT with the Department of the Interior's Information Systems                             objectives, so that it can be achieved years ahead of
+Security Line of Business Center of Excellence is a clear example of SSS's strategy to                                schedule. The TMF funding, which totaled $5.9 million, was
+leverage strategic and operational value in collaborative relationships.                                              provided by the GSA Project Management Office for the
+                                                                                                                      cloud migration and modernization of SSS's Registration
+                                                                                                                      Compliance and Verification (RCV) application. The TMF
+                                                                                                                      project will deliver measurable and impactful results to
+                                                                                                                      SSS, with the migration of its RCV application from an
+                                                                                                                      on-premises environment to a FedRAMP-compliant cloud
+                                                                                                                      service provider.
+
+                                                                                                                      In summary, the Selective Service System's IT Directorate
+                                                                                                                      successfully implemented many cost-effective, innovative,
+                                                                                                                      and transformational technologies to deliver premier
+                                                                                                                      services to enhance its mission execution during 2022.
+
+                                                                                                                                                                                   HUMAN RESOURCES
+
+                                                                                                                                                                                      STATE DIRECTORS &
+                                                                                                                                                                                   REGISTRATION
+
+15 Readiness, Registration, and Management Excellence                                                                 Readiness, Registration, and Management Excellence 16
+HUMAN RESOURCES                                                                                 INVESTMENT IN HUMAN CAPITAL                                                                                                 EXECUTIVE
+                                                                                                                                                                                                                         SUMMARY
+The Selective Service System relies on a diverse                                                The success of the Selective Service System greatly depends upon the knowledge, skills, and abilities of its
+workforce of full- and part-time civil servants, RSMs, and  Click on image above to view video  employees. Part of that success is the ability of its supervisors to define and articulate priorities and expectations,     AGENCY
+volunteers. This workforce includes the staff based at                                          communicate them clearly to employees, motivate employees in executing their work, and recognize and                     BACKGROUND
+National Headquarters, the DMC, and the three regional                                          reward employee achievement.
+headquarters. The Human Resources (HR) Office provides
+the policy, planning, and support to enable this workforce                                      In 2022, SSS made updates to its performance management system. For example, HR worked to continue
+to achieve the SSS mission.                                                                     improving how the SSS uses the Office of Personnel Management-sponsored USA Performance platform. It
+                                                                                                made use of this technology to deliver a simpler performance appraisal template.
+SUCCESSES                                                                                                                                                                                                                OPERATIONS
+                                                                                                SSS incentivized year-round recognition of outstanding employee contributions as they occurred and provided
+Hiring Veterans.                                                                                a variety of monetary and non-monetary awards. Oversight by an awards board ensured that the awards process                 PUBLIC &INTER-
+Veterans account for 68 percent of the Selective Service System's Federal employee              remained consistently fair and equitable.                                                                                GOVERNMENTAL AFFAIRS
+workforce, more than double the percentage across the entire Federal workforce. In CY
+2022, the Agency hired 37 new employees, 12 of which were veterans.                             The focus on improving HR services to the Agency's personnel continued in CY 2022. For example, HR
+                                                                                                revitalized its support to Agency personnel by means of HR incident management to boost service delivery.
+Transforming the Employee Onboarding Process.                                                   Additionally, HR chartered a project to analyze and document the entire HR operation to leverage potential
+To ensure that SSS is delivering quality customer service to new employees, HR has updated      shared services with the Department of the Interior's Interior Business Center.
+and streamlined its onboarding protocols. HR is also focused on delivering great service to
+employees who transition from SSS to another organization or retire.                            SSS's employees are the Agency's most valuable asset. For its employees to provide the maximum benefit to
+                                                                                                taxpayers, they must be well-trained and well-versed in the most recent statutes and regulations, as well as in
+                                                                                                effective techniques and practices in their fields of expertise.                                                            SUPPORT
+                                                                                                                                                                                                                         SERVICES
+                                                                                                As evidence of its continued commitment to employee excellence through training in 2022, SSS invested over
+                                                                                                $80,000 in training for its full-time employees. In addition to any mandated Federal training and attendance at
+                                                                                                the Agency's annual summit in 2022, supervisors and managers were required to take at least one supervisory
+                                                                                                or profession-related training course each year.
+
+                                                                                                SSS believes that experienced, knowledgeable, and well-trained employees contribute ideas and facilitate
+                                                                                                changes that ultimately enhance efficiency, cost effectiveness, and productivity, putting the Agency in a better
+                                                                                                position to address the increasingly complex, interdisciplinary issues it faces.
+
+                                                                                                                                                                                                                            INFORMATION
+                                                                                                                                                                                                                         TECHNOLOGY
+
+                                                                                                                                                                                                                         HUMAN RESOURCES
+
+                                                                                                                                                                                                                            STATE DIRECTORS &
+                                                                                                                                                                                                                         REGISTRATION
+
+17 Readiness, Registration, and Management Excellence                                           Readiness, Registration, and Management Excellence 18
+STATE DIRECTORS                                                                              REGISTRANTS BY STATE AND TERRITORY                                                                                              EXECUTIVE
+                                                                                                                                                                                                                          SUMMARY
+                                                                                                               18-25 YEAR OLD                        18-25 YEAR OLD
+Alabama                  Alaska                        Arizona          Arkansas                               REGISTRATIONS                         REGISTRATIONS
+                                                                                                             (BORN 1997-2004)                      (BORN 1997-2004)
+Gary W. Kirk             John Zebal                    Vacant           Richard L. Gassaway  STATE                                 STATE                                                                                     AGENCY
+                                                                                                                          CY 2022                               CY 2022                                                   BACKGROUND
+
+California               Colorado                      Connecticut      Delaware             Alabama               229,982         Montana                   41,344
+
+John A. Arbogast         Vacant                        Michael Smith    Ruth A. Irwin        Alaska                36,822          Nebraska                  85,201
+
+District of Columbia     Florida                       Georgia          Guam                 American Samoa        1,572           Nevada                    141,584
+
+Barbara A. Pittman Paul B. Chauncey                Larry D. Stewart     Gregory Perez        Arizona               427,662         New Hampshire             54,736                                                       OPERATIONS
+
+Hawaii                   Idaho                         Illinois         Indiana              Arkansas              160,586         New Jersey                378,080
+
+Andrew L. Pepper Michael D. Moser Anthony P. Libri, Jr. Brett A. Thomas                      California            1,604,885       New Mexico                106,339
+
+Iowa                     Kansas                        Kentucky         Louisiana            Colorado              249,258         New York                  934,063                                                         PUBLIC & INTER-
+                                                                                                                                                                                                                          GOVERNMENTAL AFFAIRS
+Myron R. Linn            Vacant                        Emmanuel Belt    DeWayne Wells        Connecticut           195,680         North Carolina            600,338
+
+Maine                    Maryland                  Massachusetts        Michigan             Delaware              52,119          North Dakota              35,316
+
+Dwaine Drummond Gregory Adinolfi                       Thomas Cronin    Eric B. Fretz        District of Columbia  17,939          Northern Mariana Islands  2,102
+
+Minnesota                Mississippi                   Missouri         Montana              Florida               1,029,109       Ohio                      578,191
+
+William C. Barbknecht Pettis D. Walley Diane T. Cummins-Lefler Steven M. Keim                Georgia               541,528         Oklahoma                  218,865
+
+Nebraska                 Nevada                    New Hampshire        New Jersey           Guam                  7,360           Oregon                    146,311                                                         SUPPORT
+                                                                                                                                                                                                                          SERVICES
+Robert J. Foley Craig S. Wroblewski                    Peter J. Duffy   Frederick W. Klepp   Hawaii                61,565          Pennsylvania              489,348
+
+New Mexico               New York                      New York City    North Carolina       Idaho                 93,111          Puerto Rico               133,987
+
+Vincent Lopez            Randall P. Kryszak Paul A. Raimondi            Manley James         Illinois              625,073         Rhode Island              49,708
+
+North Dakota             Northern Mariana Islands      Ohio             Oklahoma             Indiana               291,397         South Carolina            263,788                                                         INFORMATION
+                                                                                                                                                                                                                          TECHNOLOGY
+Anthony L. Mutzenberger  Vacant                    Bradley E. Willette  Gary Highley         Iowa                  163,489         South Dakota              47,573
+
+Oregon                   Pennsylvania                  Puerto Rico      Rhode Island         Kansas                143,025         Tennessee                 324,239
+
+Michael Kalberg          John C. Williams Michelle M. Fraley            Jason Fahey          Kentucky              190,445         Texas                     1,650,241                                                    HUMAN RESOURCES
+
+South Carolina           South Dakota                  Tennessee        Texas                Louisiana             252,978         Utah                      214,677
+
+Joe P. Johnson, III      Emil Magnuson                 Bruce E. Henry   William Layne        Maine                 49,451          Vermont                   22,664
+
+Utah                     Vermont                       Virgin Islands   Virginia             Maryland              208,332         Virgin Islands            3,686
+
+Neil R. Hansen Rebecca Baczewski                       Rae A. Rouse     Manuel R. Flores     Massachusetts         228,623         Virginia                  424,987
+
+Washington               West Virginia                 Wisconsin        Wyoming              Michigan              393,176         Washington                279,533
+
+Vacant                   James W. Runyon               Denise Rohan     Vacant               Minnesota             296,217         West Virginia             85,130                                                          STATE DIRECTORS &
+                                                                                                                                                                                                                          REGISTRATION
+                                                                                             Mississippi           137,801         Wisconsin                 248,921
+
+                                                                                             Missouri              266,836         Wyoming                   22,010
+
+                                                                                             TOTAL                                                           15,538,983
+
+                                                                                             NOTE: There were no inductions or deferments because there was no Congressional or Presidential authority for conscription.
+
+19 Readiness, Registration, and Management Excellence                                                                              Readiness, Registration, and Management Excellence 20
+

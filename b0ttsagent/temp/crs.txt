@@ -1,0 +1,176 @@
+                                                                     INSIGHTi
+
+FY2025 NDAA: Selective Service Registration
+Proposals
+
+Updated January 29, 2025
+
+Background
+
+In deliberations around a National Defense Authorization Act for Fiscal Year 2025 (FY2025 NDAA),
+Congress considered changes to Selective Service registration and associated penalties for failure to
+register (see Table 1). The Military Selective Service Act (MSSA: 50 U.S.C. §§3801 et seq.) provides
+statutory authority for the federal government to maintain an independent Selective Service Agency
+responsible for managing the Selective Service System (SSS) and for providing qualified civilian men for
+induction into the U.S. Armed Forces if authorized by Congress and the President. Under the MSSA, all
+male U.S. citizens and most male noncitizen residents of the United States between the ages of 18 and 26
+are required to proactively register with the SSS under 50 U.S.C. §3802. Women are not required to
+register. Knowingly or willfully failing to register may result in certain federal and state penalties
+including fines, imprisonment, and ineligibility for federal employment or workforce programs.
+Although the registration requirement remains in effect, the United States has had an all-volunteer force
+since 1973 and Congress has not passed any legislation since then to reinstate the draft induction
+authority. If Congress and the President were to reinstate the draft induction authority, some deferments
+and exemptions, including religious exemptions, would apply under current law.
+
+                          Congressional Research Service
+                            https://crsreports.congress.gov
+                                                          IN12450
+
+CRS INSIGHT
+Prepared for Members and
+
+Committees of Congress
+Congressional Research Service                                                                                       2
+
+Table 1. Selected Selective Service Provisions in a FY2025 NDAA
+
+                                          Senate-committee reported (S.
+
+House-passed (H.R. 8070)                  4638)                                       Enacted P.L. 118-159)
+
+Section 531 would have amended the        Sections 598A-D included similar            Not adopted.
+MSSA to require automatic Selective       language to Section 531 of the House-
+Service registration for "every male      passed bill. Section 598A would have        Not adopted.
+citizen" and every male legal resident    required automatic Selective Service        Section 1108 adopts the House
+subject to the registration               registration for "every citizen" (to        provision.
+requirements. Automatic registration      include women) and every legal              Section 532 adopts the Senate
+would not have applied to lawful non-     resident subject to the registration        provision.
+immigrants.                               requirements and would not have
+                                          applied to lawful non-immigrants. It
+No similar provision.                     would have required such registration
+                                          within 30 days (1) of the individual's
+Section 1111 would remove federal         18th birthday, or (2) of learning that a
+employment prohibitions on veterans       person is required to be registered.
+who failed to register for the Selective
+Service.                                  Section 598B would have removed
+No similar provision.                     federal penalties for failure to register.
+
+                                          Section 598C would have made
+                                          technical and conforming amendments.
+
+                                          Section 598D would have required
+                                          these changes to go into effect two
+                                          years after the date of enactment.
+
+                                          529b would have exempted women
+                                          from requirements to serve in certain
+                                          combat roles, occupations, and units in
+                                          the case of a draft.
+
+                                          Section 522 is identical to Section
+                                          1111 in the House-passed bill.
+
+                                          599A would update the information
+                                          that SSS is required to furnish to DOD
+                                          under 50 U.S.C. §3813 with
+                                          information including ``the full names,
+                                          email addresses (if available), dates of
+                                          birth, phone numbers (if available), and
+                                          mailing addresses" of registrants.
+
+Source: CRS analysis of legislation.
+
+Action on Legislative Proposals
+
+Adopted Provisions
+
+Section 1108 of the enacted FY2025 NDAA adopts identical provisions in the House and Senate Armed
+Services Committee (SASC)-reported bills (Sections 1111 and 522) that amend 5 U.S.C. §3328
+specifically for military veterans who failed to register for the selective service and subsequently seek
+federal civilian employment. The law requires Military veterans to provide "evidence of active duty
+service" to the executive agency in which they are seeking employment. According to the SSS, certain
+proof of active service may serve as evidence that the failure to register was not "knowing and willful."
+Under current law (50 U.S.C. §3811(g)(2)), if an individual fails to register in the "absence of knowledge
+and willfulness" they "may not be denied a right, privilege, or benefit under Federal law by reason of
+Congressional Research Service  3
+
+failure to present himself for and submit to registration." Amending 5 U.S.C. §3328 makes the exemption
+for veterans more explicit in law and may reduce administrative burdens.
+
+The enacted legislation also includes section 599A of the SASC-passed version of the bill, which expands
+the registration information required to be collected by the SSS and reported to DOD for recruiting
+purposes to include phone numbers and email addresses (if available).
+
+Provisions Not Enacted
+
+The House and SASC-passed versions included similar provisions that would have made Selective
+Service registration automatic for certain citizens and legal residents, rather than requiring proactive
+registration (Sections 531 and 598A, respectively). This legislation was proposed by the SSS as a way to
+"improve the public's customer experience, [ ... ] enhance the equity of SSS registration nationwide and
+better enable the Agency to fulfill its mission in support of Department of Defense (DOD) personnel
+needs in the event of a national emergency." The SASC-passed version of the bill would have additionally
+required automatic registration for "every citizen," thus expanding the registration requirement to women.
+The enacted legislation does not include a provision for automatic registration, nor did it include a
+requirement for women to register. In the event that women had been required to register and were subject
+to a draft, Section 529b of S. 4638 would have exempted women from serving in "combat roles that were
+closed to women prior to December 3, 2015, to train or become qualified in a combat arms military
+occupational specialty, or to join a combat arms unit." Section 598B of S. 4638 would have also removed
+the statutory provisions that currently disqualify non-registrants from federal employment under 5 U.S.C.
+§3328 and workforce programs under 29 U.S.C. §3249. The Joint Explanatory Statement to accompany
+the FY2025 NDAA does not provide an additional discussion regarding the decision not to adopt these
+provisions.
+
+Considerations for Congress
+
+The 119th Congress could continue to monitor compliance with and the efficiency of the SSS data
+collection, or consider reforms to the agency structure or registration requirements.
+
+Registration Trends
+
+Currently there are several pathways through which an individual may register. Almost all Selective
+Service registrations are completed electronically; registration can also be done at U.S. Post Offices and
+by submission of paper registrations. According to the SSS's annual report to Congress, registrations in
+calendar year 2023 declined,
+
+          The total number of registrations nationwide for men, ages 18 to 25, declined from 15.6 million in
+          2022 to 15.2 million in 2023. This was largely driven by the loss of the requirement for men to
+          register with SSS to receive Federal student aid and the removal of the option to register on the Free
+          Application for FAFSA form.
+
+Congress may continue monitoring registration trends and SSS costs to determine if future reforms to the
+registration system are needed.
+
+Registration for Women
+
+Women in the United States have never been required to register for the draft. Though the SASC-passed
+version of the FY2025 NDAA was the first to propose an exemption for women to be drafted into certain
+combat roles, prior congresses have seen legislation that would require women to register. These
+provisions were not enacted. Expanding selective service registration for women has also been considered
+Congressional Research Service                                 4
+
+by the courts. In June 2021, the Supreme Court declined to consider such a case, with one Justice noting
+that Congress was considering legislation that would require women to register and noting the court's
+"longstanding deference to Congress on matters of national defense and military affairs."
+Congress may consider these among other issues related to selective service and draft registration.
+For further background, see CRS Report R44452, The Selective Service System and Draft Registration:
+Issues for Congress; CRS Insight IN11780, FY2022 NDAA: Selective Service and Draft Registration, and
+CRS Insight IN11973, FY2023 NDAA: Selective Service and Draft Registration.
+
+Author Information
+
+Kristy N. Kamarck
+Specialist in Military Personnel
+
+Disclaimer
+
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan shared staff
+to congressional committees and Members of Congress. It operates solely at the behest of and under the direction of
+Congress. Information in a CRS Report should not be relied upon for purposes other than public understanding of
+information that has been provided by CRS to Members of Congress in connection with CRS's institutional role.
+CRS Reports, as a work of the United States Government, are not subject to copyright protection in the United
+States. Any CRS Report may be reproduced and distributed in its entirety without permission from CRS. However,
+as a CRS Report may include copyrighted images or material from a third party, you may need to obtain the
+permission of the copyright holder if you wish to copy or otherwise use copyrighted material.
+
+                                IN12450 · VERSION 4 · UPDATED
+
