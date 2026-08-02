@@ -101,6 +101,11 @@
       "question": "User directive (logged): 'Plan out any other potential edge cases we could run into for this skill real quick. dont implement or execute any fixes or anything though.' — edge-case plan delivered in-session, NO fixes implemented. Findings summarized: 8 would-fix gaps (429-on-metadata falls to misleading error, 403 not covered, misleading no-captions message when non-English subs exist, Windows long-title truncation, cwd-anchoring of OUT, empty/corrupt json3 silently writes empty txt, outdated-yt-dlp hint, partial non-ASCII title mangling) + 3 scope flags (playlist URLs take first video only, yt-dlp supports non-YouTube sites, timestamped output unavailable). Plan lives in the chat; not logged in full.",
       "answer": "(self-resolved — user may veto)",
       "timestamp": "2026-08-02T21:18:52.285Z"
+    },
+    {
+      "question": "IMPLEMENTED (user-approved gap fixes 1,2,3,4,7,8): flow moved into scripts/transcript.sh (orchestrator, anchors to project root from any cwd) + scripts/slugify.js (Unicode-safe filename: keeps \\p{L}\\p{M}\\p{N}, strips Windows-illegal chars, collapses underscores, trims edge dots/underscores, caps at 100 chars). Fix 1+2: script detects 429/403/'Sign in to confirm' on any step (incl. metadata), prints targeted cookies re-run hint (chrome->vivaldi->edge). Fix 3: no-captions message suggests --list-subs for other languages. Fix 7: metadata-failure message hints at outdated yt-dlp (manual update only). Fix 4+8: slugify handles long titles + mixed-script titles. Two bugs found & fixed during live testing: (a) ROOT derivation was 3 levels up from scripts/ but needs 4 (wrote to stray .agents/b0ttsagent — cleaned); (b) caption-preference loop was hardcoded to en.json3 so non-English runs flattened the English file — now derives preference from the requested language (manual <primary> > auto <primary>-orig > anything). All verified live (EN + DE runs, bad-URL exit=1, slugify unit tests). SKILL.md rewritten to script-invocation style.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-02T21:40:56.239Z"
     }
   ],
   "status": "active",
