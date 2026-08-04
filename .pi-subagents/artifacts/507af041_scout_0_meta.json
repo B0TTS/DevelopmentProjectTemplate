@@ -1,0 +1,110 @@
+{
+  "runId": "507af041",
+  "agent": "scout",
+  "task": "Scope the skills directory at .agents/skills/. List the skill folders present. 2-3 sentences max.\n\n---\nUpdate progress at: C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\progress\\507af041\\progress.md",
+  "exitCode": 1,
+  "processSignal": "SIGTERM",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cacheRead": 0,
+    "cacheWrite": 0,
+    "cost": 0,
+    "turns": 0
+  },
+  "model": "opencode-go/deepseek-v4-flash:max",
+  "attemptedModels": [
+    "opencode-go/deepseek-v4-flash:max"
+  ],
+  "modelAttempts": [
+    {
+      "model": "opencode-go/deepseek-v4-flash:max",
+      "success": false,
+      "exitCode": 1,
+      "error": "Subagent process terminated by signal SIGTERM.",
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "cost": 0,
+        "turns": 0
+      }
+    }
+  ],
+  "durationMs": 5854,
+  "toolCount": 0,
+  "error": "Subagent process terminated by signal SIGTERM.",
+  "launchContractDigest": "0b67194d50b99da815d3b8b00bd52b000ef40213c5318eb7e892ddc0307460d9",
+  "launchResolvedExtensions": {
+    "version": 1,
+    "source": "launch-resolved",
+    "disableAmbientExtensions": false,
+    "runtime": [
+      "sha256:c7bccb9ce10c0808"
+    ],
+    "configured": [],
+    "effective": [
+      "sha256:c7bccb9ce10c0808"
+    ],
+    "omitted": {
+      "runtime": 0,
+      "configured": 0,
+      "effective": 0
+    }
+  },
+  "acceptance": {
+    "status": "rejected",
+    "evidenceStatus": "rejected",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [
+      {
+        "id": "attestation",
+        "status": "failed",
+        "message": "Structured acceptance report not found."
+      }
+    ],
+    "verifyRuns": [],
+    "childReportParseError": "Structured acceptance report not found."
+  },
+  "transcriptPath": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\507af041_scout_0_transcript.jsonl",
+  "timestamp": 1785866014148
+}

@@ -1,0 +1,1 @@
+One more targeted attempt: the Music Nerd Revolution YouTube video on "melodic math" (referenced by Tonic Audio) may contain the "monkey chant" test. Let me check its transcript.

@@ -1,0 +1,110 @@
+{
+  "runId": "507af041",
+  "agent": "context-builder",
+  "task": "Read AGENTS.md at the project root. Summarize the core execution rule in 2 sentences.",
+  "exitCode": 1,
+  "processSignal": "SIGTERM",
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cacheRead": 0,
+    "cacheWrite": 0,
+    "cost": 0,
+    "turns": 0
+  },
+  "model": "opencode-go/deepseek-v4-flash:max",
+  "attemptedModels": [
+    "opencode-go/deepseek-v4-flash:max"
+  ],
+  "modelAttempts": [
+    {
+      "model": "opencode-go/deepseek-v4-flash:max",
+      "success": false,
+      "exitCode": 1,
+      "error": "Subagent process terminated by signal SIGTERM.",
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "cost": 0,
+        "turns": 0
+      }
+    }
+  ],
+  "durationMs": 5795,
+  "toolCount": 0,
+  "error": "Subagent process terminated by signal SIGTERM.",
+  "launchContractDigest": "dc80df1b169a138ab26ce16b967a716940886b9ef816b04247d606c2136352c8",
+  "launchResolvedExtensions": {
+    "version": 1,
+    "source": "launch-resolved",
+    "disableAmbientExtensions": false,
+    "runtime": [
+      "sha256:c7bccb9ce10c0808"
+    ],
+    "configured": [],
+    "effective": [
+      "sha256:c7bccb9ce10c0808"
+    ],
+    "omitted": {
+      "runtime": 0,
+      "configured": 0,
+      "effective": 0
+    }
+  },
+  "acceptance": {
+    "status": "rejected",
+    "evidenceStatus": "rejected",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [
+      {
+        "id": "attestation",
+        "status": "failed",
+        "message": "Structured acceptance report not found."
+      }
+    ],
+    "verifyRuns": [],
+    "childReportParseError": "Structured acceptance report not found."
+  },
+  "transcriptPath": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\507af041_context-builder_2_transcript.jsonl",
+  "timestamp": 1785866014124
+}

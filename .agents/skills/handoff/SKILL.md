@@ -11,11 +11,13 @@ Write a handoff document summarising the current conversation so a fresh agent c
 
 ## Output location
 
-Save to `b0ttsagent/handoffs/<MM-DD-YYYY>/<filename>.md`.
+Save to `b0ttsagent/handoffs/<MM-DD-YYYY>/<HHMM>_<session-slug>/handoff.md`.
 
-- Use the current date for `<MM-DD-YYYY>` (e.g. `06-18-2026`).
-- Create the date folder if it doesn't already exist.
-- Before writing, brainstorm 3 filename ideas based on the conversation content and recommend one. Let the user confirm or choose a different one.
+- Use the current date for `<MM-DD-YYYY>` (e.g. `06-18-2026`) and the current time (24h) for `<HHMM>` (e.g. `1419`).
+- Each handoff gets its own folder: create both the date folder and the per-session folder if they don't already exist.
+- The document inside is always named `handoff.md` — the session identity lives in the folder name, not the filename.
+- If the per-session folder already exists, append a numeric suffix to the session-slug (`-2`, `-3`, …). Never overwrite an existing handoff.
+- Before writing, brainstorm 3 **session-slug** ideas for the folder (short, lowercase, hyphenated, based on the conversation content) and recommend one. Let the user confirm or choose a different one.
 
 ## What to include
 

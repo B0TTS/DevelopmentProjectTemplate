@@ -1,6 +1,8 @@
 # Setup
 
-### Bootstrap
+## Bootstrap
+
+### Quick SCaffold
 
 **1. Scaffold the project with the template installer:**
 
@@ -8,12 +10,73 @@
 npx @b0tts/template-dev-installer@latest
 ```
 
-**2. Add submodules:**
-```bash
-git submodule update --init
+### Setup Agent Harnesses
+
+**1. Create a renamed backup of your agent files (.pi, .opencode)**
+ 
+**2. Install your agent repos from scratch to local project**
+
+```
+npm install --ignore-scripts @earendil-works/pi-coding-agent
 ```
 
-### Docker
+```
+npm install opencode-ai
+```
+
+**3. Install whatever plugins, skills, etc**
+
+ - Go through your backed up agent files, and add copy over your skills per harness.
+
+**4. Delete your backup agent file**
+
+- You dont need it anymore just adds context bloat.
+
+### Setup Main Git File
+
+**1. Delete Sub modules:**
+
+Disconnect/Delete any sub modules you don't need anymore.
+
+**2. Cleanup gitignore**
+
+Make sure youre tracking all the files you wanna track for the project.
+
+### opencode MCPs
+
+**1. Roblox Studio MCP** (read-only inspector) — browse the live place file from AI. Add to `.opencode/opencode.json`:
+
+```json
+"mcp": {
+  "robloxstudio": {
+    "type": "local",
+    "command": ["npx", "-y", "robloxstudio-mcp-inspector@latest"],
+    "enabled": true,
+    "timeout": 30000
+  }
+}
+```
+
+**1.1 - Requirements:** Enable `HTTP Requests` in Roblox Studio (`File > Game Settings > Security`).
+
+**2. Context7 MCP** — Roblox/Luau documentation lookups. Add to `.opencode/opencode.json`:
+
+```json
+"mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
+      },
+      "enabled": true
+    }
+}
+```
+
+Then set the env var: `export CONTEXT7_API_KEY=ctx7sk-...`
+
+## Docker
 
 **1. Create and start the Docker workspace:**
 
@@ -197,7 +260,9 @@ tmux kill-server
 tmux new -s main
 ```
 
-### GSD
+
+## GSD
+Make sure to run this step for your docker instances
 
 **1. Install GSD:**
 
@@ -214,41 +279,9 @@ npm install -g @gsd-build/sdk
 **Note:** you can also just ask the model to do it, so you don't have to reinstall every session.
 
 **3. Configure model overrides** — paste into `.opencode/opencode.json` under `"agent"`.
-For other override strategies, see `C:\Users\Jonah\.config\opencode\Model Overrides\model-override-strategies.md`.
+ - Checkout optimizing agents personal obsidian ai notes guide for help in setting up agent overrides for your personal pricing/strategy.
+ - For other override strategies, see `Setup/Model Overrides/model-override-strategies.md`.
 
-### opencode MCPs
-
-**1. Roblox Studio MCP** (read-only inspector) — browse the live place file from AI. Add to `.opencode/opencode.json`:
-
-```json
-"mcp": {
-  "robloxstudio": {
-    "type": "local",
-    "command": ["npx", "-y", "robloxstudio-mcp-inspector@latest"],
-    "enabled": true,
-    "timeout": 30000
-  }
-}
-```
-
-**1.1 - Requirements:** Enable `HTTP Requests` in Roblox Studio (`File > Game Settings > Security`).
-
-**2. Context7 MCP** — Roblox/Luau documentation lookups. Add to `.opencode/opencode.json`:
-
-```json
-"mcp": {
-    "context7": {
-      "type": "remote",
-      "url": "https://mcp.context7.com/mcp",
-      "headers": {
-        "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
-      },
-      "enabled": true
-    }
-}
-```
-
-Then set the env var: `export CONTEXT7_API_KEY=ctx7sk-...`
 
 ### Notifications
 

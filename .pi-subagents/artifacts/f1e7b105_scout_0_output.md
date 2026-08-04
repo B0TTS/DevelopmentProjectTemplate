@@ -1,0 +1,5 @@
+Scope complete.
+
+`.agents/skills/` contains **34 skill folders**: agents-md, build-schedule-sheet, closev2, create-context-doc, create-evergreen-note, create-execution-plan, create-nav-guide, create-planning-docs, creative-brainstorm, decision, doc-coauthoring, explain-it-v2, frontend-design, git-worktrees, goal-loop, grill-me, grill-me-v3, handoff, improve-codebase-architecture, karpathy-guidelines, log-session, markdown-doc-designs, mermaid-diagrams, next-decision, remind, roblox-retention-brainstorm-V2, short, system-design-doc-loop, systems-architecture-builder, tutorial, write-a-skill-v2, youtube-transcript. All 33 non-empty folders contain a `SKILL.md`; the sole anomaly is `goal-loop/`, which is an empty directory (no SKILL.md), so it can never match as an invokable skill — low severity, likely in-progress or abandoned.
+
+Progress written to `.pi-subagents/artifacts/progress/f1e7b105/progress.md`.

@@ -1,0 +1,136 @@
+{
+  "runId": "7583083c-79b5-4cf1-b95e-22c266d79bf9",
+  "agent": "researcher",
+  "task": "LANE: Kendrick Lamar (Compton; TDE/pgLang/Interscope) — Pulitzer for DAMN. (2017), Mr. Morale & The Big Steppers (2022), 2024-25 Drake-diss run ('Like That', 'Not Like Us' Hot 100 #1 + multiple 2025 Grammys, 'squabble up', GNX surprise album). DISTINCT ANGLE: unusually documented lyric process — notebooks, concept-album architecture, writes with producers Sounwave/DJ Dahi in Top Dawg's studio, plus co-writers (Terrace Martin, Baby Keem). SEAM: how he writes conceptually dense but hooky rap (double/triple entendres, narrative structures, polyrhythmic flow) AND how the sung-rapped topline of hooks like 'HUMBLE.', 'Not Like Us', 'N95' makes a hit bounce. Get Kendrick's, Sounwave's, DJ Dahi's, and Dave Free's direct quotes.\n\n=== REQUIRED OUTPUT (markdown, into the file path given) ===\n1) Verified credentials & 2020-2025 relevance — specific Billboard Hot 100 facts, RIAA, key releases.\n2) The core repeatable workflow/formula — documented step-by-step from idea to finished master, as THIS person actually does it.\n3) Lyric method — theme/story/rhyme/hook generation; room vs. top-down; tools (Voice Memos/notes); revision discipline.\n4) Topline/singing method — melodic construction; phrasing; range/delivery; how the hook is SUNG.\n5) Vocal-anchoring production — brief: what the track does around the vocal to make the hook land.\n6) Proof songs (2020-2025 preferred) — name songs + what each shows of the formula + why it hit.\n7) Direct quotes with attribution + SOURCE URL per quote — the artist/writer/producer explaining how to make a song that works.\n8) \"The trick\" in their words — the ONE thing they say makes it land; repeatable vs. one-off.\n9) Gaps / uncertainties.\n10) Sources — kept (with URLs) vs. dropped (why).\n\n=== CONSTRAINTS ===\n- web_search ALWAYS with workflow:\"none\".\n- PRIORITIZE primary sources: named interviews/podcasts/magazine profiles/books. Name the source for each claim.\n- Skeptical by default: separate verified quotes from internet legend/lore. Note when a claim is unsourced.\n- FOCUS on lyric writing + singing/topline; treat production only as scaffolding for the vocal.\n- Emphasize what's REPEATABLE across their hits for the 'how to make a famous song every time' answer.\n- No taboos: report credit/ghostwriting/controversy facts frankly where they affect the answer.\n- End with concise kept/dropped source list.\n\n---\n**Output:**\nWrite your findings to exactly this path: C:/Users/intel/DevelopmentProjectTemplate/b0ttsagent/research/songwriting-formulas/briefs/01-kendrick-lamar.md\nThis path is authoritative for this run.\nIgnore any other output filename or output path mentioned elsewhere, including output destinations in the base agent prompt, system prompt, or task instructions.\n\n## Acceptance Contract\nAcceptance level: attested\nCompletion is not accepted from prose alone. End with a structured acceptance report.\n\nCriteria:\n- criterion-1: Return concrete findings with file paths and severity when applicable\n\nRequired evidence: review-findings, residual-risks\n\nFinish with a fenced JSON block tagged `acceptance-report` in this shape:\nUse empty arrays when no items apply; array fields contain strings unless object entries are shown.\n`criteriaSatisfied[].status` must be exactly one of: satisfied, not-satisfied, not-applicable.\n`commandsRun[].result` must be exactly one of: passed, failed, not-run.\n`manualNotes` and `notes` are optional strings; an empty string means no note and does not satisfy `manual-notes` evidence.\n```acceptance-report\n{\n  \"criteriaSatisfied\": [\n    {\n      \"id\": \"criterion-1\",\n      \"status\": \"satisfied\",\n      \"evidence\": \"specific proof\"\n    }\n  ],\n  \"changedFiles\": [\n    \"src/file.ts\"\n  ],\n  \"testsAddedOrUpdated\": [\n    \"test/file.test.ts\"\n  ],\n  \"commandsRun\": [\n    {\n      \"command\": \"command\",\n      \"result\": \"passed\",\n      \"summary\": \"short result\"\n    }\n  ],\n  \"validationOutput\": [\n    \"validation output or concise summary\"\n  ],\n  \"residualRisks\": [\n    \"none\"\n  ],\n  \"noStagedFiles\": true,\n  \"diffSummary\": \"short description of the diff\",\n  \"reviewFindings\": [\n    \"blocker: file.ts:12 - issue found, or no blockers\"\n  ],\n  \"manualNotes\": \"anything else the parent should know\"\n}\n```",
+  "exitCode": 0,
+  "model": "opencode-go/deepseek-v4-flash:max",
+  "attemptedModels": [
+    "opencode-go/deepseek-v4-flash:max"
+  ],
+  "modelAttempts": [
+    {
+      "model": "opencode-go/deepseek-v4-flash:max",
+      "success": true,
+      "exitCode": 0,
+      "usage": {
+        "input": 83035,
+        "output": 32825,
+        "cacheRead": 1158272,
+        "cacheWrite": 0,
+        "cost": 0.0240590616,
+        "turns": 20
+      }
+    }
+  ],
+  "acceptance": {
+    "status": "attested",
+    "evidenceStatus": "attested",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [],
+    "verifyRuns": [],
+    "childReport": {
+      "criteriaSatisfied": [
+        {
+          "id": "criterion-1",
+          "status": "satisfied",
+          "evidence": "Research brief written to C:/Users/intel/DevelopmentProjectTemplate/b0ttsagent/research/songwriting-formulas/briefs/01-kendrick-lamar.md covering all 10 required sections: verified 2020-2025 credentials (Billboard Hot 100 facts, RIAA diamond-eligibility, Pulitzer), step-by-step repeatable workflow, lyric method, topline/singing method, vocal-anchoring production, 6 proof songs, 34 attributed direct quotes with source URLs, 'the trick' in the artists' own words, gaps, and kept/dropped source list. All web_search calls ran with workflow:\"none\"."
+        }
+      ],
+      "changedFiles": [
+        "b0ttsagent/research/songwriting-formulas/briefs/01-kendrick-lamar.md"
+      ],
+      "testsAddedOrUpdated": [],
+      "commandsRun": [
+        {
+          "command": "web_search (8 batches, 28 queries, workflow:none)",
+          "result": "passed",
+          "summary": "Located primary interviews (GQ/Rubin, Rolling Stone 2017, DJ Dahi RS 2022, Sounwave GQ/FADER/RS, Mustard Billboard/Variety, Dave Free Elephant/Billboard, NPR Mike WiLL, Grammy.com DAMN. feature) and Billboard chart records"
+        },
+        {
+          "command": "fetch_content (11 URLs)",
+          "result": "passed",
+          "summary": "Full-text retrieval of RS GNX collaborators, Variety GNX producers, GQ Sounwave, RS DJ Dahi, FADER DAMN. explainer, NPR HUMBLE, Grammy.com DAMN., GQ Rubin, Billboard Mustard cover, triple j HUMBLE deconstruction, RS 2017 interview, Medium Big Boy transcript, Billboard Dave Free, Pitchfork credits/announcement, Songfacts"
+        },
+        {
+          "command": "get_search_content (10 bounded content reads)",
+          "result": "passed",
+          "summary": "Extracted direct quotes from all fetched primary sources"
+        }
+      ],
+      "validationOutput": [
+        "All direct quotes trace to a named primary source with URL in Section 7; chart facts cross-checked against Billboard originals; lore flagged as [LORE]/unverified (e.g., one-take 'Not Like Us' claim, Voice Memos tool use, exact RIAA cert levels)"
+      ],
+      "residualRisks": [
+        "Exa search provider hit rate limits mid-run; 3 queries retried unsuccessfully (HUMBLE. RIAA level, MixedByAli engineer interview, Metro Boomin 'Like That' making-of, Mr. Morale 2021 letter) — covered via alternative sources or listed in Gaps; exact per-song RIAA certification levels unverified and marked as a gap",
+        "'Not Like Us recorded in one take' is internet lore not confirmed by any located primary source; explicitly flagged",
+        "GNX process is documented only through collaborators since Kendrick gave no GNX interviews",
+        "Dave Free is thinly documented; single Elephant interview is the only process-quote source",
+        "Brave provider not configured (API key missing) - default provider used throughout"
+      ],
+      "noStagedFiles": true,
+      "diffSummary": "New research brief created: 01-kendrick-lamar.md (~4,900 words) - Kendrick Lamar songwriting/topline formula with verified chart credentials, documented workflow, 34 attributed quotes, proof songs, gaps, and source triage",
+      "reviewFindings": [
+        "no blockers: all 10 required output sections present in order; quotes carry attribution + URL; primary sources prioritized; skeptical flags on unverified claims (one-take lore, RIAA specifics, Voice Memos); acceptance criteria met"
+      ],
+      "manualNotes": "Brief written to the authoritative path only. No skills from AGENTS.md applied (task is pure research writing, no repo skills match). Sounwave's 'tear test/car ride', Dave Free's 'Does it move you?', and Mustard's 'simplicity' are the strongest repeatable-formula quotes; Kendrick's '95% of melodies' and 'inspired or nothing' quotes anchor the lyric+topline angle."
+    }
+  },
+  "launchResolvedExtensions": {
+    "version": 1,
+    "source": "launch-resolved",
+    "disableAmbientExtensions": false,
+    "runtime": [
+      "sha256:c7bccb9ce10c0808"
+    ],
+    "configured": [],
+    "effective": [
+      "sha256:c7bccb9ce10c0808"
+    ],
+    "omitted": {
+      "runtime": 0,
+      "configured": 0,
+      "effective": 0
+    }
+  },
+  "transcriptPath": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\7583083c-79b5-4cf1-b95e-22c266d79bf9_researcher_0_transcript.jsonl",
+  "skills": [],
+  "timestamp": 1785868202692
+}

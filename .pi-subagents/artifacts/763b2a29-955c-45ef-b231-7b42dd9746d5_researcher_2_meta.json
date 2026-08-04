@@ -1,0 +1,144 @@
+{
+  "runId": "763b2a29-955c-45ef-b231-7b42dd9746d5",
+  "agent": "researcher",
+  "task": "LANE: Andrew Watt (Andrew Wotman) — current superstar producer-writer-guitarist (Post Malone country F-1 Trillion 'I Had Some Help' ft. Morgan Wallen 2024 Hot 100 #1; Post 'Pour Me A Drink' w/ Blake Shelton; Justin Bieber; Elton John 'Cold Heart' w/ Dua Lipa; Dua Lipa 'Dance The Night'; Rolling Stone Producer of the Year 2021). DISTINCT ANGLE: cross-genre (pop/rock/hip-hop/country) writer-producer who lands hits by treating the session like a BAND — co-writing toplines on acoustic guitar, building full-band productions around a killer vocal, working face-to-face in the studio. SEAM: how to write a hook that survives across genre (Post Malone's country 'I Had Some Help', 'Pour Me A Drink'), the acoustic-hook-FIRST workflow, and his stance on 'songwriting as band chemistry'. Get Andrew Watt quotes (Billboard, Variety, Lefsetz Letter, Apple Music) plus collaborators like Post Malone, Louis Bell.\n\n=== REQUIRED OUTPUT (markdown, into the file path given) ===\n1) Verified credentials & 2020-2025 relevance — specific Billboard Hot 100 facts across cross-genre hits.\n2) The core repeatable workflow/formula — documented step-by-step (acoustic hook -> band arrangement -> vocal -> full production).\n3) Lyric method — co-writing in-room with the artist; what he prioritizes in lyrics.\n4) Topline/singing method — guitar-accompanied melody writing; chest-voice hooks; phrasing across genres.\n5) Vocal-anchoring production — band arrangements building around the vocal.\n6) Proof songs (2020-2025 preferred) — 'I Had Some Help', 'Pour Me A Drink', 'Dance The Night' (2023), Elton/Dua collabs.\n7) Direct quotes with attribution + SOURCE URL per quote.\n8) \"The trick\" in their words — repeatable vs. one-off.\n9) Gaps.\n10) Sources — kept vs. dropped.\n\n=== CONSTRAINTS ===\n- web_search ALWAYS with workflow:\"none\".\n- PRIORITIZE primary sources (Billboard, Variety, Rolling Stone, Lefsetz, Apple Music). Name the source.\n- Skeptical; separate verified quotes from legend.\n- FOCUS on lyric writing + singing/topline.\n- Emphasize what's REPEATABLE across genre.\n\n---\n**Output:**\nWrite your findings to exactly this path: C:/Users/intel/DevelopmentProjectTemplate/b0ttsagent/research/songwriting-formulas/briefs/11-andrew-watt.md\nThis path is authoritative for this run.\nIgnore any other output filename or output path mentioned elsewhere, including output destinations in the base agent prompt, system prompt, or task instructions.\n\n## Acceptance Contract\nAcceptance level: attested\nCompletion is not accepted from prose alone. End with a structured acceptance report.\n\nCriteria:\n- criterion-1: Return concrete findings with file paths and severity when applicable\n\nRequired evidence: review-findings, residual-risks\n\nFinish with a fenced JSON block tagged `acceptance-report` in this shape:\nUse empty arrays when no items apply; array fields contain strings unless object entries are shown.\n`criteriaSatisfied[].status` must be exactly one of: satisfied, not-satisfied, not-applicable.\n`commandsRun[].result` must be exactly one of: passed, failed, not-run.\n`manualNotes` and `notes` are optional strings; an empty string means no note and does not satisfy `manual-notes` evidence.\n```acceptance-report\n{\n  \"criteriaSatisfied\": [\n    {\n      \"id\": \"criterion-1\",\n      \"status\": \"satisfied\",\n      \"evidence\": \"specific proof\"\n    }\n  ],\n  \"changedFiles\": [\n    \"src/file.ts\"\n  ],\n  \"testsAddedOrUpdated\": [\n    \"test/file.test.ts\"\n  ],\n  \"commandsRun\": [\n    {\n      \"command\": \"command\",\n      \"result\": \"passed\",\n      \"summary\": \"short result\"\n    }\n  ],\n  \"validationOutput\": [\n    \"validation output or concise summary\"\n  ],\n  \"residualRisks\": [\n    \"none\"\n  ],\n  \"noStagedFiles\": true,\n  \"diffSummary\": \"short description of the diff\",\n  \"reviewFindings\": [\n    \"blocker: file.ts:12 - issue found, or no blockers\"\n  ],\n  \"manualNotes\": \"anything else the parent should know\"\n}\n```",
+  "exitCode": 0,
+  "model": "opencode-go/deepseek-v4-flash:max",
+  "attemptedModels": [
+    "opencode-go/deepseek-v4-flash:max"
+  ],
+  "modelAttempts": [
+    {
+      "model": "opencode-go/deepseek-v4-flash:max",
+      "success": true,
+      "exitCode": 0,
+      "usage": {
+        "input": 178868,
+        "output": 52629,
+        "cacheRead": 3172480,
+        "cacheWrite": 0,
+        "cost": 0.04866058400000001,
+        "turns": 31
+      }
+    }
+  ],
+  "acceptance": {
+    "status": "attested",
+    "evidenceStatus": "attested",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [],
+    "verifyRuns": [],
+    "childReport": {
+      "criteriaSatisfied": [
+        {
+          "id": "criterion-1",
+          "status": "satisfied",
+          "evidence": "Research brief written to C:/Users/intel/DevelopmentProjectTemplate/b0ttsagent/research/songwriting-formulas/briefs/11-andrew-watt.md with all 10 required sections: verified 2020-2025 Billboard Hot 100 facts (Peaches #1, Die With a Smile #1 x5 + 2025 Year-End #1, Seven #1, Abracadabra #13, Chemical #13), documented step-by-step workflow (acoustic hook -> freestyle topline -> demo-is-the-song vocal -> live band arrangement -> vocal-forward mix), lyric method, topline/singing method, vocal-anchored production, proof-song table, 26 attributed quotes with source URLs, 'the trick' analysis, gaps, and kept/dropped source list. Three lane credit errors corrected with primary-source evidence: 'I Had Some Help' and 'Pour Me A Drink' are Bell/Handsome productions (not Watt), 'Dance the Night' is Andrew Wyatt (different person), and 'Cold Heart' officially credits no Watt/Weeknd. Severity: high (lane premise correction), medium (chart-peak figures flagged as chart-history rather than freshly fetched)."
+        }
+      ],
+      "changedFiles": [
+        "b0ttsagent/research/songwriting-formulas/briefs/11-andrew-watt.md"
+      ],
+      "testsAddedOrUpdated": [],
+      "commandsRun": [
+        {
+          "command": "web_search (4 batches, workflow:none)",
+          "result": "passed",
+          "summary": "Initial coverage of Watt interviews, F-1 Trillion credits, Cold Heart/Dance the Night process, Lefsetz, Apple Music; Exa rate-limited (429) mid-pass, alternate providers had no API keys, so remaining verification done via direct fetch_content of primary pages"
+        },
+        {
+          "command": "fetch_content (NPR, Variety x2, Premier Guitar, Uproxx, Billboard Pop Shop, Guitar Center, LA Times, Rolling Stone x2, Wikipedia credit/chart pages, MusicRadar, Songfacts, Acast)",
+          "result": "passed",
+          "summary": "Full text of key interviews and credit verifications retrieved; YouTube transcript (Ross Golan Ep. 221) failed without API key, Music Week paywalled"
+        },
+        {
+          "command": "get_search_content (content slices of all fetched pages)",
+          "result": "passed",
+          "summary": "Extracted quotes, chart peaks, and credit lists; verified 19-week #1 record belongs to 'A Bar Song (Tipsy)', not 'I Had Some Help' (6 weeks)"
+        }
+      ],
+      "validationOutput": [
+        "Cross-checked every credit claim against at least one primary or credit-authoritative source (Big Loud press release, Variety, MusicBrainz, Tidal-via-Wikipedia, AllMusic-via-Wikipedia, Billboard chart lists).",
+        "Confirmed Watt Grammy Producer of the Year is the 2021 Grammy (63rd), not a 'Rolling Stone Producer of the Year' award.",
+        "Confirmed 'Cold Heart' Hot 100 peak #7, UK #1, 34 weeks atop Hot Dance/Electronic Songs from Billboard-sourced pages.",
+        "Confirmed 'I Had Some Help': #1 debut May 25 2024, 6 weeks at #1, simultaneous Hot 100/Hot Country Songs #1 debut."
+      ],
+      "residualRisks": [
+        "Exa search rate-limited mid-pass; several Hot 100 peaks ('Pour Me a Drink' #12, 'Chemical' #13, 'Break My Heart' top 15) are chart-history figures corroborated by Wikipedia chart tables but not freshly re-fetched from Billboard articles.",
+        "'Cold Heart' Weeknd/Watt topline story could not be confirmed or refuted from primary sources; official Tidal credits exclude both - flagged as unverified legend.",
+        "No verbatim Post Malone or Louis Bell quotes captured; Post-Watt relationship documented only via Watt's own statements and the Ross Golan episode chapter map.",
+        "Ross Golan Ep. 221 transcript and Zane Lowe Apple Music interviews not accessible - workflow sections rely on Billboard/Variety/RS/Guitar Center/Uproxx/LA Times/NPR interviews instead.",
+        "Mayhem and Dark Matter Billboard 200 #1 claims marked 'widely reported' - not directly verified in fetched sources."
+      ],
+      "noStagedFiles": true,
+      "diffSummary": "New research brief (11-andrew-watt.md) covering Andrew Watt's cross-genre writer-producer workflow with verified credits, chart facts, 26 attributed quotes, corrections of three lane credit errors, gaps, and source triage.",
+      "reviewFindings": [
+        "no blockers - brief complete and written to the authoritative output path",
+        "correction-1 (high severity): 'I Had Some Help'/'Pour Me A Drink' are Bell/Handsome/Hoskins productions; Watt has zero F-1 Trillion credits - lane premise fixed with Big Loud/Variety citations",
+        "correction-2 (high severity): 'Dance the Night' is Andrew Wyatt (Miike Snow), not Andrew Watt (Wotman) - verified via MusicBrainz/Variety",
+        "correction-3 (medium severity): 'Cold Heart' official credits exclude Watt/Weeknd; chart facts kept but credit claim flagged unverified",
+        "flag-1 (medium): task's 'Rolling Stone Producer of the Year 2021' corrected to Grammy Producer of the Year (March 2021)",
+        "flag-2 (low): chart peaks marked 'chart-history figures' where fresh Billboard fetch was not possible"
+      ],
+      "manualNotes": "The lane's core premise (cross-genre hitmaker, acoustic-hook-first, band-chemistry sessions) is strongly supported by Watt's own interviews; the specific song credits in the lane description needed correction. For the country seam, Louis Bell (Watt's co-writer on Peaches/Chemical/Always Love You) is the actual architect of the F-1 Trillion process and is the recommended next research lane."
+    }
+  },
+  "launchResolvedExtensions": {
+    "version": 1,
+    "source": "launch-resolved",
+    "disableAmbientExtensions": false,
+    "runtime": [
+      "sha256:c7bccb9ce10c0808"
+    ],
+    "configured": [],
+    "effective": [
+      "sha256:c7bccb9ce10c0808"
+    ],
+    "omitted": {
+      "runtime": 0,
+      "configured": 0,
+      "effective": 0
+    }
+  },
+  "transcriptPath": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\763b2a29-955c-45ef-b231-7b42dd9746d5_researcher_2_transcript.jsonl",
+  "skills": [],
+  "timestamp": 1785868160973
+}
