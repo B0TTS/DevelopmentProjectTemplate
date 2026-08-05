@@ -2,10 +2,15 @@
 
 This file provides guidance to AI coding agents (Claude Code, Cursor, Copilot, Antigravity, etc.) when working with code in this repository.
 
+ ## Commands
+
+ No build/test/lint pipeline — content is markdown docs and agent
+ config. The scaffolder lives in `Setup/template-dev-installer/`.
+
 ### Core Rules
 
 - If a task matches a skill, you MUST invoke it
-- Skills are located in `skills/<skill-name>/SKILL.md`
+- Skills are located in `.agents/skills/<skill-name>/SKILL.md`
 - Never implement directly if a skill applies
 - Always follow the skill instructions exactly (do not partially apply them)
 - **NEVER attempt to SSH into the VPS.** The VPS is strictly off-limits for direct access. All VPS information is documented in the navigation guides — read those instead.
