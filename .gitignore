@@ -57,6 +57,15 @@ lerna-debug.log*
 *.seed
 *.pid.lock
 
+# ── Subagent run artifacts ───────────────────────────────────
+# pi-subagents writes per-run transcripts, inputs, outputs, and meta to
+# .pi-subagents/artifacts/. These files capture RAW tool I/O, which has
+# already leaked a live API key once (GitHub Push Protection blocked the
+# push). They are ephemeral debug data, not source — stop tracking them.
+# Note: .gitignore only blocks UNtracked files; the ~123 files already
+# committed were untracked via `git rm --cached -r .pi-subagents/artifacts/`.
+.pi-subagents/artifacts/
+
 # ── Build output & caches ───────────────────────────────────
 # No build pipeline today; harmless if one is added later.
 dist/
