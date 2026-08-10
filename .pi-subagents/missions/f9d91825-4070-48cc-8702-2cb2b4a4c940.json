@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "f9d91825-4070-48cc-8702-2cb2b4a4c940",
+  "title": "CONTEXT: Today is 2026-08-05. The end user is a rapper recording vocals over MP3 instrumentals in...",
+  "goal": "CONTEXT: Today is 2026-08-05. The end user is a rapper recording vocals over MP3 instrumentals in Audacity. He wants to understand, in maximum depth, the vocal mixing + recording workflows/frameworks of VERIFIED, reputable people behind mainstream records of the last ~5 years (2021-2026). Genre weighting for the whole project is ~70% hip-hop/pop, 30% rock/other. He cares about repeatable FORMULAS/WORKFLOWS/FRAMEWORKS that are documented in depth and demonstrably worked on hit records — not one-off tricks or vibes.\n\nEVIDENCE RULES (strict):\n- Every claim about a person's process MUST carry a source URL. No unsourced assertions.\n- Tier sources: A = primary long-form technical interviews/breakdowns (Sound on Sound 'Inside Track', Mix with the Masters, Pensado's Place, Produce Like A Pro, official mag interviews, the person's own videos/courses/masterclasses). B = reputable secondary (credible YouTube breakdowns, podcast clips, Reddit AMAs BY the person). C = forum hearsay — label it explicitly as unverified if you use it at all.\n- Prefer direct quotes with exact source URLs. Quote accurately; do not paraphrase-quote.\n- VERIFICATION: open each case study with proof of legitimacy: named hit records they mixed/recorded/produced, chart/award evidence, who they've worked with. 1 short block, sourced.\n- RECENCY: the person must be tied to records that were mainstream within the last ~5 years. Older foundational interviews are fine as EVIDENCE if the person is still relevant.\n- If a roster name turns out to have thin/no real documentation, say so in one line, drop them, and substitute the best-documented peer you find. Depth over roster completion.\n\nOUTPUT FILES: Write ONE markdown file per person using the write tool, at the exact folder path given in your mission. Filename: firstname-lastname.md (lowercase, hyphenated). Use EXACTLY this template:\n\n# <Name>\n- **Role:** <mix engineer / recording engineer / producer / vocal producer / artist>\n- **Verified credits:** <hit records + chart/award proof, with source URLs>\n- **Recent mainstream relevance:** <2021-2026 records>\n- **Evidence base:** <count by tier + list of all source URLs used>\n\n## Vocal Philosophy\n<their stated approach to vocals, with sourced quotes>\n\n## The Vocal Chain (as documented)\n<ordered signal chain: hardware/plugins in order, actual settings where documented (ratio/attack/release/threshold/EQ freqs/etc), DAW, what's fixed vs song-specific. If they have a repeatable template/framework, spell it out step by step. This is the core of the file — go DEEP.>\n\n## Recording / Tracking Side\n<mic choices, mic chains, gain staging, room treatment, comping/stacking, tuning workflow — whatever is documented>\n\n## Signature Moves\n<2-5 techniques they are known for, each sourced>\n\n## Direct Quotes\n<bulleted verbatim quotes, each with source URL>\n\n## What To Steal\n<5-10 concrete, tool-agnostic takeaways a beginner could apply (name free/stock plugin equivalents where a paid plugin is mentioned)>\n\nRETURN FORMAT (your final message, compact): one block per person:\n### <Name> — <role>\nCredits: <one line> | Relevance: <one line>\nChain: <ordered one-line signal chain>\nSignature moves: <comma list>\nTop quote: \"...\" (<URL>)\nEvidence: A:<n> B:<n> C:<n>\nEnd with: FILES WRITTEN: <list of absolute paths>, plus any roster swaps you made and why.\n\nHARD CONSTRAINTS:\n- ALWAYS pass workflow: \"none\" on every web_search call. Use fetch_content to pull full text of the strongest sources (Sound on Sound, MWTM transcripts, interviews) rather than relying on search snippets.\n- You may ONLY write files inside your assigned lane folder. Do not create or edit any other files.\n- Do not launch subagents yourself.\n- STOP RULES: stop researching a person once you have their chain + settings + 3+ sourced quotes, or once two consecutive searches add nothing new. Aim for depth per person, not endless breadth.\n- Minimum research bar: at least 10 distinct web_search queries across your lane and at least 5 full fetch_content reads of primary sources.\n\nYOUR MISSION:\nLANE: The RECORDING / TRACKING side of great vocals (the user explicitly wants this). Organize by TOPIC files, each anchored in documented engineers/sessions, not by generic person files.\nFILES TO WRITE (one per topic): mic-selection-and-mic-chains.md (why the Sony C-800G became THE modern rap/pop mic, U47/TLM103/etc alternatives, documented per-artist mic choices), rap-vocal-recording-chains.md (documented recording chains: Noel Cadastre recording Drake — the famous documented chain, Kanye's recording process via Mike Dean and others, Bainz recording Young Thug, how Travis Scott records), gain-staging-and-session-workflow.md (recording levels, headroom, clip gain, session organization, templates), comping-stacking-and-vocal-production.md (Kuk Harrell — the most famous vocal producer alive, documented comping/stacking process; how modern rap/pop layers leads/doubles/adlibs/harmonies), tuning-workflows.md (Auto-Tune vs Melodyne documented practice: who tunes, retune speed settings by genre, tuning before or after compression, Travis Scott/Kanye/T-Pain documented tuning approaches).\nSOURCE SEAM: Sound on Sound, Noel Cadastre's interviews about recording Drake, Kuk Harrell's interviews and vocal-production features, Mike Dean interviews/tweets about recording Kanye, engineer AMAs, microphone-manufacturer artist features (Sony, Telefunken, Neumann).\nKEY DECISIONS FOR YOU: everything must trace to DOCUMENTED professional practice with sources — but each file should end with a short '## Home Setup Translation' section mapping the pro practice to a beginner recording at home (cheap mic, untreated room, free tools), since the user records himself. Use the same evidence rules and quote discipline as person files; adapt the template sensibly (replace 'Vocal Philosophy' with 'Why This Matters', keep Direct Quotes / What To Steal sections).\n\nWrite your person/topic files into this exact folder: C:/Users/intel/DevelopmentProjectTemplate/b0ttsagent/research/vocal-mixing-frameworks/case-studies/04-tracking",
+  "status": "completed",
+  "createdAt": "2026-08-06T09:59:39.409Z",
+  "updatedAt": "2026-08-06T10:09:46.250Z",
+  "runs": [
+    {
+      "runId": "471df887",
+      "mode": "single",
+      "agent": "researcher",
+      "status": "completed",
+      "startedAt": "2026-08-06T10:09:46.249Z",
+      "completedAt": "2026-08-06T10:09:46.249Z"
+    }
+  ],
+  "decisions": [],
+  "artifacts": [
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\471df887_researcher_0_output.md"
+    },
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\471df887\\research.md"
+    },
+    {
+      "kind": "other",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\471df887_researcher_0_transcript.jsonl",
+      "description": "Child transcript"
+    }
+  ],
+  "receipts": [],
+  "cwd": "C:\\Users\\intel\\DevelopmentProjectTemplate",
+  "ownerSessionId": "C:\\Users\\intel\\.pi\\agent\\sessions\\--C--Users-intel-DevelopmentProjectTemplate--\\2026-08-06T09-50-41-274Z_019fd67b-6e7a-757a-8476-148f76ed6166.jsonl",
+  "summary": "# Research: RECORDING/TRACKING Side of Vocal Workflows (Lane 04) — 2026-08-05\n\n**Lane mandate:** recording/tracking of great vocals, organized by TOPIC files anchored in documented engineers/sessions (Drake/40+Cadastre, Kanye/Kilhoffer+Dean, Young Thug/Bainz, Travis/Ca$hpassion, Meek Mill/Cruz, Kuk Harrell, T-Pain). 70% hip-hop/pop, 30% rock/other weighting respected where documentation exists (SOS mic shootout covers rock/pop voices).\n\n**Files written (5):** all in `C:/Users/intel/DevelopmentProjectTemplate/b0ttsagent/research/vocal-mixing-frameworks/case-studies/04-tracking/`:\n1. mic-selection-and-mic-chains.md\n2. rap-vocal-recording-chains.md\n3. gain-staging-and-session-workflow.md\n4. comping-stacking-and-vocal-production.md\n5. tuning-workflows.md\n\n**Research volume:** 17 distinct web_search queries across 7 calls; 24 URLs fetched (7 fetch_content calls, batch mode); full-text reads of SOS Kuk Harrell (2 pages), SOS Inside Track 'Ski' (Bainz), SOS 'Headlines' (40), TapeOp #122 (Mike Dean), FADER Dean, Live with Matt Rad #51 (Bainz chain), Antares official pitch guide, SOS Lil Baby (Tillie), Billboard Ca$hpassion, SOS gain-staging Q&A, SOS Melodyne feature, MWTM #142 (Kanye chain), SOS Vocal Mics shootout, MusicRadar 808s, Lincoln blog (Dean Twitter), American Songwriter (Kuk remote kit), PLAP (Cruz). All quotes verbatim from fetched text; every claim URL-sourced. C-tier items explicitly labeled.\n\n---\n\n## Topic 1 — Mic Selection & Mic Chains — mic-selection-and-mic-chains.md\nCredits: C-800G documented on Drake (40/SOS), Kanye (MWTM #142), Thug (Bainz/SOS), Meek (Cruz/PLAP), Rihanna/Beyoncé (Kuk/SOS); Dre chain via engineer Veto Iragorri (Sweetwater) | Relevance: every chain above active 2021–2025 records; Finneas/TLM103 = documented bedroom alternative\nChain: bright tube LDC (C-800G, or ELA M 251 / U67 alt) → Neve 1073/1081-class pre → CL-1B or LA-2A \"not hitting too hard\" → (Bainz adds dbx 902 de-ess)\nSignature moves: mic-as-mix-prep (top end already radio-rea...",
+  "acceptance": {
+    "status": "attested",
+    "evidenceStatus": "attested",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [],
+    "verifyRuns": [],
+    "childReport": {
+      "criteriaSatisfied": [
+        {
+          "id": "criterion-1",
+          "status": "satisfied",
+          "evidence": "5 topic files written with concrete findings, file paths, and evidence-tier flags per claim; research brief at C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\471df887\\research.md. Each file contains documented chains with exact settings (retune speeds, chain order, dBFS targets), verbatim quotes with URLs, and severity/tier labels (A/B/C) including explicit C-tier flags for unverified claims (Cadastre 1176 stage, Travis Scott settings)."
+        }
+      ],
+      "changedFiles": [
+        "b0ttsagent/research/vocal-mixing-frameworks/case-studies/04-tracking/mic-selection-and-mic-chains.md",
+        "b0ttsagent/research/vocal-mixing-frameworks/case-studies/04-tracking/rap-vocal-recording-chains.md",
+        "b0ttsagent/research/vocal-mixing-frameworks/case-studies/04-tracking/gain-staging-and-session-workflow.md",
+        "b0ttsagent/research/vocal-mixing-frameworks/case-studies/04-tracking/comping-stacking-and-vocal-production.md",
+        "b0ttsagent/research/vocal-mixing-frameworks/case-studies/04-tracking/tuning-workflows.md",
+        ".pi-subagents/artifacts/outputs/471df887/research.md"
+      ],
+      "testsAddedOrUpdated": [],
+      "commandsRun": [
+        {
+          "command": "web_search (17 queries, 7 calls, workflow=none)",
+          "result": "passed",
+          "summary": "Located primary sources: SOS Kuk Harrell, SOS Inside Track Ski/Headlines/Lil Baby, TapeOp #122, MWTM #142 + #51, Antares docs, Tube-Tech, Billboard, Mixonline, Live with Matt Rad #51"
+        },
+        {
+          "command": "fetch_content (24 URLs, 7 batch calls) + get_search_content full-text reads",
+          "result": "passed",
+          "summary": "Full text retrieved for all quote-bearing sources; quotes copied verbatim from fetched text"
+        },
+        {
+          "command": "write tool (6 files)",
+          "result": "passed",
+          "summary": "5 lane files + 1 research brief written successfully (sizes 9.8-13.8 KB)"
+        }
+      ],
+      "validationOutput": [
+        "Quote accuracy: all direct quotes taken verbatim from fetched full text; Sweetwater/Sony/ProSoundWeb/Finneas claims paraphrased from search snippets and labeled as such",
+        "Tier discipline: A-tier primary (SOS, TapeOp, MWTM, Antares, Tube-Tech) carries all core chain claims; C-tier claims (Cadastre 1176, Travis settings) explicitly flagged unverified in-file",
+        "Each file ends with ## Home Setup Translation and ## What To Steal per mission spec; template adapted from person-file format as instructed"
+      ],
+      "residualRisks": [
+        "Cadastre's exact modern Drake chain (C-800G -> 1073 -> LA-2A -> 1176) lacks a primary-source verbatim quote; presented as C-tier with A-tier anchor (40's chain). Recommend a podcast-transcript pass (Pass The Aux / SoundGym) to upgrade.",
+        "Travis Scott mic and retune-speed numbers are not documented in any primary source found; C-tier blog claims conflict and are flagged unverified in-file.",
+        "Some B-tier sources (Sweetwater inSync, Sony official page, ProSoundWeb) could only be captured at search-snippet depth due to fetch blocking; claims from them are attributed at snippet level.",
+        "Rock vocal tracking coverage is thin (SOS shootout only); a dedicated rock-lane pass would strengthen the 30% genre weight."
+      ],
+      "noStagedFiles": true,
+      "diffSummary": "Created 6 new files: 5 lane topic files (mic selection, rap recording chains, gain staging/session workflow, comping/stacking, tuning workflows) + 1 research brief at the runtime output path. All claims URL-sourced with tier labels; quote discipline enforced.",
+      "reviewFindings": [
+        "no blockers: all 5 topic files complete with documented chains, settings, quotes, home-setup translations, and steal lists",
+        "flag: 'Cadastre chain' 1176 stage is C-tier only - labeled in rap-vocal-recording-chains.md section 1",
+        "flag: Travis Scott tuning settings left as 'not documented' with C-tier examples cited as counterexamples - labeled in tuning-workflows.md and rap-vocal-recording-chains.md"
+      ],
+      "manualNotes": "Runtime output path override honored via research.md brief; mission deliverables written to the lane folder as specified. No supervisor contact needed - no blocking decisions arose. Search providers: default (Exa) with rate-limit recovery via provider=all."
+    }
+  }
+}

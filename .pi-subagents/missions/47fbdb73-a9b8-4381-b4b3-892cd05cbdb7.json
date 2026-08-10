@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "47fbdb73-a9b8-4381-b4b3-892cd05cbdb7",
+  "title": "Research whether ANY dedicated software is purpose-built to output a CLEAN full-screen program fe...",
+  "objective": "Research whether ANY dedicated software is purpose-built to output a CLEAN full-screen program feed to a physical HDMI capture card from a Windows gaming PC (an alternative to OBS Studio's fullscreen projector), and whether such software would deliver higher quality OR efficiency for livestreaming at 1080p60. Survey and evaluate: vMix (Output / External / Fullscreen Output, NDI outputs), Streamlabs Desktop, NDI Screen Capture HX + NDI Tools, XSplit Broadcaster, OBS-NDI plugin, Resolume, hardware downstream keyers, dedicated 'game view capture' utilities, and any niche 'capture card output' tools you can find. For each, state whether it specifically targets the task 'render one video source FULLSCREEN onto an HDMI output to be captured by a capture card' and whether it would BEAT OBS projector on quality or efficiency at 1080p60. Explain WHY there isn't really a dedicated specialized app for this, i.e. that the upstream task ('render a source fullscreen') is trivial and OBS projector is near-optimal because the real lossy step is downstream at the capture card itself. CONCLUDE with a clear recommendation: should the user stay on OBS projector or move to a dedicated app, and which (if any), and the reasoning. Cite source URLs with a confidence note.",
+  "status": "completed",
+  "createdAt": "2026-08-08T05:24:03.470Z",
+  "updatedAt": "2026-08-08T05:28:00.481Z",
+  "runs": [
+    {
+      "runId": "133270f8",
+      "mode": "single",
+      "agent": "researcher",
+      "status": "completed",
+      "startedAt": "2026-08-08T05:28:00.480Z",
+      "completedAt": "2026-08-08T05:28:00.480Z",
+      "usage": {
+        "tokens": 52841
+      }
+    }
+  ],
+  "decisions": [],
+  "artifacts": [
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\133270f8_researcher_0_output.md"
+    },
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\133270f8\\b0ttsagent\\temp\\cc-research\\lane-C-apps.md"
+    },
+    {
+      "kind": "other",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\133270f8_researcher_0_transcript.jsonl",
+      "description": "Child transcript"
+    }
+  ],
+  "receipts": [],
+  "cwd": "C:\\Users\\intel\\DevelopmentProjectTemplate",
+  "ownerSessionId": "C:\\Users\\intel\\.pi\\agent\\sessions\\--C--Users-intel-DevelopmentProjectTemplate--\\2026-08-08T05-12-16-446Z_019fdfc9-413e-71bf-9c66-9fdaf3fb8567.jsonl",
+  "summary": "Output saved to: C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\133270f8\\b0ttsagent\\temp\\cc-research\\lane-C-apps.md (19.9 KB, 128 lines). Read this file if needed.",
+  "acceptance": {
+    "status": "attested",
+    "evidenceStatus": "attested",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [],
+    "verifyRuns": [],
+    "childReport": {
+      "criteriaSatisfied": [
+        {
+          "id": "criterion-1",
+          "status": "satisfied",
+          "evidence": "Concrete findings written to C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\133270f8\\b0ttsagent\\temp\\cc-research\\lane-C-apps.md. Each finding carries an inline source URL and a confidence/severity tag (HIGH/MEDIUM/LOW), including: OBS projector present cost ~50-60us (obsproject PR #6942, HIGH), NDI HX lossy 4:2:0 codec matrix (docs.ndi.video, HIGH), vMix External Output requires AJA/Blackmagic/Bluefish broadcast cards (vmix.com help27, HIGH), RitschyMirror as the only purpose-built tool with HDR->SDR tonemapping (github README, MEDIUM), capture card as the sole lossy step (XSplit USB2-compression blog, HIGH). Recommendation and why-no-app-exists analysis included."
+        }
+      ],
+      "changedFiles": [
+        "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\133270f8\\b0ttsagent\\temp\\cc-research\\lane-C-apps.md"
+      ],
+      "testsAddedOrUpdated": [],
+      "commandsRun": [
+        {
+          "command": "web_search (exa provider, 4 rounds, 13 queries across 5 angles)",
+          "result": "passed",
+          "summary": "Covered: OBS projector baseline, vMix outputs, XSplit/Streamlabs/Resolume, NDI codec quality, capture card EDID/compression mechanics, niche tools."
+        },
+        {
+          "command": "fetch_content of primary sources (ritschy-mirror README, Moonlight guide, vMix Outputs, NDI codec matrix)",
+          "result": "passed",
+          "summary": "Full-text verified: projector-as-recommended setup, vMix fullscreen=GPU display outputs, NDI HX 4:2:0 lossy matrix, RitschyMirror architecture."
+        },
+        {
+          "command": "write output file",
+          "result": "passed",
+          "summary": "Research brief (findings, sources kept/dropped, gaps, recommendation, acceptance report) written to lane-C-apps.md."
+        }
+      ],
+      "validationOutput": [
+        "All 11 findings have at least one inline citation with a confidence tag; the 'no dedicated app' claim is triangulated by (a) search across vendor docs, GitHub, and forums finding only RitschyMirror as purpose-built, (b) engineering evidence that the task is a single present call, (c) capture-card-side loss being software-independent."
+      ],
+      "residualRisks": [
+        "RitschyMirror HDR-tonemapping superiority over OBS is a vendor claim, not independently benchmarked (single-author, v1.3.2, unsigned installer).",
+        "User's specific capture card model was not identified; internal compression behavior (uncompressed NV12 vs MJPEG/H.264) at 1080p60 could not be verified per-model.",
+        "OBS projector vs OS duplicate-display quality delta at 1080p60 lacks formal measurement; community practice favors projector.",
+        "Two web_search queries initially returned zero results (provider misconfiguration) and one Exa rate-limit occurred; all angles were re-covered successfully on retry, but a few secondary sources (e.g., Streamlabs changelog via Facebook) are lower-authority."
+      ],
+      "noStagedFiles": true,
+      "diffSummary": "New research artifact lane-C-apps.md created with the full survey and recommendation (stay on OBS Source Projector; RitschyMirror only for HDR->SDR/mouse-lock niches).",
+      "reviewFindings": [
+        "no blockers",
+        "info: NDI path is strictly lossier (4:2:0 codec) than uncompressed HDMI — flagged so the parent's final recommendation cannot favor NDI on quality grounds",
+        "info: vMix 'External Output' does NOT support consumer USB/PCIe capture cards — common misconception corrected with official docs"
+      ],
+      "manualNotes": "Written to the authoritative path lane-C-apps.md. Confidence tagging included per finding. If the user's capture card model is provided, a follow-up can verify its internal 1080p60 format (uncompressed NV12 vs compressed) to confirm which hardware, if any, is the current bottleneck."
+    }
+  }
+}

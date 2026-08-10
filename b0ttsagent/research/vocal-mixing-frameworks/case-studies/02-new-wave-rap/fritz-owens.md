@@ -1,0 +1,44 @@
+# Fritz Owens (Marcus Fritz)
+- **Role:** recording engineer / mixing engineer for Playboi Carti — Carti's day-to-day engineer and the mixer of *MUSIC* (2025); also an artist (debut project *Blessed Mess*) and producer
+- **Verified credits:** *MUSIC* (2025) — **mixer on all 30 tracks, recording engineer on most** [Wikipedia](https://en.wikipedia.org/wiki/Music_(Playboi_Carti_album)) / [Qobuz](https://www.qobuz.com/us-en/album/music-playboi-carti/qb8e43zw520cb) / [MusicBrainz](https://musicbrainz.org/release/63c43988-5c32-47d4-a36b-9691281e7bdc); *ALL RED* (2024) — mixing & recording [AllMusic](https://www.allmusic.com/album/all-red-mw0004377310); *Whole Lotta Red* (2020) — mixing credits [Dork](https://readdork.com/album/playboi-carti-whole-lotta-red); "Timeless" recording sessions (fan-documented) [Facebook fan post — C-tier](https://www.facebook.com/viethiphophead/posts/playboi-carti-recording-timeless-with-fritz-owens/939780248193501/); "Fritz is with him every day" — Cardo on the MUSIC workflow [Billboard](https://www.billboard.com/music/rb-hip-hop/cardo-got-wings-producer-schoolboy-q-playboi-carti-1235647265/)
+- **Recent mainstream relevance:** *MUSIC* (March 2025) debuted **#1 on the Billboard 200** with 298,000 units — biggest rap week of 2025; Carti's second #1 after *Whole Lotta Red* [Billboard](https://www.billboard.com/music/chart-beat/playboi-carti-music-album-number-one-billboard-200-chart-1235929403/) / [Pitchfork](https://pitchfork.com/news/playboi-carti-makes-billboard-charts-history-as-new-album-music-debuts-at-no-1/)
+- **Evidence base:** A: 0 (no technical interviews by Fritz exist in print or video as of this research). B: 3 (Billboard Cardo interview; Complex Swamp Izzo interview; AllMusic/Genius credit pages). C: 2 (MusicBrainz/Wikipedia credits — solid, but crowd-edited; Facebook fan post). **Honesty note: this is a credits-verified, process-undocumented file. No published chain exists for Fritz. What follows is what third parties documented about his sessions.**
+
+## Vocal Philosophy
+Not documented from Fritz himself. What his sessions demonstrate (documented by witnesses):
+- **Privacy is the production value.** "Fritz [Carti's engineer] is in the headphones. Nobody can hear the recording until he comes out and plays it back... The process is him in there. You could just see him jumping up, grabbing poles and stuff, creating the energy." — DJ Swamp Izzo on *MUSIC* sessions [Complex](https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+- **Carti records quietly:** "Of course the music is different. I think they record the same. Because Carti records quietly. Like we all in the studio, they're recording." [Complex](https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+
+## The Vocal Chain (as documented)
+**No chain has been published.** The only fixed facts:
+- Fritz is the gatekeeper of Carti's takes: beats go "straight to his phone — or send it to Fritz [Owens, Carti's engineer] because Fritz [is] with him every day." — Cardo [Billboard](https://www.billboard.com/music/rb-hip-hop/cardo-got-wings-producer-schoolboy-q-playboi-carti-1235647265/)
+- He mixes AND records the same songs (MUSIC credits show Fritz as both mixer and recording engineer on the same tracks), i.e., the "record-with-the-mix-in-mind" Atlanta model Kesha Lee describes [Wikipedia](https://en.wikipedia.org/wiki/Music_(Playboi_Carti_album)).
+- On MUSIC the mixing team also included Johnathan Turner (tracks 5, 10, 15), Mike Dean (track 8), Rafael Fai Bautista (track 21); Ojivolta mastered most tracks, Glenn Schick all tracks [Wikipedia](https://en.wikipedia.org/wiki/Music_(Playboi_Carti_album)).
+
+**UNVERIFIED / community reconstruction (C-tier):** the actual rage-vocal processing on Carti's records — fast Auto-Tune (near-instant retune), heavy doubling, and vocals placed loud and dry above clipped/distorted beats — is reverse-engineered by ear in fan tutorials (e.g., "F1LTHY x OPIUM rage" FL Studio tutorials) and by audio-preset blogs (e.g., [cedarsoundstudios.com — Ken Carson preset](https://www.cedarsoundstudios.com/blogs/news/how-to-get-the-ken-carson-vocal-sound-with-a-vocal-preset)). None of it is Fritz's own documentation. Treat as reconstruction.
+
+## Recording / Tracking Side
+- **Recorded at Carti's rented studio building with multiple rooms** — sessions are vibe-first: "he rents out the building... you might have one room where there's just a bunch of clothes... You might get in a studio setting and there just be like bags of money everywhere." — Swamp Izzo [Complex](https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+- **Everything is recorded up to the release moment:** "We recorded all the way up to the album actually came out. So when they dropped at 7 AM, we were still in the studio." — Swamp Izzo [Complex](https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+- **Beat-swap culture:** songs grow by replacing/addding beats ("just say 'EVIL J0RDAN.'... as he listen, he'd be like 'Put another beat on and it.' And it grows... until we have so many songs"). [Complex](https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+- **Hype/ad-lib vocals recorded live in the room** (Swamp Izzo's yells on a dozen tracks) — the album's "drops" are performance-captured, with the engineer fitting them over the songs ("Now you can add the Swamp Izzo drop to it, but it has to be right and it has to be wrong at the same time"). [Complex](https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+- **Recording engineers on MUSIC** also included Ray Charles Brown Jr., Roark Bailey, DJ Moon, Ojivolta, Rafael Fai Bautista — a multi-engineer capture operation [Wikipedia](https://en.wikipedia.org/wiki/Music_(Playboi_Carti_album)).
+
+## Signature Moves
+1. **The closed-loop session:** artist records alone in the booth with only the engineer hearing; playback is a controlled reveal. [Complex](https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+2. **Engineer as producer-adjacent collaborator:** beats route through Fritz; he's Carti's constant in a rotating producer roster. [Billboard](https://www.billboard.com/music/rb-hip-hop/cardo-got-wings-producer-schoolboy-q-playboi-carti-1235647265/)
+3. **Mix-as-you-record:** same person records and mixes the majority of the album — the rough mix IS the direction.
+4. **Hype-man vocals as arrangement:** integrating shouted ad-lib performances (Swamp Izzo, "MUNYUN" intro) as compositional elements across the record. [Complex](https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+
+## Direct Quotes
+- "No, it was really over FaceTime... Either I link up with him wherever he's at, probably New York, or I'll just send it straight to his phone — or send it to Fritz [Owens, Carti's engineer] because Fritz [is] with him every day." — Cardo (https://www.billboard.com/music/rb-hip-hop/cardo-got-wings-producer-schoolboy-q-playboi-carti-1235647265/)
+- "Fritz [Carti's engineer] is in the headphones. Nobody can hear the recording until he comes out and plays it back. So the process is him in there." — DJ Swamp Izzo (https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+- "I think they record the same. Because Carti records quietly." — DJ Swamp Izzo (https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+- "We recorded all the way up to the album actually came out. So when they dropped at 7 AM, we were still in the studio." — DJ Swamp Izzo (https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-album-music-dj-swamp-izzo-making)
+
+## What To Steal
+1. **Record quietly, mix loudly later** — Carti's documented habit: take the energy into the performance, control the room, let the chain do the work. For a home rapper: don't scream into the mic to match a loud beat; record a clean take and make it loud in the mix.
+2. **Be the gatekeeper of your takes** — controlled playback, controlled sharing; hearing a take fresh (not through 10 people's reactions) keeps quality judgment honest.
+3. **One engineer from record through mix** — when the person who captured the take also mixes it, the vocal sound stays consistent (Fritz's MUSIC credits).
+4. **Iterate until release day** — songs were still being re-recorded and re-arranged hours before the album dropped; the modern rap album is a living session, not a frozen artifact.
+5. **Use ad-libs/hype vocals as arrangement glue** — record a hype voice in the room and treat the yells as percussion/texture on the track (works great in Audacity: record the shout track, gate it, place it on the one).
