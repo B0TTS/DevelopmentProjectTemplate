@@ -372,4 +372,8 @@ Announce document completion. Provide a few final tips:
 **Quality over Speed:**
 - Don't rush through stages
 - Each iteration should make meaningful improvements
+<<<<<<< HEAD
 - The goal is a document that actually works for readers
+=======
+- The goal is a document that actually works for readers
+>>>>>>> fa6d8704f5161d34de98006d97563b4505ba5159

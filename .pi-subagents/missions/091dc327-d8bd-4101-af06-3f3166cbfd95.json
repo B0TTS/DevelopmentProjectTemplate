@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "091dc327-d8bd-4101-af06-3f3166cbfd95",
+  "title": "Research OBS source-capture method tradeoffs on the gaming PC for feeding the HIGHEST-QUALITY cle...",
+  "objective": "Research OBS source-capture method tradeoffs on the gaming PC for feeding the HIGHEST-QUALITY clean game feed to a capture card by PROJECTING the source fullscreen onto a 3rd HDMI output. Compare three source types: Display Capture (DXGI Desktop Duplication of the whole monitor), Game Capture (hooking the game's swapchain), and Window Capture. GOALS: (1) For 1080p, compare Display Capture vs Game Capture vs Window Capture for efficiency (CPU/GPU), captured color/contrast fidelity, and whether Display Capture brings unwanted content (desktop/taskbar/notifications/overlays/wallpaper) into the feed; whether Game Capture produces a clean game-only feed; cases where Display Capture is needed or where it FAILS (fullscreen-exclusive, HDR, DRM-protected video). (2) Whether Game Capture can be PROJECTED to a different physical HDMI output than the monitor the game plays on (multi-adapter behavior, the 'use a different adapter for capture' setting, multi-GPU laptop adapter selection). (3) Practical recommendation for the user, who CURRENTLY projects the Display Capture SOURCE: which source to switch to for best quality plus least overhead, and required OBS settings (disable 'capture cursor', monitor selection, multi-adapter mode, anti-cheat hook compatibility like Vanguard/EAC, OBS Run as Administrator, SLI/CrossFire). Cover fullscreen-exclusive vs borderless. CONCLUDE with a concrete recommended OBS source configuration for this exact use case, plus pros/cons of each method. Cite OBS docs/forums, Moonlight capture-card guide, r/OBS.",
+  "status": "completed",
+  "createdAt": "2026-08-08T05:24:03.742Z",
+  "updatedAt": "2026-08-08T05:28:07.091Z",
+  "runs": [
+    {
+      "runId": "1847e938",
+      "mode": "single",
+      "agent": "researcher",
+      "status": "completed",
+      "startedAt": "2026-08-08T05:28:07.091Z",
+      "completedAt": "2026-08-08T05:28:07.091Z",
+      "usage": {
+        "tokens": 63112
+      }
+    }
+  ],
+  "decisions": [],
+  "artifacts": [
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\1847e938_researcher_0_output.md"
+    },
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\1847e938\\b0ttsagent\\temp\\cc-research\\lane-D-source.md"
+    },
+    {
+      "kind": "other",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\1847e938_researcher_0_transcript.jsonl",
+      "description": "Child transcript"
+    }
+  ],
+  "receipts": [],
+  "cwd": "C:\\Users\\intel\\DevelopmentProjectTemplate",
+  "ownerSessionId": "C:\\Users\\intel\\.pi\\agent\\sessions\\--C--Users-intel-DevelopmentProjectTemplate--\\2026-08-08T05-12-16-446Z_019fdfc9-413e-71bf-9c66-9fdaf3fb8567.jsonl",
+  "summary": "Output saved to: C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\1847e938\\b0ttsagent\\temp\\cc-research\\lane-D-source.md (23.4 KB, 106 lines). Read this file if needed.",
+  "acceptance": {
+    "status": "attested",
+    "evidenceStatus": "attested",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [],
+    "verifyRuns": [],
+    "childReport": {
+      "criteriaSatisfied": [
+        {
+          "id": "criterion-1",
+          "status": "satisfied",
+          "evidence": "Concrete findings with severity ratings and citations written to C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\1847e938\\b0ttsagent\\temp\\cc-research\\lane-D-source.md (23,789 bytes). Findings include: Game Capture vs Display Capture vs Window Capture comparison (efficiency, fidelity, content cleanliness) with OBS KB/Moonlight/r-OBS citations; multi-adapter behavior incl. the 'Multi-adapter Compatibility'/'SLI-Crossfire Capture Mode (Slow)' property and GPU-selection rules; severity-flagged items (High: Vanguard/FACEIT game capture broken on OBS 31.0, fixed 31.1+; Medium: HDR display capture dim/washed-out GitHub #7970; Medium: DXGI black during exclusive-fullscreen transitions #6269); DRM-protected video renders black in all methods; concrete recommended OBS config for the projector-to-capture-card use case plus pros/cons table."
+        }
+      ],
+      "changedFiles": [
+        "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\1847e938\\b0ttsagent\\temp\\cc-research\\lane-D-source.md"
+      ],
+      "testsAddedOrUpdated": [],
+      "commandsRun": [
+        {
+          "command": "web_search (exa provider, 8 batches covering source comparison, anti-cheat, multi-adapter, projector, HDR/DRM)",
+          "result": "passed",
+          "summary": "14 of 16 queries returned synthesized answers with citations; brave/tavily/openai providers unavailable (no API keys), exa rate-limited twice but recovered"
+        },
+        {
+          "command": "fetch_content / get_search_content (OBS KB pages, Moonlight guide, projectobs, GitHub issues)",
+          "result": "passed",
+          "summary": "Full text retrieved for game-capture-source, game-capture-troubleshooting, capture-hook-certificate-update, display-capture-sources, window-capture-sources, power-of-projectors, gpu-selection-guide, Moonlight capture-card guide, projectobs laptop guide"
+        },
+        {
+          "command": "write lane-D-source.md",
+          "result": "passed",
+          "summary": "23,789 bytes written; verified by tool success response"
+        }
+      ],
+      "validationOutput": [
+        "All 4 task goals addressed: (1) 1080p source comparison with efficiency/fidelity/content-cleanliness and failure cases (fullscreen-exclusive, HDR, DRM); (2) projector-to-different-HDMI-output confirmed with multi-adapter/laptop caveats; (3) recommendation + full OBS settings checklist (cursor, monitor, multi-adapter, anti-cheat, admin, SLI/CF, fullscreen vs borderless); (4) concrete recommended config + pros/cons table. Citations from OBS docs/forums, Moonlight guide, r/OBS, r/Twitch, Microsoft Q&A, GitHub issues included."
+      ],
+      "residualRisks": [
+        "No hard CPU/GPU benchmark numbers exist in OBS community sources — performance ranking (Game < Window < Display) is qualitative; local A/B measurement on the actual rig recommended",
+        "Per-title anti-cheat hook success (EAC module version depends on game developer opt-in) can only be settled by testing each specific game",
+        "Cross-adapter projector presentation (capture card on a different GPU than OBS) is not officially documented; historic projector bugs (#5624, #8866) suggest keeping capture card on OBS's GPU",
+        "HDR monitor + SDR capture-card output tone mapping is supported (OBS 28+) but should be visually verified per game",
+        "Search provider coverage gaps: brave/tavily/openai unkeyed, so coverage relied on Exa; key claims were cross-verified against primary sources (OBS KB, GitHub, Microsoft Q&A)"
+      ],
+      "noStagedFiles": true,
+      "diffSummary": "New research artifact lane-D-source.md: OBS source-capture tradeoff brief for clean 1080p game feed to capture card via fullscreen projector, with 16 findings, cited sources, gaps, and recommended configuration",
+      "reviewFindings": [
+        "no blockers: all claims trace to cited sources",
+        "minor: OBS property label history — 'Multi-adapter Compatibility' renamed to 'SLI/Crossfire Capture Mode (Slow)' in OBS 21.0.1 but current locale + encoding KB retain both labels; report presents them as one setting with both labels",
+        "minor: obs-versions.com blogs used only for DXGI/WGC backend mechanics and corroboration, not as sole evidence for any claim",
+        "minor: win.gg/eklipse articles on Valorant OBS 31 black screen excluded as low-value rehashes; primary GitHub #11602 + OBS KB cert table used instead"
+      ],
+      "manualNotes": "Research-only task; no code changed. The recommended configuration in the brief (Game Capture + Fullscreen Source Projector, borderless windowed, OBS 31.1+, NV12 1080p, Extend displays, same-GPU affinity) is the community-standard method per the Moonlight capture-card guide and OBS KB."
+    }
+  }
+}

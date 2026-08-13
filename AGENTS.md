@@ -2,10 +2,15 @@
 
 This file provides guidance to AI coding agents (Claude Code, Cursor, Copilot, Antigravity, etc.) when working with code in this repository.
 
+ ## Commands
+
+ No build/test/lint pipeline — content is markdown docs and agent
+ config. The scaffolder lives in `Setup/template-dev-installer/`.
+
 ### Core Rules
 
 - If a task matches a skill, you MUST invoke it
-- Skills are located in `skills/<skill-name>/SKILL.md`
+- Skills are located in `.agents/skills/<skill-name>/SKILL.md`
 - Never implement directly if a skill applies
 - Always follow the skill instructions exactly (do not partially apply them)
 - **NEVER attempt to SSH into the VPS.** The VPS is strictly off-limits for direct access. All VPS information is documented in the navigation guides — read those instead.
@@ -25,7 +30,7 @@ Reference documents for configured services and systems (VPS, Docker, Minecraft,
 
 ### Handoffs
 
-Handoff documents are saved to `b0ttsagent/handoffs/<MM-DD-YYYY>/` (date-based folders).
+Handoff documents are saved to `b0ttsagent/handoffs/<MM-DD-YYYY>/` (date-based folders). Handoff documents are just md documents made from previous sessions via the /handoff skill. Nothing too important here unless explicitly said/referenced by the user.
 
 ### Session Logs
 
@@ -37,6 +42,11 @@ Handoff documents are saved to `b0ttsagent/handoffs/<MM-DD-YYYY>/` (date-based f
 ### Scratchpads
 
 `/closev2` (Branches 1–4) writes one scratchpad per branch per session to `b0ttsagent/scratchpads/<MM-DD-YYYY>/<HHMM>_<session-name>_scratchpad-<branch>.md` — `<branch>` is `memory`, `skills`, `improvements`, or `tips`. Each holds that branch's extraction plus a `## Gleaning Pass` section, feeding the branch's proposal loop. (working files for the close flow, not reference docs)
+
+### Depricated
+
+`b0ttsagent/depricated`
+This is mainly useless stuff that I store for tracking adjustments/evolution of things tied to the codebase. Nothing in here will ever really be useful unless stated expclicitly by the user. This is where most phased out useless stuff goes. nav guides, skills, notes, etc. Things tied to the project infrastructure.
 
 ### Planning
 

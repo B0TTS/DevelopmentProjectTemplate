@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "ad711707-0462-4c98-8818-5ad5ebc84b9a",
+  "title": "Research whether using OBS Studio's Fullscreen Source Projector (a.k.a. fullscreen projector) to ...",
+  "objective": "Research whether using OBS Studio's Fullscreen Source Projector (a.k.a. fullscreen projector) to feed a physical HDMI capture card in a TWO-PC streaming setup introduces any quality loss, latency, or efficiency problem versus the alternative of using Windows Display Duplication/extension feeding the capture card. Also assess whether the user's perceived concern that the PROJECTED feed's FPS appears to DECREASE over time in long sessions has any technical basis. Specifically: (1) Does the OBS fullscreen projector render at the source's native resolution with no recompression, i.e. is it effectively bit-perfect GPU output to the display output that the capture card then grabs? Does it add meaningful latency versus duplicating the display? Does it consume meaningful GPU and can it conflict with game rendering? (2) Known OBS issues across GitHub issues and obsproject.com forum threads: GPU downclocking during idle causing frame drops on projector windows, vsync timing of the projector window, memory leaks, dropped-frame reports, projector slowdown/performance regressions, whether borderless fullscreen window vs true fullscreen matters, and any documented 'frame rate drops after a while' reports related to fullscreen projector. (3) Is fullscreen projector considered the STANDARD best practice for feeding a capture card from a 2-monitor gaming PC so the gaming monitor can run higher res/refresh than the captured feed? Reference the Moonlight OBS capture-card guide, OBS forum threads, r/OBS. (4) Compare extending the Windows desktop to a 3rd display (with OBS projecting the source ONTO that 3rd display) versus duplicating Monitor 1. CONCLUDE: is the projector approach trustworthy for quality, is the 'FPS decreases over time' plausibly real and FIXABLE (how), and is it effectively the correct method? Give actionable advice. Cite source URLs with confidence.",
+  "status": "completed",
+  "createdAt": "2026-08-08T05:24:03.217Z",
+  "updatedAt": "2026-08-08T05:29:33.410Z",
+  "runs": [
+    {
+      "runId": "1736c481",
+      "mode": "single",
+      "agent": "researcher",
+      "status": "completed",
+      "startedAt": "2026-08-08T05:29:33.410Z",
+      "completedAt": "2026-08-08T05:29:33.410Z",
+      "usage": {
+        "tokens": 71474
+      }
+    }
+  ],
+  "decisions": [],
+  "artifacts": [
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\1736c481_researcher_0_output.md"
+    },
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\1736c481\\b0ttsagent\\temp\\cc-research\\lane-B-projector.md"
+    },
+    {
+      "kind": "other",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\1736c481_researcher_0_transcript.jsonl",
+      "description": "Child transcript"
+    }
+  ],
+  "receipts": [],
+  "cwd": "C:\\Users\\intel\\DevelopmentProjectTemplate",
+  "ownerSessionId": "C:\\Users\\intel\\.pi\\agent\\sessions\\--C--Users-intel-DevelopmentProjectTemplate--\\2026-08-08T05-12-16-446Z_019fdfc9-413e-71bf-9c66-9fdaf3fb8567.jsonl",
+  "summary": "Output saved to: C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\1736c481\\b0ttsagent\\temp\\cc-research\\lane-B-projector.md (24.6 KB, 121 lines). Read this file if needed.",
+  "acceptance": {
+    "status": "attested",
+    "evidenceStatus": "attested",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [],
+    "verifyRuns": [],
+    "childReport": {
+      "criteriaSatisfied": [
+        {
+          "id": "criterion-1",
+          "status": "satisfied",
+          "evidence": "Research brief written to C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\1736c481\\b0ttsagent\\temp\\cc-research\\lane-B-projector.md (24,946 bytes). Contains 14 concrete findings, each tagged with severity (High/Medium/Low) and confidence, covering: no-recompression render path, resolution/color behavior, vsync-to-display cap (PR #6942), latency comparison, GPU cost/conflicts, documented projector issues (tearing #8866, over-time degradation #12014/#7422/#13517/#13452, downclocking mechanism + NVIDIA fix, memory leaks #5828/#7386/#13446), best-practice consensus (Moonlight guide, r/OBS, OBS KB), and Extend-vs-Duplicate analysis. Concludes projector approach is trustworthy and correct, degradation is real but fixable, with a 6-step actionable fix checklist."
+        }
+      ],
+      "changedFiles": [
+        "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\1736c481\\b0ttsagent\\temp\\cc-research\\lane-B-projector.md"
+      ],
+      "testsAddedOrUpdated": [],
+      "commandsRun": [
+        {
+          "command": "web_search (5 rounds, exa + auto providers, 17 queries)",
+          "result": "passed",
+          "summary": "Located all key primary sources: Moonlight guide, OBS KB, PR #6942, issues #8866/#12014/#7422/#13517/#13452/#7716/#5828/#7386/#13446, forum threads, BlurBusters, NVIDIA support article"
+        },
+        {
+          "command": "fetch_content (10 URLs, readable mode)",
+          "result": "passed",
+          "summary": "Full content retrieved for Moonlight guide, OBS KB Power of Projectors, GitHub issues #8866/#12014/#13517/#7422/#13452, Tom's Hardware, OBS forum threads (NVENC, source projector resolution, 144Hz capture card), BlurBusters threads"
+        },
+        {
+          "command": "get_search_content (10 bounded content retrievals)",
+          "result": "passed",
+          "summary": "Extracted full page bodies and quote-level detail from all fetched sources"
+        }
+      ],
+      "validationOutput": [
+        "All 4 task questions answered with cited sources: (1) quality/latency/GPU-cost of projector path, (2) known OBS issues incl. downclocking, vsync, leaks, over-time fps drops, borderless-vs-exclusive, (3) best-practice consensus (Moonlight recommends it), (4) Extend vs Duplicate comparison. Reddit r/obs source cited from search-extracted snippet only (direct fetch blocked); marked accordingly."
+      ],
+      "residualRisks": [
+        "No instrumented A/B latency benchmark (projector vs duplicate) exists; latency parity is mechanism- and consensus-based, not measured",
+        "Windows-specific 'projector fps drops after hours' has no single pinned GitHub root-cause issue; strongest over-time evidence is macOS/Linux (#12014/#7422/#13517) plus Windows forum reports",
+        "GPU-downclocking link to projectors is mechanistic (static scene -> idle clocks -> render lag on resume), supported by NVIDIA's own support article but not a projector-specific issue",
+        "Reddit thread content cited from search snippet only; old.reddit fetch blocked (rate limit)"
+      ],
+      "noStagedFiles": true,
+      "diffSummary": "New research brief file created at the authoritative output path; no other files modified",
+      "reviewFindings": [
+        "info: lane-B-projector.md - Finding 2 correctly qualifies 'bit-perfect' (only true at 1:1 resolution match; Active=Desktop verification required)",
+        "info: lane-B-projector.md - Finding 4 correctly flags refresh mismatch as the highest-severity configuration trap (canvas/display/capture-device rate matching)",
+        "info: lane-B-projector.md - Finding 9 flagged as Medium confidence (mechanism strong, no projector-specific downclocking GitHub issue)",
+        "no blockers"
+      ],
+      "manualNotes": "Task instructions from AGENTS.md were checked; no repo skill applies to this web-research output task, so no skill invocation was required. Contact with supervisor was not needed; all four research angles were covered to saturation (repeated searches returned the same source set)."
+    }
+  }
+}

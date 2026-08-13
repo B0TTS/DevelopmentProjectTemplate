@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "7b378ad8-9c88-4126-90c6-53357179ca66",
+  "title": "Research optimal OBS receiving-side AND encoder settings to maximize received quality from a USB ...",
+  "objective": "Research optimal OBS receiving-side AND encoder settings to maximize received quality from a USB 3.0 HDMI capture card and the optimal live-stream encoder for a Windows 11 laptop running OBS to livestream 1080p60. GOALS: (1) On the laptop, in the Video Capture Device source properties: Resolution/FPS Type = Custom and exactly 1080p / 60; the Video Format options reported by generic USB3 UVC cards (MJPEG, YUY2/YUYV, NV12, H.264). Determine which is uncompressed (YUY2 = full 4:2:2, ~3 Gbps over USB3) and gives best quality, vs which compressed formats deliver artifacts; Color Space = 709; Color Range = Full (0-255) vs Limited (16-235): which the cheap generic cards advertise by default and which the user should choose; whether 'Device default' vs 'Custom' matters; deactivate buffering; disable OBS-side deinterlacing/scaling; use the Configure / Crossbar / Video Proc Amp controls to disable auto-exposure/auto-gain/auto-white-balance to prevent brightness flicker. HOW to verify the card delivers true 60 not 30-doubled (OBS Stats Capture fps, dropped-frame counters, a 60fps test pattern). (2) Encoder: if laptop has NVIDIA GPU use NVENC H.264 or HEVC; recommend CQP quality-based for quality priority (concrete CQP value for 1080p60 livestream, around 20-24), keyframe interval 2s, profile High, P5/P6 preset (Quality), multipass two-passes-quarter-res, psychovisual tuning on; OR CBR bitrate recommendation for 1080p60 livestream (~6-9 Mbps Twitch, ~12-18+ Mbps YouTube). If AMD use AMF H.264/HEVC. If no dGPU use x264 'veryfast/faster' preset tradeoffs. Mention Twitch 1080p60 bitrate ceilings (Twitch recommends 6000 Kbps, allow up to ~8000 for affiliates/partners). CONCLUDE with a concrete settings checklist for receive + encode to maximize quality. Cite OBS docs, the EposVox NVENC guide, r/OBS, Twitch/YouTube guidelines.",
+  "status": "completed",
+  "createdAt": "2026-08-08T05:24:04.037Z",
+  "updatedAt": "2026-08-08T05:29:27.483Z",
+  "runs": [
+    {
+      "runId": "2d208dbc",
+      "mode": "single",
+      "agent": "researcher",
+      "status": "completed",
+      "startedAt": "2026-08-08T05:29:27.483Z",
+      "completedAt": "2026-08-08T05:29:27.483Z",
+      "usage": {
+        "tokens": 66524
+      }
+    }
+  ],
+  "decisions": [],
+  "artifacts": [
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\2d208dbc_researcher_0_output.md"
+    },
+    {
+      "kind": "output",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\2d208dbc\\b0ttsagent\\temp\\cc-research\\lane-E-receive.md"
+    },
+    {
+      "kind": "other",
+      "path": "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\2d208dbc_researcher_0_transcript.jsonl",
+      "description": "Child transcript"
+    }
+  ],
+  "receipts": [],
+  "cwd": "C:\\Users\\intel\\DevelopmentProjectTemplate",
+  "ownerSessionId": "C:\\Users\\intel\\.pi\\agent\\sessions\\--C--Users-intel-DevelopmentProjectTemplate--\\2026-08-08T05-12-16-446Z_019fdfc9-413e-71bf-9c66-9fdaf3fb8567.jsonl",
+  "summary": "Output saved to: C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\2d208dbc\\b0ttsagent\\temp\\cc-research\\lane-E-receive.md (24.0 KB, 118 lines). Read this file if needed.",
+  "acceptance": {
+    "status": "attested",
+    "evidenceStatus": "attested",
+    "explicit": false,
+    "effectiveAcceptance": {
+      "level": "attested",
+      "explicit": false,
+      "inferredReason": [
+        "read-only/reviewer-style agent"
+      ],
+      "criteria": [
+        {
+          "id": "criterion-1",
+          "must": "Return concrete findings with file paths and severity when applicable",
+          "evidence": [
+            "review-findings",
+            "residual-risks"
+          ],
+          "severity": "required"
+        }
+      ],
+      "evidence": [
+        "review-findings",
+        "residual-risks"
+      ],
+      "verify": [],
+      "stopRules": []
+    },
+    "inferredReason": [
+      "read-only/reviewer-style agent"
+    ],
+    "criteria": [
+      {
+        "id": "criterion-1",
+        "must": "Return concrete findings with file paths and severity when applicable",
+        "evidence": [
+          "review-findings",
+          "residual-risks"
+        ],
+        "severity": "required"
+      }
+    ],
+    "runtimeChecks": [],
+    "verifyRuns": [],
+    "childReport": {
+      "criteriaSatisfied": [
+        {
+          "id": "criterion-1",
+          "status": "satisfied",
+          "evidence": "Concrete findings returned with citations and severity-flagged items. Artifact written to C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\2d208dbc\\b0ttsagent\\temp\\cc-research\\lane-E-receive.md (24,274 bytes, verified via write success). Severity flags applied where relevant: HIGH - color range mismatch (washed-out/crushed output, resource 1029); HIGH - 30-vs-60 fps silent cap on cheap cards (OBS forum Mirabox/VHS threads); MEDIUM - MJPEG double-compression artifacts; MEDIUM - auto-exposure flicker on generic cards; LOW - CQP value is community consensus not official. review-findings and residual-risks provided in this report."
+        }
+      ],
+      "changedFiles": [
+        "C:\\Users\\intel\\DevelopmentProjectTemplate\\.pi-subagents\\artifacts\\outputs\\2d208dbc\\b0ttsagent\\temp\\cc-research\\lane-E-receive.md"
+      ],
+      "testsAddedOrUpdated": [],
+      "commandsRun": [
+        {
+          "command": "web_search (4 rounds, multi-query, exa/openai providers)",
+          "result": "passed",
+          "summary": "Located primary sources: OBS forum resources 777/1029, OBS KB video-capture-sources, NVIDIA/EposVox NVENC guide, Twitch Broadcasting Guidelines, YouTube live bitrate help, AMF wiki, x264 blog, cheap-card reviews (naut.ca, ciko.io), r/OBS threads."
+        },
+        {
+          "command": "fetch_content (7 fetches: OBS resources 777/1029, NVIDIA guide, Twitch help, Dacast, ciko.io, naut.ca, OBS KB sources guide, YouTube help 2853702)",
+          "result": "passed",
+          "summary": "Extracted concrete values: format/bandwidth table, color-range guidance + MJPEG exception, NVENC CBR/P6/2s/two-pass-quarter-res/High settings, Twitch 6000 Kbps table, YouTube 12 Mbps @1080p60 + keyframe<=4s, MS2109/MS2130 real format limits."
+        },
+        {
+          "command": "write artifact to lane-E-receive.md",
+          "result": "passed",
+          "summary": "24,274 bytes written successfully; contains Findings (receive + encoder), concrete settings checklist, Sources kept/dropped, Gaps."
+        }
+      ],
+      "validationOutput": [
+        "All task-required topics covered: Custom 1080p60, format ranking YUY2>NV12>MJPEG>H.264 with bandwidth, 709/Full-vs-Limited with cheap-card defaults and test procedure, device-default-vs-custom, buffering disable, deinterlace/scaling, proc-amp auto-control disable, true-60 verification (Stats, red border, test pattern), NVENC CQP 20-24 + CBR 6000/12Mbps, keyframe 2s, P6, High, two-pass quarter-res, psycho tuning, AMF, x264 fallback, Twitch 6000/8000 ceilings. Citations to OBS docs, EposVox/NVIDIA guide, r/OBS, Twitch/YouTube guidelines included inline."
+      ],
+      "residualRisks": [
+        "Exact default color range/space of a specific unnamed generic card cannot be known without testing that unit; brief provides the test procedure (greyscale/PLUGE test image) instead of a universal value",
+        "CQP 20-24 for 1080p60 streaming is community consensus; NVIDIA's official guide specifies CBR for streaming (CQ 15 for recording) - flagged in the brief",
+        "Twitch's >6000 Kbps partner ceiling is not officially published; ~8000 tolerated figure is third-party sourced",
+        "Red-border source frame-drop indicator is community-documented behavior without a clean official KB citation; Stats dialog + test pattern given as primary verification",
+        "Bandwidth figures (YUY2 1080p60 ~2 Gbps payload, ~3 Gbps with overhead per some vendors) are computed/nominal, not measured on the specific card"
+      ],
+      "noStagedFiles": true,
+      "diffSummary": "Created new research artifact lane-E-receive.md (24 KB) with findings, citations, checklist, sources kept/dropped, and gaps; no other files touched",
+      "reviewFindings": [
+        "no blockers - research brief complete and self-consistent",
+        "note: Twitch help page returned empty content on direct fetch; official table values verified via Dacast reproduction + stream-rise/freeradical corroboration",
+        "note: no code or configuration changed, so no compile/test review applies; acceptance rests on source-backed findings and artifact write"
+      ],
+      "manualNotes": "Research-only task: no code, no tests, no repo changes beyond the single artifact. If the parent wants the receive-side checklist converted into an actual OBS profile/script later, the natural next step is identifying the card's chipset (MS2109 vs MS2130) since it determines which video formats are truly available at 1080p60."
+    }
+  }
+}

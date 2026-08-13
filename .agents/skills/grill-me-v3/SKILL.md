@@ -84,8 +84,8 @@ node <skill-dir>/scripts/append.js remove "<session-path>" --entry N --yes
 Immediately after the user's initial prompt:
 
 - Derive a short `<slug>` from the prompt (lowercase, hyphenated, e.g. `grill-me-v2-skill-design`).
-- Target path: `b0ttsagent/handoffs/<MM-DD-YYYY>/grill-session-<slug>.json` (current date; create the folder if missing).
-- If the file already exists, append a numeric suffix: `-2`, `-3`, etc. Never overwrite, never invent a different name.
+- Target path: `b0ttsagent/handoffs/<MM-DD-YYYY>/<HHMM>_<slug>/grill-session-<slug>.json` (current date + time; create the folders if missing).
+- If the per-session folder already exists, append a numeric suffix to the **folder** slug (`<HHMM>_<slug>-2`, `-3`, …) and create a new folder. The JSON inside keeps its canonical name `grill-session-<slug>.json`. Never overwrite, never invent a different name.
 - Write the initial JSON with `topic`, `initialPrompt` (verbatim), `startedAt`, empty `qAndA`, `status: "active"`, `summary: null`.
 
 Initial file shape:
@@ -178,7 +178,7 @@ Removal is allowed on both `active` and `complete` sessions — correcting the h
 
 ## Edge cases
 
-- **Filename collision** → suffix `-2`, `-3`, etc. Never overwrite, never rename.
+- **Folder collision** → suffix the folder slug `-2`, `-3`, etc. (never the JSON filename). Never overwrite, never rename.
 - **Closing preference** → the three exits live in step 4 and are asked once. Never re-ask "ready to handoff?" at any later point — step 4 is the only closing question.
 - **Session abandoned mid-grill** → file stays `active`; the partial transcript is the resume point.
 - **Resuming a session** → if the user points at an existing `active` grill-session file, `read` it in full once to rebuild your footing (you have no chat history of the prior exchanges), then continue through the helper script. If the final entry has `answer: null`, that question is still awaiting the user's answer; do not ask another question. After that first footing read, do not re-read the transcript on every later turn.
