@@ -4,3 +4,7 @@
 [submodule ".opencode"]
 	path = .opencode
 	url = https://github.com/B0TTS/OPENCODE-Agent.git
+[submodule ".searxng-mcp"]
+	path = .searxng-mcp
+	url = https://github.com/B0TTS/searxng-mcp.git
+	branch = main
