@@ -76,13 +76,14 @@ tailscale serve status
 | ntfy | *(unconfirmed)* | *(unconfirmed)* | `127.0.0.1:8083` | Tailscale Serve `:3000` | *(none)* |
 | postgrest | `/home/postgrest` | `postgrest` (986:981) | *(none — internal)* | Cloudflare Tunnel `b0tts.dev/api` | `PostgrestApiGuide.md` |
 | lobehub | `/home/lobehub` | `lobehub` (984:979) | *(none — internal)* | Cloudflare Tunnel `chat.b0tts.me` | `VpsLobeHubNavGuide.md` |
-| minecraft | `/home/minecraft` | `minecraft` (987:982) | `0.0.0.0:25565`, RCON `25575` | direct (tailnet) | `MinecraftNavGuide.md` |
+| minecraft | `/home/minecraft` | `minecraft` (987:982) | `0.0.0.0:25565` (RCON internal) | direct (tailnet) | `MinecraftNavGuide.md` |
+| minecraft-hc-solo | `/home/minecraft-hc-solo` | `minecraft-hc-solo` (981:976) | `0.0.0.0:25566`, RCON `0.0.0.0:25575` | direct (tailnet) | `MinecraftHcSoloNavGuide.md` |
 | prism | `/home/prism` | `prism` (993:985) | `0.0.0.0:1935` (RTMP) | direct (tailnet) | `PrismNavGuide.md` |
 | searxng (standalone) | *(unconfirmed)* | *(unconfirmed)* | `0.0.0.0:8082->8080` | direct (`0.0.0.0`; not in ACL) | *(none — distinct from `lobe-searxng`)* |
 | docs-mcp | *(unconfirmed)* | *(unconfirmed)* | `0.0.0.0:6280`, `0.0.0.0:6281` | direct (`0.0.0.0`; not in ACL) | *(none)* |
 | pgweb | `/home/pgweb` | `pgweb` (985:980) | *(none — unmapped)* | *(decommissioned-planned; Supabase to replace)* | `PgwebNavGuide.md` |
 
-> Ports confirmed from `sudo docker ps --format "table {{.Names}}\t{{.Ports}}"` and `tailscale serve status` (2026-07-17). Cells marked *(unconfirmed)* have no nav guide; fill in when those apps get documented. Minecraft is currently **stopped** (`restart: "no"`) — see `MinecraftNavGuide.md`. `searxng` and `docs-mcp` bind `0.0.0.0` but their ports (`8082`, `6280`, `6281`) are **not** in the tailnet ACL allow-list, so they are not reachable from the workstation over tailnet.
+> Ports confirmed from `sudo docker ps --format "table {{.Names}}\t{{.Ports}}"` and `tailscale serve status` (2026-07-17, refreshed 2026-08-16). Cells marked *(unconfirmed)* have no nav guide; fill in when those apps get documented. `minecraft` (personal hardcore world, port 25565) and `minecraft-hc-solo` (stream hardcore world, port 25566 — migrated from the InterServer VPS 2026-08-16) run as two separate servers; see `MinecraftNavGuide.md` and `MinecraftHcSoloNavGuide.md`. `searxng` and `docs-mcp` bind `0.0.0.0`; their ports (`8082`, `6280`, `6281`) are now in the ACL allow-list (policy as of 2026-08-16).
 
 ---
 
@@ -117,7 +118,16 @@ sudo docker ps
 
 ## Tailscale ACL
 
-Traffic allowed **from workstation to VPS:** `tcp: 22, 443, 1935, 3000, 3001, 6432, 8001, 8080, 8443, 25565`
+Grants as of 2026-08-16 (tag-based — applies to all `tag:vps` machines):
+
+| Source | Destination | Ports |
+|---|---|---|
+| `tag:workstation` | `tag:vps` | `tcp: 22, 443, 1935, 3000, 3001, 6280, 6281, 6432, 8001, 8080, 8082, 8443, 25565, 25566` |
+| `tag:vps` | `tag:workstation` | `tcp: 11434, 6432` |
+| `autogroup:shared` | `tag:vps` | `tcp: 25565` |
+| `autogroup:member` | `*` | `*` (catch-all — members reach everything) |
+
+> The catch-all grant means the port lists matter mainly for shared (non-member) users; RCON (`25575`) is reachable by members via the catch-all.
 
 If you add a new service and can't reach it, check the ACL at [login.tailscale.com/admin/acls](https://login.tailscale.com/admin/acls).
 
