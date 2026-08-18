@@ -1,0 +1,27 @@
+{
+  "name": "Tobias Ahlin Bjerrome",
+  "products": ["GitHub Copilot", "Spotify (consumer, early UI design)", "Minecraft (Experience Design Director)", "Mona Sans (GitHub brand font)"],
+  "route": "MAU",
+  "scale_evidence": {
+    "figure": "NO public MAU figure for GitHub Copilot exists. Best available figures are cumulative/all-time users, not MAU: 'over 26 million users' (Microsoft FY2026 Q1 earnings call, Oct 29 2025, Nadella prepared remarks — official transcript); '20 million all-time users' (TechCrunch, 2025-07-30, explicitly all-time/cumulative). The only MAU figure Microsoft discloses is '150 million monthly active users' for the combined first-party Copilot family (information work, coding, security, science, health, consumer) — NOT GitHub Copilot specifically. Microsoft/GitHub disclose 'users' (cumulative), never GitHub Copilot MAU.",
+    "date": "2025-10-29 (FY2026 Q1 earnings call); 2025-07-30 (TechCrunch)",
+    "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q1 ; https://techcrunch.com/2025/07/30/github-copilot-crosses-20-million-all-time-users/",
+    "tier": "T1"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "First-party workflow doc (tobiasahlin.com/blog/, process posts on Spotify/Minecraft/GitHub design work) is still live and remains his canonical site, referenced as current in 2026 speaker pages (Future Product Days 2026, Nordic.js 2025) that still describe him as Principal Design Engineer on GitHub Copilot; however the blog's most recent post appears to be ~Sep 2023 (fluid type scales), so the doc is current-but-not-frequently-updated. Individual design credit for Copilot CONFIRMED: his X bio reads 'Designing Copilot and Mona Sans @GitHub'; Future Product Days 2026 and Nordic.js 2025 speaker pages describe him as 'Principal Design Engineer working on GitHub Copilot'; tobiasahlin.com says 'Design Engineer at GitHub, working on our brand, GitHub.com, Mona Sans, and more'.",
+  "verdict": "REJECT",
+  "rejection_reason": "scale-not-met: cumulative users only, no public MAU",
+  "dead_ends_searched": [
+    "Microsoft investor FY2026 Q4 page section/paragraph extraction returned only site nav (50M figure confirmed via search snippet of the official transcript plus msdynamicsworld.com press instead)",
+    "archive.org/wayback/available API returned HTTP 429 (rate-limited) when dating the blog post",
+    "tobiasahlin.com/sitemap.xml returned 404",
+    "SearXNG exact-phrase search for blog post publish date returned no results (dated via X post + jacky.seezone.net link, ~Sep-Oct 2023)",
+    "SearXNG exact-phrase searches for 'GitHub Copilot monthly active users' + Nadella/earnings returned no results — no GitHub Copilot-specific MAU figure exists in the public record",
+    "Microsoft investor FY2026 Q1 page fetch returned only site navigation; the 'over 26 million users' quote was confirmed via the official page's search snippet plus full transcripts at earningscall.ai, Yahoo Finance, and earningscall.biz (all identical wording, Oct 29 2025)",
+    "GitHub Universe 2025 MAU announcement search returned no results",
+    "FY2026 Q2 earnings (Jan 2026) disclosed 4.7M paid GitHub Copilot subscribers but no MAU (windowsforum.com summary: Microsoft 'went beyond high-level MAU soundbites' to paid metrics only)",
+    "countly.net 'GitHub Copilot ~30M MAU' is an estimate tracker (self-described 'best-available estimates') — Tier 3 estimate-grade, corroborate-only, not usable as MAU evidence",
+    "github.blog/author/tobiasahlin/ fetch returned only site navigation (author posts list not rendered); individual credit instead confirmed via X bio, speaker pages, and tobiasahlin.com"
+  ]
+}

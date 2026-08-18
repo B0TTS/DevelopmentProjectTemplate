@@ -1,0 +1,23 @@
+{
+  "name": "Zach Gage",
+  "products": ["Knotwords", "Good Sudoku", "Puzzmo", "SpellTower", "Really Bad Chess"],
+  "route": "award",
+  "scale_evidence": {
+    "figure": "Knotwords = Apple Design Award 2023 FINALIST (Delight & Fun), not a winner; no qualifying in-window award win found",
+    "date": "2023-06-05 (ADA 2023 finalist announcement); checked 2021-2026 winner lists",
+    "source_url": "https://developer.apple.com/design/awards/2023/",
+    "tier": "T1"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "First-party doc http://www.stfj.net/The30YearGame/ is a GDC 2016 talk (The 30 Year Game Design Challenge) on Gage's personal talks/writing site; still live and accessible as of 2026-08-17, but it is a 2016 talk, not a current workflow reference — no evidence it is cited as current in recent content.",
+  "verdict": "REJECT",
+  "rejection_reason": "no qualifying in-window award: Knotwords was an Apple Design Award 2023 FINALIST (finalist != winner, does not count); ADA winner lists 2021-2026 contain no Gage product; no Webby wins found for Good Sudoku/Knotwords/Puzzmo in 2021-2026 puzzle/games categories; FWA/Awwwards n/a for mobile/games lane; Puzzmo's self-disclosed 'Apple Design Award Winner' claim (puzzmo.com press page, Tier 3) refers to out-of-window awards (e.g., SpellTower 2011, Ridiculous Fishing 2013) and is not corroborated by an in-window Tier 1/2 source.",
+  "dead_ends_searched": [
+    "Apple Design Award winner lists 2021, 2022, 2023, 2024, 2025, 2026 (developer.apple.com/design/awards/ and apple.com/newsroom) — no Gage product among winners; Knotwords confirmed finalist only",
+    "Webby Awards puzzle/trivia/card/word games categories 2022-2026 (winners.webbyawards.com) — winners were Unpacking, Escape Academy, Scrabble GO, NYT Connections, Balatro, Pokemon TCG Pocket, etc.; no Gage products",
+    "Webby Gallery search for Puzzmo/Knotwords/Good Sudoku (winners.webbyawards.com/Search) — JS-gated, no results retrievable; targeted web searches found no Webby win/nominee/honoree for these products",
+    "Puzzmo press page claim 'Apple Design and Game of The Year Award Winner' (puzzmo.com/+/mrt/press) — Tier 3 self-disclosure, refers to out-of-window awards, not corroborated in-window",
+    "Playlin Awards 2025 Runner-Up Best Visual Design for Circuits by Puzzmo — not a qualifying award per standard",
+    "Backup MAU/revenue for Puzzmo/Good Sudoku — no credible Tier 1/2 public figures found (Puzzmo is Hearst-owned subscription service, $40/yr, but no public MAU/revenue disclosed)"
+  ]
+}

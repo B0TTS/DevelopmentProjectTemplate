@@ -1,0 +1,20 @@
+{
+  "name": "Curtis Herbert",
+  "products": ["Slopes"],
+  "route": "award",
+  "scale_evidence": {
+    "figure": "Apple Design Award 2022, Interaction category winner (Slopes by Breakpoint Studio)",
+    "date": "2022-06-01 (announced; Apple newsroom)",
+    "source_url": "https://www.apple.com/newsroom/2022/06/apple-announces-winners-of-the-2022-apple-design-awards/",
+    "tier": "T1"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "Slopes Diaries is an active 48-post series on blog.curtisherbert.com; latest posts #46 (2025-06-04) and #45 (2025-05-15) — the series is still being published and referenced as current (the discovery-row post #9 from 2015-12-10 is part of this ongoing series).",
+  "verdict": "PASS",
+  "rejection_reason": null,
+  "dead_ends_searched": [
+    "SearXNG returned empty for both award and revenue queries — fell back to Exa websearch",
+    "Revenue route ($1M ARR) corroborated but not needed: RevenueCat blog (2022-09-28) + Sub Club podcast (2022-03-30) + independent SlopeFillers interview (2022-03-10) + Indie Hackers AMA (2021-11-17); award route passed first",
+    "Apple newsroom credits developer as 'Breakpoint Studio (United States)' (company) — individual credit to Herbert confirmed via Apple Developer 'Behind the Design: Slopes' (2022-08-15, names him 'creator and mastermind') and MacStories interview (2022-06-10)"
+  ]
+}

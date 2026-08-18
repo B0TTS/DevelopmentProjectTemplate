@@ -94,6 +94,6 @@
       "answeredAt": "2026-08-16T02:24:00.478Z"
     }
   ],
-  "status": "active",
-  "summary": null
+  "status": "complete",
+  "summary": "Improve tutorial-v2 with a 100-character command limit: commands under 100 chars display inline; commands at/over 100 chars are written to files under b0ttsagent/tutorial/<tutorial-slug>/ (created at Phase 1) instead of being shown for copy-paste, because pasted commands break in the Windows shell. Folder structure: commands/ (single command lines the user runs), scripts/ (agent-authored standalone scripts to run or deploy, e.g. to the VPS), misc/ (anything else). PowerShell is the default shell unless a tutorial says otherwise; VPS commands run bash over ssh. The limit counts the full command text including multi-line commands, applies in Phase 1 plan and Phase 2 steps, and the agent always provides a short runner under the limit — split into a short cd plus relative execute (.stepN.ps1 locally; ssh <host> \"bash -s\" < stepN.sh remotely) since the full path would exceed 100 chars. Rule lands as a bullet in the Rules section plus a hook in Phase 2's present-the-step item — surgical edit, no other changes. Retire tutorial v1 by moving .agents/skills/tutorial to b0ttsagent/depricated/skills/tutorial (out of the load path; disable-model-invocation unnecessary), leaving tutorial-v2 as the only live tutorial skill."
 }

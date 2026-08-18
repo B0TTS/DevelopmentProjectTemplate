@@ -1,0 +1,22 @@
+{
+  "name": "Charli Marie Prangley",
+  "products": ["Kit (formerly ConvertKit) — marketing site / brand design", "charlimarie.com (personal blog)", "Inside Marketing Design podcast", "CharliMarieTV (YouTube)"],
+  "route": "revenue",
+  "scale_evidence": {
+    "figure": "Kit's own newsroom: '$41MM in annual recurring revenue' (June 2024 rebrand announcement); corroborated by Sacra '$41M ARR in April 2024' and '$43M ARR in 2024'; Business Wire (Oct 1, 2024) calls Kit 'a $43MM company with over 80 employees'",
+    "date": "2024-06 (Kit newsroom); 2024-10 (Business Wire); 2024 (Sacra)",
+    "source_url": "https://kit.com/news/convertkit-rebrands-kit",
+    "tier": "T2"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "charlimarie.com/blog is still live; its latest post is the 2023/24 income report (2024), but her design-process content continues as current via the Marketing Design Dispatch newsletter (30k+ subscribers), Inside Marketing Design podcast, and YouTube; she remains Kit's Creative Director (Instagram bio: 'Currently writing THE book on brand design & leading the Brand Studio team @kit as Creative Director').",
+  "verdict": "PASS",
+  "rejection_reason": null,
+  "dead_ends_searched": [
+    "SearXNG returned empty for several press-specific queries (TechCrunch/Forbes/Inc revenue coverage of ConvertKit/Kit) — fell back to Exa websearch",
+    "No independent Tier 1 journalism (TechCrunch/Forbes/Inc/Business Insider) reporting Kit's revenue figure was found; revenue evidence rests on Kit's own newsroom (Tier 2) with Sacra (estimate tracker) corroboration plus Business Wire company-authored release",
+    "Sacra page is paywalled (fetch returned nav only); its $41M/$43M figures confirmed via two independent search-result extractions of the page",
+    "kit.com/news/convertkit-rebrands-kit content is JS-rendered (webfetch returned nav/footer only); the '$41MM ARR' quote confirmed via two independent search-result extractions of the page",
+    "Forbes 2018 '$1M MRR' article found but is out-of-window (2018), not used"
+  ]
+}
