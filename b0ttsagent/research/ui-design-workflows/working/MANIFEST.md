@@ -21,3 +21,6 @@
 | P1 | 1 close | PASS | 12 PASS / 6 REJECT / 1 FAIL-UNKNOWN; ranked 1-12 for depth docs | Wave 07: depth docs Wathan, Otto, Bostock, shadcn |
 | 07 | 2 (Depth docs) | PASS | 3 DEPTH-PASS (Wathan, Otto, Bostock) / 1 DEPTH-REJECT (shadcn principles-only), docs=3 | Wave 08: depth docs Verou, Schoger, Stollenmayer, Herbert |
 | 08 | 2 (Depth docs) | PASS | 4/4 DEPTH-PASS (Verou, Schoger, Stollenmayer, Herbert), docs=7 | Wave 09: depth docs McLeod, Stoiber, Palmer, Prangley |
+| 09 | 2 (Depth docs) | PASS | 4/4 DEPTH-PASS (McLeod via orchestrator respawn after lead died, Stoiber, Palmer, Prangley), docs=11 | Phase 2 close |
+| P2 | 2 close | PASS | 11 DEPTH-PASS / 1 DEPTH-REJECT (shadcn principles-only); floor 10 satisfied | Phase 3: synthesis (single subagent) -> SYNTHESIS.md + INDEX.md |
+| P3 | 3 (Synthesis) | DONE | SYNTHESIS.md (43KB, 11 depth sections, 11x12 element matrix) + INDEX.md (11 ranked, 8 rejected); orchestrator reconciliation PASS | RUN COMPLETE 2026-08-17 |
