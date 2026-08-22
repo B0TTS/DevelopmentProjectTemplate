@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "headline": "OpenAI positions the open-source Codex harness as an embeddable agent platform",
+      "why": "OpenAI documents codex exec, the Codex SDK, and app-server as open-source integration layers so teams can embed the agent loop into their own products instead of a generic chat UI. It reframes the coding agent as reusable infrastructure.",
+      "url": "https://developers.openai.com/blog/codex-as-a-platform",
+      "published_date": "2026-08-19",
+      "domain": "AI-assisted dev workflows",
+      "source_type": "blog post",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Cursor launches Origin, a code-hosting platform for agent-scale repos and PRs",
+      "why": "Origin brings repos, pull requests, code browsing, and GitHub sync into Cursor in early beta on all paid plans, with Vercel, Depot, and Buildkite integrations. It moves code hosting into the AI IDE, positioning Cursor against GitHub.",
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "published_date": "2026-08-17",
+      "domain": "new SWE productivity tools",
+      "source_type": "changelog",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Cursor cloud agents gain subscriptions, /goal, and subagents on their own VMs",
+      "why": "Cloud agents can now subscribe to PRs and Slack threads, hold a /goal until complete, and spawn subagents in isolated virtual machines. This pushes always-on, event-driven agent workflows closer to autonomous operation.",
+      "url": "https://cursor.com/changelog/08-19-26",
+      "published_date": "2026-08-19",
+      "domain": "AI-assisted dev workflows",
+      "source_type": "changelog",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Developer documents an almost fully self-hosted, sandboxed agentic software factory",
+      "why": "A documented build using Coolify, Forgejo, Hermes, and Codex lets one prompt create a repo, write code and tests, get CI green, and deploy behind HTTPS on a sacrificial home-server box. It is a concrete template for structurally containing LLMs rather than trusting them.",
+      "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+      "published_date": "2026-08-21",
+      "domain": "emerging practices & workflows",
+      "source_type": "blog post",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Experiment: 'For agents' labels in docs don't change model behavior; explicit recommendations do",
+      "why": "A dated benchmark (15 runs per condition on Sonnet 4.6) found explicit recommendations lifted preferred-procedure selection from 33% to 100%, while 'For agents' headings carried no extra authority. It gives evidence-based guidance for agent-facing documentation.",
+      "url": "https://passo.uno/if-you-are-an-agent-read-this/",
+      "published_date": "2026-08-17",
+      "domain": "emerging practices & workflows",
+      "source_type": "blog post",
+      "delta_or_null": null
+    }
+  ]
+}

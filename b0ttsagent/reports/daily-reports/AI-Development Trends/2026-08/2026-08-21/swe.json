@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "headline": "DuckDB v2.0 replaces its PostgreSQL-derived SQL parser with a PEG-based parser",
+      "why": "DuckDB is swapping the Bison/LALR parser it inherited from PostgreSQL for a PEG parser with packrat memoization, making DuckSQL easier to evolve and runtime-extensible by extensions. The new parser is the default in v2.0 and adds expression statements, CONNECT, and external-resource syntax.",
+      "url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser",
+      "published_date": "2026-08-20",
+      "domain": "languages & frameworks",
+      "source_type": "blog post",
+      "delta_or_null": null
+    },
+    {
+      "headline": "CISA adds four actively exploited vulnerabilities to its KEV catalog",
+      "why": "Four CVEs spanning Microsoft IKE, SharePoint, VMware vCenter, and Apple macOS were added to CISA's Known Exploited Vulnerabilities catalog on evidence of active exploitation, triggering federal remediation deadlines. The additions are CVE-2026-33824, CVE-2026-55040, CVE-2026-59310, and CVE-2026-65400.",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published_date": "2026-08-18",
+      "domain": "security & CVEs",
+      "source_type": "advisory",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Firefox 154 ships with developer-facing web platform changes",
+      "why": "Mozilla released Firefox 154 on August 18, 2026, with changes for web and add-on developers. It is the current stable release developers should target for new web-platform behavior.",
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/154",
+      "published_date": "2026-08-18",
+      "domain": "web platform & standards",
+      "source_type": "release notes",
+      "delta_or_null": null
+    }
+  ]
+}

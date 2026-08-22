@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-18T17:25:55.776691-10:00",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "today": "2026-08-18",
+  "reports_scanned": [
+    "2026-08/2026-08-17/report.md",
+    "2026-09/2026-09-01/report.md"
+  ],
+  "streak_hits": {
+    "https://example.com/a": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Story A",
+      "url": "https://example.com/a?utm_source=x",
+      "url_key": "https://example.com/a",
+      "head_key": "story a",
+      "date": "2026-08-15",
+      "domain": "AI company news"
+    },
+    "https://example.com/c": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Story C",
+      "url": "https://example.com/c",
+      "url_key": "https://example.com/c",
+      "head_key": "story c",
+      "date": "2026-08-17",
+      "domain": "open-source AI"
+    },
+    "https://example.com/future": {
+      "last_file": "2026-09/2026-09-01/report.md",
+      "section": "AI trends",
+      "headline": "Future story",
+      "url": "https://example.com/future",
+      "url_key": "https://example.com/future",
+      "head_key": "future story",
+      "date": "2026-09-01",
+      "domain": "AI company news"
+    }
+  },
+  "streak_headline_hits": {
+    "story a": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Story A",
+      "url": "https://example.com/a?utm_source=x",
+      "url_key": "https://example.com/a",
+      "head_key": "story a",
+      "date": "2026-08-15",
+      "domain": "AI company news"
+    },
+    "story c": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Story C",
+      "url": "https://example.com/c",
+      "url_key": "https://example.com/c",
+      "head_key": "story c",
+      "date": "2026-08-17",
+      "domain": "open-source AI"
+    },
+    "future story": {
+      "last_file": "2026-09/2026-09-01/report.md",
+      "section": "AI trends",
+      "headline": "Future story",
+      "url": "https://example.com/future",
+      "url_key": "https://example.com/future",
+      "head_key": "future story",
+      "date": "2026-09-01",
+      "domain": "AI company news"
+    }
+  },
+  "warnings": []
+}

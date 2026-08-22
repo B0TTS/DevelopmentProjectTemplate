@@ -1,0 +1,61 @@
+{
+  "today": "2026-08-18",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "folder": "b0ttsagent\\temp\\daily-trends-report-eval\\s8\\AI-Development Trends\\2026-08\\2026-08-18",
+  "main": {
+    "AI trends": [
+      {
+        "headline": "Today's fresh story",
+        "why": "A fresh story published today.",
+        "url": "https://example.com/s8-today",
+        "published_date": "2026-08-18",
+        "domain": "AI company news",
+        "source_type": "news",
+        "delta": "",
+        "url_key": "https://example.com/s8-today",
+        "head_key": "today s fresh story",
+        "identity": "https://example.com/s8-today",
+        "update": false
+      }
+    ],
+    "SWE trends": [],
+    "Productivity": []
+  },
+  "still_circulating": [],
+  "excluded": [],
+  "dropped": [],
+  "candidate_counts": {
+    "AI trends": 1,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "survivor_counts": {
+    "AI trends": 1,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "domain_counts": {
+    "AI trends": {
+      "AI company news": 1
+    },
+    "SWE trends": {},
+    "Productivity": {}
+  },
+  "domain_preference_notes": [],
+  "exclusions": [
+    {
+      "identity": "https://example.com/s8-today",
+      "url": "https://example.com/s8-today",
+      "headline": "Today's fresh story"
+    }
+  ],
+  "prior_identities": [
+    {
+      "identity": "https://example.com/s8-prior",
+      "url": "https://example.com/s8-prior",
+      "headline": "Recurring story from yesterday",
+      "last_file": "2026-08/2026-08-17/report.md"
+    }
+  ],
+  "warnings": []
+}

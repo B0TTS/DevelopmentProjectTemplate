@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "headline": "Mystery finding with no date",
+      "why": "",
+      "url": "https://example.com/s6-undated",
+      "published_date": "",
+      "domain": "AI research papers",
+      "source_type": "paper",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Open-source small model lands",
+      "why": "A small open model with strong per-token efficiency targets laptops.",
+      "url": "https://example.com/s6-fresh",
+      "published_date": "2026-08-15",
+      "domain": "open-source AI",
+      "source_type": "blog post",
+      "delta_or_null": null
+    }
+  ]
+}

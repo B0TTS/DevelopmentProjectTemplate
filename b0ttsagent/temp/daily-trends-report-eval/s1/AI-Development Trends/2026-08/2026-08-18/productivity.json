@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "headline": "New terminal autocomplete ships",
+      "why": "A terminal autocomplete tool ships with context-aware shell completions and a local-first cache.",
+      "url": "https://example.com/term-auto",
+      "published_date": "2026-08-18",
+      "domain": "new SWE productivity tools",
+      "source_type": "release notes",
+      "delta_or_null": null
+    }
+  ]
+}

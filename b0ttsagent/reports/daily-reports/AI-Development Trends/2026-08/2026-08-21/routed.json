@@ -1,0 +1,337 @@
+{
+  "today": "2026-08-21",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "folder": "b0ttsagent\\reports\\daily-reports\\AI-Development Trends\\2026-08\\2026-08-21",
+  "main": {
+    "AI trends": [
+      {
+        "headline": "DeepSeek releases V4-Flash-Vision-Exp, an experimental multimodal model on its API platform",
+        "why": "DeepSeek's first vision-capable V4-Flash variant accepts images alongside text (JPEG/PNG/GIF/WebP) while matching the text model's agentic and reasoning behavior. DeepSeek says multimodal agent performance now approaches Opus-4.8, resetting the open-weights vision cost floor.",
+        "url": "https://api-docs.deepseek.com/news/news260821",
+        "published_date": "2026-08-21",
+        "domain": "frontier model releases",
+        "source_type": "release notes",
+        "delta": "",
+        "url_key": "https://api-docs.deepseek.com/news/news260821",
+        "head_key": "deepseek releases v4 flash vision exp an experimental multimodal model on its api platform",
+        "identity": "https://api-docs.deepseek.com/news/news260821",
+        "update": false
+      },
+      {
+        "headline": "Tencent Zhuque Lab's A.I.G red-team finds agent injection risks across 14,560 DeepSeek Harness runs",
+        "why": "Tencent's open-source AI-Infra-Guard platform stress-tested DeepSeek Harness end-to-end, finding tooltip-injection success rates of 17.0-25.5% across text, file, and skill channels. It shows agent security must be assessed across content-carrier paths, not single input points.",
+        "url": "https://matrix.tencent.com/en/2026/08/20/deepseek-harness-agent-injection-risk",
+        "published_date": "2026-08-20",
+        "domain": "AI infra/hardware",
+        "source_type": "research report",
+        "delta": "",
+        "url_key": "https://matrix.tencent.com/en/2026/08/20/deepseek-harness-agent-injection-risk",
+        "head_key": "tencent zhuque lab s a i g red team finds agent injection risks across 14 560 deepseek harness runs",
+        "identity": "https://matrix.tencent.com/en/2026/08/20/deepseek-harness-agent-injection-risk",
+        "update": false
+      },
+      {
+        "headline": "Nvidia's OpenAI Ohio data-center financing lands at $105B, $145B below earlier reports",
+        "why": "A securities filing revealed Nvidia will provide up to $105 billion in financing for OpenAI's Ohio data center, well below the roughly $250B figure previously reported. The gap signals market concern about artificial demand for AI chips.",
+        "url": "https://fortune.com/2026/08/18/openai-data-center-deal-with-nvidia-comes-in-145-billion-lower-than-reportedsignaling-concerns-of-artificial-demand-for-chips/",
+        "published_date": "2026-08-18",
+        "domain": "AI infra/hardware",
+        "source_type": "news",
+        "delta": "",
+        "url_key": "https://fortune.com/2026/08/18/openai-data-center-deal-with-nvidia-comes-in-145-billion-lower-than-reportedsignaling-concerns-of-artificial-demand-for-chips",
+        "head_key": "nvidia s openai ohio data center financing lands at 105b 145b below earlier reports",
+        "identity": "https://fortune.com/2026/08/18/openai-data-center-deal-with-nvidia-comes-in-145-billion-lower-than-reportedsignaling-concerns-of-artificial-demand-for-chips",
+        "update": false
+      },
+      {
+        "headline": "Large-scale study finds AI-raised homework scores precede 20% exam-score drops",
+        "why": "A 30-month study of 26,811 Chinese secondary students found generative-AI homework use lifted homework scores about 18% but cut closed-book exam scores about 20% within six months. It is a concrete, large-n signal that AI homework shortcuts can erode learning.",
+        "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+        "published_date": "2026-08-18",
+        "domain": "AI research papers",
+        "source_type": "news",
+        "delta": "",
+        "url_key": "https://economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+        "head_key": "large scale study finds ai raised homework scores precede 20 exam score drops",
+        "identity": "https://economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+        "update": false
+      }
+    ],
+    "SWE trends": [
+      {
+        "headline": "DuckDB v2.0 replaces its PostgreSQL-derived SQL parser with a PEG-based parser",
+        "why": "DuckDB is swapping the Bison/LALR parser it inherited from PostgreSQL for a PEG parser with packrat memoization, making DuckSQL easier to evolve and runtime-extensible by extensions. The new parser is the default in v2.0 and adds expression statements, CONNECT, and external-resource syntax.",
+        "url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser",
+        "published_date": "2026-08-20",
+        "domain": "languages & frameworks",
+        "source_type": "blog post",
+        "delta": "",
+        "url_key": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser",
+        "head_key": "duckdb v2 0 replaces its postgresql derived sql parser with a peg based parser",
+        "identity": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser",
+        "update": false
+      },
+      {
+        "headline": "CISA adds four actively exploited vulnerabilities to its KEV catalog",
+        "why": "Four CVEs spanning Microsoft IKE, SharePoint, VMware vCenter, and Apple macOS were added to CISA's Known Exploited Vulnerabilities catalog on evidence of active exploitation, triggering federal remediation deadlines. The additions are CVE-2026-33824, CVE-2026-55040, CVE-2026-59310, and CVE-2026-65400.",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "published_date": "2026-08-18",
+        "domain": "security & CVEs",
+        "source_type": "advisory",
+        "delta": "",
+        "url_key": "https://cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "head_key": "cisa adds four actively exploited vulnerabilities to its kev catalog",
+        "identity": "https://cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "update": false
+      },
+      {
+        "headline": "Firefox 154 ships with developer-facing web platform changes",
+        "why": "Mozilla released Firefox 154 on August 18, 2026, with changes for web and add-on developers. It is the current stable release developers should target for new web-platform behavior.",
+        "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/154",
+        "published_date": "2026-08-18",
+        "domain": "web platform & standards",
+        "source_type": "release notes",
+        "delta": "",
+        "url_key": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/154",
+        "head_key": "firefox 154 ships with developer facing web platform changes",
+        "identity": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/154",
+        "update": false
+      }
+    ],
+    "Productivity": [
+      {
+        "headline": "OpenAI positions the open-source Codex harness as an embeddable agent platform",
+        "why": "OpenAI documents codex exec, the Codex SDK, and app-server as open-source integration layers so teams can embed the agent loop into their own products instead of a generic chat UI. It reframes the coding agent as reusable infrastructure.",
+        "url": "https://developers.openai.com/blog/codex-as-a-platform",
+        "published_date": "2026-08-19",
+        "domain": "AI-assisted dev workflows",
+        "source_type": "blog post",
+        "delta": "",
+        "url_key": "https://developers.openai.com/blog/codex-as-a-platform",
+        "head_key": "openai positions the open source codex harness as an embeddable agent platform",
+        "identity": "https://developers.openai.com/blog/codex-as-a-platform",
+        "update": false
+      },
+      {
+        "headline": "Cursor launches Origin, a code-hosting platform for agent-scale repos and PRs",
+        "why": "Origin brings repos, pull requests, code browsing, and GitHub sync into Cursor in early beta on all paid plans, with Vercel, Depot, and Buildkite integrations. It moves code hosting into the AI IDE, positioning Cursor against GitHub.",
+        "url": "https://cursor.com/changelog/origin-code-hosting",
+        "published_date": "2026-08-17",
+        "domain": "new SWE productivity tools",
+        "source_type": "changelog",
+        "delta": "",
+        "url_key": "https://cursor.com/changelog/origin-code-hosting",
+        "head_key": "cursor launches origin a code hosting platform for agent scale repos and prs",
+        "identity": "https://cursor.com/changelog/origin-code-hosting",
+        "update": false
+      },
+      {
+        "headline": "Cursor cloud agents gain subscriptions, /goal, and subagents on their own VMs",
+        "why": "Cloud agents can now subscribe to PRs and Slack threads, hold a /goal until complete, and spawn subagents in isolated virtual machines. This pushes always-on, event-driven agent workflows closer to autonomous operation.",
+        "url": "https://cursor.com/changelog/08-19-26",
+        "published_date": "2026-08-19",
+        "domain": "AI-assisted dev workflows",
+        "source_type": "changelog",
+        "delta": "",
+        "url_key": "https://cursor.com/changelog/08-19-26",
+        "head_key": "cursor cloud agents gain subscriptions goal and subagents on their own vms",
+        "identity": "https://cursor.com/changelog/08-19-26",
+        "update": false
+      },
+      {
+        "headline": "Developer documents an almost fully self-hosted, sandboxed agentic software factory",
+        "why": "A documented build using Coolify, Forgejo, Hermes, and Codex lets one prompt create a repo, write code and tests, get CI green, and deploy behind HTTPS on a sacrificial home-server box. It is a concrete template for structurally containing LLMs rather than trusting them.",
+        "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+        "published_date": "2026-08-21",
+        "domain": "emerging practices & workflows",
+        "source_type": "blog post",
+        "delta": "",
+        "url_key": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
+        "head_key": "developer documents an almost fully self hosted sandboxed agentic software factory",
+        "identity": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
+        "update": false
+      },
+      {
+        "headline": "Experiment: 'For agents' labels in docs don't change model behavior; explicit recommendations do",
+        "why": "A dated benchmark (15 runs per condition on Sonnet 4.6) found explicit recommendations lifted preferred-procedure selection from 33% to 100%, while 'For agents' headings carried no extra authority. It gives evidence-based guidance for agent-facing documentation.",
+        "url": "https://passo.uno/if-you-are-an-agent-read-this/",
+        "published_date": "2026-08-17",
+        "domain": "emerging practices & workflows",
+        "source_type": "blog post",
+        "delta": "",
+        "url_key": "https://passo.uno/if-you-are-an-agent-read-this",
+        "head_key": "experiment for agents labels in docs don t change model behavior explicit recommendations do",
+        "identity": "https://passo.uno/if-you-are-an-agent-read-this",
+        "update": false
+      }
+    ]
+  },
+  "still_circulating": [],
+  "excluded": [],
+  "dropped": [],
+  "candidate_counts": {
+    "AI trends": 4,
+    "SWE trends": 3,
+    "Productivity": 5
+  },
+  "survivor_counts": {
+    "AI trends": 4,
+    "SWE trends": 3,
+    "Productivity": 5
+  },
+  "domain_counts": {
+    "AI trends": {
+      "frontier model releases": 1,
+      "AI infra/hardware": 2,
+      "AI research papers": 1
+    },
+    "SWE trends": {
+      "languages & frameworks": 1,
+      "security & CVEs": 1,
+      "web platform & standards": 1
+    },
+    "Productivity": {
+      "AI-assisted dev workflows": 2,
+      "new SWE productivity tools": 1,
+      "emerging practices & workflows": 2
+    }
+  },
+  "domain_preference_notes": [],
+  "exclusions": [
+    {
+      "identity": "https://api-docs.deepseek.com/news/news260821",
+      "url": "https://api-docs.deepseek.com/news/news260821",
+      "headline": "DeepSeek releases V4-Flash-Vision-Exp, an experimental multimodal model on its API platform"
+    },
+    {
+      "identity": "https://matrix.tencent.com/en/2026/08/20/deepseek-harness-agent-injection-risk",
+      "url": "https://matrix.tencent.com/en/2026/08/20/deepseek-harness-agent-injection-risk",
+      "headline": "Tencent Zhuque Lab's A.I.G red-team finds agent injection risks across 14,560 DeepSeek Harness runs"
+    },
+    {
+      "identity": "https://fortune.com/2026/08/18/openai-data-center-deal-with-nvidia-comes-in-145-billion-lower-than-reportedsignaling-concerns-of-artificial-demand-for-chips",
+      "url": "https://fortune.com/2026/08/18/openai-data-center-deal-with-nvidia-comes-in-145-billion-lower-than-reportedsignaling-concerns-of-artificial-demand-for-chips/",
+      "headline": "Nvidia's OpenAI Ohio data-center financing lands at $105B, $145B below earlier reports"
+    },
+    {
+      "identity": "https://economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "headline": "Large-scale study finds AI-raised homework scores precede 20% exam-score drops"
+    },
+    {
+      "identity": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser",
+      "url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser",
+      "headline": "DuckDB v2.0 replaces its PostgreSQL-derived SQL parser with a PEG-based parser"
+    },
+    {
+      "identity": "https://cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "headline": "CISA adds four actively exploited vulnerabilities to its KEV catalog"
+    },
+    {
+      "identity": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/154",
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/154",
+      "headline": "Firefox 154 ships with developer-facing web platform changes"
+    },
+    {
+      "identity": "https://developers.openai.com/blog/codex-as-a-platform",
+      "url": "https://developers.openai.com/blog/codex-as-a-platform",
+      "headline": "OpenAI positions the open-source Codex harness as an embeddable agent platform"
+    },
+    {
+      "identity": "https://cursor.com/changelog/origin-code-hosting",
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "headline": "Cursor launches Origin, a code-hosting platform for agent-scale repos and PRs"
+    },
+    {
+      "identity": "https://cursor.com/changelog/08-19-26",
+      "url": "https://cursor.com/changelog/08-19-26",
+      "headline": "Cursor cloud agents gain subscriptions, /goal, and subagents on their own VMs"
+    },
+    {
+      "identity": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
+      "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+      "headline": "Developer documents an almost fully self-hosted, sandboxed agentic software factory"
+    },
+    {
+      "identity": "https://passo.uno/if-you-are-an-agent-read-this",
+      "url": "https://passo.uno/if-you-are-an-agent-read-this/",
+      "headline": "Experiment: 'For agents' labels in docs don't change model behavior; explicit recommendations do"
+    }
+  ],
+  "prior_identities": [
+    {
+      "identity": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "headline": "OpenRouter joins Stripe in reported $7B+ acquisition",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "headline": "OpenAI pauses RL training for two weeks, tightens frontier safeguards",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "headline": "Unsloth ships Dynamic 3.0 GGUFs with Qwen3.8-27B quants",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "headline": "Ornith-1.5 open-weights model extends the self-improvement loop",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://go.dev/doc/devel/release",
+      "url": "https://go.dev/doc/devel/release",
+      "headline": "Go 1.27.0 released (major release)",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://axios.com/2026/08/17/stripe-openrouter-paypal",
+      "url": "https://www.axios.com/2026/08/17/stripe-openrouter-paypal",
+      "headline": "Stripe agrees to acquire AI model gateway OpenRouter for $8B+",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://opensourceforu.com/2026/08/google-makes-pixel-kernel-source-harder-to-access",
+      "url": "https://www.opensourceforu.com/2026/08/google-makes-pixel-kernel-source-harder-to-access/",
+      "headline": "Google gates Pixel kernel source behind request form and Google Drive links",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://github.com/vercel-labs/fx/releases",
+      "url": "https://github.com/vercel-labs/fx/releases",
+      "headline": "Vercel ships fx, a tiny (~6 MB) open-source Zig coding-agent harness",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "headline": "Warp ships Warp Factories: an out-of-the-box agent software factory",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://uipath.com/newsroom/uipath-launches-maestro-flow",
+      "url": "https://www.uipath.com/newsroom/uipath-launches-maestro-flow",
+      "headline": "UiPath ships Maestro Flow: developer-first orchestration for coding agents",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://github.com/onecli/onecli/releases",
+      "url": "https://github.com/onecli/onecli/releases",
+      "headline": "OneCLI v2 ships: open-source sandboxed agent harness for teams",
+      "last_file": "2026-08/2026-08-19/report.md"
+    },
+    {
+      "identity": "https://gitkraken.com/blog/gitlens-19-the-commit-graph-reimagined-for-parallel-development",
+      "url": "https://www.gitkraken.com/blog/gitlens-19-the-commit-graph-reimagined-for-parallel-development",
+      "headline": "GitLens 19 turns the Commit Graph into an agent-workflow workbench",
+      "last_file": "2026-08/2026-08-19/report.md"
+    }
+  ],
+  "warnings": []
+}

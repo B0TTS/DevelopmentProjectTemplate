@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-18T17:58:38.456891-10:00",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "today": "2026-08-18",
+  "reports_scanned": [
+    "2026-08/2026-08-16/report.md",
+    "2026-08/2026-08-17/report.md"
+  ],
+  "streak_hits": {
+    "https://example.com/model-x": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Model X hits milestone",
+      "url": "https://example.com/model-x",
+      "url_key": "https://example.com/model-x",
+      "head_key": "model x hits milestone",
+      "date": "2026-08-06",
+      "domain": "AI research papers"
+    },
+    "https://example.com/s3-p16": {
+      "last_file": "2026-08/2026-08-16/report.md",
+      "section": "AI trends",
+      "headline": "Agent framework reaches 1.0",
+      "url": "https://example.com/s3-p16",
+      "url_key": "https://example.com/s3-p16",
+      "head_key": "agent framework reaches 1 0",
+      "date": "2026-08-05",
+      "domain": "dev tools & editors"
+    },
+    "https://example.com/s3-p17": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Cloud provider cuts inference prices",
+      "url": "https://example.com/s3-p17",
+      "url_key": "https://example.com/s3-p17",
+      "head_key": "cloud provider cuts inference prices",
+      "date": "2026-08-06",
+      "domain": "cloud & pricing"
+    }
+  },
+  "streak_headline_hits": {
+    "model x hits milestone": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Model X hits milestone",
+      "url": "https://example.com/model-x",
+      "url_key": "https://example.com/model-x",
+      "head_key": "model x hits milestone",
+      "date": "2026-08-06",
+      "domain": "AI research papers"
+    },
+    "agent framework reaches 1 0": {
+      "last_file": "2026-08/2026-08-16/report.md",
+      "section": "AI trends",
+      "headline": "Agent framework reaches 1.0",
+      "url": "https://example.com/s3-p16",
+      "url_key": "https://example.com/s3-p16",
+      "head_key": "agent framework reaches 1 0",
+      "date": "2026-08-05",
+      "domain": "dev tools & editors"
+    },
+    "cloud provider cuts inference prices": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Cloud provider cuts inference prices",
+      "url": "https://example.com/s3-p17",
+      "url_key": "https://example.com/s3-p17",
+      "head_key": "cloud provider cuts inference prices",
+      "date": "2026-08-06",
+      "domain": "cloud & pricing"
+    }
+  },
+  "warnings": []
+}

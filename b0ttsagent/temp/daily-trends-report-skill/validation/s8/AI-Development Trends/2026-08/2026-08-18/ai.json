@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "headline": "Today's fresh story",
+      "why": "A fresh story published today.",
+      "url": "https://example.com/s8-today",
+      "published_date": "2026-08-18",
+      "domain": "AI company news",
+      "source_type": "news",
+      "delta_or_null": null
+    }
+  ]
+}

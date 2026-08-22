@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-18T17:59:29.893199-10:00",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "today": "2026-08-18",
+  "reports_scanned": [
+    "2026-08/2026-08-17/report.md"
+  ],
+  "streak_hits": {
+    "https://example.com/model-x": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Model X hits milestone",
+      "url": "https://example.com/model-x",
+      "url_key": "https://example.com/model-x",
+      "head_key": "model x hits milestone",
+      "date": "2026-08-13",
+      "domain": "AI research papers"
+    },
+    "https://example.com/s7-p17": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Dev conference schedules agent keynote",
+      "url": "https://example.com/s7-p17",
+      "url_key": "https://example.com/s7-p17",
+      "head_key": "dev conference schedules agent keynote",
+      "date": "2026-08-12",
+      "domain": "AI company news"
+    }
+  },
+  "streak_headline_hits": {
+    "model x hits milestone": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Model X hits milestone",
+      "url": "https://example.com/model-x",
+      "url_key": "https://example.com/model-x",
+      "head_key": "model x hits milestone",
+      "date": "2026-08-13",
+      "domain": "AI research papers"
+    },
+    "dev conference schedules agent keynote": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Dev conference schedules agent keynote",
+      "url": "https://example.com/s7-p17",
+      "url_key": "https://example.com/s7-p17",
+      "head_key": "dev conference schedules agent keynote",
+      "date": "2026-08-12",
+      "domain": "AI company news"
+    }
+  },
+  "warnings": []
+}

@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "headline": "Vercel ships fx, a tiny (~6 MB) open-source Zig coding-agent harness",
+      "why": "A minimal, embeddable agent CLI that cold-starts in 10µs and is built for token efficiency — a new option for embedding coding agents in sandboxes and larger systems.",
+      "url": "https://github.com/vercel-labs/fx/releases",
+      "published_date": "2026-08-18",
+      "domain": "new SWE productivity tools",
+      "source_type": "release notes",
+      "delta_or_null": null
+    },
+    {
+      "headline": "OneCLI v2 ships: open-source sandboxed agent harness for teams",
+      "why": "The YC S26 startup's v2 adds workspaces, split services, and hosted agents to a per-employee sandboxed harness whose gateway injects credentials at the network layer, so agents never hold real secrets.",
+      "url": "https://github.com/onecli/onecli/releases",
+      "published_date": "2026-08-18",
+      "domain": "new SWE productivity tools",
+      "source_type": "release notes",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Warp ships Warp Factories: an out-of-the-box agent software factory",
+      "why": "An infrastructure layer that pre-builds the software-factory pattern — triage, spec, implement, review, verify — into a deployable agent loop, aimed at smaller teams that can't build agent orchestration themselves. Works with Codex or Claude Code and plugs into Linear, Jira, Slack, and Teams.",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "published_date": "2026-08-18",
+      "domain": "emerging practices & workflows",
+      "source_type": "news",
+      "delta_or_null": null
+    },
+    {
+      "headline": "UiPath ships Maestro Flow: developer-first orchestration for coding agents",
+      "why": "Lets builders use the coding agents they already rely on — Claude Code, Cursor, Copilot, Codex — to design, run, observe, and govern a complete business process as one artifact, shipping the prototyped version to production without re-platforming.",
+      "url": "https://www.uipath.com/newsroom/uipath-launches-maestro-flow",
+      "published_date": "2026-08-19",
+      "domain": "AI-assisted dev workflows",
+      "source_type": "news",
+      "delta_or_null": null
+    },
+    {
+      "headline": "GitLens 19 turns the Commit Graph into an agent-workflow workbench",
+      "why": "Adds live Claude Code session monitoring, resume-agent-session, AI-assisted review, and AI-powered rebase/conflict resolution directly in the Commit Graph, targeting the review-and-shape work that coding-agent output creates.",
+      "url": "https://www.gitkraken.com/blog/gitlens-19-the-commit-graph-reimagined-for-parallel-development",
+      "published_date": "2026-08-13",
+      "domain": "AI-assisted dev workflows",
+      "source_type": "release notes",
+      "delta_or_null": null
+    }
+  ]
+}
