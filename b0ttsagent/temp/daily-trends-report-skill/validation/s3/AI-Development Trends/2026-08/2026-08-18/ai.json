@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "headline": "Model X hits milestone",
+      "why": "",
+      "url": "https://example.com/model-x",
+      "published_date": "2026-08-06",
+      "domain": "AI research papers",
+      "source_type": "paper",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Training-data licensing dispute settles",
+      "why": "The settlement sets a precedent for how training corpora are licensed.",
+      "url": "https://example.com/s3-fresh",
+      "published_date": "2026-08-17",
+      "domain": "AI policy/regulation",
+      "source_type": "news",
+      "delta_or_null": null
+    }
+  ]
+}

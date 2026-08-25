@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-19T12:10:58.465358-10:00",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "today": "2026-08-18",
+  "reports_scanned": [
+    "2026-08/2026-08-17/report.md"
+  ],
+  "streak_hits": {
+    "https://example.com/s8-prior": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Recurring story from yesterday",
+      "url": "https://example.com/s8-prior",
+      "url_key": "https://example.com/s8-prior",
+      "head_key": "recurring story from yesterday",
+      "date": "2026-08-12",
+      "domain": "AI company news"
+    }
+  },
+  "streak_headline_hits": {
+    "recurring story from yesterday": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Recurring story from yesterday",
+      "url": "https://example.com/s8-prior",
+      "url_key": "https://example.com/s8-prior",
+      "head_key": "recurring story from yesterday",
+      "date": "2026-08-12",
+      "domain": "AI company news"
+    }
+  },
+  "warnings": []
+}

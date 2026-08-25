@@ -1,0 +1,99 @@
+{
+  "topic": "Improve tutorial-v2 skill: add a character limit for commands — commands over the limit get written to a temp file instead of displayed inline, because copy-paste breaks in the Windows shell terminal",
+  "initialPrompt": "Activate your karpathy guidelines, write a skill v2 skills. Basically I wanna improve the tutorial v2 skill. what I wanna change is commands. So basically in tutorial, a lot of time there are scripts/commands I need to run in terinal etc. I wann make a character limit for commands that the agent gives to me in terminal as compared to just writing a temp file and putting the command in there. Theres a problem with my terminal rendering, to where copying and pasting commmands pretty mcuh breaks them for my shell terminal which is what I use for ssh, terminal work, etc. anything really terminal related, is running in windows shell.",
+  "startedAt": "2026-08-15T15:20:11Z",
+  "qAndA": [
+    {
+      "question": "Temp files for over-limit commands go in b0ttsagent/temp/ (AGENTS.md mandates that dir for throwaway files), named tutorial-step<N>-<slug>.<ext> — one file per step, extension decided by the shell question. No cleanup policy — the temp dir is a dumping ground by design.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.699Z"
+    },
+    {
+      "question": "The character limit counts the full command text. A multi-line script counts as one command (all its characters summed) — anything over the limit goes to a file, even if each individual line is short.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.773Z"
+    },
+    {
+      "question": "The rule lands as a new bullet in the skill's Rules section plus a one-line hook in Phase 2's 'present the step' item. Surgical edit — no other changes to tutorial-v2.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.849Z"
+    },
+    {
+      "question": "Whenever a command is over the limit, the agent always also gives a short 'runner' one-liner (a file-execute or ssh pipe command well under the limit) so the user never has to copy the long command at all.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.910Z"
+    },
+    {
+      "question": "The limit applies everywhere commands are displayed — Phase 1 plan and Phase 2 steps. Over-limit commands in the Phase 1 plan are described instead of shown in full.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.968Z"
+    },
+    {
+      "question": "Interpretation of 'write a skill v2 skills': karpathy-guidelines is active for this work, and the eventual SKILL.md edit follows write-a-skill-v2 conventions (surgical changes, frontmatter/checklist rules).",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:56.019Z"
+    },
+    {
+      "question": "What should the character limit be? Commands under the limit display inline; commands at or over it get written to a temp file instead.\n\nRecommendation: 150 characters. Long enough that everyday one-liners (installers, git, docker run, ssh) stay inline; short enough that multi-line scripts and flag-heavy commands go to file. If you have a feel for where your terminal starts mangling pasted commands, use that number.",
+      "answer": "Id say lke 100 characters max",
+      "timestamp": "2026-08-16T01:22:00.132Z",
+      "answeredAt": "2026-08-16T02:06:20.322Z"
+    },
+    {
+      "question": "Next: the temp file needs to be runnable, so I need your shell setup. Two parts:\n\n1. Local shell — when a tutorial step runs on Windows itself, are you using cmd.exe or PowerShell? This decides the temp file extension (.cmd/.bat vs .ps1) and the runner line. Recommendation: PowerShell (modern Windows default, better script handling) — but if your terminal is cmd.exe, say so.\n\n2. Remote over SSH — tutorials that SSH into the VPS run bash there. Do tutorials hit the VPS often enough that the rule needs a remote path too, piping the temp file over SSH (ssh <host> \"bash -s\" < b0ttsagent/temp/step3.sh)? Recommendation: yes, include it — it's one short line in the skill and covers all your VPS-based tutorials.",
+      "answer": "Almost always use powershell unless stated otherwise. Every command that I run in a terminal (ssh, or here) if over 100 charcters should be laid out in a temp file. We'll go ahead adn put tutorial temp files into C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\tutorial\n\nEach tutorial now when started will create their own sub folder, and in that sub folder there will be another folder called \"commands\" this is where commands will go. Then we will have \"scripts\" and this is where scripts will go, anything else goes into \"misc\" folder.",
+      "timestamp": "2026-08-16T02:11:06.490Z",
+      "answeredAt": "2026-08-16T02:16:57.980Z"
+    },
+    {
+      "question": "Revision of self-resolved decision #1: tutorial command/script files do NOT go in b0ttsagent/temp/ — they go under b0ttsagent/tutorial/<tutorial-slug>/ with three subfolders: commands/ for commands, scripts/ for scripts, misc/ for anything else. The tutorial agent creates this folder structure when the tutorial starts.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T02:16:58.037Z"
+    },
+    {
+      "question": "PowerShell is the default shell for tutorial commands unless the tutorial explicitly states otherwise. Over-limit commands that must run in another environment (e.g., bash on the VPS over ssh) are handled in that environment's shell.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T02:16:58.097Z"
+    },
+    {
+      "question": "Runner lines must also stay under the 100-char limit. Since the tutorial folder path is long, the agent splits the runner: a short cd into the commands/ (or scripts/) folder, then a short relative execute — .\\stepN.ps1 locally, or ssh <host> \"bash -s\" < stepN.sh remotely.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T02:16:58.156Z"
+    },
+    {
+      "question": "Tutorial subfolder name = tutorial topic slug (lowercase, hyphenated). The agent creates b0ttsagent/tutorial/<slug>/{commands,scripts,misc} when the tutorial starts (Phase 1).",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T02:16:58.215Z"
+    },
+    {
+      "question": "Now the file-bucket line. When the agent writes a file for a tutorial step, it has to pick a folder — commands/, scripts/, or misc/. What distinguishes a command from a script to you?\n\nRecommendation: a deterministic rule — multi-line anything (newlines in the file) goes in scripts/; single-line commands, however long, go in commands/; anything not runnable (config, notes, saved output) goes in misc/. That way the agent never has to judge how scripty something is.",
+      "answer": "commands are for user commands for like shell or bash in the vps, etc. just things the user has to run. scripts are actual scripts that the user must run, or the agent made that the user needs to put on the vps or something. misc is for anything that doesnt fit in the other 2 boxes.",
+      "timestamp": "2026-08-16T02:16:58.262Z",
+      "answeredAt": "2026-08-16T02:22:38.532Z"
+    },
+    {
+      "question": "Interpretation of the commands/scripts line: commands/ holds command lines the user runs — one logical command executed once, even if wrapped across lines or over the 100-char limit. scripts/ holds standalone agent-authored script files meant to be deployed or reused (multiple distinct commands, loops, functions — e.g. a provisioning script for the VPS). misc/ holds anything not runnable. Rule of thumb: if a file contains more than one logical command or programmatic logic, it is a script, not a command.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T02:22:38.592Z"
+    },
+    {
+      "question": "Last design question. There are two tutorial skills on disk now — tutorial (v1) and tutorial-v2 — with identical descriptions, so when you ask for a tutorial the harness can't reliably tell which one should fire. Options:\n\n(a) Retire v1: add disable-model-invocation: true to tutorial so it never auto-fires, leaving tutorial-v2 as the live skill. v1 stays on disk as the frozen old version. (My recommendation.)\n(b) Differentiate: give v1 a distinct description marking it legacy, but leave it invocable.\n(c) Leave both as-is and rely on you explicitly picking v2.\n\nWhat do you want to do with the old tutorial skill?",
+      "answer": "a retire it, and move it into b0ttsagent/depricated/skills",
+      "timestamp": "2026-08-16T02:22:38.639Z",
+      "answeredAt": "2026-08-16T02:23:20.737Z"
+    },
+    {
+      "question": "Tutorial v1 retirement: move .agents/skills/tutorial to b0ttsagent/depricated/skills/tutorial (established retirement area — grill-me-v2, write-a-skill etc. already live there). Once moved it is outside the skills load path, so disable-model-invocation is unnecessary — the move itself is the retirement. tutorial-v2 becomes the only live tutorial skill.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T02:23:20.798Z"
+    },
+    {
+      "question": "Decision tree exhausted. How do you want to close?\n- (a) Close and hand off — close the session log, then (with your go-ahead) the handoff document gets written via the handoff skill.\n- (b) Close without handoff — close the session log; no handoff document.\n- (c) Leave it active — keep the session log open to resume later.",
+      "answer": "aa",
+      "timestamp": "2026-08-16T02:23:20.848Z",
+      "answeredAt": "2026-08-16T02:24:00.478Z"
+    }
+  ],
+  "status": "complete",
+  "summary": "Improve tutorial-v2 with a 100-character command limit: commands under 100 chars display inline; commands at/over 100 chars are written to files under b0ttsagent/tutorial/<tutorial-slug>/ (created at Phase 1) instead of being shown for copy-paste, because pasted commands break in the Windows shell. Folder structure: commands/ (single command lines the user runs), scripts/ (agent-authored standalone scripts to run or deploy, e.g. to the VPS), misc/ (anything else). PowerShell is the default shell unless a tutorial says otherwise; VPS commands run bash over ssh. The limit counts the full command text including multi-line commands, applies in Phase 1 plan and Phase 2 steps, and the agent always provides a short runner under the limit — split into a short cd plus relative execute (.stepN.ps1 locally; ssh <host> \"bash -s\" < stepN.sh remotely) since the full path would exceed 100 chars. Rule lands as a bullet in the Rules section plus a hook in Phase 2's present-the-step item — surgical edit, no other changes. Retire tutorial v1 by moving .agents/skills/tutorial to b0ttsagent/depricated/skills/tutorial (out of the load path; disable-model-invocation unnecessary), leaving tutorial-v2 as the only live tutorial skill."
+}

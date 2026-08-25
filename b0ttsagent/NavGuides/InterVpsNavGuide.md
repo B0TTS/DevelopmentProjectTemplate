@@ -1,12 +1,12 @@
 ---
 name: InterVpsNavGuide
-topics: [vps, interserver, ssh, tailscale, ufw, security, hardening, ubuntu, minecraft]
-description: "Reference for the InterServer VPS (vps3484597) security baseline, access, and configuration"
+topics: [vps, interserver, ssh, tailscale, ufw, security, hardening, ubuntu]
+description: "Reference for the InterServer VPS (vps3484597) security baseline, access, and configuration. Minecraft hosting moved to the Contabo VPS on 2026-08-16; this box is now idle."
 ---
 
 # InterServer VPS Navigation Guide
 
-> Second VPS on the `tailf94009` tailnet. Dedicated to Minecraft hosting. See `VpsNavGuide.md` for shared conventions (Docker, system-user-per-app pattern, Tailscale Serve, compose workflow) — they apply here too.
+> Second VPS on the `tailf94009` tailnet. Formerly dedicated to Minecraft hosting — the hardcore server migrated to the Contabo VPS on 2026-08-16 (see `MinecraftHcSoloNavGuide.md`). See `VpsNavGuide.md` for shared conventions (Docker, system-user-per-app pattern, Tailscale Serve, compose workflow) — they apply here too.
 
 ## Overview
 
@@ -21,7 +21,7 @@ description: "Reference for the InterServer VPS (vps3484597) security baseline, 
 | Specs             | 12 GB RAM, 3 vCPU                       |
 | Admin user        | deploy (UID 1000, GID 1000)             |
 | Tailnet           | tailf94009                              |
-| Purpose           | Minecraft server hosting                |
+| Purpose           | (was) Minecraft server hosting — migrated to Contabo 2026-08-16; now idle |
 
 ## Access
 
@@ -114,6 +114,14 @@ Security patches apply automatically. Application/feature updates are left for m
 ## Snapshots
 
 - InterServer snapshot taken after hardening — clean restore point before the Minecraft stack was built. Re-snapshot after major stack changes.
+
+## Minecraft hosting (migrated off)
+
+The `minecraft-hc-solo` hardcore server ran here until 2026-08-16, then moved to the Contabo VPS (`vmi3326176`). Current state:
+
+- Container **stopped** (`docker compose down` on 2026-08-16). Restart if needed: `cd /home/minecraft-hc-solo && sudo docker compose up -d`
+- World data **preserved** at `/home/minecraft-hc-solo/data/` (seed `5277846394751328433`)
+- Backups preserved in `/home/minecraft-hc-solo/backups/`; the daily 14:00 UTC backup cron is **still active** — disable it if this box gets decommissioned (check `/etc/cron.d/minecraft-hc-solo-backup` or root crontab).
 
 ## Gotchas from Setup
 

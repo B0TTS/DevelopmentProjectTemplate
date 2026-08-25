@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "headline": "Critical RCE patched in popular build tool",
+      "why": "A remote code execution bug in a widely used build tool is fixed; upgrade paths are published.",
+      "url": "https://example.com/buildtool-cve",
+      "published_date": "2026-08-16",
+      "domain": "security & CVEs",
+      "source_type": "advisory",
+      "delta_or_null": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-18T17:25:55.142662-10:00",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "today": "2026-08-18",
+  "reports_scanned": [
+    "2026-09/2026-09-01/report.md"
+  ],
+  "streak_hits": {
+    "https://example.com/future": {
+      "last_file": "2026-09/2026-09-01/report.md",
+      "section": "AI trends",
+      "headline": "Future story",
+      "url": "https://example.com/future",
+      "url_key": "https://example.com/future",
+      "head_key": "future story",
+      "date": "2026-09-01",
+      "domain": "AI company news"
+    }
+  },
+  "streak_headline_hits": {
+    "future story": {
+      "last_file": "2026-09/2026-09-01/report.md",
+      "section": "AI trends",
+      "headline": "Future story",
+      "url": "https://example.com/future",
+      "url_key": "https://example.com/future",
+      "head_key": "future story",
+      "date": "2026-09-01",
+      "domain": "AI company news"
+    }
+  },
+  "warnings": [
+    "cannot read C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\temp\\daily-trends-report-skill\\probe1\\AI-Development Trends\\2026-08\\2026-08-17\\report.md: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte (treated as missing)"
+  ]
+}

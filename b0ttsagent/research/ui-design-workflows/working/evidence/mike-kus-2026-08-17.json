@@ -1,0 +1,28 @@
+{
+  "name": "Mike Kus",
+  "products": ["Kus—Studio (mikekus.com)", "Just Phil", "Slashwork", "Snapsound", "Beliyf", "LinkBoard Framer template"],
+  "route": "award",
+  "scale_evidence": {
+    "figure": "No qualifying top-tier award. Official Awwwards profile shows SOTM: 0, SOTD: 5 (all 2010-2014), HM: 5. In-window awards are only Honor Mentions (Kus-Studio Aug 27 2025; Just Phil Mar 2026 Typography Honors) — neither qualifies. No FWA profile (404), no CSSDA WOTY found.",
+    "date": "2026-08-17 (fetch date)",
+    "source_url": "https://www.awwwards.com/mikekus/",
+    "tier": "T1"
+  },
+  "window_5yr": "out-of-window",
+  "doc_currency": "Current — mikekus.com (Kus—Studio) is actively maintained: © 2025, '20—25' branding, upcoming 2026 talks (Web Expo Prague May 2026, Y Oslo Oct 2026), recent work incl. Just Phil (2026) and LinkBoard Framer template (published Apr 2026).",
+  "verdict": "REJECT",
+  "rejection_reason": "scale-not-met: no in-window top-tier award (Awwwards SOTM/SOTY, FWA of Month/Year, CSSDA WOTY). Official Awwwards profile shows SOTM: 0, contradicting the self-listed '1x Site of the Month' on mikekus.com/about. All 5 SOTDs are 2010-2014 (out of window; SOTD excluded anyway). In-window awards are only Honor Mentions (Kus-Studio 2025, Just Phil 2026), which don't qualify. No FWA profile (404) and no CSSDA WOTY found.",
+  "dead_ends_searched": [
+    "https://www.awwwards.com/sites/mike-kus-1 — SOTD Feb 18 2014 (out of window; SOTD excluded)",
+    "https://www.awwwards.com/mikekus/ — official profile: SOTM 0, SOTD 5, HM 5",
+    "https://www.awwwards.com/mikekus/submissions — all 9 submissions; highest in-window = HM (Kus-Studio Aug 2025, Just Phil Mar 2026 Typography Honors)",
+    "https://www.awwwards.com/sites/just-phil — Honorable Mention Mar 31 2026 (not qualifying)",
+    "https://www.awwwards.com/sites/kus-studio-by-mike-kus — Honorable Mention Aug 27 2025 (not qualifying)",
+    "https://www.awwwards.com/sites/snapsound — HM Jan 22 2019 (out of window)",
+    "https://www.awwwards.com/sites/beliyf — Nominee Sep 16 2015 (out of window)",
+    "https://thefwa.com/profiles/mike-kus — 404, no FWA profile",
+    "https://thefwa.com/search?q=mike+kus — JS-rendered (empty); websearch site:thefwa.com 'Mike Kus' returned no matches",
+    "CSSDA WOTY search — no Mike Kus WOTY found",
+    "mikekus.com/about self-lists '1x Site of the Month' + '6x SOTD' + '2x Designer of the Year Finalist (The Net Awards)' — self-disclosed (Tier 3), contradicted by official Awwwards profile (SOTM: 0)"
+  ]
+}

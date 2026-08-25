@@ -1,0 +1,65 @@
+{
+  "today": "2026-08-18",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "folder": "b0ttsagent\\temp\\daily-trends-report-skill\\validation\\s7\\AI-Development Trends\\2026-08\\2026-08-18",
+  "main": {
+    "AI trends": [
+      {
+        "headline": "Model X hits milestone",
+        "why": "",
+        "url": "https://example.com/model-x",
+        "published_date": "2026-08-13",
+        "domain": "AI research papers",
+        "source_type": "paper",
+        "delta": "",
+        "url_key": "https://example.com/model-x",
+        "head_key": "model x hits milestone",
+        "identity": "https://example.com/model-x",
+        "update": false
+      }
+    ],
+    "SWE trends": [],
+    "Productivity": []
+  },
+  "still_circulating": [],
+  "excluded": [],
+  "dropped": [],
+  "candidate_counts": {
+    "AI trends": 1,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "survivor_counts": {
+    "AI trends": 0,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "domain_counts": {
+    "AI trends": {},
+    "SWE trends": {},
+    "Productivity": {}
+  },
+  "domain_preference_notes": [],
+  "exclusions": [
+    {
+      "identity": "https://example.com/model-x",
+      "url": "https://example.com/model-x",
+      "headline": "Model X hits milestone"
+    }
+  ],
+  "prior_identities": [
+    {
+      "identity": "https://example.com/model-x",
+      "url": "https://example.com/model-x",
+      "headline": "Model X hits milestone",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s7-p17",
+      "url": "https://example.com/s7-p17",
+      "headline": "Dev conference schedules agent keynote",
+      "last_file": "2026-08/2026-08-17/report.md"
+    }
+  ],
+  "warnings": []
+}

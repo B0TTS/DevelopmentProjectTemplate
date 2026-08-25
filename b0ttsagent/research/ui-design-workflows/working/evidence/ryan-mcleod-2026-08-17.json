@@ -1,0 +1,20 @@
+{
+  "name": "Ryan McLeod",
+  "products": ["Blackbox (iOS)", "Blackbox for Vision (visionOS)"],
+  "route": "award",
+  "scale_evidence": {
+    "figure": "Apple Design Award 2024, Spatial Computing category (Game) — Blackbox for Vision, announced June 6, 2024",
+    "date": "2024-06-06",
+    "source_url": "https://www.apple.com/newsroom/2024/06/apple-announces-winners-of-the-2024-apple-design-awards/",
+    "tier": "T1"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "First-party workflow doc (Medium @warpling design-process posts) is Ryan McLeod's active blog; the current first-party design-process documentation is the Apple Developer feature 'Blackbox: Rebooting an inventive puzzle game for visionOS' (Jan 30, 2024, https://developer.apple.com/news/?id=gvesi4wr), still live on Apple's developer newsroom. Medium profile itself returned 403 (bot-blocked) so direct recency of the Medium posts is UNKNOWN, but the design-process doc lineage is current via the 2024 Apple Developer feature.",
+  "verdict": "PASS",
+  "rejection_reason": null,
+  "dead_ends_searched": [
+    "Medium @warpling profile — 403 bot-blocked via both searxng_web_url_read and webfetch; recency of Medium posts themselves UNKNOWN (doc-currency noted as such)",
+    "2017 Apple Design Award (iOS Blackbox) — verified real but out-of-window; not used as scale evidence",
+    "14M+ players figure — self-disclosed (Tier 3) on press kit; not needed since award route passed"
+  ]
+}

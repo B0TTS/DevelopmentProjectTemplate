@@ -1,0 +1,20 @@
+{
+  "name": "Max Stoiber",
+  "products": ["styled-components", "Spectrum", "react-boilerplate"],
+  "route": "usage-stat",
+  "scale_evidence": {
+    "figure": "npm 9,437,267 downloads/week (2026-08-09 to 2026-08-15); GitHub 41,120 stars (fetched 2026-08-17)",
+    "date": "2026-08-17 (fetch date)",
+    "source_url": "https://api.npmjs.org/downloads/point/last-week/styled-components",
+    "tier": "T1"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "First-party doc https://mxstbr.com/thoughts/css-in-js ('Why I Write CSS in JavaScript', Feb 18 2019) is still live and still listed on his current homepage Essays list (67,287 views); site is actively maintained (Work section updated to OpenAI 2026-now). Essay is historical (2019) but remains referenced as current content on his site.",
+  "verdict": "PASS",
+  "rejection_reason": null,
+  "dead_ends_searched": [
+    "Moxy Studio design work: 3 SearXNG searches ('\"Max Stoiber\" Moxy Studio design', '\"Max Stoiber\" OR \"mxstbr\" \"Moxy\" design studio', '\"Max Stoiber\" \"Moxy\" studio design Vienna frontend') returned no connection to any Moxy Studio; only unrelated Porto MOXY studio, Moxy Hotels, and Moxy Vienna hotels. Claim UNVERIFIED — his verifiable design work is the Animade Frankensim project (Webby 2016 Honoree, Lovie 2016, CSS Winner SOTM 2015, Awwwards SOTD 2015, FWA of the Day 2016), all 2015-2016 and agency/team context, out of window and not used for scale.",
+    "LinkedIn full profile gated behind sign-in (only Honors & Awards section visible); full experience list unreadable.",
+    "styled-components co-created with Glen Maddern (announced Oct 13 2016) — Stoiber is nonetheless individually credited as 'creator of styled-components' in press (Software Engineering Daily, EverybodyWiki/Wikipedia draft, his own site), so individual attribution holds."
+  ]
+}

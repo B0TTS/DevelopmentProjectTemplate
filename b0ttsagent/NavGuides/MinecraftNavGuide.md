@@ -6,7 +6,7 @@ description: "Reference for Minecraft server configuration and mod management"
 
 # Minecraft Server Guide
 
-> **Status: Stopped** (2026-06-19). Container is down with `restart: "no"` in docker-compose.yml. World data preserved at `/home/minecraft/data/`. Daily backup cron at `/etc/cron.d/minecraft-backup` still runs but fails silently (container not found). To restore, change `restart: "no"` back to `restart: unless-stopped` and run `cd /home/minecraft && sudo docker compose up -d`.
+> **Status: Running** (observed 2026-08-16 — container live on `0.0.0.0:25565`). This is the **personal** hardcore world. The **stream** hardcore world runs as a separate server, `minecraft-hc-solo`, on port 25566 — see `MinecraftHcSoloNavGuide.md`. Daily backup runs at 14:00 UTC from root crontab (not `/etc/cron.d`). If you find the container down, check `restart:` policy in the compose file before starting manually.
 
 ---
 
@@ -66,6 +66,8 @@ Pulled automatically from Modrinth via `MODRINTH_PROJECTS` in the compose file.
 |Client|Java Edition 1.21.1|
 |Requirement|Tailscale (VPN)|
 
+> This guide covers the **personal** hardcore world (seed `7414878756768619920`, port 25565). The **stream** hardcore world (seed `5277846394751328433`, port 25566) is documented in `MinecraftHcSoloNavGuide.md`.
+>
 > Public IP is locked down via UFW. Tailscale is required to connect.
 
 ### Backups

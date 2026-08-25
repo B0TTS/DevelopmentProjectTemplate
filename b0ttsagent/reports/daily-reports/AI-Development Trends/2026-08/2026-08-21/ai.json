@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "headline": "DeepSeek releases V4-Flash-Vision-Exp, an experimental multimodal model on its API platform",
+      "why": "DeepSeek's first vision-capable V4-Flash variant accepts images alongside text (JPEG/PNG/GIF/WebP) while matching the text model's agentic and reasoning behavior. DeepSeek says multimodal agent performance now approaches Opus-4.8, resetting the open-weights vision cost floor.",
+      "url": "https://api-docs.deepseek.com/news/news260821",
+      "published_date": "2026-08-21",
+      "domain": "frontier model releases",
+      "source_type": "release notes",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Tencent Zhuque Lab's A.I.G red-team finds agent injection risks across 14,560 DeepSeek Harness runs",
+      "why": "Tencent's open-source AI-Infra-Guard platform stress-tested DeepSeek Harness end-to-end, finding tooltip-injection success rates of 17.0-25.5% across text, file, and skill channels. It shows agent security must be assessed across content-carrier paths, not single input points.",
+      "url": "https://matrix.tencent.com/en/2026/08/20/deepseek-harness-agent-injection-risk",
+      "published_date": "2026-08-20",
+      "domain": "AI infra/hardware",
+      "source_type": "research report",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Nvidia's OpenAI Ohio data-center financing lands at $105B, $145B below earlier reports",
+      "why": "A securities filing revealed Nvidia will provide up to $105 billion in financing for OpenAI's Ohio data center, well below the roughly $250B figure previously reported. The gap signals market concern about artificial demand for AI chips.",
+      "url": "https://fortune.com/2026/08/18/openai-data-center-deal-with-nvidia-comes-in-145-billion-lower-than-reportedsignaling-concerns-of-artificial-demand-for-chips/",
+      "published_date": "2026-08-18",
+      "domain": "AI infra/hardware",
+      "source_type": "news",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Large-scale study finds AI-raised homework scores precede 20% exam-score drops",
+      "why": "A 30-month study of 26,811 Chinese secondary students found generative-AI homework use lifted homework scores about 18% but cut closed-book exam scores about 20% within six months. It is a concrete, large-n signal that AI homework shortcuts can erode learning.",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "published_date": "2026-08-18",
+      "domain": "AI research papers",
+      "source_type": "news",
+      "delta_or_null": null
+    }
+  ]
+}

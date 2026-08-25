@@ -1,0 +1,74 @@
+{
+  "today": "2026-08-18",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "folder": "C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\temp\\daily-trends-report-fixtures\\s5\\AI-Development Trends\\2026-08\\2026-08-18",
+  "main": {
+    "AI trends": [
+      {
+        "headline": "Agents benchmark suite ships",
+        "why": "A reproducible agents benchmark with public traces ships its first leaderboard.",
+        "url": "https://example.com/s5-fresh",
+        "published_date": "2026-08-16",
+        "domain": "AI research papers",
+        "source_type": "paper",
+        "delta": "",
+        "url_key": "https://example.com/s5-fresh",
+        "head_key": "agents benchmark suite ships",
+        "identity": "https://example.com/s5-fresh",
+        "update": false
+      }
+    ],
+    "SWE trends": [],
+    "Productivity": []
+  },
+  "still_circulating": [],
+  "excluded": [
+    {
+      "headline": "Legacy feature announcement",
+      "why": "",
+      "url": "https://example.com/s5-old",
+      "published_date": "2026-08-05",
+      "domain": "AI company news",
+      "source_type": "news",
+      "delta": "",
+      "url_key": "https://example.com/s5-old",
+      "head_key": "legacy feature announcement",
+      "identity": "https://example.com/s5-old",
+      "update": false,
+      "reason": "older than 7 days"
+    }
+  ],
+  "dropped": [],
+  "candidate_counts": {
+    "AI trends": 2,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "survivor_counts": {
+    "AI trends": 1,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "domain_counts": {
+    "AI trends": {
+      "AI research papers": 1
+    },
+    "SWE trends": {},
+    "Productivity": {}
+  },
+  "domain_preference_notes": [],
+  "exclusions": [
+    {
+      "identity": "https://example.com/s5-fresh",
+      "url": "https://example.com/s5-fresh",
+      "headline": "Agents benchmark suite ships"
+    },
+    {
+      "identity": "https://example.com/s5-old",
+      "url": "https://example.com/s5-old",
+      "headline": "Legacy feature announcement"
+    }
+  ],
+  "prior_identities": [],
+  "warnings": []
+}

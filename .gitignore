@@ -66,6 +66,12 @@ lerna-debug.log*
 # committed were untracked via `git rm --cached -r .pi-subagents/artifacts/`.
 .pi-subagents/artifacts/
 
+# ── Skill runtime caches ────────────────────────────────────
+# model-benchmarks skill: live fetch cache must never churn the repo.
+# Offline test fixture stays tracked at
+# .agents/skills/model-benchmarks/tests/fixtures/cache.json.
+.agents/skills/model-benchmarks/cache/
+
 # ── Build output & caches ───────────────────────────────────
 # No build pipeline today; harmless if one is added later.
 dist/

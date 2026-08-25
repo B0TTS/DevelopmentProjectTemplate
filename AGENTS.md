@@ -2,6 +2,10 @@
 
 This file provides guidance to AI coding agents (Claude Code, Cursor, Copilot, Antigravity, etc.) when working with code in this repository.
 
+### Design
+
+- For any UI, design, CSS, styling, or frontend work, follow the rules in DESIGN.md. It is a contract, not documentation.
+
 ### Commands
 
 No build/test/lint pipeline — content is markdown docs and agent

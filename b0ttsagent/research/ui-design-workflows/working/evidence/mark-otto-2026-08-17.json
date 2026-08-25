@@ -1,0 +1,19 @@
+{
+  "name": "Mark Otto",
+  "products": ["Bootstrap", "Bootstrap Icons"],
+  "route": "usage-stat",
+  "scale_evidence": {
+    "figure": "npm 4,144,770 downloads/week (2026-08-09 to 2026-08-15); GitHub 174,607 stars",
+    "date": "2026-08-17 (fetched live)",
+    "source_url": "https://api.npmjs.org/downloads/point/last-week/bootstrap ; https://api.github.com/repos/twbs/bootstrap",
+    "tier": "T1"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "markdotto.com is live and maintained (site links current projects Pierre/Studio MDO); process blog's most recent post is June 3, 2024 ('Working with MDX in Next.js') — ~2 years old as of fetch, so blog is not actively current but site remains the referenced first-party source.",
+  "verdict": "PASS",
+  "rejection_reason": null,
+  "dead_ends_searched": [
+    "SearXNG search for attribution query returned empty (no results) — fell back to Exa websearch",
+    "No award-route evidence needed; usage-stat route satisfied by official APIs"
+  ]
+}

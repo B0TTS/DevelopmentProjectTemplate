@@ -1,0 +1,48 @@
+{
+  "topic": "Improve tutorial-v2 skill: add a character limit for commands — commands over the limit get written to a temp file instead of displayed inline, because copy-paste breaks in the Windows shell terminal",
+  "initialPrompt": "Activate your karpathy guidelines, write a skill v2 skills. Basically I wanna improve the tutorial v2 skill. what I wanna change is commands. So basically in tutorial, a lot of time there are scripts/commands I need to run in terinal etc. I wann make a character limit for commands that the agent gives to me in terminal as compared to just writing a temp file and putting the command in there. Theres a problem with my terminal rendering, to where copying and pasting commmands pretty mcuh breaks them for my shell terminal which is what I use for ssh, terminal work, etc. anything really terminal related, is running in windows shell.",
+  "startedAt": "2026-08-15T15:20:11Z",
+  "qAndA": [
+    {
+      "question": "Temp files for over-limit commands go in b0ttsagent/temp/ (AGENTS.md mandates that dir for throwaway files), named tutorial-step<N>-<slug>.<ext> — one file per step, extension decided by the shell question. No cleanup policy — the temp dir is a dumping ground by design.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.699Z"
+    },
+    {
+      "question": "The character limit counts the full command text. A multi-line script counts as one command (all its characters summed) — anything over the limit goes to a file, even if each individual line is short.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.773Z"
+    },
+    {
+      "question": "The rule lands as a new bullet in the skill's Rules section plus a one-line hook in Phase 2's 'present the step' item. Surgical edit — no other changes to tutorial-v2.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.849Z"
+    },
+    {
+      "question": "Whenever a command is over the limit, the agent always also gives a short 'runner' one-liner (a file-execute or ssh pipe command well under the limit) so the user never has to copy the long command at all.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.910Z"
+    },
+    {
+      "question": "The limit applies everywhere commands are displayed — Phase 1 plan and Phase 2 steps. Over-limit commands in the Phase 1 plan are described instead of shown in full.",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:55.968Z"
+    },
+    {
+      "question": "Interpretation of 'write a skill v2 skills': karpathy-guidelines is active for this work, and the eventual SKILL.md edit follows write-a-skill-v2 conventions (surgical changes, frontmatter/checklist rules).",
+      "answer": "(self-resolved — user may veto)",
+      "timestamp": "2026-08-16T01:21:56.019Z"
+    },
+    {
+      "question": "What should the character limit be? Commands under the limit display inline; commands at or over it get written to a temp file instead.\n\nRecommendation: 150 characters. Long enough that everyday one-liners (installers, git, docker run, ssh) stay inline; short enough that multi-line scripts and flag-heavy commands go to file. If you have a feel for where your terminal starts mangling pasted commands, use that number.",
+      "timestamp": "2026-08-16T01:22:00.132Z"
+    },
+    {
+      "question": "repro test question",
+      "answer": null,
+      "timestamp": "2026-08-16T02:09:51.247Z"
+    }
+  ],
+  "status": "active",
+  "summary": null
+}

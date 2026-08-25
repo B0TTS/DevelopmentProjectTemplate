@@ -1,0 +1,253 @@
+{
+  "generated_at": "2026-08-21T08:11:59.274703-10:00",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "today": "2026-08-21",
+  "reports_scanned": [
+    "2026-08/2026-08-19/report.md"
+  ],
+  "streak_hits": {
+    "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "AI trends",
+      "headline": "OpenRouter joins Stripe in reported $7B+ acquisition",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "url_key": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "head_key": "openrouter joins stripe in reported 7b acquisition",
+      "date": "2026-08-19",
+      "domain": "AI company news"
+    },
+    "https://openai.com/index/pacing-model-development-cyber-capabilities": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "AI trends",
+      "headline": "OpenAI pauses RL training for two weeks, tightens frontier safeguards",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "url_key": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "head_key": "openai pauses rl training for two weeks tightens frontier safeguards",
+      "date": "2026-08-18",
+      "domain": "AI policy/regulation"
+    },
+    "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "AI trends",
+      "headline": "Unsloth ships Dynamic 3.0 GGUFs with Qwen3.8-27B quants",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "url_key": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "head_key": "unsloth ships dynamic 3 0 ggufs with qwen3 8 27b quants",
+      "date": "2026-08-19",
+      "domain": "open-source AI"
+    },
+    "https://huggingface.co/ornith-ai/Ornith-1.5-9B": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "AI trends",
+      "headline": "Ornith-1.5 open-weights model extends the self-improvement loop",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "url_key": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "head_key": "ornith 1 5 open weights model extends the self improvement loop",
+      "date": "2026-08-19",
+      "domain": "AI research papers"
+    },
+    "https://go.dev/doc/devel/release": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "SWE trends",
+      "headline": "Go 1.27.0 released (major release)",
+      "url": "https://go.dev/doc/devel/release",
+      "url_key": "https://go.dev/doc/devel/release",
+      "head_key": "go 1 27 0 released major release",
+      "date": "2026-08-19",
+      "domain": "languages & frameworks"
+    },
+    "https://axios.com/2026/08/17/stripe-openrouter-paypal": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "SWE trends",
+      "headline": "Stripe agrees to acquire AI model gateway OpenRouter for $8B+",
+      "url": "https://www.axios.com/2026/08/17/stripe-openrouter-paypal",
+      "url_key": "https://axios.com/2026/08/17/stripe-openrouter-paypal",
+      "head_key": "stripe agrees to acquire ai model gateway openrouter for 8b",
+      "date": "2026-08-17",
+      "domain": "cloud & pricing"
+    },
+    "https://opensourceforu.com/2026/08/google-makes-pixel-kernel-source-harder-to-access": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "SWE trends",
+      "headline": "Google gates Pixel kernel source behind request form and Google Drive links",
+      "url": "https://www.opensourceforu.com/2026/08/google-makes-pixel-kernel-source-harder-to-access/",
+      "url_key": "https://opensourceforu.com/2026/08/google-makes-pixel-kernel-source-harder-to-access",
+      "head_key": "google gates pixel kernel source behind request form and google drive links",
+      "date": "2026-08-17",
+      "domain": "OSS licensing & governance"
+    },
+    "https://github.com/vercel-labs/fx/releases": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "Vercel ships fx, a tiny (~6 MB) open-source Zig coding-agent harness",
+      "url": "https://github.com/vercel-labs/fx/releases",
+      "url_key": "https://github.com/vercel-labs/fx/releases",
+      "head_key": "vercel ships fx a tiny 6 mb open source zig coding agent harness",
+      "date": "2026-08-18",
+      "domain": "new SWE productivity tools"
+    },
+    "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "Warp ships Warp Factories: an out-of-the-box agent software factory",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "url_key": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
+      "head_key": "warp ships warp factories an out of the box agent software factory",
+      "date": "2026-08-18",
+      "domain": "emerging practices & workflows"
+    },
+    "https://uipath.com/newsroom/uipath-launches-maestro-flow": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "UiPath ships Maestro Flow: developer-first orchestration for coding agents",
+      "url": "https://www.uipath.com/newsroom/uipath-launches-maestro-flow",
+      "url_key": "https://uipath.com/newsroom/uipath-launches-maestro-flow",
+      "head_key": "uipath ships maestro flow developer first orchestration for coding agents",
+      "date": "2026-08-19",
+      "domain": "AI-assisted dev workflows"
+    },
+    "https://github.com/onecli/onecli/releases": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "OneCLI v2 ships: open-source sandboxed agent harness for teams",
+      "url": "https://github.com/onecli/onecli/releases",
+      "url_key": "https://github.com/onecli/onecli/releases",
+      "head_key": "onecli v2 ships open source sandboxed agent harness for teams",
+      "date": "2026-08-18",
+      "domain": "new SWE productivity tools"
+    },
+    "https://gitkraken.com/blog/gitlens-19-the-commit-graph-reimagined-for-parallel-development": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "GitLens 19 turns the Commit Graph into an agent-workflow workbench",
+      "url": "https://www.gitkraken.com/blog/gitlens-19-the-commit-graph-reimagined-for-parallel-development",
+      "url_key": "https://gitkraken.com/blog/gitlens-19-the-commit-graph-reimagined-for-parallel-development",
+      "head_key": "gitlens 19 turns the commit graph into an agent workflow workbench",
+      "date": "2026-08-13",
+      "domain": "AI-assisted dev workflows"
+    }
+  },
+  "streak_headline_hits": {
+    "openrouter joins stripe in reported 7b acquisition": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "AI trends",
+      "headline": "OpenRouter joins Stripe in reported $7B+ acquisition",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "url_key": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "head_key": "openrouter joins stripe in reported 7b acquisition",
+      "date": "2026-08-19",
+      "domain": "AI company news"
+    },
+    "openai pauses rl training for two weeks tightens frontier safeguards": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "AI trends",
+      "headline": "OpenAI pauses RL training for two weeks, tightens frontier safeguards",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "url_key": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "head_key": "openai pauses rl training for two weeks tightens frontier safeguards",
+      "date": "2026-08-18",
+      "domain": "AI policy/regulation"
+    },
+    "unsloth ships dynamic 3 0 ggufs with qwen3 8 27b quants": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "AI trends",
+      "headline": "Unsloth ships Dynamic 3.0 GGUFs with Qwen3.8-27B quants",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "url_key": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "head_key": "unsloth ships dynamic 3 0 ggufs with qwen3 8 27b quants",
+      "date": "2026-08-19",
+      "domain": "open-source AI"
+    },
+    "ornith 1 5 open weights model extends the self improvement loop": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "AI trends",
+      "headline": "Ornith-1.5 open-weights model extends the self-improvement loop",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "url_key": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "head_key": "ornith 1 5 open weights model extends the self improvement loop",
+      "date": "2026-08-19",
+      "domain": "AI research papers"
+    },
+    "go 1 27 0 released major release": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "SWE trends",
+      "headline": "Go 1.27.0 released (major release)",
+      "url": "https://go.dev/doc/devel/release",
+      "url_key": "https://go.dev/doc/devel/release",
+      "head_key": "go 1 27 0 released major release",
+      "date": "2026-08-19",
+      "domain": "languages & frameworks"
+    },
+    "stripe agrees to acquire ai model gateway openrouter for 8b": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "SWE trends",
+      "headline": "Stripe agrees to acquire AI model gateway OpenRouter for $8B+",
+      "url": "https://www.axios.com/2026/08/17/stripe-openrouter-paypal",
+      "url_key": "https://axios.com/2026/08/17/stripe-openrouter-paypal",
+      "head_key": "stripe agrees to acquire ai model gateway openrouter for 8b",
+      "date": "2026-08-17",
+      "domain": "cloud & pricing"
+    },
+    "google gates pixel kernel source behind request form and google drive links": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "SWE trends",
+      "headline": "Google gates Pixel kernel source behind request form and Google Drive links",
+      "url": "https://www.opensourceforu.com/2026/08/google-makes-pixel-kernel-source-harder-to-access/",
+      "url_key": "https://opensourceforu.com/2026/08/google-makes-pixel-kernel-source-harder-to-access",
+      "head_key": "google gates pixel kernel source behind request form and google drive links",
+      "date": "2026-08-17",
+      "domain": "OSS licensing & governance"
+    },
+    "vercel ships fx a tiny 6 mb open source zig coding agent harness": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "Vercel ships fx, a tiny (~6 MB) open-source Zig coding-agent harness",
+      "url": "https://github.com/vercel-labs/fx/releases",
+      "url_key": "https://github.com/vercel-labs/fx/releases",
+      "head_key": "vercel ships fx a tiny 6 mb open source zig coding agent harness",
+      "date": "2026-08-18",
+      "domain": "new SWE productivity tools"
+    },
+    "warp ships warp factories an out of the box agent software factory": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "Warp ships Warp Factories: an out-of-the-box agent software factory",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "url_key": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
+      "head_key": "warp ships warp factories an out of the box agent software factory",
+      "date": "2026-08-18",
+      "domain": "emerging practices & workflows"
+    },
+    "uipath ships maestro flow developer first orchestration for coding agents": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "UiPath ships Maestro Flow: developer-first orchestration for coding agents",
+      "url": "https://www.uipath.com/newsroom/uipath-launches-maestro-flow",
+      "url_key": "https://uipath.com/newsroom/uipath-launches-maestro-flow",
+      "head_key": "uipath ships maestro flow developer first orchestration for coding agents",
+      "date": "2026-08-19",
+      "domain": "AI-assisted dev workflows"
+    },
+    "onecli v2 ships open source sandboxed agent harness for teams": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "OneCLI v2 ships: open-source sandboxed agent harness for teams",
+      "url": "https://github.com/onecli/onecli/releases",
+      "url_key": "https://github.com/onecli/onecli/releases",
+      "head_key": "onecli v2 ships open source sandboxed agent harness for teams",
+      "date": "2026-08-18",
+      "domain": "new SWE productivity tools"
+    },
+    "gitlens 19 turns the commit graph into an agent workflow workbench": {
+      "last_file": "2026-08/2026-08-19/report.md",
+      "section": "Productivity",
+      "headline": "GitLens 19 turns the Commit Graph into an agent-workflow workbench",
+      "url": "https://www.gitkraken.com/blog/gitlens-19-the-commit-graph-reimagined-for-parallel-development",
+      "url_key": "https://gitkraken.com/blog/gitlens-19-the-commit-graph-reimagined-for-parallel-development",
+      "head_key": "gitlens 19 turns the commit graph into an agent workflow workbench",
+      "date": "2026-08-13",
+      "domain": "AI-assisted dev workflows"
+    }
+  },
+  "warnings": []
+}

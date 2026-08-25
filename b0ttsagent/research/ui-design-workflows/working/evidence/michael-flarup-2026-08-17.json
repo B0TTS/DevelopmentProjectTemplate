@@ -1,0 +1,22 @@
+{
+  "name": "Michael Flarup",
+  "products": ["Thermo (Robocat weather app)", "Weather Up (design)", "Thermodo (Robocat hardware thermometer)"],
+  "route": "MAU",
+  "scale_evidence": {
+    "figure": "Thermo 'more than 5 million users' — self-disclosed by Flarup in a 2015 Maker Hunt AMA (Tier 3, out-of-window). No independent Tier 1/2 press or App Store corroboration of Thermo >=1M users found in-window (2021-08-17 to 2026-08-17). AppStorio (estimate tracker, Tier 3) shows ~246k monthly downloads estimate — not MAU, corroborate-only. Robocat's Thermo (App Store id414215658) is delisted (404); the live 'Thermo - Live Thermometer' (id1197885834) is a different app by Stolanapp.",
+    "date": "2015-03-13 (claim date); 2026-08-17 (fetch date — no live corroboration found)",
+    "source_url": "https://medium.com/@MakerHunt/today-we-have-michael-flurap-who-is-an-awesome-designer-and-helped-design-be-my-eyes-e2596addb8f2",
+    "tier": "T3"
+  },
+  "window_5yr": "out-of-window",
+  "doc_currency": "First-party doc 'What Everyone Should Know About The Process of Designing Apps' (Medium, 2017-08-18) is still live and was republished on Smashing Magazine (2016-11-07), Apply Pixels blog (2019-12-12), and Software Times (2021-11-16); it is still referenced as current process guidance, though no 2022+ citations were found.",
+  "verdict": "REJECT",
+  "rejection_reason": "tier3-only: the only scale figure (Thermo 5M+ users) is self-disclosed (Tier 3) from 2015, out-of-window, with no independent Tier 1/2 corroboration of >=1M users in-window and no qualifying in-window top-tier award individually credited to Flarup (Oko's 2024 Apple Design Award is credited to the AYES team; Flarup only designed its app icon — partial credit, not individual).",
+  "dead_ends_searched": [
+    "Independent Tier 1/2 press corroboration of Thermo user base >=1M in-window (2021-08-17 to 2026-08-17) — none found; only the 2015 self-disclosed claim (SearXNG empty on several queries; fell back to Exa websearch)",
+    "Robocat Thermo App Store listing id414215658 — 404 (delisted); Apptopia page exists but is an estimate tracker (Tier 3, corroborate-only)",
+    "In-window top-tier award individually credited to Flarup (Apple Design Award / Webby / Awwwards SOTY-SOTM / FWA of Month-Year / CSSDA WOTY, 2021-2026) — none found; Oko ADA 2024 credited to AYES (Belgium) team, Flarup's role was app-icon design only (LinkedIn 2024 recap: 'part of one Apple Design Award winner')",
+    "AppStorio estimate for Robocat Thermo (~246.62k monthly downloads) — estimate tracker, not MAU, corroborate-only",
+    "Medium pages (discovery row + first-party doc) blocked 403 to both searxng_web_url_read and webfetch; content confirmed via Exa search-result extraction of the same URLs"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "headline": "OpenRouter joins Stripe in reported $7B+ acquisition",
+      "why": "The largest AI model gateway and marketplace is being acquired by Stripe, consolidating AI token routing with payments infrastructure. It signals AI inference spend is becoming core financial infrastructure.",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "published_date": "2026-08-19",
+      "domain": "AI company news",
+      "source_type": "blog post",
+      "delta_or_null": null
+    },
+    {
+      "headline": "OpenAI pauses RL training for two weeks, tightens frontier safeguards",
+      "why": "OpenAI says its upcoming Astra model may meet the Critical cybersecurity capability threshold and paused RL training on deployment models for two weeks to harden research environments. New multistage monitoring adds roughly 20% inference-compute overhead.",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "published_date": "2026-08-18",
+      "domain": "AI policy/regulation",
+      "source_type": "blog post",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Unsloth ships Dynamic 3.0 GGUFs with Qwen3.8-27B quants",
+      "why": "Unsloth's Dynamic v3.0 quantization claims >10% better accuracy at the same size versus other providers, with 1-bit quants retaining 77% accuracy on 8GB RAM. Lowers the local-inference cost floor for open models.",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "published_date": "2026-08-19",
+      "domain": "open-source AI",
+      "source_type": "release notes",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Ornith-1.5 open-weights model extends the self-improvement loop",
+      "why": "Ornith-1.5 (9B, MIT) expands end-to-end self-improvement from scaffold and rollout optimization to jointly optimizing task generation, scaffold construction, and solution rollouts via RL. A concrete step toward self-improving open coding agents.",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "published_date": "2026-08-19",
+      "domain": "AI research papers",
+      "source_type": "paper",
+      "delta_or_null": null
+    }
+  ]
+}

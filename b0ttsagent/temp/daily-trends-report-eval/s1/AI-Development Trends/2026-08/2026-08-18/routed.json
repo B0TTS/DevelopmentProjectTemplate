@@ -1,0 +1,96 @@
+{
+  "today": "2026-08-18",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "folder": "b0ttsagent\\temp\\daily-trends-report-eval\\s1\\AI-Development Trends\\2026-08\\2026-08-18",
+  "main": {
+    "AI trends": [
+      {
+        "headline": "Frontier lab ships open-weights model",
+        "why": "A new open-weights frontier model lands with permissive licensing, resetting the cost floor for self-hosting.",
+        "url": "https://example.com/frontier-v3",
+        "published_date": "2026-08-17",
+        "domain": "frontier model releases",
+        "source_type": "blog post",
+        "delta": "",
+        "url_key": "https://example.com/frontier-v3",
+        "head_key": "frontier lab ships open weights model",
+        "identity": "https://example.com/frontier-v3",
+        "update": false
+      }
+    ],
+    "SWE trends": [
+      {
+        "headline": "Critical RCE patched in popular build tool",
+        "why": "A remote code execution bug in a widely used build tool is fixed; upgrade paths are published.",
+        "url": "https://example.com/buildtool-cve",
+        "published_date": "2026-08-16",
+        "domain": "security & CVEs",
+        "source_type": "advisory",
+        "delta": "",
+        "url_key": "https://example.com/buildtool-cve",
+        "head_key": "critical rce patched in popular build tool",
+        "identity": "https://example.com/buildtool-cve",
+        "update": false
+      }
+    ],
+    "Productivity": [
+      {
+        "headline": "New terminal autocomplete ships",
+        "why": "A terminal autocomplete tool ships with context-aware shell completions and a local-first cache.",
+        "url": "https://example.com/term-auto",
+        "published_date": "2026-08-18",
+        "domain": "new SWE productivity tools",
+        "source_type": "release notes",
+        "delta": "",
+        "url_key": "https://example.com/term-auto",
+        "head_key": "new terminal autocomplete ships",
+        "identity": "https://example.com/term-auto",
+        "update": false
+      }
+    ]
+  },
+  "still_circulating": [],
+  "excluded": [],
+  "dropped": [],
+  "candidate_counts": {
+    "AI trends": 1,
+    "SWE trends": 1,
+    "Productivity": 1
+  },
+  "survivor_counts": {
+    "AI trends": 1,
+    "SWE trends": 1,
+    "Productivity": 1
+  },
+  "domain_counts": {
+    "AI trends": {
+      "frontier model releases": 1
+    },
+    "SWE trends": {
+      "security & CVEs": 1
+    },
+    "Productivity": {
+      "new SWE productivity tools": 1
+    }
+  },
+  "domain_preference_notes": [],
+  "exclusions": [
+    {
+      "identity": "https://example.com/frontier-v3",
+      "url": "https://example.com/frontier-v3",
+      "headline": "Frontier lab ships open-weights model"
+    },
+    {
+      "identity": "https://example.com/buildtool-cve",
+      "url": "https://example.com/buildtool-cve",
+      "headline": "Critical RCE patched in popular build tool"
+    },
+    {
+      "identity": "https://example.com/term-auto",
+      "url": "https://example.com/term-auto",
+      "headline": "New terminal autocomplete ships"
+    }
+  ],
+  "prior_identities": [],
+  "warnings": []
+}

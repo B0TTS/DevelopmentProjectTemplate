@@ -1,0 +1,26 @@
+{
+  "name": "Karri Saarinen",
+  "products": ["Linear (B2B SaaS issue tracker / product development tool)"],
+  "route": "revenue",
+  "scale_evidence": {
+    "figure": "No Tier 1/2 revenue/ARR dollar figure publicly findable. Closest Tier 1 (TechCrunch 2025-06-10, Reuters 2025-06-10): $82M Series C at $1.25B valuation, 15,000+ customers, profits grew 280% last year — no revenue/ARR dollar figure. Only ARR figure found (~$100M ARR, 2025-2026) is Tier 3 estimate-tracker only (LATKA, ARR Club, GrowthHunt, Systemaic, whoearns).",
+    "date": "Tier 1 press: June 2025 (in-window); Tier 3 ARR estimates: 2025-2026",
+    "source_url": "https://techcrunch.com/2025/06/10/atlassian-rival-linear-raises-82m-at-1-25b-valuation/ (T1, no revenue figure); https://www.reuters.com/business/atlassian-competitor-linear-raises-funding-125-billion-valuation-2025-06-10/ (T1, no revenue figure); https://getlatka.com/companies/linear.app (T3 estimate-tracker anchor, excluded)",
+    "tier": "T3"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "Linear's first-party design blog (linear.app/now) is current — Karri Saarinen continues to publish design-process posts there (latest 'Now Linear writes the code, too', Jun 11 2026; also 'Output isn't design' Apr 2026, 'Design is more than code' Dec 2025). The workflow doc 'How we redesigned the Linear UI (part II)' (Mar 28 2024, bylined 'Karri Saarinen and 3 others') is still live and linked from the active blog, though it is historical content.",
+  "verdict": "REJECT",
+  "rejection_reason": "tier3-only — no Tier 1/2 revenue/ARR figure publicly findable for Linear. Tier 1 press (TechCrunch, Reuters, Forbes) reports funding ($82M Series C at $1.25B, $35M Series B at ~$400M), 15,000+ customers, and 280% profit growth but no revenue dollar figure; Linear's own blog (T2) reports no ARR. The ~$100M ARR figure appears only in estimate trackers (LATKA, ARR Club, GrowthHunt, Systemaic, whoearns, ToolJunction), which are excluded as anchors. No MAU >=1M source; no dev-tool usage-stat (SaaS, not a library); no individually-credited in-window top-tier award found.",
+  "dead_ends_searched": [
+    "SearXNG returned empty for several queries ('Karri Saarinen Linear co-founder designer designed by', 'Linear ARR OR revenue Saarinen interview million 2025', 'Linear $100M ARR OR $100 million ARR'); fell back to websearch (Exa)",
+    "Reuters article returned HTTP 401 via searxng_web_url_read; retrieved successfully via webfetch — confirmed no revenue figure",
+    "Searched TechCrunch Linear tag page — only 2019 seed article and 2025 Series C; no revenue figure",
+    "Searched Forbes Series B article (read in full) — profitability and customer counts, no revenue dollar figure",
+    "Searched Lenny's Newsletter interview (read excerpt) — attribution confirmed, no revenue figure",
+    "Searched Linear's own blog (Series B and Series C posts read in full) — no ARR/revenue figure disclosed",
+    "Searched for Linear MAU >=1M — no credible public source reports Linear MAU",
+    "Searched award route: Apple Design Awards 2025 winners list (12 winners) does not include Linear; no Awwwards SOTY/FWA/Webby for Linear found",
+    "Estimate trackers (LATKA, ARR Club, GrowthHunt, Systemaic, whoearns, ToolJunction, jobsbyculture) all report ~$100M ARR but are Tier 3 and excluded as anchors per standard"
+  ]
+}

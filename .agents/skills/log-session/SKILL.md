@@ -25,7 +25,10 @@ Resolve all script paths against this skill's directory (the parent of this SKIL
 
 1. **Verify `sessions.jsonl` exists.** If missing, stop and alert (see Target file above).
 
-2. **Detect your harness and resume command.** Introspect your environment to determine the agent harness and construct its resume command (e.g. Pi exposes `PI_SESSION_ID` → `pi --session <id>`). If you cannot determine either, **STOP**. Do not guess. Ask the user. If the user gives a resume command explicitly, use it verbatim instead of the detected one.
+2. **Detect your harness and resume command.** Introspect your environment to determine the agent harness and construct its resume command. If you cannot determine either, **STOP**. Do not guess. Ask the user. If the user gives a resume command explicitly, use it verbatim instead of the detected one.
+
+   - **Pi:** exposes `PI_SESSION_ID` → `pi --session <id>`.
+   - **opencode:** no env var exposes the session id — it must be pulled from the session DB, and `opencode --continue` can land on a subagent's session instead of the user's chat. See `references/opencode-resume.md` for the full procedure.
 
 3. **Detect your device.** Run `hostname` for the raw hostname. Detect Docker: check for `/.dockerenv`; if absent, check `/proc/1/cgroup` for container indicators. If Docker is detected, annotate as `<hostname> (docker)`. If the hostname looks like an actual name, use it as-is. If it does not (e.g. a long hex hash), show the user the raw value as the default and **STOP and wait** for them to accept it or type a custom label. Detect fresh and ask again every session; do not persist custom labels.
 

@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-19T12:10:26.033811-10:00",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "today": "2026-08-18",
+  "reports_scanned": [
+    "2026-08/2026-08-16/report.md",
+    "2026-08/2026-08-17/report.md"
+  ],
+  "streak_hits": {
+    "https://example.com/model-x": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Model X hits milestone",
+      "url": "https://example.com/model-x?utm_source=hn",
+      "url_key": "https://example.com/model-x",
+      "head_key": "model x hits milestone",
+      "date": "2026-08-14",
+      "domain": "AI research papers"
+    },
+    "https://example.com/s2-p16": {
+      "last_file": "2026-08/2026-08-16/report.md",
+      "section": "AI trends",
+      "headline": "Vector DB company launches serverless tier",
+      "url": "https://example.com/s2-p16",
+      "url_key": "https://example.com/s2-p16",
+      "head_key": "vector db company launches serverless tier",
+      "date": "2026-08-14",
+      "domain": "AI company news"
+    },
+    "https://example.com/s2-p17": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Open benchmark leaderboard adds evals",
+      "url": "https://example.com/s2-p17",
+      "url_key": "https://example.com/s2-p17",
+      "head_key": "open benchmark leaderboard adds evals",
+      "date": "2026-08-15",
+      "domain": "AI research papers"
+    }
+  },
+  "streak_headline_hits": {
+    "model x hits milestone": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Model X hits milestone",
+      "url": "https://example.com/model-x?utm_source=hn",
+      "url_key": "https://example.com/model-x",
+      "head_key": "model x hits milestone",
+      "date": "2026-08-14",
+      "domain": "AI research papers"
+    },
+    "vector db company launches serverless tier": {
+      "last_file": "2026-08/2026-08-16/report.md",
+      "section": "AI trends",
+      "headline": "Vector DB company launches serverless tier",
+      "url": "https://example.com/s2-p16",
+      "url_key": "https://example.com/s2-p16",
+      "head_key": "vector db company launches serverless tier",
+      "date": "2026-08-14",
+      "domain": "AI company news"
+    },
+    "open benchmark leaderboard adds evals": {
+      "last_file": "2026-08/2026-08-17/report.md",
+      "section": "AI trends",
+      "headline": "Open benchmark leaderboard adds evals",
+      "url": "https://example.com/s2-p17",
+      "url_key": "https://example.com/s2-p17",
+      "head_key": "open benchmark leaderboard adds evals",
+      "date": "2026-08-15",
+      "domain": "AI research papers"
+    }
+  },
+  "warnings": []
+}

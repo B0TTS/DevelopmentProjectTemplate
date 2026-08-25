@@ -1,0 +1,124 @@
+# Angle e — Practices Borrowed from Human Review Workflows (Wave 1)
+
+## (a) Angle and wave
+Angle e of the review-agent research program: which human review practices (checklists, two-person rule, desk checks, fresh-eyes review, PR culture, editorial review) practitioners have explicitly mapped onto review subagents, what the human research base says transfers or does not, and with what evidence. Wave 1. All web claims read in full; tiers per program rules.
+
+## (b) Seed note (verbatim)
+> "Subagent Review
+> When creating something, stop allowing agents to review their own products. Always instruct agents to spawn review subagents on their work. (say 'spawn a read-only reviewer in a separate context; do not trust your own summary')"
+
+## (c) Questions
+
+### Q1. Which human practices have practitioners explicitly mapped onto review subagents?
+Four of the six scoped practices have explicit, traceable mappings; two do not.
+
+1. **Two-person rule → two-model / different-vendor review** (the most explicit mapping found). Lamis, "Correlating the Errors – The Structural Read" (Substack, 2026-05-31): code review rests on "two independent minds"; the security two-person rule (high-stakes changes verified by two independent agents — from Len Bass's CMU lecture) collapses when "we use one LLM to generate code and another to 'LGTM' it… we are correlating the errors." Agnishotry, "Two AIs, One PR" (2026-04-23): two models from different vendors per PR because "same-family models can share blind spots." Matsuzaki (dev.to, 2026-07-14): reviewer should be "a different mind… ideally a different vendor." Comfy Internals (Matt Miller, 2026-06-09): four labs, "four models from the same lab aren't four opinions, they're one opinion in four voices."
+2. **Fresh-eyes review → cold-context reviewer.** Agnishotry: "Codex has never seen the chat that produced the code. It evaluates the diff cold." Youngju (2026-05-14): the generator must not review its own code — "in human terms, it is grading your own exam." Matsuzaki: "most of the catches came from a mind different from the author." Kent Beck (newsletter, 2025-12-26) maps Fagan's 1976 insight — "other humans looking at your code catches problems you can't see yourself" — onto AI review.
+3. **Checklists → checklist-scoped review prompts.** Abrar Qasim (2026-05-16): five structured categories, "boring on purpose," plus an "AI-assisted PR checklist" in the PR template — "forcing the second-model output to be pasted into the PR makes it inconvenient to skip the step, which is most of what a checklist does anyway." Dreaming.press (2026-07-24): six checks for agent-authored PRs. Youngju: 10-point human checklist. Beck calls CodeRabbit "a very thorough checklist that can read code."
+4. **Editorial review → draft cross-check.** Matsuzaki: his AI-written article draft was cross-checked line-by-line against the original ledger by a different-vendor AI — an editorial fact-check pass with source material supplied.
+5. **Desk check → subagent: NO explicit mapping found.** Human practice documented (Vinicius Nyp, dev.to, 2024-01-19: synchronous author-led presentation, 15–30 min; "the author may notice errors… overlooked during development"). Closest adaptation found: openclaw-merge-bouncer ("ai code review desk," GitHub): converts PR context into a review packet (summary, risk level, danger zones, human inspection order, decision). Procedure only; no outcome data (T3, candidate).
+6. **PR culture → CI/label-triggered reviewers.** Manish J (2026-03-30), Comfy (label-triggered deep pass), Cato Networks (2026-03-16). Deep overlap with angle a; flagged, not researched further.
+
+### Q2. Trigger, adaptation, evidence per mapped practice
+- **Two-person rule (different-vendor):** Trigger — PR opened / high-risk change. Adaptation — second-vendor model reviews the cold diff; every finding must be answered ("fix or argue, never silently ignore" — Agnishotry); human is final judge, never auto-merge on AI approval (Manish J; Agnishotry). Evidence — Agnishotry: cross-client regressions "drastically reduced," readable PR history over months (T2); Comfy: two real single-reviewer catches on one diff (multi-image edit; dropped moderation setting), ~110 PRs, flat $200/month, "None of this is benchmarked" (T2); Matsuzaki: ledger, 17 confirmed catches from a different mind, self-declared no control group (T2, quantitative but uncontrolled).
+- **Fresh-eyes cold review:** Trigger — artifact complete, before merge/share. Adaptation — reviewer receives only diff/artifact + spec/rubric; no author chat, no shared context. Evidence — Matsuzaki's confession: same-model draft review missed ledger errors (wrong counts, cross-wired incidents) that source-reconciliation review caught (T2, single incident); mechanism study: Panickssery et al., "LLM Evaluators Recognize and Favor Their Own Generations" (NeurIPS 2024, T1) — LLM evaluators rate their own outputs higher; GPT-4 recognizes its own output 73.5% of the time; self-recognition correlates with self-preference.
+- **Checklist-scoped review:** Trigger — before merge / per PR. Adaptation — structured category prompt with "do not invent issues," "only flag changed lines," "don't flag linter territory" (Abrar Qasim; Manish J); repo-level "by design" notes kill recurring false positives (Manish J). Evidence — Manish J: "about 60–70% of findings are actionable" across hundreds of PRs; two weeks of prompt iteration (T2).
+- **Editorial source-reconciliation:** Trigger — before numbers/claims go public. Adaptation — reviewer handed artifact + primary source; mechanical line-by-line matching. Evidence — Matsuzaki: caught errors two prior open-ended AI passes missed (T2).
+
+### Q3. What the human research base transfers — and what does not
+*Transfers (mapping is my reasoning unless a source makes it):*
+- **Review-size and time limits (T1, SmartBear "Best Kept Secrets of Peer Code Review," 2,500 reviews / 1.2M LOC):** <200–400 LOC per review; <400–500 LOC/hour; detection plateaus after ~60 min; 61% of reviews found zero defects; 200–400 LOC over 60–90 min yields 70–90% defect discovery. Agent analogs reported independently: Comfy's 5,000-line diff cap; codeongrass (2026-04-24) ">200 lines for a 'small fix' is a warning sign"; Manish J's "only changed lines." Reasoning: human limits reflect bounded attention; an LLM reviewer's context is also bounded but the fatigue mechanism differs — the agent-side caps stand on practitioner report, not on this study.
+- **Checklists work when genuinely enforced, fail when ceremonial (T1, conflicting pair):** Haynes et al., NEJM 2009 (19-item WHO checklist, 8 hospitals, ~7,700 patients: mortality 1.5%→0.8%, P=0.003; complications 11.0%→7.0%) vs. Urbach et al., NEJM 2014 (mandated province-wide, 101 hospitals, >215,000 procedures: mortality OR 0.91, P=0.13; complications OR 0.97, P=0.29). Transfer: a checklist prompt's payoff depends on the gate around it (human triage, skip log), not the checklist itself. Reasoning: mapping mine; Manish J's skip log and Cato's noise control operationalize it.
+- **Individual review beats meetings (T1, Votta/Kelly via SmartBear):** meetings contributed ~4% of defects (Votta); meetings added 20 new defects to 147 found in individual reading, two-thirds trivial (Kelly). Reasoning: supports single-reviewer agent passes over multi-agent debate as the default.
+- **Own-text blindness (T1, writing research, conflicting):** Hull 1987 (via BYU Editing Research, 2022): skilled and unskilled writers "did better overall at error correction when they worked on a text that was not their own"; ERIC EJ498842 (1993): self-generated essays are harder to proofread — "extreme familiarity" is the mechanism; Worman (1979): outside-proofread papers 2.1 vs 4.8 errors for self-proofread. But Covill (2010, 61 students): formal peer review did NOT beat self-review for writing quality; and PubMed 35790565 (2022) failed to replicate the self-generation proofreading effect. The human fresh-eyes effect is real in some studies, absent in others.
+- **Structured author self-review works (T1, SmartBear):** reviews with author preparation had far fewer defects because the author caught them during preparation. Reasoning: supports checklist-driven self-review as a complement, not a substitute.
+*Does NOT transfer:*
+- **Knowledge transfer and team awareness — code review's dominant human value (T1, Bacchelli & Bird, ICSE 2013, Microsoft):** defect comments were only 14% of 570 classified comments (code improvements 29%); top motivation is defect finding but the top outcomes are social. An agent reviewer cannot transfer knowledge; only the defect-finding slice carries over. Caimito (2026-04-20) and Octopus (2026-07-03) make the same point.
+- **Ego effect and accountability (T1, SmartBear; T2, tomrochette 2026-07-25 "accountability theater"; pyor 2026-06-26):** the "ego effect" and the blame function of an approval are social; no agent analog — the human gate must supply accountability.
+- **Domain experience/context (T1, Bacchelli & Bird):** reviewers with prior understanding review faster and more valuably. A cold reviewer deliberately lacks this; its fresh-eyes value and its comprehension cost are the same coin — cuts against naive "fresh eyes always."
+- **Desk check's social function:** synchronous explanation-forcing and knowledge exchange (Nyp 2024) cannot be replicated by a subagent; only its review-packet residue transfers (T3 candidate).
+
+### Q4. Failure modes when human practices are borrowed
+- **Checklist fatigue.** Humans: aviation — "too many checklists reduce overall compliance" (PMC3279961); surgery — barriers include "time spent completing the checklist for no perceived benefit," duplication, "checklist fatigue" (Wiley, ans.12168); VAP checklist caused "form fatigue and checklist burnout," rates rebounded after washout (BMJ Q&S, 2011, T1). Agents: the fatigue transfers to the human operator — Comfy: an every-PR heavy pass "trains people to ignore the bot"; Cato: "too much low-value output… developers stop paying attention"; Manish J: first prompt version flooded 15+ comments/PR. No sourced evidence found of fatigue *inside* an agent (degraded review quality over repeated use).
+- **Rubber-stamp PR culture.** Human (T2): pyor documents the rubber stamp and the "obligation nitpick" — both performances (416-comment HN thread "The Theatre of Pull Requests and Code Review"); tomrochette: "you approve without reading"; Octopus: LGTM culture. Agent (T2, measured): Matsuzaki — "uncalibrated agreement is basically a rubber stamp… if the system under test fails 10% of the time, a reviewer that always says OK still matches 90% of the time"; Comfy's "fake consensus." **Contested:** caimito asserts "AI… never rubber-stamps" (T3) — contradicted by Matsuzaki's measurement and Octopus's same-training-data critique.
+- **Process overhead without payoff.** Comfy: 24 days, 35 commits to build; Manish J: two weeks of prompt iteration, "start with one reviewer, not two"; Octopus (2026-07-03): Faros AI data — bugs/developer +54%, incidents/PR +242.7% — review load growing faster than capacity; Matsuzaki: false confidence risk — "a quantitative claim is not established no matter how many AIs agree."
+
+### Q5. Fresh-eyes effect — humans and agents
+Humans (T1, conflicting): supported by Hull 1987, generation effect 1993, Worman 1979; not reproduced by 2022 replication; Covill 2010 found no peer-vs-self advantage; SmartBear's author-preparation finding shows structured self-review catches a lot. Net: real but smaller and more conditional than folklore. Agents: one T1 mechanism (Panickssery 2024 self-preference) plus T2 incidents (Matsuzaki's ledger catch; Agnishotry's cold diff; Comfy's single-reviewer catches). No sourced evidence found of a controlled practitioner experiment isolating fresh context vs same context in agent review — that is angles d/f territory; flagged for the orchestrator.
+
+### Q6. Adoptability barriers per borrowed practice (beginner)
+- **Checklist-scoped review:** lowest barrier — one subagent, copy-pasteable prompt; authoring effort real but small (Manish J: iterate ~2 weeks; "telling it what NOT to flag matters more than what to flag"); verifiable via skip log.
+- **Fresh-eyes cold review:** trivial setup (fresh context is default harness behavior); the barriers are habit (remembering to spawn) and judging whether findings are real.
+- **Two-person rule (different vendor):** highest barrier — second subscription/API key, CI plumbing, cost discipline (Comfy ~$200/month; Matsuzaki's candidate reviewer failed its pre-hire "interview" and was declined for under a dollar of API calls), plus calibration work.
+- **Editorial source-reconciliation:** requires source material to exist and be accessible; effort scales with artifact size.
+- **Desk check:** nothing to adopt — no agent mapping exists.
+
+### Q7. Best evidence-to-effort ratio
+**Checklist-scoped single-reviewer pass.** Reasoning: deepest layered evidence (T1 human checklist trials — with the Urbach caveat — plus T2 practitioner accounts with actionable-rate numbers), cheapest setup, and built-in verifiability (every finding checkable; skip log measures the reviewer). Fresh-eyes separation is nearly free and mechanism-backed (T1 self-preference) but its agent-side payoff is T2 incidents. The different-vendor second reviewer has the strongest testimonials but the highest setup cost, and sources explicitly recommend starting with one reviewer (Manish J; Cato runs two stages within one vendor). Sources are silent on a formal evidence-to-effort ranking; this is my reasoning.
+
+## (d) Workflow candidates (trigger / procedure / evidence)
+1. **Checklist-scoped cold review** (T2; procedure-level evidence solid, "reliably works" is a candidate claim)
+   - Trigger: artifact (diff or doc) declared done, before merge/share/publish.
+   - Procedure: spawn a read-only reviewer in a fresh context; inputs: artifact, spec/acceptance criteria, 5–7-item failure checklist (dependency authenticity; scope vs ticket; tests assert requirement not implementation; secrets/credentials; error/empty paths); prompt constraints: file:line evidence, severity tags, "if none in a category, say none; do not invent issues," changed lines only, no style nits; findings → fix or logged pushback; human decides; skip log reviewed monthly.
+   - Evidence: Abrar Qasim 2026 (T2), Manish J 2026 (T2, 60–70% actionable), dreaming.press 2026 (T2), Youngju 2026 (T2); human side Haynes/Urbach (T1) and SmartBear size limits (T1).
+2. **Different-vendor two-person review** (T2)
+   - Trigger: high-risk change (auth, migrations, deploy paths, payments) — or every non-trivial PR once calibrated.
+   - Procedure: second model from a different vendor reviews the cold diff; findings land where the human reviews; author must fix or rebut on record (one finding → one commit → one comment); human is final judge; never auto-merge on AI approval.
+   - Evidence: Agnishotry 2026 (T2), Matsuzaki 2026 (T2, 17 catches), Comfy 2026 (T2, ~110 PRs, two single-reviewer real bugs), tatteddev 2026 (T2); mechanism Panickssery 2024 (T1); error-correlation argument lamis73 2026 (T2).
+3. **Editorial source-reconciliation review** (T2)
+   - Trigger: before any artifact with numbers, counts, or citations goes public.
+   - Procedure: reviewer receives artifact AND primary sources; verify each quantitative claim line-by-line against source; reject claims the source does not support; a second reviewer recounts if stakes warrant.
+   - Evidence: Matsuzaki 2026 (T2) — caught errors two open-ended passes missed; its own draft is the worked example.
+4. **Risk-scored review escalation** (T2)
+   - Trigger: per-PR risk tier.
+   - Procedure: cheap layers always (lint/CI/static analysis + one AI reviewer); high-risk changes escalate to two-model review with reconciliation; human reads verdicts, resolves disagreements.
+   - Evidence: tatteddev 2026 (T2), Comfy's label-triggered pass (T2). Human analog SmartBear spot-check (T1, ego effect) — transfer reasoning only.
+
+## (e) Failure modes and adoptability barriers (summary)
+Noise trains humans to ignore the bot; ceremonial checklists produce no effect without a real gate (Haynes vs Urbach); multi-model overhead lands before calibrated payoff; shared mitigations across sources: start with one reviewer, constrain the prompt, keep the human as judge, log skips, escalate by risk.
+
+## (f) Open gaps and suggested follow-ups
+- No sourced evidence found: explicit "desk check → subagent" mapping; editorial-review mapping beyond source-reconciliation; measured agent-internal checklist fatigue; controlled practitioner comparison of same-model vs different-model reviewers (Matsuzaki: "the effect of vendor difference alone is something my own experiments haven't pinned down"); long-run degradation/prompt drift of agent reviewers.
+- Contradictions to arbitrate: Haynes vs Urbach (checklist effect); 1993 vs 2022 proofreading findings; caimito "AI never rubber-stamps" vs Matsuzaki's measurement.
+- Follow-ups for wave 2: reviewer pre-screening ("interview your reviewer before you hire it" — Matsuzaki) as a standalone practice; skip-log maintenance as calibration ritual; agent-side review-fatigue experiments.
+
+## (g) Headline
+The three most adoptable patterns from this angle: (1) **checklist-scoped cold review** (T2 practitioner, T1 human analog) — cheapest setup, most verifiable, best documented; (2) **fresh-eyes separation** — the seed note itself: nearly free, mechanism-backed by T1 self-preference research and T2 incidents, though not control-tested by practitioners; (3) **risk-scored escalation to a different-vendor second reviewer** (T2) — the highest payoff claim but the highest setup cost; add it only after one reviewer is calibrated, and only on high-risk changes.
+
+## (h) Sources
+Practitioner/agent-side:
+- Agnishotry, "Two AIs, One PR: An Adversarial Code Review Loop," https://p.agnihotry.com/post/two-ais-one-pr-adversarial-code-review-loop/ (2026-04-23) — two-vendor adversarial loop, cold diff, one-commit-per-finding, human judge.
+- Manish J, "Running AI Code Review in CI With Gemini and Claude," https://manishj.com/garden/running-ai-code-review-ci-gemini-claude (2026-03-30) — two reviewers, prompt constraints, CLAUDE.md context, 60–70% actionable, skip log, start-with-one.
+- Lamis, "Correlating the Errors – The Structural Read," https://lamis73.substack.com/p/correlating-the-errors (2026-05-31) — two-person rule, error correlation in same-model review.
+- Matsuzaki, "Getting AIs to review each other…," https://dev.to/ryosuke_matsuzaki_64cd24a/getting-ais-to-review-each-other-was-easy-the-hard-part-was-measuring-whether-i-could-trust-the-4o55 (2026-07-14) — ledger, 17 catches, rubber-stamp measurement, reviewer interview, source-reconciliation confession.
+- Youngju, "How to Review AI-Generated Code…," https://www.youngju.dev/blog/culture/2026-05-14-reviewing-ai-generated-code-verification-loop-ai-slop-deep-dive-guide-2026.en (2026-05-14) — generator/verifier separation, grading your own exam, 10-point checklist.
+- Tatteddev, "Four Reviewers and a Gauntlet," https://tatteddev.com/blog/layered-review-for-ai-authored-code/ (n.d./2026) — risk-scored escalation, dual-model on high-risk.
+- Matt Miller, Comfy Internals, "How we got four rival AI labs to fight over our code reviews," https://blog.comfy.org/p/comfy-internals-how-we-got-four-rival (2026-06-09) — four labs, judge consolidation, ~110 PRs, noise-avoids-bot, 5k-line cap, no benchmarks.
+- Abrar Qasim, "AI Code Review Tools I Run Before Merging PRs," https://abrarqasim.com/blog/ai-code-review-tools-what-i-run-before-merging-ai-written-prs/ (2026-05-16) — structured categories, PR checklist, do-not-invent-issues.
+- Dreaming.press, "How to Review an AI Agent's Draft PR… Six Checks," https://dreaming.press/posts/how-to-review-an-ai-agent-draft-pr-before-you-merge.html (2026-07-24) — six checks for agent-authored PRs.
+- Codeongrass, "How to Review AI-Generated Code That Ships Faster Than You Can Read," https://codeongrass.com/blog/how-to-review-ai-generated-code-faster-than-you-can-read/ (2026-04-24) — four checkpoints, 200-line warning heuristic.
+- Cato Networks, "Inside Cato R&D's Self-Evolving PR Review Agent," https://www.catonetworks.com/blog/inside-cato-rds-self-evolving-pr-review-agent/ (2026-03-16, vendor-adjacent) — noise control, two-stage candidate+critic, 43% of incident-causing PRs flagged.
+- openclawunboxed/openclaw-merge-bouncer, https://github.com/openclawunboxed/openclaw-merge-bouncer — "ai code review desk," review-packet procedure (T3).
+- Vinicius Nyp, "Desk Check in remote teams," https://dev.to/viniciusnyp/desk-check-in-remote-teams-3em7 (2024-01-19) — human desk-check definition.
+- Kent Beck, "Party of One for Code Review!," https://newsletter.kentbeck.com/p/party-of-one-for-code-review (2025-12-26) — Fagan's fresh-eyes insight, LGTM culture, "checklist that can read code."
+- Tom Rochette, "You Already Review Code Without Reading It," https://tomrochette.com/code-review-without-reading-the-code/ (2026-07-25) — metadata approval, accountability theater.
+- Othman Shareef / Pyor, "LGTM Code Review: When Approval Becomes Theatre," https://pyor.review/blog/lgtm-culture-code-review-theatre (2026-06-26) — rubber stamp + obligation nitpick, theatre signals.
+- Caimito, "Pull Requests Were Never Meant for Your Team," https://www.caimito.net/en/blog/2026/04/20/pull-requests-were-never-meant-for-your-team.html (2026-04-20) — rubber-stamp assembly line; contested "AI never rubber-stamps" claim.
+- John Bristowe, Octopus Deploy, "Code Review Is Theater Now," https://octopus.com/blog/code-review-is-theater-now (2026-07-03) — LGTM culture, Faros AI data, same-blind-spots critique.
+
+Human research base:
+- Bacchelli & Bird, "Expectations, Outcomes, and Challenges of Modern Code Review," ICSE 2013, https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICSE202013-codereview.pdf — defect comments 14%, social outcomes dominate, familiarity helps reviewers.
+- SmartBear, "Best Kept Secrets of Peer Code Review" (+ 2,500-review study, social aspects), https://static1.smartbear.co/smartbear/media/pdfs/best-kept-secrets-of-peer-code-review_redirected.pdf and https://static1.smartbear.co/support/media/resources/cc/episode_4_thelargestcasestudyofcodereviewever.pdf (2006) — 200–400 LOC, 60–90 min, ego effect, author preparation, Votta/Kelly meeting findings.
+- Haynes et al., "A Surgical Safety Checklist…," NEJM 2009, https://www.nejm.org/doi/full/10.1056/NEJMsa0810119 — mortality 1.5%→0.8%.
+- Urbach et al., "Introduction of Surgical Safety Checklists in Ontario," NEJM 2014, https://www.nejm.org/doi/full/10.1056/NEJMsa1308261 — no significant effect under mandate.
+- "Surgical checklists: a detailed review of their emergence…," PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC3279961/ — checklist fatigue, aviation compliance, B17 origin.
+- "Surgical safety checklists: a review," Wiley ANZ J Surg, https://onlinelibrary.wiley.com/doi/10.1111/ans.12168 — implementation barriers, compliance 2–99%.
+- "Rebound in ventilator-associated pneumonia rates during a prevention checklist washout period," BMJ Qual Saf 2011, https://qualitysafety.bmj.com/content/20/9/811 — form fatigue, rebound after washout.
+- Degani & Wiener, "Cockpit Checklists: Concepts, Design, and Use," 1993, https://journals.sagepub.com/doi/10.1177/001872089303500209 — checklist design, nonuse in accidents.
+- Panickssery, Bowman, Feng, "LLM Evaluators Recognize and Favor Their Own Generations," NeurIPS 2024, https://arxiv.org/abs/2404.13076 — self-preference, self-recognition 73.5%.
+- Hull 1987 via Abby Haralson, "Get Another Pair of Eyes—Why Self-Editing Doesn't Always Work," BYU Editing Research, https://editingresearch.byu.edu/2022/11/16/get-another-pair-of-eyes-why-self-editing-doesnt-always-work/ (2022-11-16) — own-text editing deficit.
+- "The Generation Effect in Reading and Proofreading," Reading and Writing 1993, https://eric.ed.gov/?id=EJ498842 — extreme familiarity impairs self-proofreading.
+- "Revisiting the self-generation effect in proofreading," 2022, https://pubmed.ncbi.nlm.nih.gov/35790565/ — replication failure.
+- Covill, "Comparing Peer Review and Self-Review…," 2010, https://doi.org/10.1080/10862961003796207 — no peer-vs-self quality difference (61 students).
+- Worman, "Analysis of proofreading methods…," 1979, http://digital.library.wisc.edu/1793/38929 — outside proofreading 2.1 vs 4.8 errors.
+- Wikipedia, "Two-person rule," https://en.wikipedia.org/wiki/Two-person_rule; AFI 91-112, https://static.e-publishing.af.mil/production/1/af_se/publication/afi91-112/afi91-112.pdf; Aerospace SPARTA CM0054, https://sparta.aerospace.org/countermeasures/references/IA-12/2 — two-person rule definitions (documentation-grade).

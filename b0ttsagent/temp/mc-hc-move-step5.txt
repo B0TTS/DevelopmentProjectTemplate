@@ -1,0 +1,8 @@
+# Step 5: Pull hc-solo files from InterServer VPS to the workstation
+# Run from: C:\Users\intel\DevelopmentProjectTemplate\b0ttsagent\temp
+# Expect: progress bar on the 246M backup, then dir shows all 3 files
+
+scp deploy@interdeploymcvps.tailf94009.ts.net:/home/minecraft-hc-solo/backups/minecraft-hc-2026-08-16_00-46-59.tar.gz .
+scp deploy@interdeploymcvps.tailf94009.ts.net:/home/minecraft-hc-solo/docker-compose.yml .
+scp deploy@interdeploymcvps.tailf94009.ts.net:/home/minecraft-hc-solo/backup.sh .
+dir

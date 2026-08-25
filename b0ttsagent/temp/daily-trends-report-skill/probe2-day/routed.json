@@ -1,0 +1,482 @@
+{
+  "today": "2026-08-18",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "folder": "C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\temp\\daily-trends-report-skill\\probe2-day",
+  "main": {
+    "AI trends": [
+      {
+        "headline": "Fresh in window",
+        "why": "w",
+        "url": "https://example.com/f1",
+        "published_date": "2026-08-17",
+        "domain": "frontier model releases",
+        "source_type": "post",
+        "delta": "",
+        "url_key": "https://example.com/f1",
+        "head_key": "fresh in window",
+        "identity": "https://example.com/f1",
+        "update": false
+      },
+      {
+        "headline": "Story A",
+        "why": "w",
+        "url": "https://example.com/a",
+        "published_date": "2026-08-17",
+        "domain": "open-source AI",
+        "source_type": "",
+        "delta": "v2.0 released 2026-08-17",
+        "url_key": "https://example.com/a",
+        "head_key": "story a",
+        "identity": "https://example.com/a",
+        "update": true
+      },
+      {
+        "headline": "Story H",
+        "why": "w",
+        "url": "https://news.example.com/h-new",
+        "published_date": "2026-08-16",
+        "domain": "AI policy/regulation",
+        "source_type": "",
+        "delta": "CVE-2026-1234 patched in 1.2.3",
+        "url_key": "https://news.example.com/h-new",
+        "head_key": "story h",
+        "identity": "https://news.example.com/h-new",
+        "update": true
+      },
+      {
+        "headline": "Cluster 10",
+        "why": "w",
+        "url": "https://example.com/c10",
+        "published_date": "2026-08-16",
+        "domain": "AI company news",
+        "source_type": "post",
+        "delta": "",
+        "url_key": "https://example.com/c10",
+        "head_key": "cluster 10",
+        "identity": "https://example.com/c10",
+        "update": false
+      },
+      {
+        "headline": "Cluster 11",
+        "why": "w",
+        "url": "https://example.com/c11",
+        "published_date": "2026-08-17",
+        "domain": "AI company news",
+        "source_type": "post",
+        "delta": "",
+        "url_key": "https://example.com/c11",
+        "head_key": "cluster 11",
+        "identity": "https://example.com/c11",
+        "update": false
+      },
+      {
+        "headline": "Cluster 12",
+        "why": "w",
+        "url": "https://example.com/c12",
+        "published_date": "2026-08-18",
+        "domain": "AI company news",
+        "source_type": "post",
+        "delta": "",
+        "url_key": "https://example.com/c12",
+        "head_key": "cluster 12",
+        "identity": "https://example.com/c12",
+        "update": false
+      }
+    ],
+    "SWE trends": [],
+    "Productivity": []
+  },
+  "still_circulating": [
+    {
+      "headline": "Story S11",
+      "why": "w",
+      "url": "https://example.com/s11",
+      "published_date": "2026-08-16",
+      "domain": "AI infra/hardware",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/s11",
+      "head_key": "story s11",
+      "identity": "https://example.com/s11",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story S12",
+      "why": "w",
+      "url": "https://example.com/s12",
+      "published_date": "2026-08-16",
+      "domain": "AI infra/hardware",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/s12",
+      "head_key": "story s12",
+      "identity": "https://example.com/s12",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story A",
+      "why": "w",
+      "url": "https://example.com/a",
+      "published_date": "2026-08-15",
+      "domain": "AI company news",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/a",
+      "head_key": "story a",
+      "identity": "https://example.com/a",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story A",
+      "why": "w",
+      "url": "https://example.com/a",
+      "published_date": "2026-08-15",
+      "domain": "AI company news",
+      "source_type": "",
+      "delta": "still being discussed",
+      "url_key": "https://example.com/a",
+      "head_key": "story a",
+      "identity": "https://example.com/a",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story S9",
+      "why": "w",
+      "url": "https://example.com/s9",
+      "published_date": "2026-08-15",
+      "domain": "AI infra/hardware",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/s9",
+      "head_key": "story s9",
+      "identity": "https://example.com/s9",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story S10",
+      "why": "w",
+      "url": "https://example.com/s10",
+      "published_date": "2026-08-15",
+      "domain": "AI infra/hardware",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/s10",
+      "head_key": "story s10",
+      "identity": "https://example.com/s10",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story S7",
+      "why": "w",
+      "url": "https://example.com/s7",
+      "published_date": "2026-08-14",
+      "domain": "AI infra/hardware",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/s7",
+      "head_key": "story s7",
+      "identity": "https://example.com/s7",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story S8",
+      "why": "w",
+      "url": "https://example.com/s8",
+      "published_date": "2026-08-14",
+      "domain": "AI infra/hardware",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/s8",
+      "head_key": "story s8",
+      "identity": "https://example.com/s8",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story S5",
+      "why": "w",
+      "url": "https://example.com/s5",
+      "published_date": "2026-08-13",
+      "domain": "AI infra/hardware",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/s5",
+      "head_key": "story s5",
+      "identity": "https://example.com/s5",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    },
+    {
+      "headline": "Story S6",
+      "why": "w",
+      "url": "https://example.com/s6",
+      "published_date": "2026-08-13",
+      "domain": "AI infra/hardware",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/s6",
+      "head_key": "story s6",
+      "identity": "https://example.com/s6",
+      "update": false,
+      "reason": "streak-hit, re-proposed, no passing update"
+    }
+  ],
+  "excluded": [
+    {
+      "headline": "Old fresh",
+      "why": "w",
+      "url": "https://example.com/old",
+      "published_date": "2026-08-10",
+      "domain": "AI company news",
+      "source_type": "",
+      "delta": "",
+      "url_key": "https://example.com/old",
+      "head_key": "old fresh",
+      "identity": "https://example.com/old",
+      "update": false,
+      "reason": "older than 7 days"
+    }
+  ],
+  "dropped": [
+    {
+      "headline": "Undated story",
+      "why": "w",
+      "url": "https://example.com/u1",
+      "published_date": "",
+      "domain": "",
+      "source_type": "",
+      "delta": "",
+      "url_key": null,
+      "head_key": null,
+      "identity": null,
+      "update": false,
+      "reason": "no verifiable YYYY-MM-DD published date"
+    },
+    {
+      "headline": "Future story",
+      "why": "w",
+      "url": "https://example.com/fut",
+      "published_date": "2026-08-19",
+      "domain": "AI company news",
+      "source_type": "",
+      "delta": "",
+      "url_key": null,
+      "head_key": null,
+      "identity": null,
+      "update": false,
+      "reason": "published date is in the future"
+    },
+    {
+      "headline": "No identity item",
+      "why": "w",
+      "url": "",
+      "published_date": "",
+      "domain": "",
+      "source_type": "",
+      "delta": "",
+      "url_key": null,
+      "head_key": null,
+      "identity": null,
+      "update": false,
+      "reason": "no verifiable YYYY-MM-DD published date"
+    }
+  ],
+  "candidate_counts": {
+    "AI trends": 24,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "survivor_counts": {
+    "AI trends": 6,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "domain_counts": {
+    "AI trends": {
+      "frontier model releases": 1,
+      "open-source AI": 1,
+      "AI policy/regulation": 1,
+      "AI company news": 3
+    },
+    "SWE trends": {},
+    "Productivity": {}
+  },
+  "domain_preference_notes": [
+    "AI trends: 3 items in domain 'AI company news' \u2014 writer should keep at most 2 unless better items exist"
+  ],
+  "exclusions": [
+    {
+      "identity": "https://example.com/f1",
+      "url": "https://example.com/f1",
+      "headline": "Fresh in window"
+    },
+    {
+      "identity": "https://example.com/a",
+      "url": "https://example.com/a",
+      "headline": "Story A"
+    },
+    {
+      "identity": "https://news.example.com/h-new",
+      "url": "https://news.example.com/h-new",
+      "headline": "Story H"
+    },
+    {
+      "identity": "https://example.com/c10",
+      "url": "https://example.com/c10",
+      "headline": "Cluster 10"
+    },
+    {
+      "identity": "https://example.com/c11",
+      "url": "https://example.com/c11",
+      "headline": "Cluster 11"
+    },
+    {
+      "identity": "https://example.com/c12",
+      "url": "https://example.com/c12",
+      "headline": "Cluster 12"
+    },
+    {
+      "identity": "https://example.com/s11",
+      "url": "https://example.com/s11",
+      "headline": "Story S11"
+    },
+    {
+      "identity": "https://example.com/s12",
+      "url": "https://example.com/s12",
+      "headline": "Story S12"
+    },
+    {
+      "identity": "https://example.com/s9",
+      "url": "https://example.com/s9",
+      "headline": "Story S9"
+    },
+    {
+      "identity": "https://example.com/s10",
+      "url": "https://example.com/s10",
+      "headline": "Story S10"
+    },
+    {
+      "identity": "https://example.com/s7",
+      "url": "https://example.com/s7",
+      "headline": "Story S7"
+    },
+    {
+      "identity": "https://example.com/s8",
+      "url": "https://example.com/s8",
+      "headline": "Story S8"
+    },
+    {
+      "identity": "https://example.com/s5",
+      "url": "https://example.com/s5",
+      "headline": "Story S5"
+    },
+    {
+      "identity": "https://example.com/s6",
+      "url": "https://example.com/s6",
+      "headline": "Story S6"
+    },
+    {
+      "identity": "https://example.com/old",
+      "url": "https://example.com/old",
+      "headline": "Old fresh"
+    }
+  ],
+  "prior_identities": [
+    {
+      "identity": "https://example.com/a",
+      "url": "https://example.com/a?utm_source=x",
+      "headline": "Story A",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/h",
+      "url": "https://example.com/h",
+      "headline": "Story H",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s1",
+      "url": "https://example.com/s1",
+      "headline": "Story S1",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s2",
+      "url": "https://example.com/s2",
+      "headline": "Story S2",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s3",
+      "url": "https://example.com/s3",
+      "headline": "Story S3",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s4",
+      "url": "https://example.com/s4",
+      "headline": "Story S4",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s5",
+      "url": "https://example.com/s5",
+      "headline": "Story S5",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s6",
+      "url": "https://example.com/s6",
+      "headline": "Story S6",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s7",
+      "url": "https://example.com/s7",
+      "headline": "Story S7",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s8",
+      "url": "https://example.com/s8",
+      "headline": "Story S8",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s9",
+      "url": "https://example.com/s9",
+      "headline": "Story S9",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s10",
+      "url": "https://example.com/s10",
+      "headline": "Story S10",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s11",
+      "url": "https://example.com/s11",
+      "headline": "Story S11",
+      "last_file": "2026-08/2026-08-17/report.md"
+    },
+    {
+      "identity": "https://example.com/s12",
+      "url": "https://example.com/s12",
+      "headline": "Story S12",
+      "last_file": "2026-08/2026-08-17/report.md"
+    }
+  ],
+  "warnings": [
+    "swe.json missing \u2014 treated as zero candidates",
+    "productivity.json missing \u2014 treated as zero candidates",
+    "4 still-circulating item(s) over the cap of 10 were cut (oldest first)"
+  ]
+}

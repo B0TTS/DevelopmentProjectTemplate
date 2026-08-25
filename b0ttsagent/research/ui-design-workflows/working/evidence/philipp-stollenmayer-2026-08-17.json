@@ -1,0 +1,22 @@
+{
+  "name": "Philipp Stollenmayer (Kamibox)",
+  "products": ["Song of Bloom", "PBJ - The Musical", "Bacon - The Game", "Pancake", "Burger", "o k a y?"],
+  "route": "award",
+  "scale_evidence": {
+    "figure": "Apple Design Award 2025, Innovation category (Games) — Winner, PBJ - The Musical, credited individually to 'Philipp Stollenmayer, Germany'. Announced June 3, 2025 (Apple newsroom, WWDC25). Apple Design Award is an allowed top-tier award; individually credited; in-window.",
+    "date": "2025-06-03 (announced); fetched 2026-08-17",
+    "source_url": "https://developer.apple.com/design/awards/2025/",
+    "tier": "T1"
+  },
+  "window_5yr": "in-window",
+  "doc_currency": "Current — https://kamibox.de/songofbloom-files is live as of 2026-08-17 and remains the current press/design-doc page for Song of Bloom on kamibox.de; the site is actively maintained (PBJ - The Musical released Mar 26 2025, current pbj-files page).",
+  "verdict": "PASS",
+  "rejection_reason": null,
+  "dead_ends_searched": [
+    "Song of Bloom Apple Design Award 2020 (June 2020, Apple newsroom) — confirmed but out-of-window (before 2021-08-17)",
+    "Webby for Song of Bloom — no Webby win found; 25th Webby Awards announced May 18 2021 (out-of-window anyway); Song of Bloom not among winners found",
+    "ADA 2021-2024 for any Kamibox title — none found; qualifying in-window award is ADA 2025 (PBJ - The Musical, Innovation)",
+    "Communication Arts — not needed; ADA 2025 already qualifies",
+    "kamibox.de/songofbloom-files first-party awards list — confirms ADA 2020, IGF 2020, Deutscher Computerspielpreis 2020, D.I.C.E. 2021 nominee (all out-of-window or non-qualifying); no Webby listed"
+  ]
+}

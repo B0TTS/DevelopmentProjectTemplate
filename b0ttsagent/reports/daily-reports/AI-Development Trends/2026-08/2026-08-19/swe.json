@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "headline": "Go 1.27.0 released (major release)",
+      "why": "The first major Go release since 1.26 lands today, six months after the last one, resetting the toolchain upgrade bar for the entire ecosystem.",
+      "url": "https://go.dev/doc/devel/release",
+      "published_date": "2026-08-19",
+      "domain": "languages & frameworks",
+      "source_type": "release notes",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Stripe agrees to acquire AI model gateway OpenRouter for $8B+",
+      "why": "The developer-facing AI model-routing and token-pricing layer consolidates under a payments giant, signaling AI token spend is becoming core payments infrastructure.",
+      "url": "https://www.axios.com/2026/08/17/stripe-openrouter-paypal",
+      "published_date": "2026-08-17",
+      "domain": "cloud & pricing",
+      "source_type": "news",
+      "delta_or_null": null
+    },
+    {
+      "headline": "Google gates Pixel kernel source behind request form and Google Drive links",
+      "why": "GrapheneOS reports Google replaced public git-tag downloads of Pixel kernel source with a manual form and weeks-long Google Drive waits, raising GPLv2 compliance questions and stalling custom-ROM security patches.",
+      "url": "https://www.opensourceforu.com/2026/08/google-makes-pixel-kernel-source-harder-to-access/",
+      "published_date": "2026-08-17",
+      "domain": "OSS licensing & governance",
+      "source_type": "news",
+      "delta_or_null": null
+    }
+  ]
+}

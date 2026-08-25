@@ -1,0 +1,69 @@
+{
+  "today": "2026-08-18",
+  "tz": "UTC-10 (fixed offset, no DST)",
+  "folder": "C:\\Users\\intel\\DevelopmentProjectTemplate\\b0ttsagent\\temp\\daily-trends-report-fixtures\\s6\\AI-Development Trends\\2026-08\\2026-08-18",
+  "main": {
+    "AI trends": [
+      {
+        "headline": "Open-source small model lands",
+        "why": "A small open model with strong per-token efficiency targets laptops.",
+        "url": "https://example.com/s6-fresh",
+        "published_date": "2026-08-15",
+        "domain": "open-source AI",
+        "source_type": "blog post",
+        "delta": "",
+        "url_key": "https://example.com/s6-fresh",
+        "head_key": "open source small model lands",
+        "identity": "https://example.com/s6-fresh",
+        "update": false
+      }
+    ],
+    "SWE trends": [],
+    "Productivity": []
+  },
+  "still_circulating": [],
+  "excluded": [],
+  "dropped": [
+    {
+      "headline": "Mystery finding with no date",
+      "why": "",
+      "url": "https://example.com/s6-undated",
+      "published_date": "",
+      "domain": "AI research papers",
+      "source_type": "paper",
+      "delta": "",
+      "url_key": null,
+      "head_key": null,
+      "identity": null,
+      "update": false,
+      "reason": "no verifiable YYYY-MM-DD published date"
+    }
+  ],
+  "candidate_counts": {
+    "AI trends": 2,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "survivor_counts": {
+    "AI trends": 1,
+    "SWE trends": 0,
+    "Productivity": 0
+  },
+  "domain_counts": {
+    "AI trends": {
+      "open-source AI": 1
+    },
+    "SWE trends": {},
+    "Productivity": {}
+  },
+  "domain_preference_notes": [],
+  "exclusions": [
+    {
+      "identity": "https://example.com/s6-fresh",
+      "url": "https://example.com/s6-fresh",
+      "headline": "Open-source small model lands"
+    }
+  ],
+  "prior_identities": [],
+  "warnings": []
+}
