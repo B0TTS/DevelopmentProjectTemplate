@@ -2,10 +2,10 @@
 
 This file provides guidance to AI coding agents (Claude Code, Cursor, Copilot, Antigravity, etc.) when working with code in this repository.
 
- ## Commands
+### Commands
 
- No build/test/lint pipeline — content is markdown docs and agent
- config. The scaffolder lives in `Setup/template-dev-installer/`.
+No build/test/lint pipeline — content is markdown docs and agent
+config. The scaffolder lives in `Setup/template-dev-installer/`.
 
 ### Core Rules
 
@@ -27,6 +27,10 @@ For every request:
 ### Navigation Guides
 
 Reference documents for configured services and systems (VPS, Docker, Minecraft, Prism, etc.) are stored in `b0ttsagent/NavGuides/`. Each guide has YAML front matter with `name`, `topics` (keywords), and `description` fields. Scan the front matter to find relevant guides when the user asks about anything that might have stored reference material.
+
+### README
+
+`README.md` is user-facing project setup (Docker bootstrap, dependencies, SSH, tmux, GSD, notifications). Not agent-actionable — skip it unless the user asks about setup.
 
 ### Handoffs
 
@@ -60,9 +64,15 @@ This is mainly useless stuff that I store for tracking adjustments/evolution of 
 Completed, superseded, or abandoned plans go in `b0ttsagent/plan-archive/`. This includes
 multi-phase and full-stack implementation plans. Do not put active plans here.
 
+### Research
+
+`b0ttsagent/research/` Holds structured deep-dive research notes and reference materials organized by topic folders (e.g., `b0ttsagent/research/<topic-name>/`).
+Nothing in here will ever really be useful unless stated expclicitly by the user.
+
 ### Temp Files
 
 Throwaway files go in `b0ttsagent/temp/`. No structure — just a dumping ground.
+**Always use this directory for temp files**
 
 ### Anti-Rationalization
 

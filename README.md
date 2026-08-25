@@ -17,11 +17,7 @@ npx @b0tts/template-dev-installer@latest
 **2. Install your agent repos from scratch to local project**
 
 ```
-npm install --ignore-scripts @earendil-works/pi-coding-agent
-```
-
-```
-npm install opencode-ai
+  git submodule update --init --recursive
 ```
 
 **3. Install whatever plugins, skills, etc**
@@ -75,6 +71,30 @@ Make sure youre tracking all the files you wanna track for the project.
 ```
 
 Then set the env var: `export CONTEXT7_API_KEY=ctx7sk-...`
+
+**3. SearXNG MCP** — web search via the self-hosted VPS instance. Add to `.opencode/opencode.json`:
+
+```json
+"mcp": {
+  "searxng": {
+    "type": "local",
+    "command": ["node", ".searxng-mcp/dist/cli.js"],
+    "cwd": ".searxng-mcp",
+    "environment": {
+      "SEARXNG_URL": "http://100.122.184.37:8082"
+    },
+    "enabled": true
+  }
+}
+```
+
+**3.1 - Prerequisites:** `.searxng-mcp` is a git submodule (already pulled by the harness setup step) but `dist/` is gitignored, so build it first:
+
+```bash
+cd .searxng-mcp && npm run bootstrap
+```
+
+**3.2 - Requirements:** You must be on the Tailnet (or VPN) to reach the VPS searxng instance at `http://100.122.184.37:8082`. Verify it loaded by checking for the `searxng_instance_info` tool in opencode.
 
 ## Docker
 
