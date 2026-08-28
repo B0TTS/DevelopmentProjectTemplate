@@ -1,6 +1,7 @@
 ---
 name: creative-brainstorm
 description: Generate multiple creative candidate options for a stated goal, ranked with transparent reasoning. Use when the user wants to brainstorm, ideate, explore options, generate alternatives, or find creative directions for any goal, problem, or design — before committing to a plan.
+disable-model-invocation: true
 ---
 
 # Creative Brainstorm
