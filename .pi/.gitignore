@@ -1,0 +1,25 @@
+# === SECRETS & API KEYS (CRITICAL) ===
+# Ima just reset my api keys every day.
+
+# === SESSIONS & RUN HISTORY (may contain sensitive task data) ===
+run-history.jsonl
+agent/sessions/
+agent/run-history.jsonl
+agent/missions/
+agent/settings.json
+agent/auth.json
+
+# === TRUST CONFIG (machine-specific, reveals filesystem structure) ===
+trust.json
+agent/trust.json
+
+# === AUTO-GENERATED / CACHE ===
+agent/models-store.json
+agent/exa-mcp-cache
+agent/npm/node_modules/
+agent/bin/
+agent/mcp-cache.json
+agent/mcp-onboarding.json
+
+# === TEMP & SESSION LOGS ===
+temp/
