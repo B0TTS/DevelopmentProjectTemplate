@@ -1,0 +1,183 @@
+{
+  "name": "Mark Rober",
+  "handle": "@MarkRober",
+  "platform": "YouTube",
+  "niche_format": "science/engineering builds, edited long-form 10-20 min explainers",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Former NASA JPL mechanical engineer 9 years (2004-2013), 7 years on Curiosity rover Mars Science Laboratory hardware",
+        "link": "https://en.wikipedia.org/wiki/Mark_Rober",
+        "still_current_2026": "YES - career history, confirmed in Aug 29 2026 revision 'Last updated: August 29, 2026'; corroborated by TED transcript June 2 2026 restating 'nine years at NASA and then five years at Apple' and 'seven of those were on the Mars Curiosity Rover'"
+      },
+      {
+        "claim": "Product designer Apple Special Projects Group 2015-early 2020, authored VR patents for self-driving car entertainment",
+        "link": "https://en.wikipedia.org/wiki/Mark_Rober",
+        "still_current_2026": "YES - historical employment, corroborated by Variety 2018 and Forbes 2026 profile; unchanged as of 2026"
+      },
+      {
+        "claim": "YouTube channel @MarkRober created Oct 20 2011, 81.6M subscribers and 18.7B views as of 2026-08-29, verified checkmark scale career",
+        "link": "https://en.wikipedia.org/wiki/Mark_Rober",
+        "still_current_2026": "YES - Wikipedia infobox 'Last updated: August 29, 2026' shows 81.6M/18.7B; also SocialBlade Aug 2026 81.4M and TubeLeader Aug 24 2026 81.4M/18.59B"
+      },
+      {
+        "claim": "Forbes Top Creators 2026 Rank #9 earnings $30M (June 23 2026), team of 100 producing seven-figure episodes, brand deals Rivian/Google/Disney, engagement 0.23%, entrepreneurship 4/5",
+        "link": "https://www.forbes.com/profile/mark-rober/",
+        "still_current_2026": "YES - dated June 23 2026, within window, corroborated by Forbes Top Creators 2026 list https://www.forbes.com/sites/stevenbertoni/2026/06/23/forbes-top-creators-2026/"
+      },
+      {
+        "claim": "Forbes Top Creators 2025 Rank #8 earnings $25M with 80M total followers, cited 23M-view (fool self-driving car) and 41M-view (laser vs lightning) recent videos",
+        "link": "https://www.forbes.com/sites/stevenbertoni/2025/06/16/forbes-top-creators-2025/",
+        "still_current_2026": "YES - dated June 16 2025 within 2021-2026 window, still current Aug 2026 as career scale evidence; superseded by 2026 $30M"
+      },
+      {
+        "claim": "Founder CrunchLabs (2022) STEM subscription Build Boxes, self-funded, staff now 140 per TED June 2026, channel 75M/16B cited June 2026",
+        "link": "https://www.ted.com/podcasts/ted.com/podcasts/why-chasing-the-algorithm-leads-to-burnout-with-mark-rober-transcript",
+        "still_current_2026": "YES - TED transcript June 2 2026 states '75 million followers and over 16 billion views' and 'we have like 140 employees' and '$60M Class CrunchLabs curriculum'"
+      },
+      {
+        "claim": "Averages 28.3M views per video historically, at least one video >50M each year for last seven years",
+        "link": "https://www.linkedin.com/pulse/how-mark-rober-engineered-perfect-youtube-strategy-samir-chaudry",
+        "still_current_2026": "YES - Dec 12 2022 analysis (published 2023-08-30) still current; corroborated by yt-dlp Aug 29 2026 per-video median 28.2M and CreatorDB top videos"
+      },
+      {
+        "claim": "Verified YouTube handle https://www.youtube.com/@MarkRober live Aug 2026 with checkmark implied by 81M subs and official channel page",
+        "link": "https://www.youtube.com/@MarkRober",
+        "still_current_2026": "YES - channel live Aug 2026, 81M+ subs"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-06-20",
+      "2026-04-11",
+      "2026-02-21",
+      "2025-11-28",
+      "2025-11-15"
+    ],
+    "doc_sources": [
+      {
+        "title": "Why chasing the algorithm leads to burnout with Mark Rober (Transcript) - WorkLife with Molly Graham, TED",
+        "url": "https://www.ted.com/podcasts/ted.com/podcasts/why-chasing-the-algorithm-leads-to-burnout-with-mark-rober-transcript",
+        "date": "2026-06-02",
+        "still_current_2026": "YES - published June 2 2026 within 2021-2026 window; read via webfetch Aug 29 2026; describes 1 video/month for 15 years, quality-over-quantity treadmill model, 75M/16B stats, still current Aug 2026"
+      },
+      {
+        "title": "What makes Mark Rober so successful? - With Mark Rober (Video Production Daily, Apple Podcasts)",
+        "url": "https://podcasts.apple.com/us/podcast/what-makes-mark-rober-so-successful-with-mark-rober/id1500470401?i=1000515559114",
+        "date": "2021-04-03",
+        "still_current_2026": "YES - dated April 3 2021 within window (read via webfetch Aug 29 2026); details story/script + personal edit, 200 hours footage to 10 min, quality-over-quantity, still corroborated by 2026 TED transcript"
+      },
+      {
+        "title": "The Full Story of Mark Rober - Colin and Samir",
+        "url": "https://www.youtube.com/watch?v=1t5oYKEn-1E",
+        "date": "2022-12-07",
+        "still_current_2026": "YES - published Dec 7 2022 per Rosetta https://rosetta.to/u/colinandsamir/the-full-story-of-mark-rober ; covers jogging pace, editing himself, not sprinting, still current via 2026 TED same themes"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 28199830,
+    "per_video": [
+      {
+        "title": "I Outsmarted Pro Car Thieves",
+        "views": 21656626,
+        "eligible": true
+      },
+      {
+        "title": "I Engineered The Perfect First Date",
+        "views": 22580369,
+        "eligible": true
+      },
+      {
+        "title": "Engineers vs Junkyard RC Car Death Match",
+        "views": 33737361,
+        "eligible": true
+      },
+      {
+        "title": "Ronaldo vs My Unbeatable Goalie Robot",
+        "views": 48690639,
+        "eligible": true
+      },
+      {
+        "title": "How to Escape Alcatraz With Basic Engineering",
+        "views": 36089874,
+        "eligible": true
+      },
+      {
+        "title": "I Blew Up A 24 Story Building",
+        "views": 23783219,
+        "eligible": true
+      },
+      {
+        "title": "Uncovering America's Underwater City",
+        "views": 29345934,
+        "eligible": true
+      },
+      {
+        "title": "Can You Safely Drink Your Own Pee?",
+        "views": 16186421,
+        "eligible": true
+      },
+      {
+        "title": "I Built a Roller Coaster In My Lab",
+        "views": 43961525,
+        "eligible": true
+      },
+      {
+        "title": "I Spent $5,000,000 So You Can Go To Space For FREE",
+        "views": 18683347,
+        "eligible": true
+      },
+      {
+        "title": "Testing What Happens If You Jump On A Moving Train",
+        "views": 27053725,
+        "eligible": true
+      },
+      {
+        "title": "Can You Fool A Self Driving Car?",
+        "views": 34673701,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.9,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 1.0,
+    "activity_input": 0.5,
+    "arithmetic": "0.3*1.0 + 0.5*1.0 + 0.2*0.5 = 0.3 + 0.5 + 0.1 = 0.9; hit_magnitude = median 28199830 / 10000000 = 2.82 capped 1.0; activity 0.5 because newest upload 2026-06-20 is 70 days before 2026-08-29 (≤90 days, >30 days)"
+  },
+  "documentation": [
+    {
+      "title": "Why chasing the algorithm leads to burnout with Mark Rober (Transcript) - WorkLife with Molly Graham, TED",
+      "url": "https://www.ted.com/podcasts/ted.com/podcasts/why-chasing-the-algorithm-leads-to-burnout-with-mark-rober-transcript",
+      "date": "2026-06-02",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "What makes Mark Rober so successful? - With Mark Rober (Video Production Daily)",
+      "url": "https://podcasts.apple.com/us/podcast/what-makes-mark-rober-so-successful-with-mark-rober/id1500470401?i=1000515559114",
+      "date": "2021-04-03",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "The Full Story of Mark Rober - Colin and Samir",
+      "url": "https://www.youtube.com/watch?v=1t5oYKEn-1E",
+      "date": "2022-12-07",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "1m+ median prioritized: PASS with 28.2M median (all 12 >16M, lowest 16.1M). 10m+ anchor tier: PASS top-of-shortlist anchor - lifetime avg 69.6M per video historical, 18.7B total views Aug 29 2026, recent top 48.6M (Ronaldo Goalie Robot), 43.9M (Roller Coaster), 36.0M (Escape Alcatraz), 34.6M etc. via exact yt-dlp counts. 75M subs/16B views cited June 2 2026, 81.6M Aug 29 2026. All durations 653-1651s (10-27 min) eligible long-form, no Shorts excluded.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --print channel_follower_count returned NA for @MarkRober - fell back to Wikipedia infobox (81.6M Aug 29 2026), SocialBlade 81.4M, TubeLeader 81.4M for sub count evidence"
+  ]
+}

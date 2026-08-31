@@ -1,0 +1,169 @@
+{
+  "name": "Colin and Samir",
+  "handle": "@ColinandSamir",
+  "platform": "YouTube",
+  "niche_format": "creator economy interview / analysis & explainer (20–35 min, edited long-form)",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Wikipedia infobox: 1.62 million subscribers, 453.5 million views, Years active 2016–present, last updated 3 May 2026; channel https://www.youtube.com/@ColinandSamir",
+        "link": "https://en.wikipedia.org/wiki/Colin_and_Samir",
+        "still_current_2026": "YES - page fetched directly 2026-08-29 shows Last updated: 3 May 2026 with 1.62M/453.5M, genres Podcast/business, years active 2016–present; corroborated by YouTube Official Blog Sep 16 2025 byline Samir Chaudry @colinandsamir"
+      },
+      {
+        "claim": "Direct yt-dlp measurement 2026-08-29: channel_follower_count 1630000 (1.63M) on watch pages WyiGFFTnIS4 (2026-08-19) and 3BANOGc7kzI (2026-06-05), uploader Colin and Samir, handle @ColinandSamir",
+        "link": "https://www.youtube.com/@ColinandSamir",
+        "still_current_2026": "YES - measured via python -m yt_dlp --print channel_follower_count on 2026-08-29; matches SocialBlade 1.63M Jun 7 2026 and Wikipedia 1.62M May 3 2026; still current Aug 2026"
+      },
+      {
+        "claim": "SocialBlade stats: 1.63M subscribers for handle colinandsamir, updated June 7 2026",
+        "link": "https://socialblade.com/youtube/handle/colinandsamir",
+        "still_current_2026": "YES - SocialBlade June 7 2026 shows 1.63M, corroborates Wikipedia 1.62M May 3 2026 and yt-dlp 1.63M Aug 29 2026; within 2021-2026 window"
+      },
+      {
+        "claim": "YouTube Official Blog Sep 16 2025: Samir Chaudry (@colinandsamir) guest-authors 'Colin & Samir's favorite updates from Made On YouTube 2025' — editorial trust signal; site states 10+ years making videos together, built and sold first channel, interview biggest creators; also TIME100 Creators Leaders 2025 per UTA Speakers",
+        "link": "https://blog.youtube/news-and-events/colin-samir-favorites-made-on-youtube/",
+        "still_current_2026": "YES - published Sep 16 2025 within 2021-2026, read via webfetch Aug 29 2026; demonstrates platform-level recognition, corroborates long public career 2010/2012–present and 1.5M claim on playbook; still current Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-19",
+      "2026-08-12",
+      "2026-08-05",
+      "2026-07-29",
+      "2026-06-11"
+    ],
+    "doc_sources": [
+      {
+        "title": "YouTube Growth Playbook — colinandsamir.com/playbook (19 videos/6 chapters, 3 Rules workflow: packaging/retention/sustainability)",
+        "url": "https://www.colinandsamir.com/playbook",
+        "date": "2024-01-24",
+        "still_current_2026": "YES - page fetched Aug 29 2026 shows 19 videos/6 chapters, 5-15min + 30-40min guest lectures, 3 Rules (If They Don't Click/packaging, Respect Their Time/hook+3-levels scripting+storytelling, Do You Want More), $299; copyright 2024, launch covered Passionfruit Jan 24 2024, Arcmira update Aug 2025; within 2021-2026 and still live"
+      },
+      {
+        "title": "The YouTube Playbook in 37 Minutes — Colin and Samir",
+        "url": "https://www.youtube.com/watch?v=8XSssH3B_Dk",
+        "date": "2025-08-23",
+        "still_current_2026": "YES - published 2025-08-23 via python -m yt_dlp --print upload_date on Aug 29 2026 (2273s, 313k views); free condensed playbook lecture covering ideation/thumbnail CCN fit, packaging/tests, intro retention; within window and still current"
+      },
+      {
+        "title": "13 Years of YouTube Knowledge in 46 Minutes — Colin and Samir",
+        "url": "https://www.youtube.com/watch?v=7MWNGqmukmE",
+        "date": "2024-07-30",
+        "still_current_2026": "YES - published 2024-07-30 via python -m yt_dlp --print upload_date on Aug 29 2026 (2795s, 807k views); details 85% rule, format repetition, data tracking CTR/first-30s/AVD packaging; within 2021-2026 and still current"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 0.833,
+    "median_views": 197541,
+    "per_video": [
+      {
+        "title": "Overanalyzing The Most Shared TikTok Ever",
+        "views": 147349,
+        "eligible": true
+      },
+      {
+        "title": "We need to talk about the Hank Green situation",
+        "views": 258469,
+        "eligible": true
+      },
+      {
+        "title": "My burned down car.",
+        "views": 348329,
+        "eligible": true
+      },
+      {
+        "title": "How Markiplier Made a Movie Hollywood Couldn't Ignore",
+        "views": 288782,
+        "eligible": true
+      },
+      {
+        "title": "We need to talk about Backrooms",
+        "views": 85254,
+        "eligible": true
+      },
+      {
+        "title": "How SubwayTakes Became the Internet's Favorite Show",
+        "views": 52814,
+        "eligible": true
+      },
+      {
+        "title": "Mark Rober's $60 Million Dollar Experiment",
+        "views": 240515,
+        "eligible": true
+      },
+      {
+        "title": "10 harsh YouTube lessons we wish we knew at 21",
+        "views": 124898,
+        "eligible": true
+      },
+      {
+        "title": "The Friend Group That Saved Golf",
+        "views": 154567,
+        "eligible": true
+      },
+      {
+        "title": "Markiplier Just Proved Hollywood Still Doesn't Get the Internet",
+        "views": 457099,
+        "eligible": true
+      },
+      {
+        "title": "The Internet Era Nobody Asked For",
+        "views": 138880,
+        "eligible": true
+      },
+      {
+        "title": "Why the Biggest YouTube Family Just Went to Netflix: Jordan Matter",
+        "views": 956607,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 1
+  },
+  "dominance": {
+    "score": 0.46,
+    "hit_rate_input": 0.833,
+    "hit_magnitude_input": 0.0197541,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×0.833 + 0.5×0.0197541 + 0.2×1.00 = 0.250 + 0.00987705 + 0.200 = 0.45987705 ≈ 0.460; hit_rate 10/12≈0.833, hit_magnitude median 197541/10000000=0.0197541 capped 1.0 (sorted 12: 52814,85254,124898,138880,147349,154567,240515,258469,288782,348329,457099,956607; median (154567+240515)/2=197541), activity 1.0 (newest upload 2026-08-19 is 10 days before 2026-08-29 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "YouTube Growth Playbook — colinandsamir.com/playbook (19 videos/6 chapters, 3 Rules workflow)",
+      "url": "https://www.colinandsamir.com/playbook",
+      "date": "2024-01-24",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "The YouTube Playbook in 37 Minutes — Colin and Samir",
+      "url": "https://www.youtube.com/watch?v=8XSssH3B_Dk",
+      "date": "2025-08-23",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "13 Years of YouTube Knowledge in 46 Minutes — Colin and Samir",
+      "url": "https://www.youtube.com/watch?v=7MWNGqmukmE",
+      "date": "2024-07-30",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized top-of-shortlist: median 197,541 (12 eligible after excluding 1 newest <14d: 2026-08-19) via exact python -m yt_dlp per-video counts Aug 29 2026; hit_rate 10/12=83.3% >60% gate, but median well below 1M+ prioritized threshold and far below 10M+ anchor (max 956k in window, vs Colin & Samir lifetime total 453.5M views). Consistent 100k+ evidence present (10 of 12 >100k), verification PASS, documentation PASS, but magnitude accounts for low hit_magnitude 0.019; dominance 0.460 reflects strong activity + hit_rate but limited magnitude.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "bare yt-dlp not on PATH per wave-02 spec — used python -m yt_dlp for all view counts; warning about JS runtime ignored, extraction succeeded",
+    "flat-playlist channel_follower_count returned valid 1630000 on watch pages WyiGFFTnIS4 and 3BANOGc7kzI; no fallback to NA needed, but cross-checked via SocialBlade 1.63M Jun 7 2026 and Wikipedia 1.62M May 3 2026",
+    "checked handle variants @ColinandSamir (canonical) vs @colinandsamir lowercase SocialBlade — both resolve, flat-playlist succeeded on @ColinandSamir/videos without 404",
+    "pulled duration/was_live/live_status for all 13 per-video checks (3925s to 5812s, all False/not_live, titles contain no 'Shorts'/'livestream'/'podcast') — no Shorts/livestreams/podcasts to exclude by title; longest 5812s (SubwayTakes 96min interview) kept eligible per spec (only title-based exclusion)",
+    "doc dating: playbook page has no explicit publish date in HTML — used copyright 2024 footer + Passionfruit Jan 24 2024 Creator Startup launch coverage + Arcmira Aug 2025 Playbook update + course still live Aug 29 2026 fetch as dating proxies; assigned 2024-01-24 within 2021-2026 window; two companion YouTube playbook videos provide exact yt-dlp dates 2025-08-23 and 2024-07-30",
+    "verified newest upload date via per-video yt-dlp: 2026-08-19 The New Rules of YouTube (2027) is 10 days before evaluation date 2026-08-29 (<14 days) so excluded 1 newest and analyzed next 12 (2026-08-12 to 2026-02-04); also tested inclusive window 2026-08-19 to 2026-02-18 (10/12=83.3%, median 150958) — both windows exceed 60% gate, borderline not invoked",
+    "websearch for YouTube Blog feature confirmed Sep 16 2025 byline Samir Chaudry @colinandsamir on official blog.youtube; also confirmed TIME100 Creators Leaders 2025 via UTA Speakers page mentions but dated 2022-11-22 content updated to 2025, still current for career scale"
+  ]
+}

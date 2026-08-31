@@ -1,0 +1,171 @@
+{
+  "name": "Tom Scott",
+  "handle": "@TomScottGo",
+  "platform": "YouTube",
+  "niche_format": "explainer/documentary video essay, 10-20 min",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Wikipedia infobox: 6.73 million subscribers, 1.93 billion views, Years active 2006–present, Genres factual/education/science/geography/comedy, channel @TomScottGo — Last updated 3 August 2026",
+        "link": "https://en.wikipedia.org/wiki/Tom_Scott_(presenter)",
+        "still_current_2026": "YES - page actively maintained (infobox last updated 2026-08-03, cited as Aug 29 2026 fetch), 2006–present career span still current Aug 2026"
+      },
+      {
+        "claim": "yt-dlp direct measurement 2026-08-29: channel_follower_count 6740000 on watch page tDLbO9KeddY (uploader Tom Scott, channel Tom Scott), verified-scale 6M+ channel live Aug 2026 with 750 videos",
+        "link": "https://www.youtube.com/@TomScottGo",
+        "still_current_2026": "YES - measured via python -m yt_dlp --print channel_follower_count on 2026-08-29 per-video metadata; corroborates Wikipedia 6.73M and variety 6.6M Mar 2026"
+      },
+      {
+        "claim": "Variety Mar 23 2026: YouTube star returns after two-year hiatus for 41-episode 'Tom Scott: England' filmed over eight-week road trip, 6.6M subscribers at return, first episode on Nebula then YouTube a week later",
+        "link": "https://variety.com/2026/tv/news/tom-scott-back-youtube-new-show-england-streaming-nebula-1236696780/",
+        "still_current_2026": "YES - dated 2026-03-23T20:00 UTC within 2021-2026 window, confirms long career since 2014 weekly and 2006 channel creation + scale at hiatus break, still current for 6.7M Aug 2026 verification"
+      },
+      {
+        "claim": "The Guardian Jan 5 2024: 'I am so tired' — YouTuber Tom Scott ends Things You Might Not Know after 10 years of consistent weekly uploads (2014-2024), describes dream job burnout, platform pressures",
+        "link": "https://www.theguardian.com/technology/2024/jan/05/youtuber-tom-scott-ends-things-you-might-not-know-series",
+        "still_current_2026": "YES - dated 2024-01-05 within window, documents decade-long weekly career and 6M+ verified scale; corroborated by Wikipedia Hiatus section and tomscott.com newsletter archive 2021-2026"
+      },
+      {
+        "claim": "Official site tomscott.com last updated July 20 2026: British factual entertainment presenter/broadcaster, England road-trip series now weekly on Nebula/YouTube 15-30 min, Lateral podcast and Technical Difficulties, newsletter 2021-2026, plus channel page 6.73M subscribers/750 videos Aug 2026",
+        "link": "https://www.tomscott.com/",
+        "still_current_2026": "YES - site updated 2026-07-20, self-description 'presenter/broadcaster' and England project 15-30 min long-form confirms niche/format and active status Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-24",
+      "2026-08-17",
+      "2026-08-10",
+      "2026-08-03",
+      "2026-07-27"
+    ],
+    "doc_sources": [
+      {
+        "title": "How Tom Scott Makes Videos — Waveform: The MKBHD Podcast (WVFRM Podcast)",
+        "url": "https://www.youtube.com/watch?v=LRi-CrzY6d4",
+        "date": "2022-06-03",
+        "still_current_2026": "YES - published 2022-06-03 within 2021-2026 window; 1:07:09 interview details scripting, workflow, shooting ratio, 50 tabs research to 4 paragraphs, teleprompter as guide, verified via yt-dlp upload_date 20220603"
+      },
+      {
+        "title": "Scripting is the Key to a Tom Scott Video — Waveform Clips",
+        "url": "https://www.youtube.com/watch?v=UcVl13ZR1C4",
+        "date": "2022-06-08",
+        "still_current_2026": "YES - published 2022-06-08 within 2021-2026; 9:07 clip details writing in own voice, teleprompter guide memoir, corrections process, verified via yt-dlp 20220608"
+      },
+      {
+        "title": "Tom Scott Answers Content Creator Questions | Tech Support | WIRED",
+        "url": "https://www.wired.com/video/watch/tech-support-tom-scott-answers-content-creator-questions",
+        "date": "2026-06-02",
+        "still_current_2026": "YES - published 2026-06-02 within 2021-2026 (YouTube mirror bx6_jj9RxhI 20260602, 24:22, 756k views); covers thumbnails/titles, first 10-15 sec, packaging, still current Aug 2026 (YouTube/ WIRED Tech Support series)"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 864985,
+    "per_video": [
+      {
+        "title": "Turns out building dry stone walls is difficult",
+        "views": 799334,
+        "eligible": true
+      },
+      {
+        "title": "I'm so glad this hidden monorail broke down.",
+        "views": 1138899,
+        "eligible": true
+      },
+      {
+        "title": "I get excited about &.",
+        "views": 873437,
+        "eligible": true
+      },
+      {
+        "title": "I have a weird conspiracy theory about this bridge",
+        "views": 1463855,
+        "eligible": true
+      },
+      {
+        "title": "If I get this wrong, 50,000 people will hear it.",
+        "views": 599474,
+        "eligible": true
+      },
+      {
+        "title": "To help fire this trebuchet, I climbed inside it",
+        "views": 618003,
+        "eligible": true
+      },
+      {
+        "title": "I got hit in the teeth at England's oldest ritual",
+        "views": 449494,
+        "eligible": true
+      },
+      {
+        "title": "We can't invent a robot better than these ferrets",
+        "views": 1459623,
+        "eligible": true
+      },
+      {
+        "title": "I cannot believe Jodrell Bank let me do this",
+        "views": 714344,
+        "eligible": true
+      },
+      {
+        "title": "Why do some British trains still rely on old levers?",
+        "views": 1216969,
+        "eligible": true
+      },
+      {
+        "title": "I took a long walk on a dangerous beach.",
+        "views": 856533,
+        "eligible": true
+      },
+      {
+        "title": "The mist that keeps the Tyne Tunnels safe",
+        "views": 1222624,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 2
+  },
+  "dominance": {
+    "score": 0.543,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.0864985,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×1.00 + 0.5×0.0864985 + 0.2×1.00 = 0.30 + 0.04324925 + 0.20 = 0.54324925 ≈0.543; hit_rate 12/12=1.0, hit_magnitude median 864985/10000000=0.0864985 capped 1.0, activity 1.0 (newest upload 2026-08-24 is 5 days before 2026-08-29 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "How Tom Scott Makes Videos — Waveform: The MKBHD Podcast",
+      "url": "https://www.youtube.com/watch?v=LRi-CrzY6d4",
+      "date": "2022-06-03",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Scripting is the Key to a Tom Scott Video — Waveform Clips",
+      "url": "https://www.youtube.com/watch?v=UcVl13ZR1C4",
+      "date": "2022-06-08",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Tom Scott Answers Content Creator Questions | Tech Support | WIRED",
+      "url": "https://www.youtube.com/watch?v=bx6_jj9RxhI",
+      "date": "2026-06-02",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "Near 1M+ prioritized tier but below threshold: median 864,985 in post-return 12-video eligible window (range 449k-1.46M, all >400k via exact yt-dlp per-video counts; max 1.73M for V2lEgMHF2Fo 2026-05-18). Historical scale 1.93B views/6.73M subs and prior 1M+ medians pre-hiatus, but current post-hiatus median 0.86M sits just below 1M+ prioritization — not 10M+ anchor (requires 10M median). Still qualifies for shortlist via perfect 1.0 hit-rate and verified longevity.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --print channel_follower_count returned NA for c/TomScottGo/videos flat mode — fell back to per-video channel_follower_count on watch page tDLbO9KeddY (6740000) plus Wikipedia Aug 3 2026 6.73M and tomscott.com for sub count",
+    "Flat view_count 1100000 for SzM1hpnXux4 vs individual 1138899 — used individual per-video 2026-08-03 1138899 as exact; flat duration 1642 vs individual 1642 consistent all durations 760-1642s (12-27 min) confirming eligible long-form, no Shorts/livestreams by title",
+    "Verified no Shorts/podcasts in last 12 eligible — checked was_live False / not_live for newest rows; durations all >760s exclude Shorts-livestream ambiguity, no exclusion needed beyond <14-day new-upload exclusion",
+    "Documented 2-year hiatus Jan 1 2024 - Mar 23 2026 via Guardian 2024-01-05 and Variety 2026-03-23 — confirmed recent uploads are 'Tom Scott: England' England-series road-trip (Nebula canonical, YouTube a week later) so last 12 eligible correctly sampled from England series post-return, not stale pre-hiatus catalog"
+  ]
+}

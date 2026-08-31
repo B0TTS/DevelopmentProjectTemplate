@@ -1,0 +1,158 @@
+{
+  "name": "Johnny Harris",
+  "handle": "@johnnyharris",
+  "platform": "YouTube",
+  "niche_format": "journalism / geopolitics visual documentary essay (15–30 min)",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Wikipedia infobox: 7.59M subscribers, 1.18B views, Years active 2011–present, Genres International affairs/history/geography, twice Emmy-nominated Borders series — Last updated March 20, 2026; page last edited Aug 1, 2026",
+        "link": "https://en.wikipedia.org/wiki/Johnny_Harris_(journalist)",
+        "still_current_2026": "YES — page actively maintained (edited 2026-08-01, infobox updated 2026-03-20), long career 2011–present still current"
+      },
+      {
+        "claim": "yt-dlp channel_follower_count: 7,930,000 subscribers via @johnnyharris channel metadata fetched 2026-08-29 (video XXpqejgnaB0) — 7.93M confirms 100k+/video career",
+        "link": "https://www.youtube.com/@johnnyharris",
+        "still_current_2026": "YES — live channel metadata 2026-08-29 shows 7,930,000, corroborates Wikipedia 7.59M, both 2026-current"
+      },
+      {
+        "claim": "Career: Produced/hosted Vox Borders 2017-2019 (twice Emmy-nominated, Vox Media July 26 2018) and NYT Opinion producer — 'Blue States, You're the Problem' (Nov 9 2021) won Emmy 2022 (NYT Co Sept 30 2022, Variety Sept 29 2022)",
+        "link": "https://en.wikipedia.org/wiki/Johnny_Harris_(journalist)",
+        "still_current_2026": "YES — historical Emmy nominations/wins remain verifiable via Vox Media and NYT Co citations on page; independent journalist based Washington DC still current"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-13",
+      "2026-07-30",
+      "2026-07-16"
+    ],
+    "doc_sources": [
+      {
+        "title": "Join The Team — Researcher/Writer + Editor/Animator applications (team workflow: Researcher/Writer and Editor/Animator roles, map/story pipeline)",
+        "url": "https://www.johnnyharris.ch/join-the-team",
+        "date": "2021",
+        "still_current_2026": "YES — page fetched 2026-08-29 still lists both roles; footer © Johnny Harris 2021 indicates publication 2021, no sunset notice, still-current workflow"
+      },
+      {
+        "title": "Why Every Johnny Harris Video Goes Viral — How I Write with David Perell (86 mins, complete workflow: writing visual scripts, drafting, visual composition, sound design, weekly schedule, retention)",
+        "url": "https://wisdomsparks.com/david-perell-how-i-write/johnny-harris-62/",
+        "date": "2025-03-12",
+        "still_current_2026": "YES — published 2025-03-12 within 2021-2026 window; YouTube mirror https://www.youtube.com/watch?v=zq4b96m1AvM 90,231 views Mar 12 2025; workflow still referenced in 2026"
+      },
+      {
+        "title": "Johnny Harris — Patreon Newsroom (372 posts, 12,814 members, behind-the-scenes map styling/workflow, PR/AE workflow posts)",
+        "url": "https://www.patreon.com/johnnyharris",
+        "date": "2023",
+        "still_current_2026": "YES — About page states 'It is now 2023...' indicating 2023 revision; launched July 13 2020 per Graphtreon; fetched 2026-08-29 shows 372 posts/12,814 members, active, still current"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 3475773,
+    "per_video": [
+      {
+        "title": "How Money Actually Works",
+        "views": 2014499,
+        "eligible": true
+      },
+      {
+        "title": "The American war machine, explained",
+        "views": 2457992,
+        "eligible": true
+      },
+      {
+        "title": "The REAL reason the US can’t beat Iran",
+        "views": 5483145,
+        "eligible": true
+      },
+      {
+        "title": "Oligarchy is worse than you think",
+        "views": 3784031,
+        "eligible": true
+      },
+      {
+        "title": "The Real Story Behind the Mormon Church",
+        "views": 1082388,
+        "eligible": true
+      },
+      {
+        "title": "China’s Dirty Money Problem, Explained",
+        "views": 4187510,
+        "eligible": true
+      },
+      {
+        "title": "The Modern Middle East, Explained",
+        "views": 7067678,
+        "eligible": true
+      },
+      {
+        "title": "Is Fascism Back?",
+        "views": 7554132,
+        "eligible": true
+      },
+      {
+        "title": "The Internet Didn't Fail. It Was Taken.",
+        "views": 885918,
+        "eligible": true
+      },
+      {
+        "title": "India vs China, Explained",
+        "views": 2763994,
+        "eligible": true
+      },
+      {
+        "title": "Why This Island Could Trigger World War 3",
+        "views": 4297690,
+        "eligible": true
+      },
+      {
+        "title": "How Switzerland Engineered the Perfect Country",
+        "views": 3167515,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.67,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.3475773,
+    "activity_input": 1.0,
+    "arithmetic": "dominance = 0.3*hit_rate + 0.5*hit_magnitude + 0.2*activity = 0.3*1.0 + 0.5*0.3475773 + 0.2*1.0 = 0.30 + 0.17378865 + 0.20 = 0.67378865 ≈ 0.67 ; hit_rate=12/12=1.0 ; hit_magnitude=median(3,475,773)/10,000,000=0.3475773 capped 1.0 ; activity=1.0 (newest upload 2026-08-13 = 16 days before 2026-08-29 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "Join The Team — Researcher/Writer + Editor/Animator applications (team workflow: Researcher/Writer and Editor/Animator roles, map/story pipeline)",
+      "url": "https://www.johnnyharris.ch/join-the-team",
+      "date": "2021",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "Why Every Johnny Harris Video Goes Viral — How I Write with David Perell (86 mins, complete workflow: writing, drafting, editing, visual composition, sound design, retention)",
+      "url": "https://wisdomsparks.com/david-perell-how-i-write/johnny-harris-62/",
+      "date": "2025-03-12",
+      "provenance": "SECOND-HAND",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "Johnny Harris — Patreon Newsroom (372 posts, behind-the-scenes map styling/workflow, PR/AE workflow deep dives)",
+      "url": "https://www.patreon.com/johnnyharris",
+      "date": "2023",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "1M+ median TIER — PASS prioritized (median 3,475,773 in 12-video long-form sample via exact yt-dlp counts; all 12 >100k; top video 7,554,132 in sample, historical 16M top per aggregator but median <10M so not 10M+ anchor top-tier; dominance 0.67)",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "Checked podcast/livestream/Shorts exclusion: 'Talking news and media with Max Fisher' (20260303, 182107 views, 43:10, not_live) flagged by title as podcast-style — excluded from eligible set per spec, replaced with next eligible 'How Switzerland Engineered the Perfect Country' (20251211, 3167515 views) to maintain 12 eligible; pulled live_status/was_live/duration individually via yt-dlp --js-runtimes node to verify not Short/livestream",
+    "Verified compilation durations 2:58:31 (How Money Actually Works), 3:13:16 (American war machine), 3:06:18 (Modern Middle East) are not livestreams — yt-dlp live_status not_live, was_live False, description confirms 'Watch these six videos' compilation, eligible long-form",
+    "Confirmed newest upload 2026-08-13 is 16 days before 2026-08-29 (>14 days) so excluded_new_uploads=0 — no new-upload exclusion needed, unlike flat-mode fallback of 1-2 rows"
+  ]
+}

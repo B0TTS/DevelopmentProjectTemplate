@@ -1,0 +1,174 @@
+{
+  "name": "Derek Muller (Veritasium)",
+  "handle": "@veritasium",
+  "platform": "YouTube",
+  "niche_format": "science documentary / explainer video essays, 12–25 min",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Veritasium channel 20.7 million subscribers and 4.24 billion views as of May 8 2026, years active 2010-present, Canadian-Australian science communicator best known for Veritasium (infobox last updated May 8 2026)",
+        "link": "https://en.wikipedia.org/wiki/Derek_Muller",
+        "still_current_2026": "YES - Wikipedia page fetched 2026-08-29 shows infobox Subscribers 20.7M (Veritasium) Views 4.24B Last updated May 8 2026 and lead 'which has over 20 million subscribers and 4 billion views as of April 2026', within verification window and corroborates long public career"
+      },
+      {
+        "claim": "Channel follower count 21200000 measured directly via python -m yt_dlp per-video metadata for J1WoNuemKOg on 2026-08-29 (Veritasium handle verified)",
+        "link": "https://www.youtube.com/@veritasium",
+        "still_current_2026": "YES - Direct yt-dlp measurement 2026-08-29 shows 21.2M, consistent with Wikipedia 20.7M May 8 2026 + 0.5M growth, channel handle live and verified scale"
+      },
+      {
+        "claim": "Veritasium official about page states 'over 20.9 million subscribers and over 3.8 billion views, winner of the Streamy award for Science or Education in 2017' plus hosted award-winning documentaries Uranium Twisting the Dragon's Tail, Digits, Vitamania and correspondent on Netflix Bill Nye Saves the World",
+        "link": "https://www.veritasium.com/about",
+        "still_current_2026": "YES - veritasium.com/about fetched 2026-08-29 explicitly lists 20.9M/3.8B and Streamy 2017, hosted documentaries and Catalyst, corroborates documented media coverage and platform stats, still current 2026"
+      },
+      {
+        "claim": "Scientific American profile May 28 2025 (updated 2026) describes 'YouTube Science Star Derek Muller Confronts PFAS Forever Chemicals—In His Own Blood' noting 18M-subscriber empire and AAAS Kavli Science Journalism Gold Award May 2025 for How One Company Secretly Poisoned The Planet",
+        "link": "https://www.scientificamerican.com/article/how-youtube-star-derek-muller-of-veritasium-is-challenging-scientific/",
+        "still_current_2026": "YES - Published 2025-05-28 within 2021-2026 window, details 18M subs and 2025 AAAS Gold Award (also cited on Wikipedia reference 42), still current Aug 2026 and corroborates brand deals/scale"
+      },
+      {
+        "claim": "Electrify Video Partners majority-owned Veritasium as of April 21 2023 per Wikipedia citation 32 and confirmed by Tubefilter Jan 6 2026 'For almost a decade, Veritasium was a one-man show. Then it got an investment' detailing 30+ person team and ~75M views/month",
+        "link": "https://www.tubefilter.com/2026/01/06/veritasium-derek-muller-electrify-investment/",
+        "still_current_2026": "YES - Tubefilter 2026-01-06 within window, corroborates 2023 Electrify majority investment via Wikipedia citation and describes team scale, still current Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-17",
+      "2026-08-02",
+      "2026-07-25",
+      "2026-07-14",
+      "2026-06-22"
+    ],
+    "doc_sources": [
+      {
+        "title": "The Future of Veritasium",
+        "url": "https://www.youtube.com/watch?v=piHGnG4LsmQ",
+        "date": "2025-12-24",
+        "still_current_2026": "YES - yt-dlp upload_date 20251224 within 2021-2026; Veritasium-owned first-party video where Derek explains one-man workflow to 30-person team, read via yt-dlp and Tubefilter summary Jan 6 2026, still current Aug 2026"
+      },
+      {
+        "title": "Derek Muller on Building Veritasium to 20M Subs (And What's Next)",
+        "url": "https://www.youtube.com/watch?v=PEzwH50tyPw",
+        "date": "2026-02-27",
+        "still_current_2026": "YES - yt-dlp upload_date 20260227 within window; Fireside Lisbon interview where Derek as guest details building Veritasium from film school rejections to 20M subs and Electrify investment, still current Aug 2026"
+      },
+      {
+        "title": "Revealing my full Veritasium video editing process",
+        "url": "https://www.youtube.com/watch?v=Scs4SD3QIXA",
+        "date": "2026-01-15",
+        "still_current_2026": "YES - yt-dlp upload_date 20260115 within window; claimed 100-hour start-to-finish process but verified via yt-dlp to be 40-sec Short on Peter Nelson channel (@PeterNelsonFilm, 709 subs, 2,211 views), not Veritasium channel — still within window but flagged SECOND-HAND editor perspective, not Derek direct"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 6817628,
+    "per_video": [
+      {
+        "title": "Is spider web really stronger than steel?",
+        "views": 7636578,
+        "eligible": true
+      },
+      {
+        "title": "Why does every mammal get 1 billion heartbeats in their life?",
+        "views": 5654426,
+        "eligible": true
+      },
+      {
+        "title": "The Scariest Chart in Electrical Engineering",
+        "views": 5234417,
+        "eligible": true
+      },
+      {
+        "title": "We've Been Using The Wrong Science In Court For 50 years",
+        "views": 2501575,
+        "eligible": true
+      },
+      {
+        "title": "We're 99.9% sure this pattern is true, but no one can prove it",
+        "views": 5998677,
+        "eligible": true
+      },
+      {
+        "title": "Something is jamming GPS over Europe. Here's what we found",
+        "views": 10341863,
+        "eligible": true
+      },
+      {
+        "title": "Google Maps is unreasonably fast. Let me explain",
+        "views": 8089068,
+        "eligible": true
+      },
+      {
+        "title": "The CIA's new tech doesn't make sense",
+        "views": 2877650,
+        "eligible": true
+      },
+      {
+        "title": "The Crystal That Could Destroy All Medicine",
+        "views": 10092318,
+        "eligible": true
+      },
+      {
+        "title": "How easy is it to steal $10,000 from a locked phone?",
+        "views": 8340247,
+        "eligible": true
+      },
+      {
+        "title": "What happens if you drop 0.125 grams of antimatter?",
+        "views": 10984658,
+        "eligible": true
+      },
+      {
+        "title": "The Secret Spy Tech Inside Every Credit Card",
+        "views": 5913131,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 1
+  },
+  "dominance": {
+    "score": 0.841,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.6817628,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×1.00 + 0.5×0.6817628 + 0.2×1.00 = 0.30 + 0.3408814 + 0.20 = 0.8408814 ≈ 0.841; hit_rate 12/12=1.0, hit_magnitude median 6817628/10000000=0.6817628 capped 1.0, activity 1.0 (newest upload 2026-08-17 is 12 days before 2026-08-29 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "The Future of Veritasium",
+      "url": "https://www.youtube.com/watch?v=piHGnG4LsmQ",
+      "date": "2025-12-24",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Derek Muller on Building Veritasium to 20M Subs (And What's Next)",
+      "url": "https://www.youtube.com/watch?v=PEzwH50tyPw",
+      "date": "2026-02-27",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Revealing my full Veritasium video editing process",
+      "url": "https://www.youtube.com/watch?v=Scs4SD3QIXA",
+      "date": "2026-01-15",
+      "provenance": "SECOND-HAND",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "1m+ median prioritized: PASS with median 6,817,628 (sorted 12 eligible: 2,501,575 to 10,984,658; all >2.5M). 10m+ anchor tier: not reached (top 10,984,658 and 10,341,863 exceed 10M individually but median below 10M) — mid-tier shortlist, not top anchor. Lifetime totals 20.7M subs / 4.24B views May 2026 and 21.2M via yt-dlp Aug 29 2026 corroborate scale; exact yt-dlp per-video counts prove consistent 1m+ dominance.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --print channel_follower_count returned NA for @veritasium/videos - fell back to per-video channel_follower_count 21200000 from J1WoNuemKOg metadata and Wikipedia/veritasium.com for sub count evidence",
+    "Verified candidate first-party doc Scs4SD3QIXA via yt-dlp --dump-json: uploader is Peter Nelson (@PeterNelsonFilm, 709 subscribers), duration 40 sec vertical Short, 2,211 views, 78 likes - not Veritasium channel, not Derek Muller direct, flagged SECOND-HAND",
+    "Checked flat-playlist titles for editing/workflow keywords up to 100 videos (python -m yt_dlp --flat-playlist --playlist-end 100 --print title) - no on-channel 'how I edit/workflow' title; confirmed no Veritasium-owned editing tutorial satisfies candidate row claim",
+    "Searched additional editing-related videos W2gUp3wedjA (2026-02-06, 33 sec, Peter Nelson, 1,650 views) and _6UA2Laetiw (2026-04-12, TomsProject interview with Peter Nelson, 6,595 views) - both second-hand editor perspective, not Derek",
+    "Checked Creator Handbook interview 'Inside Veritasium' dated September 1 2017 via webfetch - outside 2021-2026 window, rejected as dated doc source",
+    "Confirmed alternative valid first-party workflow docs within window: piHGnG4LsmQ (Veritasium Dec 24 2025) and PEzwH50tyPw (Fireside Lisbon Feb 27 2026) via yt-dlp upload_date and webfetch/Tubefilter summary Jan 6 2026",
+    "Pulled per-video durations individually for consistency test to exclude Shorts/livestreams/podcasts - all 12 durations 1278-3533 sec (21-58 min) verified as eligible long-form, no Shorts excluded beyond newest <14 days"
+  ]
+}

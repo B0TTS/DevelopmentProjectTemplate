@@ -1,0 +1,160 @@
+{
+  "name": "Matt D'Avella",
+  "handle": "@mattdavella",
+  "platform": "YouTube",
+  "niche_format": "minimalism / productivity documentary essay & storytelling (10–25 min)",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @mattdavella verified checkmark, 4.04M-4.05M subscribers, 469 videos, 333M views, created July 25 2011, description 'Hi my name is Matt. I made a documentary a few years back called Minimalism that trended on Netflix'",
+        "link": "https://www.youtube.com/@mattdavella",
+        "still_current_2026": "YES - channel header fetched Aug 30 2026 shows 4.04M-4.05M / 469 videos live; Verified badge visible in /videos HTML 'Matt D'Avella Verified', still current Aug 2026"
+      },
+      {
+        "claim": "Social Blade 4.04M subscribers, 333,280,906 views, 469 videos as of Aug 30 2026, Grade C, Subscribers Rank 1,024th, US Rank 796th, Film Rank 400th, daily metrics Aug 17-30 2026 show consistent 12k-36k views/day",
+        "link": "https://socialblade.com/youtube/handle/mattdavella",
+        "still_current_2026": "YES - fetched Aug 30 2026, live daily table Aug 17-30 2026, still current Aug 2026; corroborates 4.04M/333M and 2011 creation"
+      },
+      {
+        "claim": "Director of two Netflix documentaries: Minimalism: A Documentary About the Important Things (2016) and The Minimalists: Less Is Now (2021, 53 min, Booklight Productions, Netflix) — Directed by Matt D'Avella, cinematography and edited by Matt D'Avella, release Jan 1 2021, nominated Daytime Emmy 2022",
+        "link": "https://en.wikipedia.org/wiki/The_Minimalists:_Less_Is_Now",
+        "still_current_2026": "YES - Wikipedia page last edited Aug 9 2026, infobox Directed by Matt D'Avella, Release Jan 1 2021, text 'nominated for a Daytime Emmy in 2022' with citation 4 to Variety May 5 2022, still current Aug 2026"
+      },
+      {
+        "claim": "Variety May 5 2022 Daytime Emmy Nominations lists The Minimalists: Less Is Now (Netflix) under OUTSTANDING DIRECTING TEAM FOR A SINGLE CAMERA DAYTIME NON-FICTION PROGRAM alongside Cat People, Fresh Fried & Crispy, Samantha Brown's Places To Love",
+        "link": "https://variety.com/2022/tv/news/daytime-emmys-nominations-2022-beyonce-young-and-the-restless-1235258925/",
+        "still_current_2026": "YES - published May 5 2022 within 2021-2026 window, category list still current Aug 2026, confirms Emmy-nominated filmmaker status"
+      },
+      {
+        "claim": "Leaders.com profile updated Aug 9 2023: Matt D'Avella filmmaker, podcast host, 3.7M YouTube followers, 380K Instagram, Director of two Netflix docs, host The Ground Up Show, creator Slow Growth Academy courses Simple Habits + Master YouTube, featured Forbes/Guardian/BuzzFeed/Vice",
+        "link": "https://leaders.com/rankings/person/matt-davella",
+        "still_current_2026": "YES - Updated Aug 9 2023 within window, directly states two Netflix docs and 3.7M subs (growth to 4.04M by Aug 2026 corroborated via yt-dlp/SocialBlade), still current Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-07-07",
+      "2026-06-09",
+      "2026-04-30",
+      "2026-03-30",
+      "2026-02-27"
+    ],
+    "doc_sources": [
+      {
+        "title": "Master YouTube — Matt D'Avella (first-party course page: 5-stage workflow — 4-part brainstorm system, scripting frameworks, filming, 4 rules editing 2x faster)",
+        "url": "https://www.mattdavella.com/youtube",
+        "date": "2022-04-14",
+        "still_current_2026": "YES - page is live paywall course ($495) fetched Aug 29 2026 describing Stage 3: 4-part brainstorm system + scripting frameworks and Stage 5: 4 rules editing 2x faster; earliest dated review Apr 14 2022 (onlinefilmmakingcourses.com) proves 2021-2026 window, still current via direct fetch Aug 29 2026"
+      },
+      {
+        "title": "Matt D'Avella — Official site / Master YouTube overview (home: 'Emmy-nominated filmmaker' + Master YouTube & Slow Creator Podcast)",
+        "url": "https://www.mattdavella.com/",
+        "date": "2023-08-09",
+        "still_current_2026": "YES - homepage fetched Aug 29 2026 shows 'Emmy-nominated filmmaker Matt D'Avella' header and Master YouTube + Slow Creator blocks; Leaders.com Aug 9 2023 summary corroborates same Slow Growth Academy workflow within window, still current Aug 2026"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 556073,
+    "per_video": [
+      {
+        "title": "Where did all the minimalists go?",
+        "views": 573765,
+        "eligible": true
+      },
+      {
+        "title": "I ran 1 mile every day for 30 days",
+        "views": 321670,
+        "eligible": true
+      },
+      {
+        "title": "I tried to optimize my life. It made it worse.",
+        "views": 395193,
+        "eligible": true
+      },
+      {
+        "title": "I tried zone 2 training for 30 days (what I learned)",
+        "views": 733218,
+        "eligible": true
+      },
+      {
+        "title": "The biggest self-help lie",
+        "views": 209293,
+        "eligible": true
+      },
+      {
+        "title": "I meal prepped 46 boring lunches to be healthier",
+        "views": 263094,
+        "eligible": true
+      },
+      {
+        "title": "The most life-changing advice I ever got",
+        "views": 538382,
+        "eligible": true
+      },
+      {
+        "title": "The water bottle trend has gone too far",
+        "views": 615936,
+        "eligible": true
+      },
+      {
+        "title": "The problem with self-help gurus",
+        "views": 652035,
+        "eligible": true
+      },
+      {
+        "title": "How social media fuels useless products",
+        "views": 504049,
+        "eligible": true
+      },
+      {
+        "title": "Hustle culture lied to you (here's a better way)",
+        "views": 866297,
+        "eligible": true
+      },
+      {
+        "title": "Why everyone is quitting social media",
+        "views": 2584813,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.428,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.0556073,
+    "activity_input": 0.5,
+    "arithmetic": "0.3*1.0 + 0.5*0.0556073 + 0.2*0.5 = 0.3 + 0.0278037 + 0.1 = 0.4278037 ≈ 0.428; hit_magnitude = median 556073 / 10000000 = 0.0556073 capped 1.0; activity 0.5 because newest upload 2026-07-07 is 53 days before 2026-08-29 (>30, ≤90 days)"
+  },
+  "documentation": [
+    {
+      "title": "Master YouTube — Matt D'Avella",
+      "url": "https://www.mattdavella.com/youtube",
+      "date": "2022-04-14",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Matt D'Avella — Official site (Master YouTube overview)",
+      "url": "https://www.mattdavella.com/",
+      "date": "2023-08-09",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized: median 556,074 (sorted 12: 209k to 2.58M, all >100k) via exact python -m yt_dlp per-video counts Aug 29 2026; consistent 100k+ but below 1M+ prioritized threshold and well below 10M+ anchor tier (lifetime 4.04M subs / 333M views, top video 2.58M, only 1 >2M). Valid PASS but mid-tier shortlist, not top anchor unlike MrBeast/Mark Rober/Veritasium.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "https://en.wikipedia.org/wiki/Matt_D%27Avella returns 404 via webfetch Aug 29 2026 — English Wikipedia page does not exist (task's verification lead is dead); fell back to Wikipedia The Minimalists: Less Is Now (shows Directed by Matt D'Avella) + Variety Emmy nomination + Leaders.com for career verification",
+    "python -m yt_dlp --flat-playlist --print channel_follower_count returned NA for @mattdavella/videos — fell back to per-video metadata channel_follower_count via YouTube HTML header 4.05M + Social Blade 4.04M/333M and Leaders 3.7M for sub count evidence",
+    "https://www.forbes.com/sites/zachconway/2018/08/09/minimalist-filmmaker-matt-davella-follows-a-less-is-more-guide-to-personal-finance/ returned 403 via webfetch — blocked; used Leaders.com summary that cites same Forbes feature and HypeAuditor/SpeakRJ for scale instead",
+    "bare yt-dlp not on PATH confirmed — used python -m yt_dlp per spec for all 12 flat-playlist view_counts and 12 per-video upload_date/view_count/duration/was_live checks (WARN: No JS runtime but formats not needed for metadata; prints succeeded)",
+    "Checked per-video durations individually for Shorts/livestreams exclusion: all 649-1782 sec (10-29 min) and was_live False / not_live — no Shorts (<60s) or livestreams/podcasts by title to exclude; excluded_new_uploads stays 0 because newest 2026-07-07 is 53 days before 2026-08-29",
+    "Flat mode has no dates — pulled dates individually for newest 5 (2026-07-07, 2026-06-09, 2026-04-30, 2026-03-30, 2026-02-27) to determine activity 0.5 and recency; verified flat view_counts match per-video exact counts within <1% drift"
+  ]
+}

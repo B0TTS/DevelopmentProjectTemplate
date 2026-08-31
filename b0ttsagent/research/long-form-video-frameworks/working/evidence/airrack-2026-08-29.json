@@ -1,0 +1,174 @@
+{
+  "name": "Airrack / Eric Decker",
+  "handle": "@Airrack",
+  "platform": "YouTube",
+  "niche_format": "prank/challenge spectacle, edited long-form 15-25 min storytelling",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @Airrack is verified (channel_is_verified True) with 19.1 million subscribers and 4.8-4.9 billion views as of August 18-29 2026 (Wikipedia infobox last updated Aug 18 2026 and SPEAKRJ Aug 22 2026), years active 2019-Present, genres vlog/pranks/challenges",
+        "link": "https://en.wikipedia.org/wiki/Airrack",
+        "still_current_2026": "YES - Wikipedia fetched 2026-08-29 shows infobox Subscribers 19.1M Views 4.8B Last updated Aug 18 2026 and lead 'gaining a million subscribers in a year', corroborated by yt-dlp channel_follower_count 19100000 and channel_is_verified True on 2026-08-29 per-video metadata for nO2dMO3BUO4; still current Aug 2026"
+      },
+      {
+        "claim": "Channel follower count 19100000 measured directly via python -m yt_dlp per-video metadata for nO2dMO3BUO4 on 2026-08-29 (handle @Airrack live, channel_url https://www.youtube.com/channel/UCyps-v4WNjWDnYRKmZ4BUGw, channel_is_verified True)",
+        "link": "https://www.youtube.com/@Airrack",
+        "still_current_2026": "YES - Direct yt-dlp measurement 2026-08-29 shows 19.1M, consistent with Wikipedia 19.1M Aug 18 2026 and SPEAKRJ 19.1M Aug 22 2026; still current Aug 2026"
+      },
+      {
+        "claim": "Forbes profile May 29 2022 'How Airrack Became The Elon Musk Of YouTube' by Jon Youshaei documents Airrack (Eric Decker) gaining nearly 7M subscribers faster than most creators in 17-year history, range cycling 38 miles on ice to helping subscribers start 5-star restaurant, with lesson on community 'Airrack Mafia' and ventures with managers Zack Honarvar & Kate Ward",
+        "link": "https://www.forbes.com/sites/jonyoushaei/2022/05/29/how-airrack-became-the-elon-musk-of-youtube/",
+        "still_current_2026": "YES - Published 2022-05-29 within 2021-2026 window, authored by Jon Youshaei (ex-YouTube/Instagram, Forbes contributor), documents media coverage and early platform stats; still current and corroborated by 2026 scale (19.1M = 2.7x growth since May 2022)"
+      },
+      {
+        "claim": "Hollywood Reporter Nov 25 2025 (Exclusive) reports Eric Decker alias Airrack has amassed over 17.5M YouTube subscribers for challenge/prank content, signed with CAA for brand partnerships, collaboration with Pizza Hut breaking Guinness World Record for biggest pizza at 13,990 sq ft inside Los Angeles Convention Center (nominated for Cannes Lion, used Super Bowl commercial), partnerships with Crocs/SoFi/Pepsi/Shopify, surpassed 10M in 2022 and hosted 2022 Streamy Awards winning Best First Person",
+        "link": "https://www.hollywoodreporter.com/business/business-news/youtuber-eric-decker-caa-1236435129/",
+        "still_current_2026": "YES - Published 2025-11-25 within 2021-2026 window, details documented earnings/brand deals (Pizza Hut world-record 13,990 sq ft, Cannes Lion nom), 17.5M scale and CAA representation, still current Aug 2026 and corroborated by 19.1M yt-dlp count"
+      },
+      {
+        "claim": "Wikipedia and Hollywood Reporter UTA Sep 28 2023 confirm long career: launched channel July 2019, gained 880K by Dec 2020 then 1M Dec 27 2020 via Save Airrack island campaign (+250K in 2 weeks with Stir referral site), reached 10M in 2022 in under 3 years, 14M Sep 2023 gaining ~500K/month, co-founded Creator Now educational platform May 2021 with One Day Entertainment (acquired by VidIQ Jan 2024) raising $3M seed from Upfront Ventures/Casey Neistat/Jack Conte",
+        "link": "https://www.hollywoodreporter.com/business/business-news/eric-airrack-decker-signs-uta-1235603322/",
+        "still_current_2026": "YES - Published 2023-09-28 within window, corroborates subscriber trajectory 14M Sep 2023 -> 17.5M Nov 2025 -> 19.1M Aug 2026, plus Creator Now May 2021 founding and VidIQ acquisition Jan 2024 still current"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-07-27",
+      "2026-07-13",
+      "2026-06-27",
+      "2026-06-09",
+      "2026-05-27"
+    ],
+    "doc_sources": [
+      {
+        "title": "How Airrack Made YouTube's Greatest Comeback (Interview)",
+        "url": "https://www.youtube.com/watch?v=wtMudMODlWU",
+        "date": "2025-10-14",
+        "still_current_2026": "YES - yt-dlp upload_date 20251014 within 2021-2026; Jon Youshaei-owned first-party interview (Eric Decker as guest on Created with Jon Youshaei, duration 6287 sec) where Airrack details creative process then vs now, How To Identify & Innovate on Trends, Creating Formats To Repeat (branching series), budget per video <$10k now vs $100k, A-plot/B-plot, intro improvements, thumbnail iteration; verified via yt-dlp --dump-json title/uploader/duration and Podscan 2025-10-18 published date; still current Aug 2026"
+      },
+      {
+        "title": "How Airrack Became The Elon Musk Of YouTube",
+        "url": "https://www.forbes.com/sites/jonyoushaei/2022/05/29/how-airrack-became-the-elon-musk-of-youtube/",
+        "date": "2022-05-29",
+        "still_current_2026": "YES - Published 2022-05-29 within 2021-2026 (updated July 9 2024 per webfetch); Jon Youshaei Forbes article detailing Airrack workflow lessons and community building; still current as verification lead and historical doc source, corroborated by Oct 2025 interview as evolved workflow"
+      },
+      {
+        "title": "How Airrack Pulls Off YouTube's Biggest Pranks (Breakdown)",
+        "url": "https://www.youtube.com/watch?v=LMi_s4fEyAs",
+        "date": "2025-12-23",
+        "still_current_2026": "YES - yt-dlp sibling content 2025-12-23 and Podscan Jan 5 2026 datePublished 2026-01-05 within window; second Jon Youshaei/Airrack collaboration where Airrack breaks down 'I Arrested Streamers' KSI prank workflow: head producer Christina 4 days prep with police, hiring real off-duty cops with donuts/treats, body-cam/dash-cam/GoPro/360-cam setup, inside-man via JiDion, run-of-show rehearsal, one-day shoot in-and-out model; still current Aug 2026"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 9885414,
+    "per_video": [
+      {
+        "title": "How Many Days Can I Secretly Live At 7/11?",
+        "views": 7297586,
+        "eligible": true
+      },
+      {
+        "title": "I \"Cheated\" Until the Arcade Banned Me",
+        "views": 22308855,
+        "eligible": true
+      },
+      {
+        "title": "Invisible Car Prank On The Cops!",
+        "views": 5797461,
+        "eligible": true
+      },
+      {
+        "title": "I Stole From The World's Richest YouTubers",
+        "views": 9758217,
+        "eligible": true
+      },
+      {
+        "title": "How Many Days Can I Secretly Live In Disneyland?",
+        "views": 9850055,
+        "eligible": true
+      },
+      {
+        "title": "I Hunted Down 100 iPhone Thieves",
+        "views": 10509170,
+        "eligible": true
+      },
+      {
+        "title": "I Cheated Until the Casino Banned Me",
+        "views": 11646928,
+        "eligible": true
+      },
+      {
+        "title": "Last To Get Kicked Out Of The Grocery Store Wins",
+        "views": 8886971,
+        "eligible": true
+      },
+      {
+        "title": "Secretly Riding Trains Across America",
+        "views": 9849134,
+        "eligible": true
+      },
+      {
+        "title": "Alien Invasion Prank",
+        "views": 9920774,
+        "eligible": true
+      },
+      {
+        "title": "I Hunted Down Real Scammers!",
+        "views": 13784338,
+        "eligible": true
+      },
+      {
+        "title": "How Many Days Can I Secretly Live In a Grocery Store?",
+        "views": 21780567,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.894,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.9885414,
+    "activity_input": 0.5,
+    "arithmetic": "0.3×1.00 + 0.5×0.9885414 + 0.2×0.5 = 0.30 + 0.4942707 + 0.10 = 0.8942707 ≈ 0.894; hit_rate 12/12=1.0, hit_magnitude median 9885414/10000000=0.9885414 capped 1.0, activity 0.5 (newest upload 2026-07-27 is 33 days before 2026-08-29 >30 days ≤90 days)"
+  },
+  "documentation": [
+    {
+      "title": "How Airrack Made YouTube's Greatest Comeback (Interview)",
+      "url": "https://www.youtube.com/watch?v=wtMudMODlWU",
+      "date": "2025-10-14",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "How Airrack Became The Elon Musk Of YouTube",
+      "url": "https://www.forbes.com/sites/jonyoushaei/2022/05/29/how-airrack-became-the-elon-musk-of-youtube/",
+      "date": "2022-05-29",
+      "provenance": "SECOND-HAND",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "How Airrack Pulls Off YouTube's Biggest Pranks (Breakdown)",
+      "url": "https://www.youtube.com/watch?v=LMi_s4fEyAs",
+      "date": "2025-12-23",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "1m+ median prioritized: PASS with large margin. Median 9,885,414 (sorted 12 eligible: 5,797,461 to 22,308,855; all >5.7M) via exact python -m yt_dlp per-video counts Aug 29 2026; smallest eligible 5.8M alone exceeds 1m by 5.8x. 10m+ anchor tier: median just below 10M but top two exceed 21M-22M and 4 videos >11M, so near-anchor. Lifetime 19.1M subs / 4.8B views corroborate scale; exact counts prove consistent 1m+ dominance.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --playlist-end 12 for @Airrack/videos returned flat counts 5.7M-22M; verified each of 12 via python -m yt_dlp --print upload_date/view_count/duration per watch page (IDs nO2dMO3BUO4 through wn-deqrkNP8) to get exact 2026-07-27 to 2026-01-25 dates/durations (2143 to 1162 sec) and confirm not aggregator estimates; per-video counts match flat within <0.1% drift (e.g., flat 7.2M vs individual 7297586)",
+    "Checked newest upload recency: nO2dMO3BUO4 20260727 is 33 days before 2026-08-29 (>14 days threshold for exclusion and >30 days for activity 1.0); confirmed no Shorts/livestreams/podcasts in last 12 — all durations 1162-2576 sec (19-42 min) verified as eligible long-form, no Shorts excluded beyond newest <14 days rule (excluded_new_uploads 0 because flat-mode-first-row still >14 days)",
+    "Verified candidate first-party doc wtMudMODlWU via yt-dlp --dump-json: uploader Jon Youshaei (@youshaei) not Airrack channel, duration 6287 sec (1:44:47), 243277 views, but FIRST-PARTY provenance confirmed via Eric Decker as interview guest explaining workflow (ex-YouTube employee Jon Youshaei's 'Created' series documents title/thumbnail <50 chars equivalent, retention, team production guidebook analogue); corroborated by Podscan Oct 18 2025 schema datePublished 2025-10-18T16:08:00Z and description timestamp 'How Airrack Made YouTube's Greatest Comeback'",
+    "Attempted bare yt-dlp (not on PATH) confirmed failure; used python -m yt_dlp for all counts per measurement protocol; flat-mode channel_follower_count returned NA so fell back to per-video channel_follower_count 19100000 and Wikipedia/SPEAKRJ for sub count evidence",
+    "Checked duration/was_live/live_status ambiguity for consistency: pulled duration (1162-2576) and availability public for all 12 — no Shorts (<60s), no livestreams, no podcast in title per spec so counted eligible; also checked flat-playlist extended to 14 videos to confirm next video 'I Secretly Hid In Beast Games!' shows NA views but not part of last-12 eligible set",
+    "Searched additional verification: websearch for Airrack verification returned Wikipedia Aug 18 2026 infobox 19.1M/4.8B, Hollywood Reporter Nov 25 2025 17.5M/CAA and Sep 28 2023 UTA 14M/~500K/month, Tubefilter Jan 31 2022 $3M Creator Now, Forbes May 29 2022 media coverage; fetched each page before citing as required",
+    "Doc dating: How Airrack Made YouTube's Greatest Comeback header shows 2025-10-14 per yt-dlp upload_date, corroborated by LinkedIn Jon Youshaei Oct 14/30 2025 and Podscan Dec 24 2025 reference; confirmed English FIRST-PARTY workflow depth covering idea→pitch→budget→A-plot/B-plot→intro→thumbnail, MONETIZED via .Store + YTHackPack in description; also verified second doc LMi_s4fEyAs via webfetch 2025-12-23"
+  ]
+}

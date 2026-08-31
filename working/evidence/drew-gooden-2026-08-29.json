@@ -1,0 +1,172 @@
+{
+  "name": "Drew Gooden",
+  "handle": "@drewisgooden",
+  "platform": "YouTube",
+  "niche_format": "edited commentary-comedy video essay, 15-30 min",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Wikipedia infobox: 4.86M subscribers, 1.16B views, channel https://www.youtube.com/channel/UCTSRIY3GLFYIpkR2QwyeklA, Years active 2016–present, Genres Commentary/comedy, Last updated Aug 12 2026, Streamy Award Commentary 2021 winner and 2022 nominee, former Viner 'Road Work Ahead' 2016",
+        "link": "https://en.wikipedia.org/wiki/Drew_Gooden_(internet_personality)",
+        "still_current_2026": "YES - Wikipedia page last updated Aug 12 2026 per infobox, shows 4.86M/1.16B, verified via webfetch Aug 29 2026; still current and corroborates long public career Vine 2013 → YouTube 2017-present"
+      },
+      {
+        "claim": "Direct yt-dlp measurement 2026-08-29: channel @drewisgooden verified checkmark true, channel_id UCTSRIY3GLFYIpkR2QwyeklA, channel_follower_count 4870000, description 'i am the only person who makes videos', tags comedy, handle https://www.youtube.com/@drewisgooden",
+        "link": "https://www.youtube.com/@drewisgooden",
+        "still_current_2026": "YES - Direct python -m yt_dlp --flat-playlist measurement 2026-08-29 returns 4870000 and channel_is_verified true, corroborated by Wikipedia 4.86M and SocialBlade 4.86M; proves exceeds 100k verification threshold"
+      },
+      {
+        "claim": "SocialBlade: 4.86M subscribers, 1,162,578,776 views, 173 videos, Created Aug 21 2015, Grade B, Social Blade Rank 71,853, Subscribers Rank 954, Views Rank 25,896, US Rank 712, Comedy Rank 297, daily metrics Aug 3-16 2026 show 250k-3.9M views per day with Consistent uploads",
+        "link": "https://socialblade.com/youtube/handle/drewisgooden",
+        "still_current_2026": "YES - SocialBlade snapshot Aug 16 2026 via websearch Aug 29 2026 shows 4.86M/1.16B/173 and daily table Aug 3-16 2026; still current Aug 2026 and matches yt-dlp 4.87M"
+      },
+      {
+        "claim": "The Tilt Jun 7 2021 (updated Sep 28 2021): Drew Gooden grew audience after 6-second Vine thrived, 426M views and 3M subscribers as of June 2021, paid sponsorship deals HelloFresh and Squarespace, official merch drewgoodenshop.com, Vine 400k followers to YouTube 2015-present",
+        "link": "https://www.thetilt.com/content-entrepreneur/drew-gooden-youtube-content-creator",
+        "still_current_2026": "YES - Published June 7 2021 within 2021-2026 window read via websearch Aug 29 2026; historical 3M/426M in 2021 grew to 4.86M/1.16B by Aug 2026 corroborated by SocialBlade/wiki; proves monetized brand deals and long career Vine to YouTube 2017 full-time"
+      },
+      {
+        "claim": "Newsweek Sep 5 2019 (updated Sep 9 2019): 'Comedians Danny Gonzalez and Drew Gooden Talk Tour, Individuality and Why YouTube Is the Best Career' — We Are Two Different People Tour Sep 2019, theatrical 90-minute production with Kurtis Conner, 1.6M Gooden / 2.8M Gonzalez subscribers in 2019, prestige media coverage",
+        "link": "https://www.newsweek.com/comedians-danny-gonzalez-drew-gooden-talk-tour-individuality-why-youtube-best-career-1457886",
+        "still_current_2026": "YES - Published Sep 5 2019 historical career evidence read via webfetch Aug 29 2026; 1.6M in 2019 → 4.86M by Aug 2026 confirms continuity and growth; still current for long public career verification"
+      },
+      {
+        "claim": "NBC News Jan 18 2022: 'Confidence to shine: Drew Gooden says Vine came around right when he needed it' — Vine 2013 spontaneity 'video equivalent of a tweet', Road Work Ahead 2016 most recognizable Vine, Camp Unplug 2016 meeting Danny Gonzalez, Vine closure Jan 2017 had several hundred thousand followers then migrated to YouTube, Streamy Award Commentary winner 2021",
+        "link": "https://www.nbcnews.com/pop-culture/confidence-shine-drew-gooden-says-vine-came-right-needed-rcna12168",
+        "still_current_2026": "YES - Published Jan 18 2022 within window per Wikipedia citation 1, read via websearch Aug 29 2026; still current Aug 2026 and corroborates Vine origin, Road Work Ahead virality, and Streamy win"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-09",
+      "2026-07-31",
+      "2026-06-17",
+      "2026-04-03",
+      "2026-03-03"
+    ],
+    "doc_sources": [
+      {
+        "title": "I spent a day with Drew Gooden — Anthony Padilla: I Spent a Day With... (Smosh Alike mirror: I interviewed Drew Gooden so you don't have to)",
+        "url": "https://www.youtube.com/watch?v=8t_JqQXg5qQ",
+        "date": "2024-03-08",
+        "still_current_2026": "YES - Published 2024-03-08 per yt-dlp upload_date 20240308 and Listen Notes 2024-03-08, within 2021-2026; details doing everything himself, writing couple weeks per video, filming/editing 2 days, building recharge time, not over-planning, pure intuition, straight cuts; still current Aug 2026 with no retraction"
+      },
+      {
+        "title": "Triangle Talks: YouTube stars Danny Gonzalez and Drew Gooden",
+        "url": "https://www.thetriangle.org/article/triangle-talks-youtube-stars-danny-gonzalez-and-drew-gooden",
+        "date": "2019-09-11",
+        "still_current_2026": "NO - Published Sep 11 2019 per page header read via webfetch Aug 29 2026, outside 2021-2026 window; corroborates Vine-to-YouTube transition (started from scratch with 1000 subs on YouTube after Vine died, experimentation to commentary) and tour prep but frozen pre-2021, cannot alone satisfy recency"
+      },
+      {
+        "title": "Confidence to shine: Drew Gooden says Vine came around right when he needed it — NBC News",
+        "url": "https://www.nbcnews.com/pop-culture/confidence-shine-drew-gooden-says-vine-came-right-needed-rcna12168",
+        "date": "2022-01-18",
+        "still_current_2026": "YES - Published Jan 18 2022 within window, corroborates career timeline and YouTube full-time after 3 years (since 2017), still current Aug 2026"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 4697784,
+    "per_video": [
+      {
+        "title": "The Bashar Guy made a movie (w/ Danny Gonzalez)",
+        "views": 2454281,
+        "eligible": true
+      },
+      {
+        "title": "Season 2 of Avatar is everything wrong with Netflix",
+        "views": 4139096,
+        "eligible": true
+      },
+      {
+        "title": "The Music Industry is Broken",
+        "views": 4233022,
+        "eligible": true
+      },
+      {
+        "title": "I am the worst chef on youtube",
+        "views": 4799231,
+        "eligible": true
+      },
+      {
+        "title": "ESPN & the Death of Journalism",
+        "views": 3702934,
+        "eligible": true
+      },
+      {
+        "title": "When you accidentally ruin your show",
+        "views": 6071629,
+        "eligible": true
+      },
+      {
+        "title": "Watching whatever my TV tells me to because I don't care anymore",
+        "views": 3999741,
+        "eligible": true
+      },
+      {
+        "title": "Greed is Destroying the World",
+        "views": 6881324,
+        "eligible": true
+      },
+      {
+        "title": "The Office has a sequel, for some reason",
+        "views": 4830230,
+        "eligible": true
+      },
+      {
+        "title": "The Greatest Bad Movie Ever Made",
+        "views": 4926993,
+        "eligible": true
+      },
+      {
+        "title": "The internet made me obsessed with protein",
+        "views": 7430720,
+        "eligible": true
+      },
+      {
+        "title": "I watched every SNL movie",
+        "views": 4596337,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.735,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.4697784,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×1.0 + 0.5×0.4698 + 0.2×1.0 = 0.30 + 0.2349 + 0.20 = 0.7349 ≈ 0.735; hit_rate 12/12=1.0, hit_magnitude median 4697784/10000000=0.4698 capped 1.0, activity 1.0 (newest upload 2026-08-09 is 20 days before 2026-08-29 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "I spent a day with Drew Gooden — Anthony Padilla: I Spent a Day With...",
+      "url": "https://www.youtube.com/watch?v=8t_JqQXg5qQ",
+      "date": "2024-03-08",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Triangle Talks: YouTube stars Danny Gonzalez and Drew Gooden",
+      "url": "https://www.thetriangle.org/article/triangle-talks-youtube-stars-danny-gonzalez-and-drew-gooden",
+      "date": "2019-09-11",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    }
+  ],
+  "magnitude_note": "1m+ median tier: PASS with 4.70M median (sorted 12: 2.45M low to 7.43M high, smallest still 24x over 100k bar). Not 10m+ anchor tier but strong 2-7M consistency; 1.16B total views, 4.86M subs Aug 2026, top videos 7.43M (protein), 6.88M (Greed), 6.07M (accidentally ruin show) via exact python -m yt_dlp per-video counts. All durations 1387-2843s (23-47 min, all >10 min long-form), eligible edited commentary-comedy essays 15-30 min core; activity 1.0 keeps dominance high.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist https://www.youtube.com/@drewgooden/videos resolves to NBA player Drew Gooden channel UCjtkaY_1JrDw6uUtwvcPsTg (Milwaukee Bucks Power Forward #0) with only 4 videos 444-750 views and channel_follower_count 167 verified true — not the comedy creator; candidates.md channel URL https://www.youtube.com/@drewgooden is inaccurate for commentary Drew Gooden; discovered comedy creator's actual handle is @drewisgooden via Wikipedia channel ID UCTSRIY3GLFYIpkR2QwyeklA, SocialBlade handle drewisgooden, and yt-dlp direct handle @drewisgooden verified 4.87M",
+    "bare yt-dlp not on PATH per wave-02 spec — used python -m yt_dlp for all view counts per measurement protocol; flat-playlist view_counts rounded, reconciled with per-video exact view_count via python -m yt_dlp --print for all 12 IDs 2026-08-29",
+    "YouTube watch pages (youtube.com/watch?v=8t_JqQXg5qQ, video pages) JS-rendered via searxng_web_url_read returned Google shell only — resolved via yt-dlp --print %(upload_date)s|%(view_count)s|%(duration)s for exact metadata and Listen Notes/Audioboom crew pages for dating and sponsorship",
+    "Video https://www.youtube.com/watch?v=8t_JqQXg5qQ yt-dlp returns channel Smosh Alike UCPJHQ5_DLtxZ1gzBvZE99_g not Anthony Padilla main channel, but audioboom.com/posts/8636844 and listennotes.com/podcasts/i-spent-a-day-with show same title/date 2024-03-08 with creator Anthony Padilla and crew list (Anthony Padilla as Creator/Director/Writer) — reconciled as same production mirrored; still FIRST-PARTY Drew quotes, MONETIZED via BetterHelp sponsorship per audioboom description",
+    "SocialBlade handle drewgooden vs drewisgooden confusion — verified via socialblade.com/youtube/handle/drewisgooden showing 4.86M/1.16B/173 and via realtimeSubCount 4.9M live, while drewgooden handle shows NBA 167 followers; corrected to @drewisgooden with channel_follower_count 4870000 via yt-dlp -J",
+    "Checked per-video durations individually for Shorts/livestreams/podcasts exclusion: all 1387-2843 sec (23-47 min) and via --print all durations >600 sec, was_live false not live — no Shorts (<60s) or livestreams to exclude; excluded_new_uploads 0 because newest 2026-08-09 is 20 days before 2026-08-29 (>14 days threshold) unlike flat-mode heuristic of 1-2 rows",
+    "Flat mode has no dates — pulled dates individually for newest 5 (2026-08-09, 2026-07-31, 2026-06-17, 2026-04-03, 2026-03-03) and all 12 via per-video --print to determine activity 1.0 and recency; verified flat view_counts within <3% of per-video exact counts"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "name": "Mark Rober",
+  "handle": "@MarkRober",
+  "platform": "YouTube",
+  "niche_format": "science/engineering builds, edited long-form 10-20 min explainers",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Former NASA JPL mechanical engineer 9 years (2004-2013), 7 years on Curiosity rover Mars Science Laboratory hardware",
+        "link": "https://en.wikipedia.org/wiki/Mark_Rober",
+        "still_current_2026": "YES - career history, confirmed in Aug 2026 revision; also TED transcript June 2026 restates 'nine years at NASA and then five years at Apple'"
+      },
+      {
+        "claim": "Product designer Apple Special Projects Group 2015-early 2020, authored VR patents for self-driving car entertainment",
+        "link": "https://en.wikipedia.org/wiki/Mark_Rober",
+        "still_current_2026": "YES - historical employment, corroborated by Variety 2018 and Forbes 2026 profile"
+      },
+      {
+        "claim": "YouTube channel @MarkRober created Oct 20 2011, 81.6M subscribers and 18.66B views as of 2026-08-29 (SocialBlade), 81.4M/18.59B as of 2026-08-24 (TubeLeader)",
+        "link": "https://en.wikipedia.org/wiki/Mark_Rober",
+        "still_current_2026": "YES - live stats updated Aug 2026; infobox 'Last updated: August 29, 2026' shows 81.6M/18.7B"
+      },
+      {
+        "claim": "Forbes Top Creators 2026 Rank #9 earnings $30M (June 23 2026), team of 100 producing seven-figure episodes, brand deals Rivian/Google/Disney",
+        "link": "https://www.forbes.com/profile/mark-rober/",
+        "still_current_2026": "YES - dated June 23 2026, corroborated by https://www.forbes.com/sites/stevenbertoni/2026/06/23/forbes-top-creators-2026/"
+      },
+      {
+        "claim": "Founder CrunchLabs (2022) STEM subscription Build Boxes, 140 employees per TED transcript June 2 2026 and 75M/16B views",
+        "link": "https://www.ted.com/podcasts/ted.com/podcasts/why-chasing-the-algorithm-leads-to-burnout-with-mark-rober-transcript",
+        "still_current_2026": "YES - TED transcript June 2 2026 states '75 million followers and over 16 billion views' and '140 employees'"
+      },
+      {
+        "claim": "Averages 28.3M views per video, at least one video >50M each year for last seven years; lifetime avg 69.6M per video (TubeLeader Aug 24 2026)",
+        "link": "https://www.linkedin.com/pulse/how-mark-rober-engineered-perfect-youtube-strategy-samir-chaudry",
+        "still_current_2026": "YES - Aug 2023 analysis still current; corroborated by CreatorDB 2026-08-21 top videos 48.1M/41.4M https://creatordb.app/creatorstats/markrober/"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-14",
+      "2026-08-12",
+      "2026-07-30",
+      "2026-04-30",
+      "2026-04-16"
+    ],
+    "doc_sources": [
+      {
+        "title": "Why chasing the algorithm leads to burnout with Mark Rober (Transcript) - WorkLife with Molly Graham, TED",
+        "url": "https://www.ted.com/podcasts/ted.com/podcasts/why-chasing-the-algorithm-leads-to-burnout-with-mark-rober-transcript",
+        "date": "2026-06-02",
+        "still_current_2026": "YES - published June 2 2026 within 2021-2026 window; describes 1 video/month for 15 years, quality-over-quantity treadmill model, still current Aug 2026"
+      },
+      {
+        "title": "What makes Mark Rober so successful? - With Mark Rober (Video Production Daily, Apple Podcasts)",
+        "url": "https://podcasts.apple.com/us/podcast/what-makes-mark-rober-so-successful-with-mark-rober/id1500470401?i=1000515559114",
+        "date": "2021-04-03",
+        "still_current_2026": "YES - dated April 3 2021 within window; details story/script + personal edit, 200 hours to 10 min"
+      },
+      {
+        "title": "The Full Story of Mark Rober - Colin and Samir",
+        "url": "https://www.youtube.com/watch?v=1t5oYKEn-1E",
+        "date": "2022-12-07",
+        "still_current_2026": "YES - published Dec 7 2022 per https://rosetta.to/u/colinandsamir/the-full-story-of-mark-rober ; covers jogging pace, editing, still current via 2026 TED"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 6560000,
+    "per_video": [
+      {
+        "title": "Why the Moon Never Changes",
+        "views": 3710000,
+        "eligible": true
+      },
+      {
+        "title": "$100 Slime Challenge",
+        "views": 2540000,
+        "eligible": true
+      },
+      {
+        "title": "Lowest Heart Rate Wins!",
+        "views": 6850000,
+        "eligible": true
+      },
+      {
+        "title": "Stop Your Car From Getting Stolen!",
+        "views": 1490000,
+        "eligible": true
+      },
+      {
+        "title": "I Discovered a Lost Plane",
+        "views": 22540000,
+        "eligible": true
+      },
+      {
+        "title": "How To Crush an Egg with Your Bare Hand",
+        "views": 2410000,
+        "eligible": true
+      },
+      {
+        "title": "3 Levels of Car Theft",
+        "views": 6270000,
+        "eligible": true
+      },
+      {
+        "title": "I Outsmarted Pro Car Thieves",
+        "views": 20570000,
+        "eligible": true
+      },
+      {
+        "title": "Do YouTubers know about the Magnus Effect?",
+        "views": 9190000,
+        "eligible": true
+      },
+      {
+        "title": "My $60,000,000 Experiment",
+        "views": 1800000,
+        "eligible": true
+      },
+      {
+        "title": "Ronaldo vs My Unbeatable Goalie Robot",
+        "views": 48100000,
+        "eligible": true
+      },
+      {
+        "title": "I Built a Roller Coaster In My Lab",
+        "views": 41400000,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.828,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.656,
+    "activity_input": 1.0,
+    "arithmetic": "0.3*1.0 + 0.5*0.656 + 0.2*1.0 = 0.3 + 0.328 + 0.2 = 0.828; hit_magnitude = median 6560000 / 10000000 = 0.656 capped 1.0; activity 1.0 because newest upload 2026-08-14 is 15 days before 2026-08-29 (≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "Why chasing the algorithm leads to burnout with Mark Rober (Transcript) - WorkLife with Molly Graham, TED",
+      "url": "https://www.ted.com/podcasts/ted.com/podcasts/why-chasing-the-algorithm-leads-to-burnout-with-mark-rober-transcript",
+      "date": "2026-06-02",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "What makes Mark Rober so successful? - With Mark Rober (Video Production Daily)",
+      "url": "https://podcasts.apple.com/us/podcast/what-makes-mark-rober-so-successful-with-mark-rober/id1500470401?i=1000515559114",
+      "date": "2021-04-03",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "The Full Story of Mark Rober - Colin and Samir",
+      "url": "https://www.youtube.com/watch?v=1t5oYKEn-1E",
+      "date": "2022-12-07",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "1m+ median prioritized: PASS with 6.56M median. 10m+ anchor tier: PASS - lifetime avg 69.6M per video (TubeLeader 2026-08-24), 18.5-18.6B total views, top videos 48.1M/41.4M/35.5M per CreatorDB 2026-08-21, recent outliers 22.5M and 20.5M in last 12. Top-of-shortlist anchor.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp not available: no shell/tool to execute yt-dlp per Standing rules (leaf agent has read/write and web tools only); measurement protocol required flat-playlist and per-video yt-dlp calls - unable to execute, fell back to web-sourced view counts",
+    "SearXNG returned no results for initial verification query - fell back to websearch (Exa) and webfetch",
+    "SocialBlade per-video table requires login (paywall) - accessed aggregate stats but not per-video rows; used VidMaestro and TubeLeader and CreatorDB as secondary sources",
+    "YouTube channel HTML not fully rendered via webfetch for direct view counts - used VidMaestro Latest videos and CreatorDB",
+    "No bare yt-dlp on PATH confirmed - python -m yt_dlp required but subagent shell unavailable by design"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Kurtis Conner",
+  "handle": "@kurtisConner",
+  "platform": "YouTube",
+  "niche_format": "edited commentary-comedy video essay, 15-30 min",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "5.67M subscribers and 1.20B views as of Aug 12 2026 (Wikipedia infobox last edited Aug 26 2026), Years active 2013–present, Genres comedy/commentary, channel @kurtisconner UC7zsxKqd5MicTf4VhS9Y74g",
+        "link": "https://en.wikipedia.org/wiki/Kurtis_Conner",
+        "still_current_2026": "YES - Wikipedia page last edited 2026-08-26 23:06 UTC shows infobox 5.67M/1.20B, Years active 2013–present, verified via webfetch Aug 29 2026; still current and corroborates long public career Vine (2013) → YouTube (2014) → YouTube full-time 2017"
+      },
+      {
+        "claim": "Channel follower count 5680000 measured directly via python -m yt_dlp per-video metadata 2026-08-29 (video YM3OnxNw2f8), uploader @kurtisconner, Canada, 249 videos, exceeds 100k verification threshold",
+        "link": "https://www.youtube.com/@kurtisConner",
+        "still_current_2026": "YES - Direct yt-dlp measurement 2026-08-29 returns 5680000, corroborated by SocialBlade 5.57M and HypeAuditor 5.68M Aug 29 2026; proves multi-million scale and verified-channel eligibility (100k threshold)"
+      },
+      {
+        "claim": "Business Insider 2020-02-09 'Meet Kurtis Conner, one of YouTube's most popular commentators' — Vine 350k followers, 2M subscriber milestone in 2020 at age 25, Toronto, office job at inkbox before quitting for YouTube full-time in 2017",
+        "link": "https://www.businessinsider.com/kurtis-conner-youtube-most-popular-commentary-channels-2020-2",
+        "still_current_2026": "YES - Published 2020-02-09, historical career evidence read via webfetch Aug 29 2026; still relevant for long public career (2017 momentum video 600k in 2 days), corroborated by Wikipedia and 2023-2026 interviews; 2M → 5.67M growth confirms continuity"
+      },
+      {
+        "claim": "The Tilt Oct 10 2022 'Entrepreneur Kurtis Conner Turns Comedy Into Gold on YouTube With 4M+ Subscribers' — 4.15M YouTube, Very Really Good podcast, Patreon bonus content, live tour and merch store, documented earnings via brand deals/AdSense/tour",
+        "link": "https://www.thetilt.com/content-entrepreneur/kurtis-conner-content-entrepreneur",
+        "still_current_2026": "YES - Published 2022-10-10 within 2021-2026, read via websearch Aug 29 2026; details creator-economy business model persisted in 2024 PYTHON special and 2024-2025 Goodfellow World Tour and AD HOC NEWS June 18 2026 business overview; still current"
+      },
+      {
+        "claim": "YouTube Gold Creator Award tier (1M+ subscribers) confirmed June 18 2026 AD HOC NEWS 'Kurtis Conner and the business behind his comedy channel' — multi-million subscriber main channel, commentary essays regularly cross million-view mark, stable AdSense + tour/merch/brand sponsorships",
+        "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/kurtis-conner-and-the-business-behind-his-comedy-channel/69577356",
+        "still_current_2026": "YES - Published 2026-06-19 00:42 via websearch Aug 29 2026, within window, corroborates verification bar (100k+ per video) and monetized career evidence; still current Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-14",
+      "2026-07-10",
+      "2026-06-05",
+      "2026-04-01",
+      "2026-02-28"
+    ],
+    "doc_sources": [
+      {
+        "title": "An Unfiltered Conversation with Kurtis Conner — Colin and Samir Show (Podmarized summary)",
+        "url": "https://podmarized.com/episodes/colin-and-samir/an-unfiltered-conversation-with-kurtis-conner",
+        "date": "2023-11-08",
+        "still_current_2026": "YES - Published 2023-11-08 per page header read via webfetch Aug 29 2026, corroborated by Spotify/Apple podcast listing 2023-11-07 and Player FM 2023-11-07; within 2021-2026, details scripting over improv, thumbnail/discoverability learning, late-night editing while at inkbox, scaling team; still cited as current workflow Aug 2026 with no retraction"
+      },
+      {
+        "title": "I spent a day with Kurtis Conner to learn the truth about his rise to fame and doing stand up — Anthony Padilla: I Spent a Day With... (Season 2023 Episode 10)",
+        "url": "https://audioboom.com/posts/8636885-i-spent-a-day-with-kurtis-conner-to-learn-the-truth-about-his-rise-to-fame-and-doing-stand-up",
+        "date": "2023-03-31",
+        "still_current_2026": "YES - Aired 2023-03-31 per Simkl S2023E10 and audioboom Apr 01 2023 02:50 AM, corroborated by Instagram teaser March 29 2023; within 2021-2026, details touring/merch economics, stand-up vs YouTube writing, team trust; still current as touring narrative persists in 2024 Goodfellow Tour dates"
+      },
+      {
+        "title": "The Tilt: Entrepreneur Kurtis Conner Turns Comedy Into Gold on YouTube With 4M+ Subscribers",
+        "url": "https://www.thetilt.com/content-entrepreneur/kurtis-conner-content-entrepreneur",
+        "date": "2022-10-10",
+        "still_current_2026": "YES - Published 2022-10-10, within window, corroborates business-side workflow (audience growth → podcast/merch/tour expansion) and scripting/product approach via secondary interview quotes; still current"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 4103208,
+    "per_video": [
+      {
+        "title": "The Cameron Dallas Downfall",
+        "views": 2729185,
+        "eligible": true
+      },
+      {
+        "title": "The Donald Trump Christian Movie is Terrible (Obviously)",
+        "views": 3651360,
+        "eligible": true
+      },
+      {
+        "title": "I Bought the Soulja Boy \"Smart\" Glasses",
+        "views": 2910069,
+        "eligible": true
+      },
+      {
+        "title": "Addicted To Her AI Boyfriend",
+        "views": 4538146,
+        "eligible": true
+      },
+      {
+        "title": "Somehow Dr. Witnesser Returned",
+        "views": 4758202,
+        "eligible": true
+      },
+      {
+        "title": "The Reality Show So Bad It Was Cancelled After ONE Episode",
+        "views": 3950215,
+        "eligible": true
+      },
+      {
+        "title": "This Anti-Woke Christmas Movie is Awful",
+        "views": 3704493,
+        "eligible": true
+      },
+      {
+        "title": "The Youngest Person Ever",
+        "views": 4256200,
+        "eligible": true
+      },
+      {
+        "title": "Performative Males",
+        "views": 5161812,
+        "eligible": true
+      },
+      {
+        "title": "MINDFLEX: The Toy That Gives You \"Superpowers\"",
+        "views": 2943789,
+        "eligible": true
+      },
+      {
+        "title": "Russell's Rebrand",
+        "views": 5519566,
+        "eligible": true
+      },
+      {
+        "title": "I Bought a Time Machine Online",
+        "views": 5761443,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.705,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.4103,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×1.0 + 0.5×0.4103 + 0.2×1.0 = 0.30 + 0.205 + 0.20 = 0.705; hit_rate 12/12=1.0, hit_magnitude median 4103208/10000000=0.4103 capped 1.0, activity 1.0 (newest upload 2026-08-14 is 15 days before 2026-08-29 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "An Unfiltered Conversation with Kurtis Conner — Colin and Samir Show",
+      "url": "https://podmarized.com/episodes/colin-and-samir/an-unfiltered-conversation-with-kurtis-conner",
+      "date": "2023-11-08",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "I spent a day with Kurtis Conner to learn the truth about his rise to fame and doing stand up — Anthony Padilla: I Spent a Day With...",
+      "url": "https://audioboom.com/posts/8636885-i-spent-a-day-with-kurtis-conner-to-learn-the-truth-about-his-rise-to-fame-and-doing-stand-up",
+      "date": "2023-03-31",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "1m+ median tier: PASS with 4.10M median (sorted 12: 2.73M low to 5.76M high, smallest still 27x over 100k bar). Not 10m+ anchor tier but strong 2-5M consistency; 1.20B total views, 5.67M subs Aug 2026. Top videos 5.76M (Time Machine), 5.52M (Russell's Rebrand), 5.16M (Performative Males) via exact yt-dlp counts. All durations 1421-4072s (23-67 min, all >10 min long-form), eligible edited commentary-comedy essays 15-30 min core.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --print channel_follower_count returned NA for @kurtisConner videos — fell back to per-video metadata channel_follower_count 5680000 on 2026-08-29 (watch?v=YM3OnxNw2f8) and Wikipedia 5.67M Aug 12 2026/SocialBlade 5.57M/HypeAuditor 5.68M corroboration",
+    "webfetch https://www.businessinsider.com/kurtis-conner-youtube-most-popular-commentary-channels-2020-2 paywalled preview required but full article text extracted via webfetch with 2020-02-09 dateline; corroborated via Wikipedia citation and archive.org snapshot 20230424",
+    "podmarized doc date initially flagged 'not clearly listed' in candidates.md notes — located explicit header date November 8 2023 via webfetch and cross-checked Spotify/Apple listing 2023-11-07 and Player FM 2023-11-07",
+    "attempted bare yt-dlp (not on PATH) — used python -m yt_dlp per measurement protocol for all view counts"
+  ]
+}

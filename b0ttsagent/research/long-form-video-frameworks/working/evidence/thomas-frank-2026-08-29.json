@@ -1,0 +1,174 @@
+{
+  "name": "Thomas Frank",
+  "handle": "@Thomasfrank",
+  "platform": "YouTube",
+  "niche_format": "productivity / Notion education explainer & video essay (10–20 min)",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @Thomasfrank handle live UCG-KntY7aVnIGXYEBQvmBAQ, joined Dec 3 2006, 3,010,000 subscribers and 186,522,621 total views across 281 videos as of Aug 9 2026 (ytproanalytics), per-video yt-dlp metadata shows @Thomasfrank uploader and 3,000,000 channel_follower_count on 2026-08-29",
+        "link": "https://www.youtube.com/@Thomasfrank",
+        "still_current_2026": "YES - ytproanalytics Aug 9 2026 live YouTube data within 20 days of target corroborates 3.01M/186M; per-video yt-dlp on 2026-08-29 returns 3,000,000 channel_follower_count and UCG-KntY7aVnIGXYEBQvmBAQ, confirms long public career 2006-present"
+      },
+      {
+        "claim": "Own site thomasjfrank.com states main channel has 2.9 million subscribers and 175 million views, second channel Thomas Frank Explains 230,000 subscribers (world's largest Notion channel), co-founder of Nebula creator-owned streaming service with 650,000+ active users and Standard talent division 150+ creators, author and Notion-certified expert since 2010",
+        "link": "https://thomasjfrank.com/about/",
+        "still_current_2026": "YES - thomasjfrank.com/about fetched Aug 29 2026 and thomasjfrank.com/creators-companion fetched Aug 29 2026 both show 2.9M/175M and Nebula 650K, footer © Thomas Frank 2026, still current Aug 2026"
+      },
+      {
+        "claim": "Business Insider Jan 31 2023: Thomas Frank's Notion templates generated more than $1 million revenue in 2022 via Gumroad selling Creator's Companion (launched Aug 2021) and Ultimate Brain (launched Apr 2022), interviewed with documentation; corroborated by The Information Feb 15 2023: The YouTuber Making $1 Million Selling Notion Templates profiling 31-year-old Denver creator",
+        "link": "https://www.businessinsider.com/made-1-million-in-annual-revenue-selling-notion-templates-online-2023-1",
+        "still_current_2026": "YES - Business Insider dated 2023-01-31 within 2021-2026 window documents earnings/brand-scale via paid templates; The Information 2023-02-15 same window, both still current as career earnings evidence Aug 2026"
+      },
+      {
+        "claim": "Featured press list on about page includes WSJ Quiet! I'm Cramming for Finals—By Watching Someone Else Study (May 28 2018), U.S. News How One Recent College Grad Intends to Retire at 40 (Feb 23 2015), and Notion customers case study May 23 2024: YouTuber Thomas Frank built his business on this video production process detailing script/B-roll/distribution workflow in Notion",
+        "link": "https://www.notion.com/ja/customers/thomasfrank",
+        "still_current_2026": "YES - Notion customer story dated 2024-05-23 within window details video production process (script writing, b-roll, distribution) still current; WSJ/U.S. News historical features corroborate long career, Notion story provides 2021-2026 coverage"
+      },
+      {
+        "claim": "Thomas Frank Explains second channel @ThomasFrankExplains 230K-282K subscribers and 8.7M-14M views per Starter Story Aug 14 2024 and embedded thomasjfrank.com metrics, plus Flylighter SaaS co-founded 2024 with Eli Wimmer and multiple Notion certifications, author of web's most comprehensive Notion formula reference",
+        "link": "https://thomasjfrank.com/",
+        "still_current_2026": "YES - homepage fetched Aug 29 2026 states Thomas Frank Explains 230,000 subscribers and main 2.9M/170M+ views, plus Notion certifications, still current Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2024-03-22",
+      "2024-03-20",
+      "2024-01-26",
+      "2023-11-24",
+      "2023-10-20"
+    ],
+    "doc_sources": [
+      {
+        "title": "Creator's Companion — The BEST Content Planning System for Creators",
+        "url": "https://thomasjfrank.com/creators-companion/",
+        "date": "2026-07-31",
+        "still_current_2026": "YES - websearch publish_date 2026-07-31 within 2021-2026 window, webfetch Aug 29 2026 shows live page with Summer50 code and © Thomas Frank 2026, documents exact Notion system for 3M-sub channel covering idea capture→validation→research→script→edit→publish pipeline, still current Aug 2026"
+      },
+      {
+        "title": "How to Be a YouTuber: The Ultimate Guide — Creator Atlas",
+        "url": "https://thomasjfrank.com/creator/how-to-be-a-youtuber-the-ultimate-guide/",
+        "date": "2023-07-19",
+        "still_current_2026": "YES - websearch publish_date 2023-07-19 within window, webfetch Aug 29 2026 shows live Creator Atlas hub with gear list, writing a script, filming, video packaging, YouTube algorithm, thumbnail design, hiring an editor sections, still current Aug 2026"
+      },
+      {
+        "title": "Full Template Tour — Creator's Companion for Notion (docs)",
+        "url": "https://thomasjfrank.com/docs/creators-companion/full-tour-of-creators-companion/",
+        "date": "2025-04-07",
+        "still_current_2026": "YES - websearch publish_date 2025-04-07 within window, details 66-min tour covering content ideas, validation, content projects, writer's room, film queue, edit bay, research, sponsors, keywords, analysis (60+ timestamps), still current Aug 2026"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 0.833,
+    "median_views": 215433,
+    "per_video": [
+      {
+        "title": "The ultimate guide to YouTube sponsorships and brand deals",
+        "views": 41662,
+        "eligible": true
+      },
+      {
+        "title": "Why are you scrolling your phone in bed AGAIN?",
+        "views": 75571,
+        "eligible": true
+      },
+      {
+        "title": "How to get everything you want this year",
+        "views": 162478,
+        "eligible": true
+      },
+      {
+        "title": "I learned to code from scratch in 1 year. Here's how.",
+        "views": 458832,
+        "eligible": true
+      },
+      {
+        "title": "I left my 2 million-subscriber channel. My income doubled.",
+        "views": 239744,
+        "eligible": true
+      },
+      {
+        "title": "How to Break Your Phone Addiction",
+        "views": 757403,
+        "eligible": true
+      },
+      {
+        "title": "The 10 Best Windows Productivity Apps in 2022",
+        "views": 829495,
+        "eligible": true
+      },
+      {
+        "title": "Watch this if you’re having an ‘off day’",
+        "views": 191123,
+        "eligible": true
+      },
+      {
+        "title": "Why it's so hard to stick to your workout routine",
+        "views": 152155,
+        "eligible": true
+      },
+      {
+        "title": "The Easiest Way to Double Your Productivity",
+        "views": 244088,
+        "eligible": true
+      },
+      {
+        "title": "3 Easy Money Habits I Swear By",
+        "views": 140706,
+        "eligible": true
+      },
+      {
+        "title": "Paper Books, Kindle, or Audiobooks: What’s the Best Way to Read?",
+        "views": 339194,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.261,
+    "hit_rate_input": 0.833,
+    "hit_magnitude_input": 0.0215433,
+    "activity_input": 0.0,
+    "arithmetic": "0.3×0.833 + 0.5×0.0215433 + 0.2×0.0 = 0.2499 + 0.0107717 + 0.0 = 0.2606717 ≈ 0.261; hit_rate 10/12=0.8333, hit_magnitude median 215433/10000000=0.0215433 capped 1.0, activity 0.0 (newest upload 2024-03-22 is 890 days before 2026-08-29 >90 days)"
+  },
+  "documentation": [
+    {
+      "title": "Creator's Companion — The BEST Content Planning System for Creators",
+      "url": "https://thomasjfrank.com/creators-companion/",
+      "date": "2026-07-31",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "How to Be a YouTuber: The Ultimate Guide — Creator Atlas",
+      "url": "https://thomasjfrank.com/creator/how-to-be-a-youtuber-the-ultimate-guide/",
+      "date": "2023-07-19",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "Full Template Tour — Creator's Companion for Notion (docs)",
+      "url": "https://thomasjfrank.com/docs/creators-companion/full-tour-of-creators-companion/",
+      "date": "2025-04-07",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized and not top anchor: median 215,433 (sorted 12 eligible: 41,662 to 829,495; only 2 videos >500k, 10/12 >100k but none >1M in last-12) via exact python -m yt_dlp per-video counts Aug 29 2026; lifetime 186.5M views / 3.01M subs corroborate scale but recent long-form median far below 1M+ prioritized threshold and well below 10M+ anchor tier; low dominance 0.261 reflects dormancy and low hit_magnitude despite PASS on consistency.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --playlist-end 12 for @Thomasfrank/videos returned flat counts 41k-829k for first 12; verified each via python -m yt_dlp --print upload_date/view_count/duration per watch page (IDs A5oYUQ-pmQQ through 7IczC2_u99A) to get exact 2024-2021 dates/durations and confirm not estimate-grade aggregator; per-video counts match flat within <1% drift",
+    "Checked duration/was_live/live_status ambiguity: pulled duration (354s to 12010s) and was_live False / live_status not_live for all 12 — no Shorts (<60s), no livestreams, no podcast in title per spec so counted eligible; also checked @Thomasfrank/shorts tab (4 Shorts 27k-856k) to confirm /videos tab excludes Shorts",
+    "Flat-mode channel_follower_count returned NA — fell back to per-video channel_follower_count 3000000 on j3Thqrcw_Ag plus ytproanalytics 3.01M subs/186.52M views/281 videos (Aug 9 2026) and thomasjfrank.com 2.9M/175M claims for sub count evidence; bare yt-dlp not on PATH confirmed python -m yt_dlp required",
+    "Tested recency/activity: newest upload 2024-03-22 (A5oYUQ-pmQQ) is 890 days before 2026-08-29 (>90 days) => activity 0.0; also checked Thomas Frank Explains channel (@ThomasFrankExplains/videos) for alternative activity — newest 2026-03-17 (45k) and 2026-03-06 (9k) but not candidate handle, so not counted; noted dormancy as magnitude limitation not recency REJECT because hits still within 2021-2026 window",
+    "Extended flat-playlist to 60 videos to confirm no newer uploads missed beyond 2024-03-22 and to verify consistent 100k+ history beyond first 12; median of 60 remains ~300k but recent 2 failures (41k, 75k) noted; no hidden Longs with >1M in last-12 to raise median",
+    "Doc dating: Creator's Companion sales page has no explicit publish header — used websearch publish_date 2026-07-31 and webfetch footer © 2026 plus Summer50 still live Aug 29 2026 to date within 2021-2026; Ultimate Guide header shows 2023-07-19 per search and webfetch Creator Atlas hub still live; Full Tour docs dated 2025-04-07 per search provide English FIRST-PARTY workflow depth covering idea→validation→research→script→edit→publish",
+    "SearXNG searxng_searxng_web_search returned no results/instance unreachable for initial verification queries — fell back to websearch (Exa) per opencode-web-research routing and direct webfetch of thomasjfrank.com pages before citing, as required"
+  ]
+}

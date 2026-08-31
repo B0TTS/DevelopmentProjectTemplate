@@ -1,0 +1,91 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 5280,
+    "segs": [ {
+      "utf8": "I’ve been making videos for a lot of years, \nand whether it's for Vox or The New York Times  "
+    } ]
+  }, {
+    "tStartMs": 5280,
+    "dDurationMs": 4440,
+    "segs": [ {
+      "utf8": "or for the channel, music is easily one of the \nbiggest things that changes how a video feels.  "
+    } ]
+  }, {
+    "tStartMs": 9720,
+    "dDurationMs": 5100,
+    "segs": [ {
+      "utf8": "Music like this... If you've been around for \na while, you've definitely heard me say things  "
+    } ]
+  }, {
+    "tStartMs": 14820,
+    "dDurationMs": 6480,
+    "segs": [ {
+      "utf8": "like this before... That thing that inspires me is \nmusic. So I started working with this guy. That’s  "
+    } ]
+  }, {
+    "tStartMs": 21300,
+    "dDurationMs": 5460,
+    "segs": [ {
+      "utf8": "a good sound. This is Tom. Tom Fox. We've been \ncollaborating since 2018 and now five years later,  "
+    } ]
+  }, {
+    "tStartMs": 26760,
+    "dDurationMs": 4380,
+    "segs": [ {
+      "utf8": "Tom is the full time composer here in the \nstudio. He makes the music for every one of the  "
+    } ]
+  }, {
+    "tStartMs": 31140,
+    "dDurationMs": 4500,
+    "segs": [ {
+      "utf8": "videos. Why does a small independent journalism \nproduction studio on YouTube need a full time  "
+    } ]
+  }, {
+    "tStartMs": 35640,
+    "dDurationMs": 4680,
+    "segs": [ {
+      "utf8": "composer? That’s absurd! Yes, it is absurd and \nit's completely necessary. And it is what makes  "
+    } ]
+  }, {
+    "tStartMs": 40320,
+    "dDurationMs": 5100,
+    "segs": [ {
+      "utf8": "these videos shine. From the Europe videos to the \nPutin videos, to the videos about Doritos. Every  "
+    } ]
+  }, {
+    "tStartMs": 45420,
+    "dDurationMs": 4620,
+    "segs": [ {
+      "utf8": "one of these has a different tone and feel because \nwe crafted music that fits for that story. Well,  "
+    } ]
+  }, {
+    "tStartMs": 50040,
+    "dDurationMs": 3600,
+    "segs": [ {
+      "utf8": "there's now a place where you can listen to \nthis music. It is called The Listening Room,  "
+    } ]
+  }, {
+    "tStartMs": 53640,
+    "dDurationMs": 3300,
+    "segs": [ {
+      "utf8": "it's totally free up on YouTube right \nnow. You can listen to it while you work,  "
+    } ]
+  }, {
+    "tStartMs": 56940,
+    "dDurationMs": 3201,
+    "segs": [ {
+      "utf8": "while you study, while you work out... \nSee you in The Listening Room, everyone!"
+    } ]
+  } ]
+}

@@ -1,0 +1,173 @@
+{
+  "name": "Ali Abdaal",
+  "handle": "@aliabdaal",
+  "platform": "YouTube",
+  "niche_format": "productivity / education video essay & explainer (12–25 min deep dives)",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @aliabdaal measured via python -m yt_dlp on 2026-08-29: 6680000 subscribers, 1.4K videos, @aliabdaal handle live with 6.6M subs stated on channel About",
+        "link": "https://www.youtube.com/@aliabdaal",
+        "still_current_2026": "YES - direct yt-dlp channel_follower_count 6680000 on 2026-08-29 per-video metadata for fEMHMd7fovM; corroborates 6.6M on YouTube About and 6M+ cited throughout 2026 press"
+      },
+      {
+        "claim": "Cambridge medical graduate (6 years medicine, Emmanuel College Cambridge, MBBS 2018), 2 years NHS Junior Doctor Addenbrooke's/West Suffolk including COVID pandemic, started YouTube 2017 while at university teaching study techniques, grew to 100k subs in 2018",
+        "link": "https://aliabdaal.com/about/",
+        "still_current_2026": "YES - aliabdaal.com/about fetched Aug 29 2026, publish date 2025-03-31, Quick Facts section still current Aug 2026, corroborates long public career 2017-present"
+      },
+      {
+        "claim": "Doctor-turned-creator-operator multi-million-dollar business: ~$5M/year revenue, NYT & Sunday Times bestseller Feel-Good Productivity (2023, 250k+ copies, 35+ languages), Part-Time YouTuber Academy multi-million course business",
+        "link": "https://everything-pr.com/ali-abdaal-feel-good-productivity-youtube-empire",
+        "still_current_2026": "YES - dated Jun 15 2026 within window, states Cambridge-trained doctor turned 2017 channel into multi-million subscribers/business, YouTube as audience-acquisition foundation, Feel-Good Productivity 2024 extension"
+      },
+      {
+        "claim": "6M+ subscriber YouTube empire by 2026, 500M+ total views, 600+ videos, Part-Time YouTuber Academy $4.5M+ lifetime, documented $130k/month YouTube ads + sponsorships historically",
+        "link": "https://marketmakermgmt.com/blog-list2/ali-abdaal-youtube-success-story",
+        "still_current_2026": "YES - dated March 5 2026, 12-min case study states 'By 2026, he has over 6 million subscribers and runs a multi-million dollar media company', still current Aug 2026"
+      },
+      {
+        "claim": "Wikipedia verification lead https://en.wikipedia.org/wiki/Ali_Abdaal returns 404 Aug 29 2026; alternative Wikidata Q95980508 confirms Ali Abdaal British entrepreneur/YouTuber born May 11 1994 Karachi, Cambridge education, same career arc",
+        "link": "https://www.wikidata.org/wiki/Q95980508",
+        "still_current_2026": "UNCLEAR - English Wikipedia page absent Aug 29 2026 (404), but Wikidata and EverybodyWiki preserve same infobox data (2016-present, Educational); career still verifiable via primary site and press"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-15",
+      "2026-08-04",
+      "2026-07-23",
+      "2026-07-10",
+      "2026-06-29"
+    ],
+    "doc_sources": [
+      {
+        "title": "The Ultimate Guide to YouTube — Ali Abdaal",
+        "url": "https://aliabdaal.com/youtube/the-ultimate-guide-to-youtube/",
+        "date": "2023-02-21",
+        "still_current_2026": "YES - published Feb 21 2023 per page header fetched Aug 29 2026 within 2021-2026 window; updated excerpt 2025-04-18 per search, still listed and directly fetched Aug 29 2026; documents full Notion workflow, idea pipeline, scripting, A-cut/B-roll/polish edit system, still current"
+      },
+      {
+        "title": "Part-Time YouTuber Academy — Ali Abdaal (flagship course page)",
+        "url": "https://aliabdaal.com/part-time-youtuber-academy/",
+        "date": "2025-10-21",
+        "still_current_2026": "YES - page 'How we created the new PTYA' dated Oct 21 2025 per search, and lifestylebusiness.com PTYA variant dated May 11 2026; flagship $995 course teaching 7-year system, still current Aug 2026"
+      },
+      {
+        "title": "About — Ali Abdaal (career corroboration, channel history)",
+        "url": "https://aliabdaal.com/about/",
+        "date": "2025-03-31",
+        "still_current_2026": "YES - dated Mar 31 2025, within window, details 2017 launch, 6M subs, book, business; corroborates workflow authorship, still current"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 0.5,
+    "median_views": 101841,
+    "per_video": [
+      {
+        "title": "What To Do With Your Life",
+        "views": 108083,
+        "eligible": true
+      },
+      {
+        "title": "How to Make Your Job Optional - The Freedom Profile Matrix",
+        "views": 85050,
+        "eligible": true
+      },
+      {
+        "title": "Why You’re Not Financially Free (Yet)",
+        "views": 55968,
+        "eligible": true
+      },
+      {
+        "title": "i am begging you to try harry potter fan fiction",
+        "views": 240648,
+        "eligible": true
+      },
+      {
+        "title": "The Dark Side Of Getting Rich On YouTube",
+        "views": 135072,
+        "eligible": true
+      },
+      {
+        "title": "3 Skills I'd Learn In the Age of AI",
+        "views": 95599,
+        "eligible": true
+      },
+      {
+        "title": "how to build a career you *actually* enjoy",
+        "views": 43894,
+        "eligible": true
+      },
+      {
+        "title": "if you’re applying for jobs, watch this",
+        "views": 75398,
+        "eligible": true
+      },
+      {
+        "title": "If You Want to Make Money From YouTube, Do This.",
+        "views": 134323,
+        "eligible": true
+      },
+      {
+        "title": "What's the Point?",
+        "views": 137216,
+        "eligible": true
+      },
+      {
+        "title": "you only need a phone",
+        "views": 817379,
+        "eligible": true
+      },
+      {
+        "title": "The Simplest Way to Make $10k/month - Case Study",
+        "views": 71753,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.355,
+    "hit_rate_input": 0.5,
+    "hit_magnitude_input": 0.0101841,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×0.50 + 0.5×0.0101841 + 0.2×1.00 = 0.150 + 0.00509205 + 0.200 = 0.35509205 ≈ 0.355; hit_rate 6/12=0.50, hit_magnitude median 101841/10000000=0.0101841 capped 1.0, activity 1.0 (newest upload 2026-08-15 is 14 days before 2026-08-29 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "The Ultimate Guide to YouTube — Ali Abdaal",
+      "url": "https://aliabdaal.com/youtube/the-ultimate-guide-to-youtube/",
+      "date": "2023-02-21",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "Part-Time YouTuber Academy — Ali Abdaal",
+      "url": "https://aliabdaal.com/part-time-youtuber-academy/",
+      "date": "2025-10-21",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "About — Ali Abdaal (author bio & channel history)",
+      "url": "https://aliabdaal.com/about/",
+      "date": "2025-03-31",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized: median 101,841 in last-12 eligible (range 43k–817k, smallest 43k, largest 817k) via exact python -m yt_dlp per-video counts Aug 29 2026; only 1 video >500k, 6/12 >100k; lifetime 6.68M subs confirms scale but recent long-form median far below 1M+ prioritized threshold and well below 10M+ anchor tier; documents strong but magnitude fails prioritization.",
+  "verdict": "REJECT",
+  "rejection_reason": "Consistency test FAIL: 6/12 = 50% of last 12 eligible long-form videos exceed 100k views (median 101,841) < 60% gate; recent window shows sustained sub-100k performance (5-6 of 12 below 100k). Do NOT lower gate — borderline is REJECT; even generous exclusion of 1 newest (50%) or 2 newest (58.3% = 7/12) still <60%. Dominance 0.355 reflects low hit_magnitude.",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --playlist-end 30 for @aliabdaal/videos returned flat counts 43k-817k for first 12; verified each via python -m yt_dlp --print upload_date/view_count/duration per watch page (IDs fEMHMd7fovM through CFBEih785-I etc.) to get exact 2026 dates/durations and confirm not estimate-grade aggregator",
+    "Checked duration/live_status ambiguity: pulled duration/was_live/live_status for long videos (7094s The Dark Side, 4654s how to build a career, 5314s If You Want to Make Money, 3348s Simplest Way) — all not_live, False was_live, no 'podcast'/'livestream' in title per spec so counted eligible; also checked 257s What's the Point? — 257s not a Short (<60s) and no Shorts tag, counted eligible; no Shorts excluded by title, consistent with /videos tab excluding /shorts",
+    "Flat mode channel_follower_count returned NA — fell back to per-video channel_follower_count 6680000 on fEMHMd7fovM plus YouTube About 6.6M and aliabdaal.com 6M/8M social claims for sub count evidence",
+    "Wikipedia lead https://en.wikipedia.org/wiki/Ali_Abdaal returned 404 via direct webfetch Aug 29 2026 — searched websearch for 'Ali Abdaal site:wikipedia.org' found no English Wikipedia page, fell back to Wikidata Q95980508, EverybodyWiki, Wikitia, and primary aliabdaal.com/about (2025-03-31) for career verification; noted deleted/missing page as dead end",
+    "Doc dating: The Ultimate Guide webfetch shows Feb 21 2023 header; search excerpt shows updated 2025-04-18 — used earlier publish date within 2021-2026 window and flagged still-current YES via direct fetch Aug 29 2026; PTYA page exists at both aliabdaal.com/part-time-youtuber-academy and lifestylebusiness.com/part-time-youtuber-academy (May 11 2026 variant) — confirmed English FIRST-PARTY workflow documentation still current",
+    "Tested generous consistency windows to avoid borderline lowering: window 2-13 (exclude 1 newest, 2026-08-15) = 6/12=50%; window 3-14 (exclude 2 newest) =7/12=58.3%; window filtered to strict 10-30min durations only (exclude 7094s/4654s/5314s/3348s/257s) =8/12=66.7% but that filter is not per spec (spec only excludes Shorts/livestreams/podcasts by title) so not applied; strict spec result remains 50% REJECT"
+  ]
+}

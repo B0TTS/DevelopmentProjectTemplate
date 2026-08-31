@@ -1,0 +1,169 @@
+{
+  "name": "Solar Sands",
+  "handle": "@solarsands",
+  "platform": "YouTube",
+  "niche_format": "art / visual-culture video essays, 12–25 min deep dives",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @solarsands (UCR6LasBpceuYUhuLToKBzvQ) created Dec 11 2015, 1,460,000 subscribers per yt-dlp per-video channel_follower_count on 2026-08-29, 181-182 videos and 197.6M-215.7M total views",
+        "link": "https://www.youtube.com/@solarsands",
+        "still_current_2026": "YES - yt-dlp --print channel_follower_count 1460000 on 2026-08-29 (PIrC0Dgcois video) + Let's Play Index Created Dec 11 2015 corroborated Aug 29 2026, still current"
+      },
+      {
+        "claim": "Let's Play Index: 1,460,000 subscribers, 197,663,406 views, 181 videos, Created Dec 11 2015, Duration 1:06:18:45 total",
+        "link": "https://www.letsplayindex.com/channels/28125-solar-sands",
+        "still_current_2026": "YES - fetched Aug 29 2026 via websearch excerpt, lists 1.46M/197.6M/181 and Dec 11 2015 creation, still current Aug 2026"
+      },
+      {
+        "claim": "youtubers.me: 1,440,000 subscribers, 215,713,742 video views, 182 videos, Country US, Category Entertainment, Youtuber since 2015",
+        "link": "https://us.youtubers.me/solar-sands/youtuber-stats",
+        "still_current_2026": "YES - websearch excerpt dated Aug 29 2026 shows 1.44M/215.7M/182 since 2015, still current, corroborates 1.45M per SocialBlade claim in candidates.md"
+      },
+      {
+        "claim": "SPEAKRJ audited: 1.4M subscribers, 215.5M views, 181 videos uploaded",
+        "link": "https://www.speakrj.com/audit/report/UCR6LasBpceuYUhuLToKBzvQ/youtube",
+        "still_current_2026": "YES - websearch excerpt shows 1.4M/215.5M/181, still current Aug 2026, consistent with yt-dlp 1.46M"
+      },
+      {
+        "claim": "Wikitubia (youtube.fandom.com/wiki/Solar_Sands) infobox: Date joined Dec 11 2015, Videos 151+, Status Active, Style Art/Educational, Profile UCR6LasBpceuYUhuLToKBzvQ, One million subscribers category",
+        "link": "https://youtube.fandom.com/wiki/Solar_Sands",
+        "still_current_2026": "YES - fetched Aug 29 2026, infobox shows Dec 11 2015 and Active/151+ videos, categories include One million subscribers + American YouTubers, still current though flagged Citations needed"
+      },
+      {
+        "claim": "Favoree: 1.44M subscribers, 213.5M total views, Design and Craft main content, Average video duration 19 minutes, US-English, listed channel UCR6LasBpceuYUhuLToKBzvQ",
+        "link": "https://www.favoree.io/channel/solar_sands-65b6ca9a808e9c2a2d4a1b43",
+        "still_current_2026": "YES - websearch excerpt shows 1.44M/213.5M, 19 min avg duration fits 12–25 min niche, still current Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-21",
+      "2026-06-25",
+      "2026-05-23",
+      "2026-04-30",
+      "2026-04-01"
+    ],
+    "doc_sources": [
+      {
+        "title": "How I make my video essays. — The Nth Company (The Nth Review) [MISATTRIBUTED — NOT Solar Sands]",
+        "url": "https://www.youtube.com/watch?v=-n-cDjfHp1c",
+        "date": "2022-04-29",
+        "still_current_2026": "NO - yt-dlp --print uploader/channel shows 'The Nth Company | The Nth Company | 23100' not Solar Sands; video is The Nth Review conception→completion workflow, NOT Solar Sands first-party doc; despite 2022-04-29 within 2021–2026 window it fails first-party requirement for Solar Sands"
+      },
+      {
+        "title": "Behind the Scenes for The Most Controversial Children's Book in History — Patreon locked post",
+        "url": "https://www.patreon.com/posts/behind-scenes-in-109153316",
+        "date": "2024-07-31",
+        "still_current_2026": "NO - locked paywalled excerpt only (thumbnail sketch + Giving Tree props preview) not conception→completion workflow; insufficient public English pipeline detail; FIRST-PARTY MONETIZED but not qualifying public doc"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 0.667,
+    "median_views": 601220,
+    "per_video": [
+      {
+        "title": "Help me build a sculpture! (+Rudon's Plane Update)",
+        "views": 34620,
+        "eligible": true
+      },
+      {
+        "title": "Rudon's Plane - Part 1",
+        "views": 601043,
+        "eligible": true
+      },
+      {
+        "title": "The Secret Art of Franz Kafka",
+        "views": 185960,
+        "eligible": true
+      },
+      {
+        "title": "Newsie Nighttime",
+        "views": 28566,
+        "eligible": true
+      },
+      {
+        "title": "An Analysis of Hazbin Hotel Swears",
+        "views": 601397,
+        "eligible": true
+      },
+      {
+        "title": "Food Horror",
+        "views": 1168561,
+        "eligible": true
+      },
+      {
+        "title": "The Surreal Worlds of Single Panel Comics",
+        "views": 1145993,
+        "eligible": true
+      },
+      {
+        "title": "Humanity's Greatest Sin",
+        "views": 1104969,
+        "eligible": true
+      },
+      {
+        "title": "The Most Hated Sculptor You Probably Recognize",
+        "views": 1226780,
+        "eligible": true
+      },
+      {
+        "title": "The Results of the Solar Sands YTP Contest 2025",
+        "views": 87029,
+        "eligible": true
+      },
+      {
+        "title": "Solar Sands YouTube Poop Contest Announcement",
+        "views": 50757,
+        "eligible": true
+      },
+      {
+        "title": "The World of Eerie Winter Landscapes",
+        "views": 947741,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 1
+  },
+  "dominance": {
+    "score": 0.33,
+    "hit_rate_input": 0.667,
+    "hit_magnitude_input": 0.060122,
+    "activity_input": 0.5,
+    "arithmetic": "0.3×0.667 + 0.5×0.060122 + 0.2×0.5 = 0.2001 + 0.030061 + 0.1 = 0.330161 ≈0.33; hit_rate 8/12=0.6667, hit_magnitude median 601220/10000000=0.060122 capped 1.0, activity 0.5 (newest eligible 2026-06-25 is 65 days before 2026-08-29 >30 ≤90); if counting overall newest 2026-08-21 (8 days) activity would be 1.0 → 0.430, still sub-1M tier"
+  },
+  "documentation": [
+    {
+      "title": "How I make my video essays. — The Nth Company (The Nth Review) [ROW MISATTRIBUTION — NOT Solar Sands first-party]",
+      "url": "https://www.youtube.com/watch?v=-n-cDjfHp1c",
+      "date": "2022-04-29",
+      "provenance": "SECOND-HAND",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "Behind the Scenes for The Most Controversial Children's Book in History — Patreon locked (thumbnail + props only)",
+      "url": "https://www.patreon.com/posts/behind-scenes-in-109153316",
+      "date": "2024-07-31",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized: median 601,220 (sorted 12 eligible: 28,566 to 1,226,780; 8/12 >100k) via exact python -m yt_dlp per-video counts 2026-08-29; all >100k hits are 185k–1.22M, none >2M in window, well below 1M+ prioritized threshold and 10M+ anchor tier; lifetime 197–215M/1.44–1.46M corroborate scale but recent median 0.6M not top anchor",
+  "verdict": "REJECT",
+  "rejection_reason": "Documentation requirement fails: no 2021–2026 public first-party English workflow document by Solar Sands explaining conception→completion pipeline. Candidate row's doc URL https://www.youtube.com/watch?v=-n-cDjfHp1c is The Nth Company (The Nth Review), 23.1k followers, dated 2022-04-29 but NOT on Solar Sands channel (yt-dlp proves uploader The Nth Company); exhaustive search of 181 video titles + web + Patreon found no substitute — only locked Patreon snippet (2024-07-31, thumbnail/props preview, paywalled, insufficient). Borderline is REJECT per gates.",
+  "dead_ends_searched": [
+    "python -m yt_dlp --print uploader/channel_follower_count for -n-cDjfHp1c returned 'The Nth Company | The Nth Company | 23100' not Solar Sands (1.46M) — proves misattribution; bare yt-dlp not on PATH confirmed, used python -m yt_dlp per spec",
+    "python -m yt_dlp --flat-playlist --playlist-end 181 for @solarsands/videos pulled all titles/IDs; grep for make/process/workflow/behind/how I returned only 'The Internet is for More Than Making Money' (not workflow) — no How I make video essay on own channel",
+    "python -m yt_dlp --flat-playlist --playlist-end 12 + per-video --print upload_date/view_count/duration/was_live for IDs sGu1Gv8cLQo through HZRrKSBuwlM + dzxaOuEBp4U gave exact 2026-08-21 to 2024-12-20 counts/durations (17 min avg, all not_live, none <60s Shorts) — used for consistency/median/activity; flat counts vs per-video drift <0.5%",
+    "websearch 'Solar Sands how I make video essays' + 'Solar Sands workflow' + 'site:youtube.com Solar Sands how I make' + 'Solar Sands interview workflow' returned no first-party doc; only generic guides, Descript/Ziflow corporate workflows, no Solar Sands page read before citing",
+    "websearch + webfetch youtube.fandom.com/wiki/Solar_Sands — content is series descriptions (Browsing DeviantArt, In a Nutshell) not workflow; no conception→completion pipeline doc",
+    "websearch + webfetch Patreon https://www.patreon.com/u3356654 and locked post https://www.patreon.com/posts/behind-scenes-in-109153316 (2024-07-31) — only 1st image thumbnail sketch + 2nd image props for Giving Tree, not idea→script→VO→edit→release pipeline; monetized paywall, not public English doc",
+    "websearch Let's Play Index, youtubers.me, SpeakRJ, Favoree, vidIQ, influtrend, celebsages, Screenwise, TVTropes — all stats/profile categories, no workflow docs; Favoree avg duration 19 min corroborates niche but not workflow",
+    "Checked flat-playlist --print channel_follower_count returned NA — fell back to per-video channel_follower_count 1460000 on PIrC0Dgcois (2025-03-24) plus Let's Play 1.46M/youtubers.me 1.44M for verification; no verified checkmark explicitly fetched but long career Dec 11 2015-present satisfies verification bar alternative",
+    "Checked per-video durations for Shorts/livestreams exclusion: all 12 eligible 175s-7219s (2:55 to 120 min) and was_live False/not_live — 3 shorts (223s,175s,179s) are >60s so not Shorts per title rule, kept eligible; excluded_new_uploads=1 (2026-08-21, 8 days <14 days)",
+    "SearXNG searxng_searxng_web_search not used per opencode-web-research routing — used websearch (Exa) fallback with direct page reads before citing; no SearXNG instance reliance"
+  ]
+}

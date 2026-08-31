@@ -1,0 +1,177 @@
+{
+  "name": "Mina Le (gremlita)",
+  "handle": "@gremlita",
+  "platform": "YouTube",
+  "niche_format": "fashion / culture video essays, 20–45 min",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @gremlita verified (channel_is_verified true via yt-dlp JSON dump on h8gTjDXbItQ 2026-08-29), 1,820,000 subscribers via channel_follower_count, handle @gremlita live, uploader Mina Le",
+        "link": "https://www.youtube.com/@gremlita",
+        "still_current_2026": "YES - yt-dlp --dump-json 2026-08-29 returns channel_is_verified true and channel_follower_count 1820000, corroborates 1.81M-1.82M on channel about page, verified scale live Aug 29 2026"
+      },
+      {
+        "claim": "Wikipedia infobox: Subscribers 1.77 million, Views 150 million, Years active 2020–present, Last updated January 30, 2026, genres Fashion, pop culture, video essays",
+        "link": "https://en.wikipedia.org/wiki/Mina_Le",
+        "still_current_2026": "YES - Wikipedia page fetched 2026-08-29 shows infobox 1.77M/150M Last updated Jan 30 2026 and lead 'Years active 2020–present', within verification window and corroborates long public career (6 years) and platform stats"
+      },
+      {
+        "claim": "SocialBlade: 1.82M subscribers, 162,233,849 views, 205 videos, Created May 23 2020, Grade C+Daily metrics Aug 16-17 2026 show 1.82M and 162M",
+        "link": "https://socialblade.com/youtube/handle/gremlita",
+        "still_current_2026": "YES - SocialBlade daily snapshot fetched Aug 29 2026 via websearch shows 1.82M/162,233,849/205 Created May 23 2020, still current Aug 2026, consistent with yt-dlp 1.82M"
+      },
+      {
+        "claim": "Variety 10 Creators to Watch March 4 2026 spotlight includes Mina Le alongside Sabrina Brier, Quenlin Blackwell, Nicky Campbell, Bri Morales",
+        "link": "https://variety.com/lists/creators-to-watch",
+        "still_current_2026": "YES - Variety list dated Mar 4 2026 within 2021-2026 window, explicitly names Mina Le in 10 Creators to Watch excerpt, corroborates media coverage and verified career scale, still current Aug 2026"
+      },
+      {
+        "claim": "Channel about page: 1.81M subscribers • 197 videos • 'I'm just a gal who likes fashion and movies' — plus Vogue/IMG/WME coverage (Vogue Mar 8 2023 Historical Dressing, IMG/WME signed 2023)",
+        "link": "https://www.youtube.com/@gremlita/about",
+        "still_current_2026": "YES - YouTube about excerpt fetched Aug 29 2026 shows 1.81M/197 videos, consistent with yt-dlp/SocialBlade; Vogue Mar 8 2023 and signing note within verification window corroborate brand deals"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-26",
+      "2026-08-12",
+      "2026-07-27",
+      "2026-07-20",
+      "2026-06-29"
+    ],
+    "doc_sources": [
+      {
+        "title": "Creator Q+A: Mina Le — Washington Post Creator",
+        "url": "https://wpcreator.washingtonpost.com/p/creator-q-a-mina-le",
+        "date": "2026-05-06",
+        "still_current_2026": "YES - Published May 6 2026 within 2021-2026 per page header 'Dylan Wells • May 6, 2026 • 4 min read' via webfetch; Mina Le directly quotes research/ideation/editing pipeline, still current Aug 2026"
+      },
+      {
+        "title": "Meet Mina Le, the YouTuber making fashion history more accessible — Input (Inverse)",
+        "url": "https://www.inverse.com/input/style/mina-le-youtuber-fashion-history-interview",
+        "date": "2022-06-01",
+        "still_current_2026": "YES - Published June 1 2022 per byline Sophie Hayssen June 1, 2022 via webfetch, within 2021-2026; details meticulous script writing and NYPL research workflow, still current Aug 2026"
+      },
+      {
+        "title": "Meet Mina Le, The Internet's Favorite Fashion And Culture Commentator — NYLON",
+        "url": "https://www.nylon.com/fashion/mina-le-gremlita-tiktok-fashion",
+        "date": "2022-04-29",
+        "still_current_2026": "YES - Published April 29, 2022 per byline India Roby April 29, 2022 via webfetch, within 2021-2026; details hiring video editors, sponsor deadlines, editing delegation, still current Aug 2026"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 530018,
+    "per_video": [
+      {
+        "title": "why do all book covers look like this now?",
+        "views": 530785,
+        "eligible": true
+      },
+      {
+        "title": "so, can you eat your skincare?",
+        "views": 242613,
+        "eligible": true
+      },
+      {
+        "title": "\"good health\" has become a competition",
+        "views": 406546,
+        "eligible": true
+      },
+      {
+        "title": "Is your favorite artist an industry plant?",
+        "views": 308896,
+        "eligible": true
+      },
+      {
+        "title": "bring ugliness back to the movies",
+        "views": 669068,
+        "eligible": true
+      },
+      {
+        "title": "Why are all the cool girls making That Face?",
+        "views": 529250,
+        "eligible": true
+      },
+      {
+        "title": "Why do we want to be blonde?",
+        "views": 559720,
+        "eligible": true
+      },
+      {
+        "title": "WHY IS EVERYONE CHINESE?",
+        "views": 639746,
+        "eligible": true
+      },
+      {
+        "title": "How to Make a Good Adaptation",
+        "views": 340568,
+        "eligible": true
+      },
+      {
+        "title": "The Female Obsession with Gay Men",
+        "views": 789233,
+        "eligible": true
+      },
+      {
+        "title": "How to actually get smarter (again)",
+        "views": 635513,
+        "eligible": true
+      },
+      {
+        "title": "AI writing is \"bad\"... so now what?",
+        "views": 434210,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 1
+  },
+  "dominance": {
+    "score": 0.527,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.0530018,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×1.00 + 0.5×0.0530018 + 0.2×1.00 = 0.30 + 0.0265009 + 0.20 = 0.5265009 ≈ 0.527; hit_rate 12/12=1.0, hit_magnitude median 530018/10000000=0.0530018 capped 1.0, activity 1.0 (newest upload 2026-08-26 is 3 days before 2026-08-29 ≤30 days; newest eligible 2026-08-12 is 17 days ≤30 days); median is average of 6th/7th sorted eligible (529250 and 530785) =530017.5→530018"
+  },
+  "documentation": [
+    {
+      "title": "Creator Q+A: Mina Le — Washington Post Creator",
+      "url": "https://wpcreator.washingtonpost.com/p/creator-q-a-mina-le",
+      "date": "2026-05-06",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Meet Mina Le, the YouTuber making fashion history more accessible — Input (Inverse) — meticulous script + NYPL research",
+      "url": "https://www.inverse.com/input/style/mina-le-youtuber-fashion-history-interview",
+      "date": "2022-06-01",
+      "provenance": "SECOND-HAND",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "Meet Mina Le, The Internet's Favorite Fashion And Culture Commentator — NYLON — hiring editors + sponsor deadlines",
+      "url": "https://www.nylon.com/fashion/mina-le-gremlita-tiktok-fashion",
+      "date": "2022-04-29",
+      "provenance": "SECOND-HAND",
+      "monetized": "INDEPENDENT"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized and not top anchor: median 530,018 (sorted 12 eligible: 242,613 to 789,233; 12/12 >100k, max 789,233 The Female Obsession with Gay Men, 0/12 >1M) via exact python -m yt_dlp per-video counts 2026-08-29; 1M+ median NOT met (530k), 10M+ anchor NOT met; lifetime 1.77M-1.82M subs/150-162M views corroborate scale but recent long-form median below 1M prioritized threshold and well below 10M anchor; dominance 0.527 reflects perfect hit_rate but modest hit_magnitude.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --playlist-end 12 --print view_count/title for @gremlita/videos returned flat counts 242k–789k; verified each via python -m yt_dlp --print upload_date/view_count/duration/was_live per watch page (IDs h8gTjDXbItQ through fTl6jO43P2M plus ECWpPKzN5I0) to get exact 2026-08-26 to 2026-01-22 dates/durations and exact counts; flat vs per-video drift <0.3% (e.g., 376000 vs 376155) but per-video used for final numbers per spec",
+    "Checked duration/was_live/live_status for all 12 eligible: durations 1760s–2952s (29:20–49:12), was_live false / live_status not_live, is_live false — no Shorts (<60s), no livestreams, no podcasts in title, all 20–45 min niche_format eligible; excluded only <14-day video 2026-08-26 can we all stop speaking like incels? (3 days old, 376155 views, 2177s) per spec, counted 1 excluded_new_uploads, fetched next oldest ECWpPKzN5I0 2026-01-22 to maintain 12 eligible",
+    "Flat-mode channel_follower_count returned NA in playlist mode — fell back to per-video channel_follower_count 1820000 on h8gTjDXbItQ JSON dump plus channel_is_verified true on same JSON, plus SocialBlade 1.82M/162M/205 and YouTube about 1.81M/197 for sub count evidence; bare yt-dlp not on PATH confirmed python -m yt_dlp required per spec",
+    "Searched on-channel how I make videos YouTube workflow video: python -m yt_dlp --flat-playlist --playlist-end 100 --print title for @gremlita/videos grep -i 'how I|workflow|behind|making|process|edit' returned only 'Why are all the cool girls making That Face?' and 'switzerland, how i read books, and margiela fragrances' (not workflow) — no How I make my video essays on own channel, confirming candidate notes 'no on-channel how I make my videos YouTube video located'",
+    "websearch 'Mina Le gremlita how I make workflow video youtube' + 'Mina Le workflow' + 'site:youtube.com gremlita how I make' returned no first-party on-channel workflow video; only generic video-essay guides and channel page, read youtube.com/@gremlita/about before citing",
+    "websearch + webfetch Washington Post Creator Q+A https://wpcreator.washingtonpost.com/p/creator-q-a-mina-le May 6 2026 — Q&A format with Dylan Wells, Mina Le direct quotes detail research (read every reputable article, follow threads, ask questions), idea generation (well-read, Washington Post/news/trends/keeping up with airing like Love Story, what wasn't covered before), editing (team of one other person for last couple years, hired research assistant in last year), read full page before citing; provenance flagged FIRST-PARTY per creator voice despite outlet framing",
+    "webfetch Inverse June 1 2022 and NYLON April 29 2022 before citing as supplementary workflow docs: Inverse notes 'Each of her videos are meticulously compiled, with Le writing a detailed script and drawing from NYPL resources' and 'meticulously crafted as opposed to ad-libbed, writes detailed script, NYPL membership'; NYLON notes 'I did hire some video editors, which has definitely helped' and sponsor deadlines/psychological terror of algorithms — both within 2021-2026 window, English, SECOND-HAND independent but corroborate pipeline",
+    "Checked Polyester 2023 'Mina Le is Writing Fashion History' via webfetch — content is origin story (Tumblr, Montreal, Australia, vintage thrifting) and editing awareness ('do I need to add a zoom here? Is this boring? Do I need more photos? meme spliced') but not conception→completion pipeline detail sufficient for primary doc, not relied upon for gate but searched",
+    "Recency/doc dating: verified Washington Post date May 6 2026 via page header, Inverse June 1 2022 via byline, NYLON April 29 2022 via byline, all 2021-2026 window satisfied; newest upload 2026-08-26 is 3 days before target 2026-08-29 (≤30 days => activity 1.0), newest eligible 2026-08-12 is 17 days (also ≤30 days); hits within 2021-2026 window confirmed — all 12 eligible dates 2026-01-22 to 2026-08-12 within window",
+    "SearXNG searxng_searxng_web_search not used per opencode-web-research routing — used websearch (Exa) fallback with direct page reads before citing; no SearXNG instance reliance"
+  ]
+}
