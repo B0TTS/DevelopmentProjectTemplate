@@ -1,0 +1,181 @@
+{
+  "name": "Marques Brownlee – MKBHD",
+  "handle": "@MKBHD",
+  "platform": "YouTube",
+  "niche_format": "tech review deep dive / explainer (12–20 min)",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Wikipedia infobox: 20.9M subscribers main channel, 24.91M combined, 5.374B views main / 5.95B combined, years active 2008–present, genres Technology/consumer electronics/reviewer, last updated May 3 2026",
+        "link": "https://en.wikipedia.org/wiki/Marques_Brownlee",
+        "still_current_2026": "YES - Wikipedia page fetched Aug 29 2026 shows Last updated May 3 2026, within 4 months of target date; 2008–present career span"
+      },
+      {
+        "claim": "Direct yt-dlp measurement 2026-08-29: channel_follower_count 21200000 on watch page ngPkbaZliaU, channel @MKBHD, uploader Marques Brownlee, verified checkmark via 21M-scale channel page live",
+        "link": "https://www.youtube.com/@MKBHD",
+        "still_current_2026": "YES - measured via python -m yt_dlp --print channel_follower_count on 2026-08-29; corroborates Wikipedia/SocialBlade 2026 figures"
+      },
+      {
+        "claim": "SocialBlade B+ grade: 21.1M subscribers, 5,544,748,296 views, 1,844 videos, Created Mar 21 2008, Tech Rank 10, US Rank 151, 43M views last 30 days as of Aug 26 2026 snapshot",
+        "link": "https://socialblade.com/youtube/handle/mkbhd",
+        "still_current_2026": "YES - SocialBlade daily metrics Aug 26 2026 snapshot within 3 days of Aug 29 2026"
+      },
+      {
+        "claim": "TIME100 AI 2024 (Sep 5 2024) Most Influential People in AI, Shorty Awards Creator of the Decade 2018, Forbes 30 Under 30 2021 Social Media - sustained media coverage 2013 Vic Gundotra 'best technology reviewer on the planet'",
+        "link": "https://time.com/7012892/marques-brownlee/",
+        "still_current_2026": "YES - Historical awards remain verifiable; TIME Sep 5 2024 and Forbes 2020-2021 listings within 2021-2026 window per Wikipedia citations"
+      },
+      {
+        "claim": "Ongoing career 2024-2025: Ridge board member & chief creative partner Feb 22 2024 (Fortune), Stevens Institute honorary Doctorate Business Administration & commencement May 25 2024 (Fast Company), World Games gold medal Mixed team 2025 Chengdu",
+        "link": "https://en.wikipedia.org/wiki/Marques_Brownlee",
+        "still_current_2026": "YES - events dated Feb 2024, May 2024, 2025 within window and corroborate active public career through 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-24",
+      "2026-08-21",
+      "2026-08-12"
+    ],
+    "doc_sources": [
+      {
+        "title": "YouTube Success: Script, Shoot & Edit with MKBHD — Skillshare class",
+        "url": "https://www.skillshare.com/en/classes/YouTube-Success-Script-Shoot-Edit-with-MKBHD/731552530",
+        "date": "2016-08-01 (original Galaxy Note 5 case); still listed 2025-06-20 with Galaxy S21 Ultra (2021) update via direct page fetch Aug 29 2026",
+        "still_current_2026": "UNCLEAR - Original 2016 Note 5 workflow stale but page remains actively listed Aug 29 2026 (92,595 students) and now references S21 Ultra Review (2021 device) indicating post-2021 update; update extent not explicitly dated on platform"
+      },
+      {
+        "title": "Cortex #174: Marques Brownlee (MKBHD) – State of the Workflow — Relay FM",
+        "url": "https://relay.fm/cortex/174",
+        "date": "2025-12-12",
+        "still_current_2026": "YES - Published Dec 12 2025 (81 min) via direct fetch Aug 29 2026; details script→storyboard→shoot→edit, team collaboration, Notion/Google Docs, TickTick; 8.5 months before Aug 29 2026"
+      },
+      {
+        "title": "An Interview with Marques Brownlee (MKBHD) About Being a YouTube Star — Stratechery by Ben Thompson",
+        "url": "https://stratechery.com/2024/an-interview-with-marques-brownlee-mkbhd-about-being-a-youtube-star/",
+        "date": "2024-06-26",
+        "still_current_2026": "YES - Published Jun 26 2024 via direct fetch; covers writing, team of 15, title/thumbnail A/B testing, 1-2 vids/week, business model"
+      },
+      {
+        "title": "YouTube creator Marques Brownlee on building a production powerhouse — Think with Google",
+        "url": "https://business.google.com/us/think/search-and-video/marques-brownlee-interview/",
+        "date": "2025-09-01",
+        "still_current_2026": "YES - Published September 2025 per page header; 8-min interview details production evolution, trust, product review philosophy"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 3071970,
+    "per_video": [
+      {
+        "title": "Google Pixel 11/Pro/Fold Impressions: It Is What It Is",
+        "views": 3418890,
+        "eligible": true
+      },
+      {
+        "title": "Galaxy Z Fold 8 Review: Honeymoon's Over",
+        "views": 4645599,
+        "eligible": true
+      },
+      {
+        "title": "Framework 13 Pro: The Modular Laptop is Real!",
+        "views": 3523515,
+        "eligible": true
+      },
+      {
+        "title": "Samsung Z Fold 8 (Wide) Impressions: Better Than I Thought!",
+        "views": 4712985,
+        "eligible": true
+      },
+      {
+        "title": "iOS 27 Hands-On: Top 5 New Features!",
+        "views": 5992267,
+        "eligible": true
+      },
+      {
+        "title": "Apple Lost the AI Race",
+        "views": 2215746,
+        "eligible": true
+      },
+      {
+        "title": "Nothing Phone 4b: They Can't Say It!",
+        "views": 2419977,
+        "eligible": true
+      },
+      {
+        "title": "The Best Car I've Ever Driven: McLaren W1",
+        "views": 1937694,
+        "eligible": true
+      },
+      {
+        "title": "Antigravity A1: A New Take on Drones!",
+        "views": 2268915,
+        "eligible": true
+      },
+      {
+        "title": "Top 5 Android 17 Features: I Swear It's New!",
+        "views": 2111602,
+        "eligible": true
+      },
+      {
+        "title": "The Most Interesting Displays In The World!",
+        "views": 2725051,
+        "eligible": true
+      },
+      {
+        "title": "WWDC 2026 Impressions: Yeah, That's About Right",
+        "views": 4168867,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 2
+  },
+  "dominance": {
+    "score": 0.654,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.307,
+    "activity_input": 1,
+    "arithmetic": "0.3×1.00 + 0.5×0.307 + 0.2×1.00 = 0.300 + 0.154 + 0.200 = 0.654; hit_magnitude = median 3071970 / 10000000 = 0.307 capped 1.0; activity 1.0 because newest upload 2026-08-24 is 5 days before 2026-08-29 (≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "YouTube Success: Script, Shoot & Edit with MKBHD — Skillshare",
+      "url": "https://www.skillshare.com/en/classes/YouTube-Success-Script-Shoot-Edit-with-MKBHD/731552530",
+      "date": "2016-08-01 (original); still listed 2025-06-20, content now references Galaxy S21 Ultra (2021) via page fetch Aug 29 2026",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Cortex #174: Marques Brownlee (MKBHD) – State of the Workflow — Relay FM (81-min interview)",
+      "url": "https://relay.fm/cortex/174",
+      "date": "2025-12-12",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "An Interview with Marques Brownlee (MKBHD) About Being a YouTube Star — Stratechery by Ben Thompson",
+      "url": "https://stratechery.com/2024/an-interview-with-marques-brownlee-mkbhd-about-being-a-youtube-star/",
+      "date": "2024-06-26",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "YouTube creator Marques Brownlee on building a production powerhouse — Think with Google",
+      "url": "https://business.google.com/us/think/search-and-video/marques-brownlee-interview/",
+      "date": "2025-09-01",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    }
+  ],
+  "magnitude_note": "10M+/video anchor tier considered but median 3.07M in last-12 eligibility window (range 1.94M–5.99M) exceeds 1M+ prioritized threshold; 10M+ lifetime anchors exist (historical 9.2M iPhone 6 sapphire 2014, recent 6.23M OnePlus 15 2025-11-13, 5.99M iOS 27) and channel scale 21.2M subs / 5.5B views confirms top-tier tech-review anchor just below 10M median — retained per prioritization rule.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist channel_follower_count returned NA for @MKBHD/videos flat mode — fell back to per-video channel_follower_count on watch page ngPkbaZliaU (21200000) plus Wikipedia May 3 2026 and SocialBlade Aug 26 2026 for sub count",
+    "Skillshare class original publish date not rendered server-side (JS page) — inferred 2016 via Class Central/GFxtra archives and corroborated S21 Ultra update (2021 device) via direct page fetch referencing https://www.youtube.com/watch?v=tn2AgrwXpNQ",
+    "YouTube watch pages JS-rendered — webfetch returned shell only — resolved via python -m yt_dlp per-video upload_date/view_count/duration for all 14 videos"
+  ]
+}

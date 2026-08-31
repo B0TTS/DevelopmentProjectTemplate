@@ -1,0 +1,19 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 5280,
+    "segs": [ {
+      "utf8": "I could go into heavy detail. And I will. \nAnd I will go with the heavy detail!"
+    } ]
+  } ]
+}

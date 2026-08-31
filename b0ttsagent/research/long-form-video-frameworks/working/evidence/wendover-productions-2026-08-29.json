@@ -1,0 +1,174 @@
+{
+  "name": "Sam Denby — Wendover Productions",
+  "handle": "@wendoverproductions",
+  "platform": "YouTube",
+  "niche_format": "logistics / geography / economics documentary essays, 10–20 min",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @wendoverproductions verified (channel_is_verified true via yt-dlp JSON), 4,910,000 subscribers via python -m yt_dlp channel_follower_count on 2026-08-29, handle @Wendoverproductions live",
+        "link": "https://www.youtube.com/@wendoverproductions",
+        "still_current_2026": "YES - yt-dlp per-video metadata 2026-08-29 returns channel_is_verified true and 4910000 followers, corroborated by view-count header on every video"
+      },
+      {
+        "claim": "Channel created Feb 11 2010, 286-287 videos and 830,613,585–831,573,995 total views as of Aug 28-29 2026 (SocialBlade), 4.91M subscribers, 831M views",
+        "link": "https://socialblade.com/youtube/handle/wendoverproductions",
+        "still_current_2026": "YES - SocialBlade daily metrics snapshot Aug 28-29 2026 shows 4.91M subscribers, 831,573,995 views, 287 videos, A grade, still current Aug 2026"
+      },
+      {
+        "claim": "Wikipedia infobox: Sam Denby born 1998-03-17 Washington D.C., created Wendover Productions 2010, 4.9M subscribers and 822M views as of June 19 2026, 282 published videos, based in Aspen Colorado; years active 2015–present; last updated March 9 2026 and edited Aug 29 2026",
+        "link": "https://en.wikipedia.org/wiki/Sam_Denby",
+        "still_current_2026": "YES - Wikipedia page fetched Aug 29 2026, infobox last updated March 9 2026 and edited Aug 29 2026 at 22:13 UTC, verifies long public career 2015-present (11 years) and scale"
+      },
+      {
+        "claim": "Nebula chief content officer appointed Aug 25 2023 per Tubefilter, co-founder/minority owner 2020, Standard Broadcast co-founder with Dave Wiskus, overseeing Nebula Originals roadmap",
+        "link": "https://www.tubefilter.com/2023/08/25/nebula-taps-sam-denby-wendover-productions-chief-content-officer/",
+        "still_current_2026": "YES - Published Aug 25 2023 within 2021-2026 window, corroborated by blog.nebula.tv Aug 25 2023 announcement, still current Aug 2026"
+      },
+      {
+        "claim": "Media coverage: Bloomberg CityLab Aug 19 2016 Bad Trains Explained, Iceland Monitor June 7 2019 Iceland Tourism Explosion Explained, Wired June 29 2022 Jet Lag interview, Variety April 8 2024 The Getaway launch, all document verifiable career and brand deals",
+        "link": "https://www.citylab.com/transportation/2016/08/bad-trains-explained/496742/",
+        "still_current_2026": "YES - Articles published 2016-2024 within historical record, still accessible Aug 2026 and corroborate consistent media coverage and brand-scale projects"
+      },
+      {
+        "claim": "Consistent 100k+ views per video evidenced by exact yt-dlp counts: last 12 eligible videos all 493k–1.43M (smallest 493,542 Why Texas Wins), lifetime average ~2.9M per video (831M/287)",
+        "link": "https://www.youtube.com/@wendoverproductions/videos",
+        "still_current_2026": "YES - per-video python -m yt_dlp view_counts pulled 2026-08-29, all exceed 100k by 4.9x–14x, still current"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-25",
+      "2026-08-08",
+      "2026-08-04",
+      "2026-07-15",
+      "2026-06-30"
+    ],
+    "doc_sources": [
+      {
+        "title": "Behind the Scenes at Wendover Productions — Nebula",
+        "url": "https://nebula.tv/videos/wendover-productions-behind-the-scenes-at-wendover-productions",
+        "date": "2021-11-17",
+        "still_current_2026": "YES - Published Nov 17 2021 within 2021-2026 window per nebula.tv metadata and Rosetta mirror (Video published: Nov 17, 2021); creator-owned Nebula exclusive detailing how Wendover videos are made (exclusive behind the scenes video showing how we made this video), still hosted and accurate Aug 2026"
+      },
+      {
+        "title": "Wendover Productions Sam Denby Interview at the Oxford Union",
+        "url": "https://rosetta.to/u/oxfordunion/wendover-productions-sam-denby-interview-at-the-oxford-union",
+        "date": "2026-05-12",
+        "still_current_2026": "YES - Published May 12 2026 within window per Rosetta timestamp 2026-05-12T00:00:00.000Z; Sam Denby directly explains Wendover workflow: concept/idea generation (shower thoughts/NPR), scripting, voiceover, team pipeline (editors/writers/animators), pre-production focus, still current Aug 2026"
+      },
+      {
+        "title": "Wendover Productions' video production — Grokipedia workflow summary (supplementary SECOND-HAND synthesis)",
+        "url": "https://grokipedia.com/page/Wendover_Productions",
+        "date": "2026-01-15",
+        "still_current_2026": "UNCLEAR - No explicit publish date in page metadata, content references team roles (Josh Sherrington animation, Alexander Williard editing, Graham Haerther sound) and research→script→animation→edit→fact-check pipeline; appears current 2026 but date inferred from citations, not relied upon for PASS gate"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 859858,
+    "per_video": [
+      {
+        "title": "How Taiwan is Preparing to Get Invaded",
+        "views": 1198106,
+        "eligible": true
+      },
+      {
+        "title": "Why Texas Wins",
+        "views": 493542,
+        "eligible": true
+      },
+      {
+        "title": "Why American Houses Are So Flimsy",
+        "views": 678566,
+        "eligible": true
+      },
+      {
+        "title": "How Private Equity Ruined American Youth Sports",
+        "views": 584300,
+        "eligible": true
+      },
+      {
+        "title": "The Problem With Spirit Airlines’ Business Model",
+        "views": 659852,
+        "eligible": true
+      },
+      {
+        "title": "Why Fast Food Got So Expensive",
+        "views": 1439503,
+        "eligible": true
+      },
+      {
+        "title": "What Went Wrong With California High Speed Rail",
+        "views": 865737,
+        "eligible": true
+      },
+      {
+        "title": "How Car Dealerships Scam America",
+        "views": 1112263,
+        "eligible": true
+      },
+      {
+        "title": "How the Iran War Spiked Oil Prices",
+        "views": 1313958,
+        "eligible": true
+      },
+      {
+        "title": "How Nike Lost Its Way",
+        "views": 1081417,
+        "eligible": true
+      },
+      {
+        "title": "How ICE's Surveillance System Works",
+        "views": 563351,
+        "eligible": true
+      },
+      {
+        "title": "California's Water Problem",
+        "views": 853979,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 1
+  },
+  "dominance": {
+    "score": 0.543,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.0859858,
+    "activity_input": 1.0,
+    "arithmetic": "0.3*1.0 + 0.5*0.0859858 + 0.2*1.0 = 0.3 + 0.0429929 + 0.2 = 0.5429929 ≈0.543; hit_magnitude = median 859858/10000000=0.0859858 capped 1.0; activity 1.0 because newest upload 2026-08-25 is 4 days before 2026-08-29 (≤30 days) and newest eligible 2026-08-08 is 21 days (also ≤30 days); median is average of 6th/7th sorted eligible (853979 and 865737) =859858; hit_rate 12/12=1.0"
+  },
+  "documentation": [
+    {
+      "title": "Behind the Scenes at Wendover Productions — Nebula",
+      "url": "https://nebula.tv/videos/wendover-productions-behind-the-scenes-at-wendover-productions",
+      "date": "2021-11-17",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Wendover Productions Sam Denby Interview at the Oxford Union",
+      "url": "https://rosetta.to/u/oxfordunion/wendover-productions-sam-denby-interview-at-the-oxford-union",
+      "date": "2026-05-12",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized and not top anchor: median 859,858 (sorted 12 eligible: 493,542 to 1,439,503; 12/12 >100k, 5/12 >1M, max 1,439,503 Why Fast Food Got So Expensive) via exact python -m yt_dlp per-video counts Aug 29 2026; 1M+ median NOT met (859k), 10M+ anchor NOT met; lifetime total 831M/287 videos corroborates scale but recent long-form median below 1M prioritized threshold and well below 10M anchor; dominance 0.543 reflects perfect hit_rate but modest hit_magnitude.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --playlist-end 12 for @wendoverproductions/videos returned flat counts 478000-1400000; verified each via python -m yt_dlp --print upload_date/view_count/duration per watch page (IDs 2gpRaJMjHbc through aRUhgrqnpGY plus GeYvNkaLAqA) to get exact 2026-08-25 to 2026-03-10 dates/durations and exact counts; flat vs per-video drift <1% (e.g., 493000 vs 493542) but per-video used for final numbers per spec",
+    "Checked duration/was_live/live_status ambiguity: pulled duration 847s-1369s (14:07 to 22:49) and was_live false / live_status not_live for all 12, is_live false — no Shorts (<60s), no livestreams, no podcasts in title, all eligible; excluded only <14-day video 2026-08-25 Why the Ikea Business Model Wins (4 days old, 478501 views, 1109s) per spec, counted 1 excluded_new_uploads, fetched next oldest California's Water Problem 2026-03-10 to maintain 12 eligible",
+    "Flat-mode channel_follower_count returned NA in playlist mode — fell back to per-video channel_follower_count 4910000 plus channel_is_verified true on 2gpRaJMjHbc JSON dump, plus SocialBlade 4.91M/831M/287 videos (Aug 28-29 2026) and Wikipedia 4.9M/822M (June 19 2026) for sub count evidence; bare yt-dlp not on PATH confirmed python -m yt_dlp required per spec",
+    "Recency/ doc dating: verified Behind the Scenes at Wendover Productions Video published: Nov 17, 2021 via nebula.tv metadata and Rosetta mirror 2021-11-17T00:00:00.000Z, plus description 'Watch an exclusive behind the scenes video showing how we made this video on Nebula' on How Ocean Shipping Works (And Why It's Broken) YouTube description linking to https://nebula.app/videos/wendover-productions-behind-the-scenes-at-wendover-productions; Oxford Union interview date 2026-05-12 via Rosetta timestamp; both 2021-2026 window satisfied",
+    "Searched on-channel how I make Wendover YouTube video: websearch 'Wendover Productions how I make videos workflow process' returned no dedicated on-channel YouTube workflow video — confirmed candidate notes 'no exact on-channel how I make Wendover YouTube video found' — flag acknowledged; Nebula behind-the-scenes is creator-owned FIRST-PARTY substitute, corroborated by Oxford Union 2026-05-12 interview where Denby details shower-thoughts ideation, NPR sourcing, team delegation (Ben Doyle, Adam Chase, Josh Sherrington, Alexander Williard, Graham Haerther), pre-production focus, vicious/virtuous hiring cycle",
+    "Webfetch nebula.tv/videos/wendover-productions-behind-the-scenes-at-wendover-productions returned JS-only shell (requires JS) — used Rosetta.to mirror and YouTube description link plus itvtube mirror as alternate evidence that video exists and is FIRST-PARTY Wendover content on creator-owned Nebula (founded 2019 with Sam as minority owner 2020, CCO Aug 2023)",
+    "Checked for additional doc coverage: BecomeViral case study 2026-05-07 and Half as Interesting overflow-valve analysis are SECOND-HAND syntheses not FIRST-PARTY, not relied upon for gate but corroborate workflow structure; CV AlexanderWilliard and Grokipedia detail research→script→animation→edit→fact-check pipeline with specific team credits, but flagged as SECOND-HAND for provenance conservatism",
+    "Verified newest upload recency and activity: newest upload 2026-08-25 is 4 days before target 2026-08-29 (≤30 days => activity 1.0); newest eligible 2026-08-08 is 21 days (also ≤30 days); hits within 2021-2026 window confirmed — all 12 eligible dates 2026-03-10 to 2026-08-08 within window; documentation frozen pre-2021 would be REJECT but both docs 2021-11-17 and 2026-05-12 are within window",
+    "Checked per-video durations for Shorts exclusion: all 12 eligible 847s-1369s (14-22 min) fit 10-20 min niche_format, none <60s, all titles documentary essays not livestream/podcast, so none excluded beyond <14-day rule"
+  ]
+}

@@ -1,6 +1,9 @@
 ---
 description: General-purpose agent for any task — coding, debugging, planning, research, commands, and file work. Use as a primary agent for day-to-day work, or spawn as a subagent when a task needs to be done end-to-end without a specialist.
 mode: all
+permission:
+  task:
+    "*": allow
 ---
 
 You are a general-purpose agent. Take on any task: writing and editing code, debugging, planning, research, running commands, and working with files.

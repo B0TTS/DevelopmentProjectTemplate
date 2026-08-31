@@ -1,0 +1,145 @@
+{
+  "name": "Linus Sebastian",
+  "handle": "@LinusTechTips",
+  "platform": "YouTube",
+  "niche_format": "tech explainer / documentary, 10–25 min",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Linus Gabriel Sebastian (born 1986) Canadian YouTuber, founder and former CEO (2013-2023) now Chief Vision Officer of Linus Media Group, years active 2007-present, creator of Linus Tech Tips on Nov 24 2008",
+        "link": "https://en.wikipedia.org/wiki/Linus_Sebastian",
+        "still_current_2026": "YES - Wikipedia page last updated June 27 2026 shows infobox with born 1986, occupation YouTuber/presenter, years active 2007-present, founder/CVO role transition July 1 2023 still current Aug 2026"
+      },
+      {
+        "claim": "Linus Tech Tips channel 16.9 million subscribers and 9.63 billion views (main channel) per Wikipedia infobox; 16.9M / 9.7B corroborated by SocialBlade and FollowerCharts averaging 1.2M per video",
+        "link": "https://en.wikipedia.org/wiki/Linus_Sebastian",
+        "still_current_2026": "YES - Wikipedia infobox dated June 27 2026 states 16.9M / 9.63B still current; corroborated by yt-dlp direct measurement 16900000 on 2026-08-29 via --print channel_follower_count for yFJDP7OinRM"
+      },
+      {
+        "claim": "Direct yt-dlp measurement 16900000 followers for @LinusTechTips on 2026-08-29 (python -m yt_dlp --print channel_follower_count)",
+        "link": "https://www.youtube.com/@LinusTechTips",
+        "still_current_2026": "YES - yt-dlp measured 16900000 on 2026-08-29 matching Wikipedia 16.9M and SocialBlade 16.9M; still current Aug 2026"
+      },
+      {
+        "claim": "Linus Media Group privately held digital media company founded Oct 3 2012 by Linus Sebastian and Yvonne Ho, 120 employees as of January 2026, headquartered Surrey BC, owns flagship Linus Tech Tips (7,009 videos) plus Techquickie/TechLinked/ShortCircuit",
+        "link": "https://en.wikipedia.org/wiki/Linus_Media_Group",
+        "still_current_2026": "YES - Wikipedia Linus Media Group page shows founded 2012, 120 employees as of Jan 2026, channel table with 16.9M/9.13B/7009 videos creation date Nov 25 2008; still current 2026"
+      },
+      {
+        "claim": "FollowerCharts ranks Linus Tech Tips #399 with 16.9M subs, 9.72B total views across 7.9K videos averaging 1.2M per video (SocialBlade 16.9M / 9.74B)",
+        "link": "https://socialblade.com/youtube/handle/linustechtips",
+        "still_current_2026": "YES - SocialBlade published 2026-07-23 shows 16.9M and 9746218028 views still current July 2026, consistent with Aug 29 yt-dlp counts"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-29",
+      "2026-08-26",
+      "2026-08-25",
+      "2026-08-24",
+      "2026-08-22"
+    ],
+    "doc_sources": [
+      {
+        "title": "How We Make 17 Videos a Week",
+        "url": "https://linustechtips.com/topic/1344340-how-we-make-17-videos-a-week/",
+        "date": "2021-06-03",
+        "still_current_2026": "YES - Forum topic posted June 3 2021 in LTT Releases by mynameGeoff, within 2021-2026 window; video walkthrough of typical LMG week shooting LTT/ShortCircuit/TechQuickie (17 videos/week pipeline), sponsored by monday.com; still current as LMG still operates 120-staff multi-channel factory producing ~17 videos/week in 2026 and uploads show same cadence"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 1004889,
+    "per_video": [
+      {
+        "title": "Legends Never Die",
+        "views": 813824,
+        "eligible": true
+      },
+      {
+        "title": "\"Pro\" phones are stupid - Pixel 11 Announcement",
+        "views": 703992,
+        "eligible": true
+      },
+      {
+        "title": "It Shouldn't be this Hard to Buy A Printer",
+        "views": 1746385,
+        "eligible": true
+      },
+      {
+        "title": "Her phone died, so I'm making her fix it",
+        "views": 1127705,
+        "eligible": true
+      },
+      {
+        "title": "Rating Every Version of Windows",
+        "views": 990990,
+        "eligible": true
+      },
+      {
+        "title": "Youtuber Products Tier List",
+        "views": 855907,
+        "eligible": true
+      },
+      {
+        "title": "Does Linux use less RAM?",
+        "views": 1018789,
+        "eligible": true
+      },
+      {
+        "title": "I Followed ChatGPT's PC Build Guide (2026)",
+        "views": 1794890,
+        "eligible": true
+      },
+      {
+        "title": "The Tech House Needs a Workshop",
+        "views": 779445,
+        "eligible": true
+      },
+      {
+        "title": "This Obsoleted Every 3D Printer I Own",
+        "views": 963041,
+        "eligible": true
+      },
+      {
+        "title": "I Could Cry Over the Framework Pro 13",
+        "views": 1349209,
+        "eligible": true
+      },
+      {
+        "title": "He Thought His Internet was OK... IT'S NOT!",
+        "views": 1140745,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 8
+  },
+  "dominance": {
+    "score": 0.55,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.1004889,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×1.00 + 0.5×0.10 + 0.2×1.00 = 0.30 + 0.05 + 0.20 = 0.55; hit_rate 12/12=1.0, hit_magnitude median 1004889/10000000=0.1005 capped 1.0, activity 1.0 (newest upload 2026-08-29 is 0 days before 2026-08-29 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "How We Make 17 Videos a Week",
+      "url": "https://linustechtips.com/topic/1344340-how-we-make-17-videos-a-week/",
+      "date": "2021-06-03",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "1m+ median tier met with narrow margin: median 1,004,889 (≈1.00M) sorted range 703,992 to 1,794,890 places candidate just above 1m+ prioritized threshold but well below 10m+ anchor tier; all 12 eligible >100k by 7-17x, supports PASS but not top anchor.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "https://www.youtube.com/watch?v=LtNdKoXbZMw (2017 How We Make Videos) predates 2021-2026 window — excluded as doc source despite first-party provenance",
+    "GamersNexus LMG factory tour video — SECOND-HAND coverage of LMG production, not creator's own workflow explanation — flagged in candidates.md notes, excluded per FIRST-PARTY requirement",
+    "Members-only videos (e.g., OWLYxxoqvNU, N-traNXpqX0, ibH_IYJcXDo, I18BRqSQ9HA, _rcsnTKp4lc, kH-n4PjcZPI, lGHTN-8eZzk, JpER9IDCFWI, bmFDotIAoF8, xbxWkOmaqfU, nKF7Id9F7QU) — view counts unavailable via yt-dlp (members-only), excluded from eligible pool and hit-rate denominator",
+    "Shorts/livestreams/podcasts — none in final 12; all eligible durations 663-2107s (11-35 min) verified per-video via yt-dlp duration check, no Shorts <60s"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "name": "MrBeast",
+  "handle": "@MrBeast",
+  "platform": "YouTube",
+  "niche_format": "spectacle challenge/philanthropy, edited long-form 10-20 min storytelling",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Most-subscribed YouTube channel and first individual creator to reach 500 million subscribers on 12 June 2026 (YouTube Official Blog); 515M subscribers and 138B views across 999 videos as of Aug 28-29 2026",
+        "link": "https://blog.youtube/creator-and-artist-stories/mrbeast-500-million-youtube-subscribers/",
+        "still_current_2026": "YES - YouTube Official Blog dated 2026-06-12 announces milestone live to 600k concurrent, still current Aug 2026"
+      },
+      {
+        "claim": "YouTube channel @MrBeast verified checkmark, created Feb 20 2012, handle @mrbeast, 515M subscribers verified by NotCommon and Social Blade, A++ grade, #1 Subscribers Rank",
+        "link": "https://notcommon.com/mrbeast",
+        "still_current_2026": "YES - NotCommon shows Verified badge for youtube.com/@mrbeast with 317M snapshot and Verified check icon; corroborated by Social Blade 2026-08-29 showing 515M"
+      },
+      {
+        "claim": "514M subscribers, 137,960,268,975 views, 999 videos as of Aug 24 2026 (TubeLeader) and 515M/138,431,879,957 as of Aug 29 2026 (Social Blade); avg 138M views per video lifetime",
+        "link": "https://socialblade.com/youtube/handle/mrbeast",
+        "still_current_2026": "YES - Social Blade daily metrics snapshot 2026-08-29 within 1 day of target, TubeLeader last refreshed Aug 24 2026"
+      },
+      {
+        "claim": "Beast Industries generated $473M revenue in 2024 (114% YoY from $221M 2023), forecasting $899M 2025, $4.8B by 2029; media business $226M in 2024; raising at $5B valuation (Feb 2025 pitch deck)",
+        "link": "https://www.businessinsider.com/mrbeast-jimmy-donaldson-net-worth",
+        "still_current_2026": "YES - Business Insider 2025-04-04 reports Feb 2025 pitch deck figures, still current for 2026 career scale"
+      },
+      {
+        "claim": "Over 400M subscribers on main channel, $473M revenue last year, Amazon Prime Beast Games, internal production guidebook + 350 staffers as of April 2025; described as 'most-subscribed creator on YouTube'",
+        "link": "https://www.businessinsider.com/mrbeast-how-production-team-makes-youtube-videos-2025-8",
+        "still_current_2026": "YES - Business Insider 2025-08-14 reports 400M+ subs and 350 staffers, still current and corroborates long career 2012-present"
+      },
+      {
+        "claim": "Wikipedia infobox: 515M subscribers, 138B views, years active 2012-present, genres stunts/challenges/game show/philanthropy, last updated Aug 29 2026",
+        "link": "https://en.wikipedia.org/wiki/MrBeast",
+        "still_current_2026": "YES - Wikipedia page last updated Aug 29 2026, directly states 515M/138B"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-23",
+      "2026-08-22",
+      "2026-08-11",
+      "2026-08-08",
+      "2026-07-25"
+    ],
+    "doc_sources": [
+      {
+        "title": "MrBeast: Future of YouTube, Twitter, TikTok, and Instagram | Lex Fridman Podcast #351",
+        "url": "https://www.youtube.com/watch?v=Z3_PwvvfxIU",
+        "date": "2023-01-11",
+        "still_current_2026": "YES - Published 2023-01-11 within 2021-2026 window; MrBeast details title <50 chars, thumbnail iteration, first 5-10 sec retention, ideation team, cloning process; still current as workflow principles unchanged and corroborated by 2024-2025 BI coverage"
+      },
+      {
+        "title": "How to Succeed in MrBeast Production (leaked 36-page PDF onboarding guide)",
+        "url": "https://s3.documentcloud.org/documents/25146014/how-to-succeed-at-mrbeast-production.pdf",
+        "date": "2024-09-15",
+        "still_current_2026": "YES - Leaked Sep 14 2024, widely reported Sep 15-17 2024 (Simon Willison, Dexerto, Tubefilter); authored by Jimmy Donaldson, details CTR/AVD/AVP, title/thumbnail as critical components, first minute retention, formats, cloning; within 2021-2026"
+      },
+      {
+        "title": "MrBeast's Ex-Staffers Reveal How He Crafts Viral YouTube Videos — Business Insider",
+        "url": "https://www.businessinsider.com/mrbeast-how-production-team-makes-youtube-videos-2025-8",
+        "date": "2025-08-14",
+        "still_current_2026": "YES - Published 2025-08-14, interviews 9 former staff + internal production guidebook, details ideation team, title/thumbnail-first pipeline, feasibility, retention editing, thumbnail A/B testing; still current Aug 2026"
+      },
+      {
+        "title": "How to succeed in MrBeast production (leaked PDF) — Simon Willison blog summary",
+        "url": "https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/",
+        "date": "2024-09-15",
+        "still_current_2026": "YES - Secondary summary of same PDF, published Sep 15 2024, confirms first-party authorship and workflow depth"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 102176837,
+    "per_video": [
+      {
+        "title": "Last To Leave Mansion, Keeps It",
+        "views": 101099073,
+        "eligible": true
+      },
+      {
+        "title": "I Granted 100 Kids Their Biggest Wish!",
+        "views": 58649368,
+        "eligible": true
+      },
+      {
+        "title": "Survive 30 Days Chained To A Stranger, Win $250,000",
+        "views": 91477198,
+        "eligible": true
+      },
+      {
+        "title": "50 YouTube Legends Fight For $1,000,000",
+        "views": 81978255,
+        "eligible": true
+      },
+      {
+        "title": "7 Days Stranded in The Arctic",
+        "views": 119338650,
+        "eligible": true
+      },
+      {
+        "title": "Survive 30 Days On An Island With Your Ex, Win $250,000",
+        "views": 103254601,
+        "eligible": true
+      },
+      {
+        "title": "I Stranded 100 People In The Wilderness For $250,000",
+        "views": 96844940,
+        "eligible": true
+      },
+      {
+        "title": "Last To Leave Grocery Store, Wins $250,000",
+        "views": 177937206,
+        "eligible": true
+      },
+      {
+        "title": "50 Streamers Fight for $1,000,000",
+        "views": 118641801,
+        "eligible": true
+      },
+      {
+        "title": "Trapped On An Island Until I Build A Boat",
+        "views": 154093727,
+        "eligible": true
+      },
+      {
+        "title": "Ages 1 - 100 Race For $250,000!",
+        "views": 145761049,
+        "eligible": true
+      },
+      {
+        "title": "I Built 10 Schools Around The World",
+        "views": 77298994,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 1
+  },
+  "dominance": {
+    "score": 1.0,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 1.0,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×1.00 + 0.5×1.00 + 0.2×1.00 = 0.30 + 0.50 + 0.20 = 1.00; hit_rate 12/12=1.0, hit_magnitude median 102,176,837/10,000,000=10.22 capped 1.0, activity 1.0 (newest eligible-excluded upload Aug 22 2026 is 7 days before Aug 29 2026 ≤30 days)"
+  },
+  "documentation": [
+    {
+      "title": "MrBeast: Future of YouTube, Twitter, TikTok, and Instagram | Lex Fridman Podcast #351",
+      "url": "https://www.youtube.com/watch?v=Z3_PwvvfxIU",
+      "date": "2023-01-11",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "How to Succeed in MrBeast Production (36-page PDF)",
+      "url": "https://s3.documentcloud.org/documents/25146014/how-to-succeed-at-mrbeast-production.pdf",
+      "date": "2024-09-15",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "MrBeast's Ex-Staffers Reveal How He Crafts Viral YouTube Videos — Business Insider",
+      "url": "https://www.businessinsider.com/mrbeast-how-production-team-makes-youtube-videos-2025-8",
+      "date": "2025-08-14",
+      "provenance": "SECOND-HAND",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "Top anchor 10m+/video tier: PASS with large margin. Median 102.2M (sorted 12 longs: 58.6M to 177.9M) capped hit_magnitude 1.0; smallest eligible 58.6M alone exceeds 10M threshold. Lifetime avg 138M per video (OutlierKit 2026-07-03, TubeLeader 137.6B/999) and 947M top video ($456k Squid Game). Daily ~26M views/day life, 3B/month per pitch deck. Clearly prioritized top-of-shortlist anchor per magnitude note.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp unavailable — harness has no shell (standing rules: no shell, cannot spawn subagents); measurement protocol requires python -m yt_dlp --flat-playlist and per-video --print but shell not exposed — used videostats.communitrics.com, youtubers.me, realtimeSubCount.com and socialcounts.org as estimate-grade fallback with explicit provenance",
+    "bare yt-dlp not on PATH per MANIFEST — confirmed python -m yt_dlp required but not executable in leaf environment",
+    "SearXNG searxng_searxng_web_search returned no results / instance unreachable — fell back to websearch (Exa) per opencode-web-research routing",
+    "YouTube watch pages (youtube.com/watch?v=Qtl8lJwbd4g, Z3_PwvvfxIU) are JS-rendered — webfetch/searxng_web_url_read returned shell only, no view counts — resolved via videostats tables and realtimeSubCount pollers",
+    "YouTube channel /@MrBeast/videos via webfetch JS-blocked — could not replicate yt-dlp --flat-playlist directly — used videostats Communitrics table which mirrors reverse-chronological flat-playlist with upload dates and Long/Short types",
+    "Social Blade https://socialblade.com/youtube/handle/mrbeast/videos requires login to view per-video table — accessed via webfetch confirmed 515M/138B/999 topline but not rows; used youtubers.me 20-row table and Communitrics 25-row table for per-video counts",
+    "View count snapshots vary by date (youtubers.me 37M vs Communitrics 58M for I Granted 100 Kids on Jul 25) — reconciled by using most recent snapshot (Communitrics Aug 23-24) for recency and noting both exceed 100k by orders of magnitude; discrepancy does not affect hit_rate",
+    "Attempted to retrieve older long-form counts beyond May 2 via youtubers.me pagination — table truncated at 20, fetched older longs via realtimeSubCount.com individual pollers (Ages 1-100 145.7M, I Built 10 Schools 77.2M, Trapped On Island 154M, 50 Streamers 118M, Last To Leave Grocery 177M)"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "name": "Dan Mace",
+  "handle": "@DanMace",
+  "platform": "YouTube",
+  "niche_format": "documentary / cinematic storytelling, 10–20 min films",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @DanMace handle live UCZfPrUL62TN74Mmrn-O_pZQ, joined March 10 2012, 939000 subscribers via python -m yt_dlp channel_follower_count on 2026-08-29, channel_is_verified true, 156 videos / 51.2M total views per SPEAKRJ July 3 2026",
+        "link": "https://www.youtube.com/@DanMace",
+        "still_current_2026": "YES - yt-dlp per-video metadata 2026-08-29 returns 939000 channel_follower_count and channel_is_verified true, SPEAKRJ July 3 2026 corroborates 940K/51.2M/156 videos, handle live and verified scale"
+      },
+      {
+        "claim": "Own site danmace.com/about states CCO Beast Philanthropy, founder JOE and ALL OF US Studios Cape Town, 10-year career 100+ commercials/music videos/documentaries/shorts across four continents, joined YouTube 2011, 23M combined subscribers with Beast Philanthropy and 550M+ views, writes/produces/directs/edits majority of own work",
+        "link": "https://danmace.com/about/",
+        "still_current_2026": "YES - danmace.com/about fetched 2026-08-29 live page details CCO role, JOE/ALL OF US, 100+ commercials, 23M/550M claims, 10-year career, still current Aug 2026"
+      },
+      {
+        "claim": "News24 Nov 18 2025 profile How Cape Town's Dan Mace went from teen filmmaker to impacting world with MrBeast notes South African filmmaker, founder JOE and All Of Us Studios, three Young Director Awards at Cannes Lions, Bronze Loerie, collaborator with Casey Neistat/Logan Paul/MrBeast, CCO Beast Philanthropy, now between USA and South Africa",
+        "link": "https://www.news24.com/life/lifestyle-trends/how-cape-towns-dan-mace-went-from-teen-filmmaker-to-impacting-the-world-with-mrbeast-20251118-1027",
+        "still_current_2026": "YES - Published 2025-11-18 within 2021-2026 window, details Cannes Young Director x3, Loerie, MrBeast/Casey collaborations and CCO title, still current Aug 2026"
+      },
+      {
+        "claim": "Business Insider Sep 4 2025 notes MrBeast built philanthropy team with fellow creator Dan Mace as chief creative officer; Forbes Jul 31 2025 How Beast Philanthropy Is Making Kindness Go Viral and BizCommunity Nov 29 2023 Shorty Impact Awards wins for Beast Philanthropy with Dan Mace as founder JOE and CCO accepting Global Impact of the Year and Audience Honor for We Saved an Orphanage (17M+ views, R10M raised)",
+        "link": "https://www.bizcommunity.com/Article/196/97/244192.html",
+        "still_current_2026": "YES - BizCommunity 2023-11-29 and Forbes 2025-07-31 / BusinessInsider 2025-09-04 all within window corroborate documented earnings/brand deals, philanthropy channel scale and media coverage, still current Aug 2026"
+      },
+      {
+        "claim": "IMDb and Artlist/MetFilm School document long public career: IMDb lists Dan Mace born March 7 1990 Pinelands RSA, Director/Writer/Editor, founder JOE, CCO Beast Philanthropy; Artlist May 20 2022 channel breakdown notes 780K subs closing on 1M, 10-year directing background, 3 Young Director Awards Cannes, African Cristal, Ciclope Editing Craft; MetFilm School Feb 11 2022 Meet Industry confirms Cannes Silver Screen Young Directors Award three times in two years",
+        "link": "https://www.imdb.com/name/nm12839195",
+        "still_current_2026": "YES - IMDb profile fetched 2026-08-29 and Artlist 2022-05-20 plus MetFilm School 2022-02-11 all within or corroborating 2021-2026 window, confirm long verified career and awards"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2025-11-28",
+      "2025-07-01",
+      "2025-05-14",
+      "2025-04-23",
+      "2024-12-05"
+    ],
+    "doc_sources": [
+      {
+        "title": "How to Master the Art of Filmmaking",
+        "url": "https://www.youtube.com/watch?v=XlYWZRf_IKM",
+        "date": "2024-04-14",
+        "still_current_2026": "YES - yt-dlp upload_date 20240414 within 2021-2026; Dan Mace-owned first-party 2:49:28 film (2536471 views verified 2026-08-29) chaptered idea→whiteboard→story→shoot→edit→color/sound→upload, corroborated by NY Weekly Apr 16 2024 review, still current Aug 2026"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 0.833,
+    "median_views": 391782,
+    "per_video": [
+      {
+        "title": "I Rented Hong Kong's Tiniest Apartment",
+        "views": 44381,
+        "eligible": true
+      },
+      {
+        "title": "Six Habits of Highly Effective Filmmakers",
+        "views": 72356,
+        "eligible": true
+      },
+      {
+        "title": "Inside South Africa's Taxi Mafia",
+        "views": 1512384,
+        "eligible": true
+      },
+      {
+        "title": "Quentin Tarantino Directed a Day in My Life",
+        "views": 351048,
+        "eligible": true
+      },
+      {
+        "title": "Why Every Filmmaker Needs this Camera!",
+        "views": 118667,
+        "eligible": true
+      },
+      {
+        "title": "Reversing my age with Bryan Johnson",
+        "views": 195780,
+        "eligible": true
+      },
+      {
+        "title": "How to Master the Art of Filmmaking",
+        "views": 2536471,
+        "eligible": true
+      },
+      {
+        "title": "big news",
+        "views": 432516,
+        "eligible": true
+      },
+      {
+        "title": "my new job",
+        "views": 698674,
+        "eligible": true
+      },
+      {
+        "title": "antarctica",
+        "views": 1299922,
+        "eligible": true
+      },
+      {
+        "title": "a day with mrbeast",
+        "views": 1034679,
+        "eligible": true
+      },
+      {
+        "title": "street talent in nyc is unmatched",
+        "views": 135281,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.269,
+    "hit_rate_input": 0.833,
+    "hit_magnitude_input": 0.0391782,
+    "activity_input": 0.0,
+    "arithmetic": "0.3×0.833 + 0.5×0.0391782 + 0.2×0.0 = 0.2499 + 0.0195891 + 0.0 = 0.2694891 ≈ 0.269; hit_rate 10/12=0.833, hit_magnitude median 391782/10000000=0.0391782 capped 1.0, activity 0.0 (newest upload 2025-11-28 is 274 days before 2026-08-29 >90 days)"
+  },
+  "documentation": [
+    {
+      "title": "How to Master the Art of Filmmaking",
+      "url": "https://www.youtube.com/watch?v=XlYWZRf_IKM",
+      "date": "2024-04-14",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized and not top anchor: median 391,782 (sorted 12 eligible: 44,381 to 2,536,471; only 4 videos >1M, 10/12 >100k) via exact python -m yt_dlp per-video counts Aug 29 2026; lifetime 51.2M views / 939K-940K subs corroborate scale but recent long-form median below 1M+ prioritized threshold and well below 10M+ anchor tier; low dominance 0.269 reflects modest hit_magnitude and dormancy despite PASS on consistency.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --playlist-end 12 for @DanMace/videos returned flat counts 44k-2.5M; verified each via python -m yt_dlp --print upload_date/view_count/duration per watch page (IDs e-0JosceZrw through mrZuX1J2zjA) to get exact 2025-11-28 to 2022-11-15 dates/durations and confirm not estimate-grade aggregator; per-video counts match flat within <2% drift",
+    "Checked duration/was_live/live_status ambiguity: pulled duration (287s to 10168s) and was_live False / live_status not_live for all 12 — no Shorts (<60s), no livestreams, no podcast in title per spec so counted eligible; also checked flat-playlist extended to 30 videos to confirm no hidden Longs with >1M missed in last-12",
+    "Flat-mode channel_follower_count returned NA — fell back to per-video channel_follower_count 939000 on XlYWZRf_IKM plus SPEAKRJ 940K/51.2M/156 videos (July 3 2026) and danmace.com 23M combined claim for sub count evidence; bare yt-dlp not on PATH confirmed python -m yt_dlp required",
+    "Verified candidate first-party doc XlYWZRf_IKM via yt-dlp --dump-json: uploader Dan Mace (@DanMace, 939K, channel_is_verified true), duration 10168 sec (2:49:28), 2536471 views, 105689 likes, chapters 11 from Intro 0:00 to The Upload 2:47:08 confirm workflow idea→whiteboard→story→shoot→edit→color/sound→upload, not Short or podcast",
+    "Checked recency/activity: newest upload 2025-11-28 (e-0JosceZrw, 44k, 891s) is 274 days before 2026-08-29 (>90 days) => activity 0.0; noted dormancy as magnitude limitation not recency REJECT because hits still within 2021-2026 window and doc 2024-04-14 within window",
+    "Doc dating: How to Master the Art of Filmmaking header shows 2024-04-14 per yt-dlp upload_date and candidates.md notes, corroborated by NY Weekly 2024-04-16 review and webfetch chapter list; confirmed English FIRST-PARTY workflow depth covering idea→whiteboard→story→planning→music→shoot→edit→review→color/sound→upload, MONETIZED via Kajabi partner link in description",
+    "Searched additional verification: websearch for Beast Philanthropy CCO role returned News24 2025-11-18, BusinessInsider 2025-09-04, Forbes 2025-07-31, BizCommunity 2023-11-29 all within window documenting brand deals and Shorty Impact Awards; fetched danmace.com/about via webfetch Aug 29 2026 before citing as required"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "name": "Dan Koe",
+  "handle": "@DanKoeTalks",
+  "platform": "YouTube",
+  "niche_format": "philosophy / one-person-business video essay (20–30 min)",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "YouTube channel @DanKoeTalks measured via python -m yt_dlp on 2026-08-29: 1,410,000 subscribers, 250 videos, channel_follower_count 1410000 on per-video metadata for Qk8rSlDR8z4 (2026-08-19); YouTube About shows 1.41M subscribers • 250 videos",
+        "link": "https://www.youtube.com/@DanKoeTalks",
+        "still_current_2026": "YES - direct yt-dlp channel_follower_count 1410000 on 2026-08-29 corroborated by SocialCounts 1,414,951 and HypeAuditor 1,415,010 Aug 29 2026, still current Aug 2026"
+      },
+      {
+        "claim": "Dan Koe is American author (The Art of Focus), brand advisor for creators/influencers, founder of Modern Mastery (2021-2024), Web Strategy Consultant at Koe Modern Media (2017-2021), co-founder of Eden AI platform; long career 2016-present",
+        "link": "https://thedankoe.com/",
+        "still_current_2026": "YES - thedankoe.com home fetched Aug 29 2026 shows 'author of The Art of Focus, co-founder of Eden, previously brand advisor' with schema dateModified 2025-12-03, and LinkedIn shows Modern Mastery 2021-01 to 2024-06, Koe Modern Media 2017-03 to 2021-08, still current 2026"
+      },
+      {
+        "claim": "Channel started March 14 2016 (ThoughtLeaders FAQ), total 49M views and 49,009,947 channel views (SocialCounts), 250 videos, consistent long-form English output 2021-2026 with 1.41M subs",
+        "link": "https://app.thoughtleaders.io/youtube/dan-koe",
+        "still_current_2026": "YES - ThoughtLeaders states 'Dan Koe first started uploading YouTube videos on March 14, 2016' and '1M subscribers, 49M views' (now 1.41M per direct yt-dlp/SocialCounts), still current Aug 2026, confirms 10-year career"
+      },
+      {
+        "claim": "HypeAuditor Aug 2026: 1.4M subscribers, 250 total videos, Videos Avg. Views 157.4K-158.8K, Engagement Rate 4.17-4.23%, 1,415,010 subscribers on Aug 29 2026 historical table",
+        "link": "https://hypeauditor.com/youtube/UCWXYDYv5STLk-zoxMP2I1Lw/",
+        "still_current_2026": "YES - HypeAuditor last update August 2026 shows 1.4M/157.4K avg views and daily subscriber table Aug 29 1,415,010, still current"
+      },
+      {
+        "claim": "Grokipedia comprehensive profile (fact-checked Feb 21 2026): Dan Koe operated as brand advisor for high-ticket creators ( $2,500-$5,000 per funnel, $8,000 consulting, peak $50k months), then shifted to independent content creation, newsletter future/proof 196k+ readers, books The Art of Focus and Purpose & Profit, now Eden co-founder",
+        "link": "https://grokipedia.com/page/Dan_Koe",
+        "still_current_2026": "YES - Grokipedia dated 2026-02-21 within 2021-2026 window, details brand advising background and shift to creator economy, corroborated by thedankoe.com/my-story 2023-10-20, still current Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-08-19",
+      "2026-08-09",
+      "2026-07-27",
+      "2026-07-05",
+      "2026-06-28"
+    ],
+    "doc_sources": [
+      {
+        "title": "How to use AI better than 99% of people — Dan Koe (contains dedicated 'The YouTube Workflow' section)",
+        "url": "https://letters.thedankoe.com/p/how-to-use-ai-better-than-99-of-people",
+        "date": "2025-11-27",
+        "still_current_2026": "YES - published Nov 27 2025 per Substack header and webfetch, within 2021-2026 window; documents title/key-points/intro/script/B-roll/description prompt system; read and verified Aug 29 2026, still current"
+      },
+      {
+        "title": "How To Use AI Better Than 99% Of People (This Changed My Life) — YouTube companion video",
+        "url": "https://www.youtube.com/watch?v=xgpLjLHB5sA",
+        "date": "2025-11-27",
+        "still_current_2026": "YES - yt-dlp --print upload_date 20251127, watch page states 'Watch the video version of this letter on YouTube' linked from Nov 27 2025 letter, within 2021-2026, still current"
+      },
+      {
+        "title": "Blog — Dan Koe archive (letters.thedankoe.com + thedankoe.com/blog/)",
+        "url": "https://thedankoe.com/blog/",
+        "date": "2023-06-03",
+        "still_current_2026": "YES - archive datePublished 2022-04-21 and dateModified 2023-06-03 per schema, lists 2025 letters (e.g., The Death Of Thoughtful Creation Jun 19 2025) and links to Substack, within 2021-2026, still current Aug 2026"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 0.583,
+    "median_views": 111188,
+    "per_video": [
+      {
+        "title": "How To Learn Anything 10x Faster Than Anyone",
+        "views": 48485,
+        "eligible": true
+      },
+      {
+        "title": "The Writing System That Saved My Brain (Learn Faster & Think Clearly)",
+        "views": 143106,
+        "eligible": true
+      },
+      {
+        "title": "Learn This Skill If You Want To Win In The Next 2-3 Years",
+        "views": 61429,
+        "eligible": true
+      },
+      {
+        "title": "How To Become So Valuable AI Can Never Replace You",
+        "views": 58088,
+        "eligible": true
+      },
+      {
+        "title": "If You Have Multiple Interests, Start A One-Person Business",
+        "views": 165435,
+        "eligible": true
+      },
+      {
+        "title": "How To Grow An Audience If You Have 0 Followers (It's Only 2 Habits)",
+        "views": 122092,
+        "eligible": true
+      },
+      {
+        "title": "How To Completely Reinvent Yourself In 6-12 Months",
+        "views": 99017,
+        "eligible": true
+      },
+      {
+        "title": "I'm begging you to start writing essays (even if you hate writing)",
+        "views": 217500,
+        "eligible": true
+      },
+      {
+        "title": "If you've lost your creative genius, watch this",
+        "views": 56083,
+        "eligible": true
+      },
+      {
+        "title": "How To Build A $1M One-Person Business Faster With AI",
+        "views": 116028,
+        "eligible": true
+      },
+      {
+        "title": "How To Think Like A Strategic Genius (5-Dimensional Thinking)",
+        "views": 106347,
+        "eligible": true
+      },
+      {
+        "title": "The Future Of Work (& The New High-Income Skill Stack)",
+        "views": 183150,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 1
+  },
+  "dominance": {
+    "score": 0.38,
+    "hit_rate_input": 0.583,
+    "hit_magnitude_input": 0.0111188,
+    "activity_input": 1.0,
+    "arithmetic": "0.3×0.583 + 0.5×0.0111188 + 0.2×1.0 = 0.1749 + 0.0055594 + 0.20 = 0.3804594 ≈0.38; hit_rate 7/12=0.583 after excluding 1 new upload <14 days (2026-08-19 is 10 days before 2026-08-29), hit_magnitude median 111188/10000000=0.0111188 capped 1.0, activity 1.0 (newest upload 2026-08-19 is 10 days ≤30 days); strict flat 1-12 window gives 6/12=0.50, median 102682, dominance 0.355, still REJECT"
+  },
+  "documentation": [
+    {
+      "title": "How to use AI better than 99% of people — Dan Koe (Substack letter with 'The YouTube Workflow' section)",
+      "url": "https://letters.thedankoe.com/p/how-to-use-ai-better-than-99-of-people",
+      "date": "2025-11-27",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "How To Use AI Better Than 99% Of People (This Changed My Life) — YouTube",
+      "url": "https://www.youtube.com/watch?v=xgpLjLHB5sA",
+      "date": "2025-11-27",
+      "provenance": "FIRST-PARTY",
+      "monetized": "MONETIZED"
+    },
+    {
+      "title": "Blog — Dan Koe archive",
+      "url": "https://thedankoe.com/blog/",
+      "date": "2023-06-03",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    }
+  ],
+  "magnitude_note": "Sub-1M median tier — NOT prioritized: median 111,188 (eligible window 2-13, range 48k-217k; strict 1-12 median 102,682) via exact python -m yt_dlp per-video counts Aug 29 2026; largest recent eligible 217k, none >300k in window, well below 1M+ prioritized threshold and 10M+ anchor tier; even historic peak 924,285 (2025-07-27) and 480k (2025-12-07) <1M; lifetime 49M total/1.41M subs corroborate scale but recent median 0.11M not top anchor.",
+  "verdict": "REJECT",
+  "rejection_reason": "Consistency test FAIL: 7/12 =58.3% of last 12 eligible long-form videos (2-13, excluding 1 new upload <14 days) exceed 100k views (median 111,188) <60% gate; strict 1-12 window 6/12=50% median 102,682 also fails. 5 of 12 eligible below 62k, with two ~48k. Do NOT lower gate — borderline is REJECT; even with documentation PASS (Nov 2025 YouTube Workflow), consistency gate blocks PASS. Dominance 0.38-0.355 reflects low hit_magnitude.",
+  "dead_ends_searched": [
+    "python -m yt_dlp --flat-playlist --playlist-end 12/20/30 for @DanKoeTalks/videos returned flat counts 48k-494k; verified each via python -m yt_dlp --print upload_date/view_count/duration/was_live per watch page (IDs Qk8rSlDR8z4 through wdA5y0k7CRA) to get exact 2025-07-27 to 2026-08-19 dates/durations and confirm not estimate-grade aggregator; flat vs per-video drift <2%",
+    "Checked duration/live_status ambiguity: pulled duration/was_live/live_status for all 12-20 videos (2830s-1164s, 19-47 min) — all was_live False/not_live, durations >1200s confirms long-form 10-30 min (20-30 min niche), no 'Shorts'/'livestream'/'podcast' in title per spec so counted eligible; also checked /shorts tab via yt-dlp which returned separate Shorts with NA durations (41k,26k) not counted in /videos tab, excluded correctly",
+    "Flat mode channel_follower_count returned NA — fell back to per-video channel_follower_count 1410000 on Qk8rSlDR8z4 plus YouTube About 1.41M, SocialCounts 1,414,951, HypeAuditor 1,415,010 for sub count evidence; no verified checkmark explicitly fetched via API but long career 2016-present satisfies verification bar alternative per wave-02 spec (Ali Abdaal precedent)",
+    "Checked historic window beyond 13: videos 14-18 (2026-01-20 322k, 2026-01-03 260k, 2025-12-28 494k, 2025-12-21 83k, 2025-12-07 480k) show sporadic >100k but recent 12 still clustered sub-100k; tested generous 2-newest exclusion (58.3%) still <60%; tested expanding to 14-25 median still <200k, not rescuing hit_rate per spec",
+    "Doc dating: webfetch letters.thedankoe.com/p/how-to-use-ai-better-than-99-of-people header shows Nov 27 2025 and 'The YouTube Workflow' section with 6 prompts (Title, Key Points, Introduction, Script, B-Roll, Description) — confirmed first-party English workflow doc within 2021-2026, read page before citing per spec; YouTube companion xgpLjLHB5sA yt-dlp date 20251127 corroborates same date",
+    "websearch 'Dan Koe YouTube workflow' + 'Dan Koe how I make videos' + 'thedankoe.com YouTube Workflow' returned only Nov 2025 letter and Startup Ideas Podcast breakdown (secondary); no additional first-party on-channel 'how I make my videos' found, but Nov 2025 letter suffices for documentation requirement",
+    "Wikipedia search for Dan Koe returned no English page (candidates.md notes 'no page') — confirmed via websearch zero wiki result, fell back to thedankoe.com/about, LinkedIn, Grokipedia 2026-02-21 and ThoughtLeaders/SocialCounts for career verification; noted deleted/missing page as dead end per spec",
+    "Verified yt-dlp not on bare PATH (required python -m yt_dlp) per spec warning; used python -m yt_dlp for ALL view counts, including flat-playlist and per-video prints; tested bare yt-dlp would fail in this shell"
+  ]
+}

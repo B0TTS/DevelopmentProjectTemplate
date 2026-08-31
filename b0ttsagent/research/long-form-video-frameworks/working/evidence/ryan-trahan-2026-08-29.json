@@ -1,0 +1,184 @@
+{
+  "name": "Ryan Trahan",
+  "handle": "@ryan",
+  "platform": "YouTube",
+  "niche_format": "travel/challenge storytelling, edited long-form 20-30 min daily series",
+  "verification": {
+    "status": "PASS",
+    "career_evidence": [
+      {
+        "claim": "Wikipedia infobox: 23.75M subscribers, 6.4B views, Years active 2013–present, last updated August 25 2026; channel @ryan linked as https://www.youtube.com/@ryan",
+        "link": "https://en.wikipedia.org/wiki/Ryan_Trahan",
+        "still_current_2026": "YES - page fetched directly 2026-08-29 shows 'Last updated: August 25 2026' with 23.75M/6.4B and channel list @ryan, still current Aug 2026"
+      },
+      {
+        "claim": "Direct yt-dlp measurement 2026-08-29: channel_follower_count 23700000 (23.7M) on watch page 3x3BSLl94Yk, uploader Ryan Trahan, channel @ryan (ID UCnmGIkw-KdI0W5siakKPKog)",
+        "link": "https://www.youtube.com/channel/UCnmGIkw-KdI0W5siakKPKog",
+        "still_current_2026": "YES - measured via python -m yt_dlp --print channel_follower_count on 2026-08-29; matches Wikipedia 23.75M; corroborates verified scale"
+      },
+      {
+        "claim": "YouTube Official Blog June 09 2022: In 2021 amassed 313 million views, 35 million hours watch time, gained 3.3M subscribers; thumbnail/editing style legendary; interview details Penny Series 30-day $0.01 journey to MrBeast for Feeding America",
+        "link": "https://blog.youtube/creator-and-artist-stories/ryan-trahan-thumbnail-editing-secrets-to-going-viral/",
+        "still_current_2026": "YES - published 2022-06-09 within 2021-2026 window; read via webfetch 2026-08-29; stats corroborated by Tubefilter June 30 2022 (190M views/1.38M charity in 30-day) and 2025 St Jude coverage"
+      },
+      {
+        "claim": "50 States in 50 Days June 10-July 29 2025 raised $11.65M as of Jan 2026 for St Jude Children's Research Hospital (115+ brands: Airbnb $250K, Kia $100K, Dollar Shave Club $150K, T-Mobile $350K, Lectric eBikes $610K); daily 20-30 min episodes averaged 2-4M views/day, 100M+ collective in 29 days; covered by St Jude, Forbes Aug 06 2025 ($11.5M), Commercial Appeal July 14 2025 ($5M by day 35)",
+        "link": "https://en.wikipedia.org/wiki/Ryan_Trahan",
+        "still_current_2026": "YES - Wikipedia section '50 States in 50 Days' cites St Jude fundraising page archived June 25 2025 + Jan 2026 total; corroborated via https://www.stjude.org/inspire/series/selfless/50-states-challenge-ryan-trahan-st-jude.html (July 11 2025) and https://www.forbes.com/sites/staceystratton/2025/08/06/the-115-million-youtuber-campaign-changing-brand-strategy/ — all 2025 within window, still current 2026"
+      },
+      {
+        "claim": "Streamy Awards: Breakout Creator Winner 2022 (12th Streamys) and First Person Winner 2023 (13th Streamys), Creator of Year nominee 2023; also Guinness World Record June 14 2025 Joyride 1,733 photos",
+        "link": "https://en.wikipedia.org/wiki/Ryan_Trahan",
+        "still_current_2026": "YES - awards pages cited via Wikipedia references 36-37 (Hollywood Reporter Dec 5 2022, Aug 28 2023) within window; confirmed via direct Wikipedia Awards table fetched Aug 2026"
+      }
+    ]
+  },
+  "recency": {
+    "newest_upload_dates": [
+      "2026-07-18",
+      "2026-06-10",
+      "2026-06-06",
+      "2026-06-03",
+      "2026-05-30"
+    ],
+    "doc_sources": [
+      {
+        "title": "What's Ryan Trahan's secret to going viral? — YouTube Official Blog (Creator and Artist Stories)",
+        "url": "https://blog.youtube/creator-and-artist-stories/ryan-trahan-thumbnail-editing-secrets-to-going-viral/",
+        "date": "2022-06-09",
+        "still_current_2026": "YES - published 2022-06-09 within 2021-2026 window; read via webfetch Aug 29 2026; details thumbnail formula (3,000 photos, 5:30am light, subtle face, clear background, complementary subtitle brainstorm), editing philosophy, penny series accessibility; still current and cited by 2025 coverage"
+      },
+      {
+        "title": "Inside Ryan Trahan's 50-Day YouTube Marathon — The Colin and Samir Show (59 min podcast)",
+        "url": "https://podcasts.apple.com/jm/podcast/inside-ryan-trahans-50-day-youtube-marathon/id1379942034?i=1000717054650",
+        "date": "2025-07-13",
+        "still_current_2026": "YES - published 2025-07-13T14:37:00+00:00 within window; read via webfetch + Podscan transcript excerpts; Ryan breaks down producing 20-30 min daily videos while traveling to new state daily, building repeatable formats (Cool Rankings, Morning Routine, Jammy Time per candidate notes), interactive storytelling, watercooler TV, raising $3.6M by day 29 (now $11.65M)"
+      },
+      {
+        "title": "Ryan Trahan & The Editor Behind 200 Million Views In One Month — The Editing Podcast S1E3 (with editor Zach Levet)",
+        "url": "https://podcasts.apple.com/gb/podcast/ryan-trahan-the-editor-behind-200-million-views-in-one-month/id1642788770?i=1000579045985",
+        "date": "2022-09-10",
+        "still_current_2026": "YES - published 2022-09-10 16:58 UTC within window; read via webfetch; interview Ryan + editor Zach Levet on Penny Series June 2022 (200M views/month, 14M meals, editing in van, storytelling formula from TV/film to YouTube, editing philosophies)"
+      },
+      {
+        "title": "How Ryan Trahan's Team Creates Daily Series That Actually Work — Gimbal Blog (Preston White Double Arc Method, 54-page Google Doc)",
+        "url": "https://gimbalblog.com/how-ryan-trahans-team-creates-daily-series-that-actually-work",
+        "date": "2025-12-25",
+        "still_current_2026": "YES - published 2025-12-25 (Dec 25 2025) within window; documents Double Arc Method (Mini Arc daily resolution + Master Arc cumulative momentum), 54-page Google Doc coordinating 50 States, scouting via Google Street View, editing handoff to Zach Levet/Cohen Thompson"
+      }
+    ]
+  },
+  "consistency": {
+    "hit_rate": 1.0,
+    "median_views": 2323887,
+    "per_video": [
+      {
+        "title": "I Tried the \"Top 10 Things To Do\" in America",
+        "views": 2251142,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - Finale",
+        "views": 1931436,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - Grand Canyon",
+        "views": 1586739,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - Los Angeles",
+        "views": 1748109,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - Golden Gate Bridge",
+        "views": 1768798,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - Las Vegas",
+        "views": 2177713,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - Yellowstone",
+        "views": 2396631,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - New York City",
+        "views": 2579983,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - Niagara Falls",
+        "views": 3049477,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America - Washington D.C.",
+        "views": 3454930,
+        "eligible": true
+      },
+      {
+        "title": "I Visited the Top 10 Places in America",
+        "views": 6061498,
+        "eligible": true
+      },
+      {
+        "title": "Hi, Me in 10 Years",
+        "views": 3007141,
+        "eligible": true
+      }
+    ],
+    "excluded_new_uploads": 0
+  },
+  "dominance": {
+    "score": 0.516,
+    "hit_rate_input": 1.0,
+    "hit_magnitude_input": 0.2323887,
+    "activity_input": 0.5,
+    "arithmetic": "0.3×1.00 + 0.5×0.2323887 + 0.2×0.50 = 0.300 + 0.11619435 + 0.100 = 0.51619435 ≈ 0.516; hit_rate 12/12=1.0, hit_magnitude median 2323887/10000000=0.2323887 capped 1.0, activity 0.5 (newest upload 2026-07-18 is 42 days before 2026-08-29 → ≤90 days, >30 days)"
+  },
+  "documentation": [
+    {
+      "title": "What's Ryan Trahan's secret to going viral? — YouTube Official Blog",
+      "url": "https://blog.youtube/creator-and-artist-stories/ryan-trahan-thumbnail-editing-secrets-to-going-viral/",
+      "date": "2022-06-09",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "Inside Ryan Trahan's 50-Day YouTube Marathon — The Colin and Samir Show",
+      "url": "https://podcasts.apple.com/jm/podcast/inside-ryan-trahans-50-day-youtube-marathon/id1379942034?i=1000717054650",
+      "date": "2025-07-13",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "Ryan Trahan & The Editor Behind 200 Million Views In One Month — The Editing Podcast",
+      "url": "https://podcasts.apple.com/gb/podcast/ryan-trahan-the-editor-behind-200-million-views-in-one-month/id1642788770?i=1000579045985",
+      "date": "2022-09-10",
+      "provenance": "FIRST-PARTY",
+      "monetized": "INDEPENDENT"
+    },
+    {
+      "title": "How Ryan Trahan's Team Creates Daily Series That Actually Work — Gimbal Blog (Preston White)",
+      "url": "https://gimbalblog.com/how-ryan-trahans-team-creates-daily-series-that-actually-work",
+      "date": "2025-12-25",
+      "provenance": "SECOND-HAND",
+      "monetized": "INDEPENDENT"
+    }
+  ],
+  "magnitude_note": "1m+ median prioritized: PASS (median 2,323,887 via exact yt-dlp per-video counts; all 12 >1.58M, smallest 1,586,739; top 6,061,498). 10m+ anchor tier NOT reached in last-12 window (max 6.06M), but lifetime anchors exist (69M Airline, 45M Hotels-again, 40M OMG Airbnbs, 38M Theme Parks per YouTube shelf) and career totals 6.4B/23.7M confirm 1m+ median priority tier. Consistency 100% (12/12 >100k) exceeds 60% gate.",
+  "verdict": "PASS",
+  "rejection_reason": "",
+  "dead_ends_searched": [
+    "python -m yt_dlp flat-playlist https://www.youtube.com/@RyanTrahan/videos → 404 (handle variant); resolved via channel ID UCnmGIkw-KdI0W5siakKPKog verified via websearch InsideCréateurs and YouTube Blog channel link",
+    "python -m yt_dlp flat-playlist https://www.youtube.com/@RyanTrahan → 404; same fix using channel ID",
+    "channel_follower_count flat mode returned NA for @ryan/videos; fell back to per-video channel_follower_count on watch page 3x3BSLl94Yk (23700000) plus Wikipedia 23.75M and InsideCréateurs 23.6M for sub verification",
+    "Checked Shorts/livestream/podcast exclusion: all 12 per-video checks show duration 574-4438s (9:34 to 73:58), live_status not_live, was_live False, titles contain no 'Shorts/livestream/podcast'; no exclusions needed; verified newest upload 2026-07-18 is 42 days before 2026-08-29 (>14 days) so excluded_new_uploads=0"
+  ]
+}
