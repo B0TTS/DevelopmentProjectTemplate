@@ -1,0 +1,684 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 58780,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 3770,
+    "dDurationMs": 6400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "first",
+      "acAsrConf": 251
+    }, {
+      "utf8": " please",
+      "tOffsetMs": 1000,
+      "acAsrConf": 227
+    }, {
+      "utf8": " remove",
+      "tOffsetMs": 1900,
+      "acAsrConf": 252
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 2259,
+      "acAsrConf": 234
+    }, {
+      "utf8": " tape",
+      "tOffsetMs": 2560,
+      "acAsrConf": 226
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 2830,
+      "acAsrConf": 252
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 3129,
+      "acAsrConf": 226
+    } ]
+  }, {
+    "tStartMs": 7070,
+    "dDurationMs": 3100,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7080,
+    "dDurationMs": 7199,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "unit",
+      "acAsrConf": 252
+    }, {
+      "utf8": " then",
+      "tOffsetMs": 420,
+      "acAsrConf": 227
+    }, {
+      "utf8": " open",
+      "tOffsetMs": 1290,
+      "acAsrConf": 227
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1799,
+      "acAsrConf": 252
+    }, {
+      "utf8": " bucket",
+      "tOffsetMs": 1920,
+      "acAsrConf": 252
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2309,
+      "acAsrConf": 206
+    }, {
+      "utf8": " remove",
+      "tOffsetMs": 2490,
+      "acAsrConf": 227
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2940,
+      "acAsrConf": 252
+    } ]
+  }, {
+    "tStartMs": 10160,
+    "dDurationMs": 4119,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10170,
+    "dDurationMs": 6390,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "casters",
+      "acAsrConf": 242
+    }, {
+      "utf8": " insert",
+      "tOffsetMs": 1459,
+      "acAsrConf": 239
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2459,
+      "acAsrConf": 252
+    }, {
+      "utf8": " casters",
+      "tOffsetMs": 2639,
+      "acAsrConf": 240
+    }, {
+      "utf8": " into",
+      "tOffsetMs": 3119,
+      "acAsrConf": 237
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 3570,
+      "acAsrConf": 252
+    }, {
+      "utf8": " unit",
+      "tOffsetMs": 3690,
+      "acAsrConf": 252
+    } ]
+  }, {
+    "tStartMs": 14269,
+    "dDurationMs": 2291,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 14279,
+    "dDurationMs": 5471,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and",
+      "acAsrConf": 200
+    }, {
+      "utf8": " keep",
+      "tOffsetMs": 151,
+      "acAsrConf": 252
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 661,
+      "acAsrConf": 252
+    }, {
+      "utf8": " ring",
+      "tOffsetMs": 811,
+      "acAsrConf": 252
+    }, {
+      "utf8": " around",
+      "tOffsetMs": 1051,
+      "acAsrConf": 252
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1201,
+      "acAsrConf": 222
+    }, {
+      "utf8": " flush",
+      "tOffsetMs": 1590,
+      "acAsrConf": 252
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1951,
+      "acAsrConf": 252
+    } ]
+  }, {
+    "tStartMs": 16550,
+    "dDurationMs": 3200,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 16560,
+    "dDurationMs": 5440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the",
+      "acAsrConf": 152
+    }, {
+      "utf8": " bottom",
+      "tOffsetMs": 479,
+      "acAsrConf": 201
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 780,
+      "acAsrConf": 204
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 930,
+      "acAsrConf": 252
+    }, {
+      "utf8": " dehumidifier",
+      "tOffsetMs": 1049,
+      "acAsrConf": 252
+    } ]
+  }, {
+    "tStartMs": 19740,
+    "dDurationMs": 2260,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19750,
+    "dDurationMs": 6210,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "remove",
+      "acAsrConf": 252
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 720,
+      "acAsrConf": 252
+    }, {
+      "utf8": " plastic",
+      "tOffsetMs": 900,
+      "acAsrConf": 188
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 1380,
+      "acAsrConf": 252
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1439,
+      "acAsrConf": 165
+    }, {
+      "utf8": " cord",
+      "tOffsetMs": 1710,
+      "acAsrConf": 252
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2039,
+      "acAsrConf": 226
+    } ]
+  }, {
+    "tStartMs": 21990,
+    "dDurationMs": 3970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 22000,
+    "dDurationMs": 6960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "plug",
+      "acAsrConf": 252
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 420,
+      "acAsrConf": 252
+    }, {
+      "utf8": " unit",
+      "tOffsetMs": 599,
+      "acAsrConf": 252
+    }, {
+      "utf8": " into",
+      "tOffsetMs": 779,
+      "acAsrConf": 252
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 960,
+      "acAsrConf": 252
+    }, {
+      "utf8": " 15",
+      "tOffsetMs": 1380,
+      "acAsrConf": 216
+    }, {
+      "utf8": " amp",
+      "tOffsetMs": 1949,
+      "acAsrConf": 216
+    }, {
+      "utf8": " 115",
+      "tOffsetMs": 2630,
+      "acAsrConf": 217
+    }, {
+      "utf8": " volt",
+      "tOffsetMs": 3630,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 25950,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 25960,
+    "dDurationMs": 6090,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "grounded",
+      "acAsrConf": 243
+    }, {
+      "utf8": " receptacle",
+      "tOffsetMs": 569,
+      "acAsrConf": 252
+    }, {
+      "utf8": " turn",
+      "tOffsetMs": 1790,
+      "acAsrConf": 228
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2790,
+      "acAsrConf": 252
+    } ]
+  }, {
+    "tStartMs": 28950,
+    "dDurationMs": 3100,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28960,
+    "dDurationMs": 5970,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "dehumidifier",
+      "acAsrConf": 252
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 930,
+      "acAsrConf": 227
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1229,
+      "acAsrConf": 252
+    }, {
+      "utf8": " off",
+      "tOffsetMs": 1590,
+      "acAsrConf": 243
+    }, {
+      "utf8": " by",
+      "tOffsetMs": 1889,
+      "acAsrConf": 252
+    }, {
+      "utf8": " pressing",
+      "tOffsetMs": 2459,
+      "acAsrConf": 188
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2819,
+      "acAsrConf": 204
+    } ]
+  }, {
+    "tStartMs": 32040,
+    "dDurationMs": 2890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 32050,
+    "dDurationMs": 5880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "power",
+      "acAsrConf": 252
+    }, {
+      "utf8": " button",
+      "tOffsetMs": 180,
+      "acAsrConf": 229
+    }, {
+      "utf8": " when",
+      "tOffsetMs": 829,
+      "acAsrConf": 201
+    }, {
+      "utf8": " first",
+      "tOffsetMs": 1829,
+      "acAsrConf": 207
+    }, {
+      "utf8": " operating",
+      "tOffsetMs": 2130,
+      "acAsrConf": 252
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2730,
+      "acAsrConf": 252
+    } ]
+  }, {
+    "tStartMs": 34920,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 34930,
+    "dDurationMs": 5820,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "dehumidifier",
+      "acAsrConf": 252
+    }, {
+      "utf8": " run",
+      "tOffsetMs": 839,
+      "acAsrConf": 206
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1680,
+      "acAsrConf": 252
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1830,
+      "acAsrConf": 236
+    }, {
+      "utf8": " continuous",
+      "tOffsetMs": 1980,
+      "acAsrConf": 207
+    }, {
+      "utf8": " mode",
+      "tOffsetMs": 2730,
+      "acAsrConf": 252
+    } ]
+  }, {
+    "tStartMs": 37920,
+    "dDurationMs": 2830,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37930,
+    "dDurationMs": 5190,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "for",
+      "acAsrConf": 252
+    }, {
+      "utf8": " 24",
+      "tOffsetMs": 300,
+      "acAsrConf": 244
+    }, {
+      "utf8": " hours",
+      "tOffsetMs": 809,
+      "acAsrConf": 241
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1170,
+      "acAsrConf": 207
+    }, {
+      "utf8": " these",
+      "tOffsetMs": 1800,
+      "acAsrConf": 207
+    }, {
+      "utf8": " simple",
+      "tOffsetMs": 1979,
+      "acAsrConf": 230
+    }, {
+      "utf8": " steps",
+      "tOffsetMs": 2339,
+      "acAsrConf": 234
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 2610,
+      "acAsrConf": 227
+    } ]
+  }, {
+    "tStartMs": 40740,
+    "dDurationMs": 2380,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 40750,
+    "dDurationMs": 4110,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "install",
+      "acAsrConf": 226
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 510,
+      "acAsrConf": 252
+    }, {
+      "utf8": " maintain",
+      "tOffsetMs": 809,
+      "acAsrConf": 165
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 989,
+      "acAsrConf": 217
+    }, {
+      "utf8": " unit",
+      "tOffsetMs": 1379,
+      "acAsrConf": 233
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1769,
+      "acAsrConf": 200
+    } ]
+  }, {
+    "tStartMs": 43110,
+    "dDurationMs": 1750,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 43120,
+    "dDurationMs": 4770,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "should",
+      "acAsrConf": 252
+    }, {
+      "utf8": " get",
+      "tOffsetMs": 30,
+      "acAsrConf": 155
+    }, {
+      "utf8": " many",
+      "tOffsetMs": 360,
+      "acAsrConf": 252
+    }, {
+      "utf8": " years",
+      "tOffsetMs": 600,
+      "acAsrConf": 252
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 719,
+      "acAsrConf": 142
+    }, {
+      "utf8": " service",
+      "tOffsetMs": 1020,
+      "acAsrConf": 179
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 1350,
+      "acAsrConf": 178
+    } ]
+  }, {
+    "tStartMs": 44850,
+    "dDurationMs": 3040,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 44860,
+    "dDurationMs": 6650,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "your",
+      "acAsrConf": 252
+    }, {
+      "utf8": " TCL",
+      "tOffsetMs": 150,
+      "acAsrConf": 238
+    }, {
+      "utf8": " dehumidifier",
+      "tOffsetMs": 750,
+      "acAsrConf": 252
+    }, {
+      "utf8": " thank",
+      "tOffsetMs": 1729,
+      "acAsrConf": 195
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 2729,
+      "acAsrConf": 252
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 2850,
+      "acAsrConf": 231
+    } ]
+  }, {
+    "tStartMs": 47880,
+    "dDurationMs": 3630,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 47890,
+    "dDurationMs": 8390,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "purchasing",
+      "acAsrConf": 252
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 480,
+      "acAsrConf": 242
+    }, {
+      "utf8": " TCL",
+      "tOffsetMs": 689,
+      "acAsrConf": 252
+    }, {
+      "utf8": " dehumidifier",
+      "tOffsetMs": 1349,
+      "acAsrConf": 252
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2309,
+      "acAsrConf": 210
+    } ]
+  }, {
+    "tStartMs": 51500,
+    "dDurationMs": 4780,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 51510,
+    "dDurationMs": 4770,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "welcome",
+      "acAsrConf": 234
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1000,
+      "acAsrConf": 234
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1420,
+      "acAsrConf": 252
+    }, {
+      "utf8": " TCL",
+      "tOffsetMs": 1570,
+      "acAsrConf": 252
+    }, {
+      "utf8": " family",
+      "tOffsetMs": 2200,
+      "acAsrConf": 243
+    } ]
+  }, {
+    "tStartMs": 56710,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 56720,
+    "dDurationMs": 2060,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "you",
+      "acAsrConf": 238
+    } ]
+  } ]
+}
