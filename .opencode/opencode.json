@@ -35,42 +35,28 @@
         "CONTEXT7_API_KEY": "{env:ctx7sk-9180561a-c00d-492f-b236-91b1df924083}"
       },
       "enabled": true
-    },
-    "searxng": {
-      "type": "local",
-      "command": [
-        "cmd",
-        "/c",
-        "npx",
-        "-y",
-        "mcp-searxng"
-      ],
-      "environment": {
-        "SEARXNG_URL": "http://100.122.184.37:8082"
-      },
-      "enabled": true
     }
   },
     "agent": {
         "b0tts-researcher": {
-          "model": "opencode-go/muse-spark-1.2-contributor",
-          "reasoningEffort": "xhigh"
+          "model": "opencode-go/deepseek-v4-flash",
+          "reasoningEffort": "max"
         },
         "b0tts-smart-agent": {
           "model": "opencode-go/glm-5.2",
           "reasoningEffort": "max"
         },
         "b0tts-general-agent": {
-          "model": "opencode-go/muse-spark-1.2-contributor",
-          "reasoningEffort": "xhigh"
+          "model": "opencode-go/deepseek-v4-flash",
+          "reasoningEffort": "max"
         },
         "b0tts-lead-researcher": {
           "model": "opencode-go/deepseek-v4-flash",
-          "reasoningEffort": "xhigh"
+          "reasoningEffort": "max"
         },
         "general": {
-          "model": "opencode-go/muse-spark-1.2-contributor",
-          "reasoningEffort": "xhigh"
+          "model": "opencode-go/deepseek-v4-flash",
+          "reasoningEffort": "max"
         },
         "explore": {
         "model": "opencode-go/deepseek-v4-flash",
