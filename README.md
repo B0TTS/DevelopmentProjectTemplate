@@ -257,28 +257,6 @@ tmux new -s main
 ```
 
 
-## GSD
-Make sure to run this step for your docker instances
-
-**1. Install GSD:**
-
-```
-npx @opengsd/gsd-core@latest
-```
-
-**2. Install GSD SDK globally**
-
-```
-npm install -g @gsd-build/sdk
-```
-
-**Note:** you can also just ask the model to do it, so you don't have to reinstall every session.
-
-**3. Configure model overrides** — paste into `.opencode/opencode.json` under `"agent"`.
- - Checkout optimizing agents personal obsidian ai notes guide for help in setting up agent overrides for your personal pricing/strategy.
- - For other override strategies, see `Setup/Model Overrides/model-override-strategies.md`.
-
-
 ### Notifications
 
 Push notifications via [ntfy.sh](https://ntfy.sh) when the AI finishes, needs permission, or errors.

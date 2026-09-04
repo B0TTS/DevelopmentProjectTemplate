@@ -34,7 +34,7 @@ Reference documents for configured services and systems (VPS, Docker, Minecraft,
 
 ### README
 
-`README.md` is user-facing project setup (Docker bootstrap, dependencies, SSH, tmux, GSD, notifications). Not agent-actionable — skip it unless the user asks about setup.
+`README.md` is user-facing project setup (Docker bootstrap, dependencies, SSH, tmux, notifications). Not agent-actionable — skip it unless the user asks about setup.
 
 ### Handoffs
 

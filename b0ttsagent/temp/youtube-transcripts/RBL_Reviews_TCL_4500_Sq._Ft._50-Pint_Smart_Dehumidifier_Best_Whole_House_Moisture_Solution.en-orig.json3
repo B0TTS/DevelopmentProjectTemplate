@@ -1,0 +1,1746 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 149400,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 6000,
+    "dDurationMs": 6680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "The"
+    }, {
+      "utf8": " TCL",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " 4,500",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " square",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " feet",
+      "tOffsetMs": 2400
+    }, {
+      "utf8": " 50-pint",
+      "tOffsetMs": 2920
+    }, {
+      "utf8": " smart",
+      "tOffsetMs": 3760
+    } ]
+  }, {
+    "tStartMs": 10270,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10280,
+    "dDurationMs": 4840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "dehumidifier"
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " designed",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " tackle",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 12670,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12680,
+    "dDurationMs": 4920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "excess"
+    }, {
+      "utf8": " moisture",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " large",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " spaces",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 15110,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15120,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ease."
+    }, {
+      "utf8": " With",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " capacity",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " 50",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " pints",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " per",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 17590,
+    "dDurationMs": 1890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17600,
+    "dDurationMs": 5400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "day,"
+    }, {
+      "utf8": " it's",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " perfect",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " keeping",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 19470,
+    "dDurationMs": 3530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19480,
+    "dDurationMs": 6000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "basement,"
+    }, {
+      "utf8": " bedrooms,",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " bathrooms,",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " attics,",
+      "tOffsetMs": 2760
+    } ]
+  }, {
+    "tStartMs": 22990,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23000,
+    "dDurationMs": 5560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "or"
+    }, {
+      "utf8": " even",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " garages",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " dry",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " comfortable.",
+      "tOffsetMs": 1560
+    } ]
+  }, {
+    "tStartMs": 25470,
+    "dDurationMs": 3090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 25480,
+    "dDurationMs": 5440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " unit",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " covers",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " up",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " 4,500",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " square",
+      "tOffsetMs": 2720
+    } ]
+  }, {
+    "tStartMs": 28550,
+    "dDurationMs": 2370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28560,
+    "dDurationMs": 4840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "feet,"
+    }, {
+      "utf8": " making",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " ideal",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " whole",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " house",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 30910,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 30920,
+    "dDurationMs": 4520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "use."
+    }, {
+      "utf8": " Although",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " actual",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " coverage",
+      "tOffsetMs": 1519
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " vary",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 33390,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33400,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "depending"
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " ceiling",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " height,",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " number",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 35430,
+    "dDurationMs": 3210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 35440,
+    "dDurationMs": 4800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "windows,"
+    }, {
+      "utf8": " insulation,",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " other",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " factors.",
+      "tOffsetMs": 2200
+    } ]
+  }, {
+    "tStartMs": 38630,
+    "dDurationMs": 1610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 38640,
+    "dDurationMs": 3800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "One"
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " standout",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " features",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 40230,
+    "dDurationMs": 2210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 40240,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "dehumidifier"
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " its",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " Energy",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " Star",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 42430,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 42440,
+    "dDurationMs": 4560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "certification,"
+    }, {
+      "utf8": " which",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " ensures",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " efficient",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 44670,
+    "dDurationMs": 2330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 44680,
+    "dDurationMs": 4560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "humidity"
+    }, {
+      "utf8": " removal",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " without",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " driving",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " up",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 2200
+    } ]
+  }, {
+    "tStartMs": 46990,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 47000,
+    "dDurationMs": 5200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "energy"
+    }, {
+      "utf8": " bills.",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " It's",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " smart",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " solution",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 49230,
+    "dDurationMs": 2970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 49240,
+    "dDurationMs": 6000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "anyone"
+    }, {
+      "utf8": " dealing",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " dampness,",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " mold",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " risk,",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 52190,
+    "dDurationMs": 3050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 52200,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "or"
+    }, {
+      "utf8": " musty",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " odors,",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " does",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " so",
+      "tOffsetMs": 2280
+    }, {
+      "utf8": " while",
+      "tOffsetMs": 2880
+    } ]
+  }, {
+    "tStartMs": 55230,
+    "dDurationMs": 2210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 55240,
+    "dDurationMs": 4720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "keeping"
+    }, {
+      "utf8": " power",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " consumption",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " check.",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 2080
+    } ]
+  }, {
+    "tStartMs": 57430,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 57440,
+    "dDurationMs": 4640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "TCL"
+    }, {
+      "utf8": " model",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " also",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " offers",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " convenient",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 59950,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 59960,
+    "dDurationMs": 4080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "drainage"
+    }, {
+      "utf8": " options.",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " You",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " rely",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 62070,
+    "dDurationMs": 1970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 62080,
+    "dDurationMs": 4120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "easy-to-remove"
+    }, {
+      "utf8": " water",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " bucket",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " simple",
+      "tOffsetMs": 1560
+    } ]
+  }, {
+    "tStartMs": 64030,
+    "dDurationMs": 2170,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 64040,
+    "dDurationMs": 4680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "manual"
+    }, {
+      "utf8": " emptying,",
+      "tOffsetMs": 519
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " take",
+      "tOffsetMs": 1479
+    }, {
+      "utf8": " advantage",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 66190,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 66200,
+    "dDurationMs": 5680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " built-in",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " drain",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " pump",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " automatically",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 68710,
+    "dDurationMs": 3170,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 68720,
+    "dDurationMs": 5400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "push"
+    }, {
+      "utf8": " water",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " sink",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " drainage",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " point.",
+      "tOffsetMs": 2440
+    } ]
+  }, {
+    "tStartMs": 71870,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 71880,
+    "dDurationMs": 5080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " makes",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " flexible",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " use",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " almost",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 74110,
+    "dDurationMs": 2850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 74120,
+    "dDurationMs": 4720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "any"
+    }, {
+      "utf8": " room",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " nearby",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " power",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " outlet.",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 76950,
+    "dDurationMs": 1890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 76960,
+    "dDurationMs": 4280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Control"
+    }, {
+      "utf8": " options",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " another",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " strong",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 78830,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 78840,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "point."
+    }, {
+      "utf8": " You",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " operate",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " dehumidifier",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 81230,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 81240,
+    "dDurationMs": 5040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "through"
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " intuitive",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " touch",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " panel,",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 83270,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 83280,
+    "dDurationMs": 5160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "TCL"
+    }, {
+      "utf8": " Home",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " app",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " phone,",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 2040
+    }, {
+      "utf8": " via",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " voice",
+      "tOffsetMs": 2640
+    } ]
+  }, {
+    "tStartMs": 86270,
+    "dDurationMs": 2170,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 86280,
+    "dDurationMs": 5160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "commands"
+    }, {
+      "utf8": " using",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " Alexa",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " Google",
+      "tOffsetMs": 1800
+    } ]
+  }, {
+    "tStartMs": 88430,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 88440,
+    "dDurationMs": 4840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Assistant."
+    }, {
+      "utf8": " This",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " adds",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " modern,",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " connected",
+      "tOffsetMs": 2560
+    } ]
+  }, {
+    "tStartMs": 91430,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 91440,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "element"
+    }, {
+      "utf8": " that's",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " perfect",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " smart",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 93270,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 93280,
+    "dDurationMs": 5120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "setup."
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " unit",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " also",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " includes",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " practical",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 95790,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 95800,
+    "dDurationMs": 4880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "features"
+    }, {
+      "utf8": " like",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " washable",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " filter,",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " water",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 98390,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 98400,
+    "dDurationMs": 4880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "level"
+    }, {
+      "utf8": " indicator,",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " timer,",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " which",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 100670,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 100680,
+    "dDurationMs": 5880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "simplify"
+    }, {
+      "utf8": " maintenance",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " usability.",
+      "tOffsetMs": 1600
+    } ]
+  }, {
+    "tStartMs": 103270,
+    "dDurationMs": 3290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 103280,
+    "dDurationMs": 5720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Weighing"
+    }, {
+      "utf8": " 40.5",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " lb,",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " unit",
+      "tOffsetMs": 2360
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 2600
+    }, {
+      "utf8": " portable",
+      "tOffsetMs": 2760
+    } ]
+  }, {
+    "tStartMs": 106550,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 106560,
+    "dDurationMs": 5520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "enough"
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " move",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " around",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " as",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " needed,",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " yet",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 108990,
+    "dDurationMs": 3090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 109000,
+    "dDurationMs": 5280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "sturdy"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " reliable",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " long-term",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " use.",
+      "tOffsetMs": 2320
+    } ]
+  }, {
+    "tStartMs": 112070,
+    "dDurationMs": 2210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 112080,
+    "dDurationMs": 4640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Its"
+    }, {
+      "utf8": " combination",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " metal",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " plastic",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 114270,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 114280,
+    "dDurationMs": 5800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "construction"
+    }, {
+      "utf8": " feels",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " durable,",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2200
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2320
+    } ]
+  }, {
+    "tStartMs": 116710,
+    "dDurationMs": 3370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 116720,
+    "dDurationMs": 6000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "overall"
+    }, {
+      "utf8": " design",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " clean",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2200
+    }, {
+      "utf8": " functional.",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 120070,
+    "dDurationMs": 2650,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 120080,
+    "dDurationMs": 4160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "While"
+    }, {
+      "utf8": " TCL",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " claims",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " excellent",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " coverage,",
+      "tOffsetMs": 1800
+    } ]
+  }, {
+    "tStartMs": 122710,
+    "dDurationMs": 1530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 122720,
+    "dDurationMs": 4080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "it's"
+    }, {
+      "utf8": " worth",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " noting",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " environmental",
+      "tOffsetMs": 920
+    } ]
+  }, {
+    "tStartMs": 124230,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 124240,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "factors,"
+    }, {
+      "utf8": " such",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " as",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " number",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " occupants",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 126790,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 126800,
+    "dDurationMs": 4840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "or"
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " layout",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " home,",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " affect",
+      "tOffsetMs": 1679
+    } ]
+  }, {
+    "tStartMs": 128830,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 128840,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "performance."
+    }, {
+      "utf8": " Still,",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " homes",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " struggling",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 131630,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 131640,
+    "dDurationMs": 4560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "with"
+    }, {
+      "utf8": " high",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " humidity,",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " dehumidifier",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 134070,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 134080,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "offers"
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " highly",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " efficient",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " smart",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 136190,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 136200,
+    "dDurationMs": 4800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "solution"
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " combines",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " performance,",
+      "tOffsetMs": 1320
+    } ]
+  }, {
+    "tStartMs": 138430,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 138440,
+    "dDurationMs": 4040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "convenience,"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " energy",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " savings",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " one",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 140990,
+    "dDurationMs": 1490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 141000,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "package."
+    } ]
+  }, {
+    "tStartMs": 142470,
+    "dDurationMs": 1530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 142480,
+    "dDurationMs": 3320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Check"
+    }, {
+      "utf8": " out",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " video",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " description",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1320
+    } ]
+  }, {
+    "tStartMs": 143990,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 144000,
+    "dDurationMs": 5400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "updated"
+    }, {
+      "utf8": " price.",
+      "tOffsetMs": 440
+    } ]
+  }, {
+    "tStartMs": 145790,
+    "dDurationMs": 3610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 145800,
+    "dDurationMs": 3600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "And"
+    }, {
+      "utf8": " thank",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " watching",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " video.",
+      "tOffsetMs": 1120
+    } ]
+  } ]
+}

@@ -1,0 +1,5 @@
+[mcp_servers.context7]
+url = "https://mcp.context7.com/mcp"
+
+[mcp_servers.searxng.env]
+SEARXNG_URL = "http://100.122.184.37:8082"
