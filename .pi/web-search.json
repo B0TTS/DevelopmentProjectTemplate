@@ -1,7 +1,5 @@
 {
-  "provider": "searxng",
   "workflow": "auto-summary",
   "summaryModel": "opencode-go/muse-spark-1.2-contributor",
-  "searxngBaseUrl": "http://vmi3326176.tailf94009.ts.net:8082",
   "ssrf": { "allowRanges": ["100.64.0.0/10"] }
 }
