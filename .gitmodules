@@ -1,4 +1,0 @@
-[submodule ".searxng-mcp"]
-	path = .searxng-mcp
-	url = https://github.com/B0TTS/searxng-mcp.git
-	branch = main
