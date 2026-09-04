@@ -7,14 +7,6 @@
         "CONTEXT7_API_KEY": "ctx7sk-9180561a-c00d-492f-b236-91b1df924083"
       },
       "lifecycle": "eager"
-    },
-    "searxng": {
-      "command": "cmd",
-      "args": ["/c", "npx", "-y", "mcp-searxng"],
-      "lifecycle": "eager",
-      "env": {
-        "SEARXNG_URL": "http://100.122.184.37:8082"
-      }
     }
   }
 }

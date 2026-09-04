@@ -1,13 +1,5 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "permission": {
-    "read": {
-      ".opencode/get-shit-done/*": "allow"
-    },
-    "external_directory": {
-      ".opencode/get-shit-done/*": "allow"
-    }
-  },
   "provider": {
     "ollama": {
       "models": {
@@ -33,146 +25,14 @@
       "enabled": true
     }
   },
-    "agent": {
-        "gsd-roadmapper": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-planner": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-plan-checker": {
-            "model": "opencode-go/deepseek-v4-pro",
-            "reasoning": "max"
-        },
-        "gsd-code-reviewer": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-verifier": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-debugger": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-eval-planner": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-executor": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-phase-researcher": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-project-researcher": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-code-fixer": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-nyquist-auditor": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-eval-auditor": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-integration-checker": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-security-auditor": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-pattern-mapper": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-doc-synthesizer": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-research-synthesizer": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-codebase-mapper": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-ui-researcher": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-ui-auditor": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        },
-        "gsd-doc-classifier": {
-            "model": "deepseek/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-doc-verifier": {
-            "model": "deepseek/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-assumptions-analyzer": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-advisor-researcher": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-framework-selector": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-user-profiler": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-ai-researcher": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-domain-researcher": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-doc-writer": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-ui-checker": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-debug-session-manager": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "gsd-intel-updater": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "explore": {
-            "model": "opencode-go/deepseek-v4-flash",
-            "reasoning": "high"
-        },
-        "general": {
-            "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
-            "reasoning": "high"
-        }
+  "agent": {
+    "explore": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "reasoning": "high"
+    },
+    "general": {
+      "model": "xiaomi-token-plan-sgp/mimo-v2.5-pro",
+      "reasoning": "high"
     }
+  }
 }

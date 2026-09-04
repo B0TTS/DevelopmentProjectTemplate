@@ -1,13 +1,13 @@
 # === SECRETS & API KEYS (CRITICAL) ===
 # Ima just reset my api keys every day.
+agent/settings.json
+agent/auth.json
 
 # === SESSIONS & RUN HISTORY (may contain sensitive task data) ===
 run-history.jsonl
 agent/sessions/
 agent/run-history.jsonl
 agent/missions/
-agent/settings.json
-agent/auth.json
 
 # === TRUST CONFIG (machine-specific, reveals filesystem structure) ===
 trust.json
